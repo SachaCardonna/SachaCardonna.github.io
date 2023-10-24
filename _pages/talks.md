@@ -13,7 +13,7 @@ Discover more about the talks and conferences I participated in.
 
 ***
 
-<b>Séminaire des Doctorants</b> - Introduction to newcomers <br> 
+<b>Séminaire des Doctorants</b> <br>
 <i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions. <br>
 <i>Date</i>. 25/10/23.<br>
 
