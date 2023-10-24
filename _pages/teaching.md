@@ -15,7 +15,7 @@ Courses
 ======
 
 ***
-<b> HA8401H - Preparatory cycle mathematics </b>(2nd year B.Sc.) <br>
+<b> HA8401H </b> - <b> Preparatory cycle mathematics </b>(2nd year B.Sc.) <br>
 <i> Engineering school Polytech Montpellier</i> 
 
 <i> Description. </i> The preparatory cycle at Polytech Montpellier is tailored to prepare students for the pursuit of an engineering degree within any specialized field available in France. Mathematics courses are intentionally designed to be both comprehensive and profound, with a particular focus on students who aspire to explore theoretical domains such as mathematical engineering, physics, and mechanics. These courses consistently encompass both analytical and algebraic chapters, guaranteeing that students acquire a robust and well-rounded mathematical foundation to serve them effectively in their forthcoming engineering endeavors. 
@@ -25,7 +25,7 @@ Courses
 [Course page](https://sachacardonna.github.io/teaching/HA8401H).
 
 ***
-<b> XADES4 - Supervised mathematical assignments </b>(2nd year B.Sc.) <br>
+<b> XADES4 </b> - <b> Supervised mathematical assignments </b>(2nd year B.Sc.) <br>
 <i> Engineering school Polytech Montpellier</i> 
 
 <i> Description. </i> Supervised assignments is a specific system for students following the preparatory cycle in Polytech Montpellier, allowing them to assimilate the educational content provided by developing their autonomy and their capacity for self-assessment. 
