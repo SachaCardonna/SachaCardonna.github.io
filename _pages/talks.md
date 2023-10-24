@@ -20,5 +20,5 @@ Discover more about the talks and conferences I participated in.
 
 [Beamer]({{ site.url }}/files/SemDoc Cardonna.pdf).
 
-***
+
 
