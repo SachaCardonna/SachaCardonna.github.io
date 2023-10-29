@@ -25,7 +25,7 @@ WaveBox is a multi-models numerical platform created by Fabien Marche, dedicated
 - Unstructured meshes;
 - Wave breaking treatment with dynamic switching strategy.
 
-During Ali Haidar's Ph.D., he implemented in WaveBox François Vilar's a posteriori stabilization methods for 1D Saint-Venant equations coupled with a floating object. During my internship and my Ph.D., I implemented the monolithic subcell DG/FV convex property preserving schemes for 1D Saint-Venant equations. One of the main goals of my future work is to implement them for the two-dimensional case with a floating object.
+During Ali Haidar's Ph.D., he implemented in WaveBox François Vilar's a posteriori stabilization methods for 1D Saint-Venant equations coupled with a floating object. During my internship and Ph.D., I implemented the monolithic subcell DG/FV convex property preserving schemes for 1D Saint-Venant equations. One of the main goals of my future work is to implement them for the two-dimensional case with a floating object.
 
 For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~marche/).
 
