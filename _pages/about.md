@@ -21,6 +21,6 @@ My work is focused on theoretical and numerical analysis of partial differential
 - <b>Applications</b>. Fluid mechanics, nonlinear Shallow-Water equations, dispersive PDEs.
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing.
 
-Highlights
+<!-- Highlights
 ======
-With [Benjamin Charlier](https://imag.umontpellier.fr/~charlier/index.php?page=index) & [Tristan Xabada](https://www.cbs.cnrs.fr/index.php/fr/personnel?PERS=Tristan%20Xabada), we went to Lozère on October 12 and 13 to promote mathematics professions, talk about our thesis subject and our student path with high schoolers (collaboration with IREM - Institut de Recherche sur l'Enseignement des Mathématiques).
+With [Benjamin Charlier](https://imag.umontpellier.fr/~charlier/index.php?page=index) & [Tristan Xabada](https://www.cbs.cnrs.fr/index.php/fr/personnel?PERS=Tristan%20Xabada), we went to Lozère on October 12 and 13 to promote mathematics professions, talk about our thesis subject and our student path with high schoolers (collaboration with IREM - Institut de Recherche sur l'Enseignement des Mathématiques). -->
