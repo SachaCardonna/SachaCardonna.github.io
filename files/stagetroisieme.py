@@ -50,6 +50,11 @@ x_num = x_mid                          # Affecte la valeur finale du point moyen
 
 
 #---------------------------------------------------------------------------------------------------------------------------------
+# Calcul d'erreur relative entre la solution numérique et théorique
+
+erreur_relative = 100 * abs(x_ex - x_num)/x_ex
+
+#---------------------------------------------------------------------------------------------------------------------------------
 
 # Affichage de l'equation
 print(f"\nL'equation est {a}x + {b} = {c}x + {d}.")
@@ -59,3 +64,6 @@ print(f"\nLa solution exacte de l'equation est x = {x_ex}")
 
 # Affichage de la solution numerique
 print(f"\nLa solution numerique de l'equation est x ≈ {x_num} au bout de {compteur} iteration(s).")
+
+# Affichage de l'erreur relative en %
+print(f"\nL'erreur relative entre la solution numerique et theorique est E = {erreur_relative} %.")
