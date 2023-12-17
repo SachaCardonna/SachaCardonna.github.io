@@ -41,7 +41,16 @@ Scientific diffusion
 
 ***
 
-<b> Fête de la Science </b> (12-13/10, Mende & Langogne, Lozère) <br>
+<b> Introduction to Applied Mathematics </b> (18/12, IMAG, Montpellier) <br>
+<i> Supervision of 9th grade trainees </i> 
+
+<i> Description. </i> We demonstrate how mathematical equations can describe real-world physical problems, using the example of two trains traveling towards each other to illustrate the application of mathematics in understanding motion and distance. It involves calculating when the trains will meet to avoid collision, using both theoretical and numerical approaches. The theoretical part deals with the mathematical formulation of the problem, including equations for distance, speed, and time. The numerical part introduces the bisection method for finding approximate solutions to equations, which are too complex for analytical solutions.
+We discuss about implementing our methods, covering basic programming concepts and demonstrating how to use the bisection method in code. This highlights the importance of mathematics in real-world problem-solving and the role of programming in modern mathematics.
+
+[Document]({{ site.url }}/files/docstagetroisieme.pdf) & [Code]({{ site.url }}/files/stagetroisieme.py).
+
+***
+<b> Fête de la Science </b> (12-13/10, Peytavin & Saint-Paul high schools, Mende & Langogne) <br>
 <i> With [Benjamin Charlier](https://imag.umontpellier.fr/~charlier/index.php?page=index) & [Tristan Xabada](https://www.cbs.cnrs.fr/index.php/fr/personnel?PERS=Tristan%20Xabada)</i> 
 
 <i> Description. </i> We went to Lozère on October 12 and 13 to promote mathematics professions, talk about our thesis subject and our student path with high schoolers (collaboration with IREM - Institut de Recherche sur l'Enseignement des Mathématiques). Benjamin Charlier is a mathematician working at [IMAG](https://imag.umontpellier.fr), in the Probability & Statistics team. Tristan Xabada is a Ph.D. student in Biophysics, working at [L2C](https://coulomb.umontpellier.fr) & [CBS](https://www.cbs.cnrs.fr/index.php/fr/).
