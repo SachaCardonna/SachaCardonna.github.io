@@ -23,5 +23,5 @@ My work is focused on theoretical and numerical analysis of partial differential
 
 Highlights
 ======
-I will introduced applied mathematics to 9th grade trainees at IMAG, especially how mathematical equations can describe real-world physical problems, using the example of two trains traveling towards each other to illustrate the application of mathematics in understanding motion and distance.
+I introduced applied mathematics to 9th grade trainees at IMAG, especially how mathematical equations can describe real-world physical problems, using the example of two trains traveling towards each other to illustrate the application of mathematics in understanding motion and distance.
 See [Teaching](https://sachacardonna.github.io/teaching) for more details.
