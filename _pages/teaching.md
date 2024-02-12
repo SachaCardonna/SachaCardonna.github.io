@@ -32,8 +32,7 @@ Courses
 Each week, students are placed in exam conditions with a subject to be covered in two hours. Teachers are there to guide them, help them overcome their difficulties and possibly become aware of their shortcomings. 
 These homework are training in scientific and technical production, here in mathematics.
 
-[Course page](https://sachacardonna.github.io/teaching/XADES4).
-
+<!-- [Course page](https://sachacardonna.github.io/teaching/XADES4). -->
 <br>
 
 Scientific diffusion
