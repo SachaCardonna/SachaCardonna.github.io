@@ -33,7 +33,6 @@ Each week, students are placed in exam conditions with a subject to be covered i
 These homework are training in scientific and technical production, here in mathematics.
 
 <!-- [Course page](https://sachacardonna.github.io/teaching/XADES4). -->
-<br>
 
 Scientific diffusion
 ======
