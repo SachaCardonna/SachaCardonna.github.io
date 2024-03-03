@@ -39,7 +39,16 @@ Scientific diffusion
 
 ***
 
-<b> Introduction to Applied Mathematics </b> (18/12, IMAG, Montpellier) <br>
+<b> MathC2+ program - Mathematics and Modeling </b> (04/24, IRES/IMAG, Montpellier) <br>
+<i> supervision of high school students volunteers </i> 
+
+<i> Description. </i> During the MathC2+ internship with me, the first day focuses on introducing applied mathematics and myself, followed by a hands-on activity measuring the free fall times of objects of varying weights from different heights, and a lesson on integration and point kinematics to derive the motion equation as a second-degree polynomial. The second day delves into numerical resolution methods, including bisection, Newton, and secant methods, highlighting their significance in physics and engineering. This is complemented by constructing mini catapults in groups to explore physical principles for optimization, linking these to motion equations discussed on day one. The final day introduces Python programming, where participants will create small programs to familiarize themselves with coding and algorithmic thinking. The culmination of the internship involves developing a code that both theoretically and numerically solves the quadratic equation ax^2 + bx + c = 0, serving as the capstone project.
+
+[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+.pdf) & [Ressources](https://drive.google.com/drive/folders/13TeVJGtoIO5Xk9MxeGtBkZnzkxi8J9TG?usp=sharing).
+
+***
+
+<b> Introduction to Applied Mathematics </b> (12/23, IRES/IMAG, Montpellier) <br>
 <i> Supervision of 9th grade trainees </i> 
 
 <i> Description. </i> We demonstrate how mathematical equations can describe real-world physical problems, using the example of two trains traveling towards each other to illustrate the application of mathematics in understanding motion and distance. It involves calculating when the trains will meet to avoid collision, using both theoretical and numerical approaches. The theoretical part deals with the mathematical formulation of the problem, including equations for distance, speed, and time. The numerical part introduces the bisection method for finding approximate solutions to equations, which are too complex for analytical solutions.
