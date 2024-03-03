@@ -21,7 +21,7 @@ Internships
 
 Advised by François Vilar & Fabien Marche.
 
-[Report]({{ site.url }}/files/DG-FV4SW.pdf) & [Beamer]({{ site.url }}/files/Soutenance DG-FV4SW.pdf).
+[Report]({{ site.url }}/files/projects/DG-FV4SW.pdf) & [Beamer]({{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf).
 
 ***
 
@@ -31,7 +31,7 @@ Advised by François Vilar & Fabien Marche.
 
 Advised by Michel Bellieud.
 
-[Report]({{ site.url }}/files/Homogeneisation.pdf) & [Beamer]({{ site.url }}/files/Soutenance homogeneisation.pdf).
+[Report]({{ site.url }}/files/projects/Homogeneisation.pdf) & [Beamer]({{ site.url }}/files/projects/Soutenance homogeneisation.pdf).
 
 ***
 
@@ -41,7 +41,7 @@ Advised by Michel Bellieud.
 
 Advised by Daniel Massart.
 
-[Report]({{ site.url }}/files/Billards.pdf) & [Beamer]({{ site.url }}/files/Soutenance billards.pdf).
+[Report]({{ site.url }}/files/projects/Billards.pdf) & [Beamer]({{ site.url }}/files/projects/Soutenance billards.pdf).
 
 ***
 
@@ -51,7 +51,7 @@ Advised by Daniel Massart.
 
 Advised by Sylvain Brochard.
 
-[Report]({{ site.url }}/files/Progression arithmetique.pdf) & [Beamer]({{ site.url }}/files/Soutenance progression arithmetique.pdf).
+[Report]({{ site.url }}/files/projects/Progression arithmetique.pdf) & [Beamer]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf).
 
 ***
 
@@ -59,9 +59,9 @@ Projects
 ======
 
 <b>Hybrid High-Order method on Leray-Lions operators</b>: studying a new non-conform finite-element method and its main discrete functional analysis results on Leray-Lions operators.<br>
-[Report]({{ site.url }}/files/HHO pour Leray-Lions.pdf).
+[Report]({{ site.url }}/files/projects/HHO pour Leray-Lions.pdf).
 
-<b>Müller's SPH C++ implementation for fluid dynamics</b>: building and implementing Smooth Particle Hydrodynamics method for a C++ simulation.<br>[Report]({{ site.url }}/files/RapportSPH.pdf).
+<b>Müller's SPH C++ implementation for fluid dynamics</b>: building and implementing Smooth Particle Hydrodynamics method for a C++ simulation.<br>[Report]({{ site.url }}/files/projects/RapportSPH.pdf).
 
 <b>Some results about measure theory</b>: proving measure theory results, including differentiation of Radon measures, Besicovitch & Vitali covering theorems, Tietze & Lusin’s theorems.<br>[Notes](https://drive.google.com/drive/folders/13TeVJGtoIO5Xk9MxeGtBkZnzkxi8J9TG?usp=sharing).
 

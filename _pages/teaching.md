@@ -45,7 +45,7 @@ Scientific diffusion
 <i> Description. </i> We demonstrate how mathematical equations can describe real-world physical problems, using the example of two trains traveling towards each other to illustrate the application of mathematics in understanding motion and distance. It involves calculating when the trains will meet to avoid collision, using both theoretical and numerical approaches. The theoretical part deals with the mathematical formulation of the problem, including equations for distance, speed, and time. The numerical part introduces the bisection method for finding approximate solutions to equations, which are too complex for analytical solutions.
 We then discuss about implementing our methods, covering basic programming concepts and demonstrating how to use the bisection method in code. This highlights the importance of mathematics in real-world problem-solving and the role of programming in modern mathematics.
 
-[Notes]({{ site.url }}/files/docstagetroisieme.pdf) & [Code]({{ site.url }}/files/stagetroisieme.py).
+[Notes]({{ site.url }}/files/teaching/vulga/docstagetroisieme.pdf) & [Code]({{ site.url }}/files/teaching/vulga/stagetroisieme.py).
 
 ***
 <b> Fête de la Science </b> (12-13/10, Peytavin & Saint-Paul high schools, Mende & Langogne) <br>
