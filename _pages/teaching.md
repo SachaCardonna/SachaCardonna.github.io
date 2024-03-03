@@ -44,7 +44,7 @@ Scientific diffusion
 
 <i> Description. </i> During the MathC2+ internship with me, the first day focuses on introducing applied mathematics and myself, followed by a hands-on activity measuring the free fall times of objects of varying weights from different heights, and a lesson on integration and point kinematics to derive the motion equation as a second-degree polynomial. The second day delves into numerical resolution methods, including bisection, Newton, and secant methods, highlighting their significance in physics and engineering. This is complemented by constructing mini catapults in groups to explore physical principles for optimization, linking these to motion equations discussed on day one. The final day introduces Python programming, where participants will create small programs to familiarize themselves with coding and algorithmic thinking. The culmination of the internship involves developing a code that both theoretically and numerically solves the quadratic equation ax^2 + bx + c = 0, serving as the capstone project.
 
-[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+.pdf) & [Ressources](https://drive.google.com/drive/folders/13TeVJGtoIO5Xk9MxeGtBkZnzkxi8J9TG?usp=sharing).
+[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+.pdf) & [Ressources](https://drive.google.com/drive/folders/17mKAO9z5WmKf6Ay4QbG2_Txv-a8TvGIz?usp=share_link).
 
 ***
 
