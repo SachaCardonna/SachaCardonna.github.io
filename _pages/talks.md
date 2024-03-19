@@ -11,6 +11,9 @@ redirect_from:
 
 Discover more about the talks and conferences I participated in.
 
+Talks
+======
+
 ***
 
 <b>Séminaire des Doctorants</b> <br>
@@ -22,4 +25,11 @@ Discover more about the talks and conferences I participated in.
 [Beamer]({{ site.url }}/files/talks/SemDoc Cardonna.pdf).
 
 
+Posters
+======
+
+***
+
+<b>Ph.D. Day</b> (03/24): about Monolithic DG/FV schemes on 1D Nonlinear Shallow-Water, work with F. Marche, F. Vilar and A. Haidar.<br>
+[Poster]({{ site.url }}/files/talks/poster_phd_day24.pdf).
 
