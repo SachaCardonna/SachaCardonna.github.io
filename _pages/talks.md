@@ -30,6 +30,6 @@ Posters
 
 ***
 
-<b>Ph.D. Day</b> (03/24): about Monolithic DG/FV schemes on 1D Nonlinear Shallow-Water, work with F. Marche, F. Vilar and A. Haidar.<br>
+<b>Ph.D. Day</b> (03/24): Monolithic DG/FV schemes on 1D Nonlinear Shallow-Water.<br>
 [Poster]({{ site.url }}/files/talks/poster_phd_day24.pdf).
 
