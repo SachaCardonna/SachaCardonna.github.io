@@ -11,9 +11,6 @@ redirect_from:
 
 Discover more about the talks and conferences I participated in.
 
-Talks
-======
-
 ***
 
 <b>Séminaire des Doctorants</b> <br>
