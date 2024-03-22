@@ -23,5 +23,5 @@ My work is focused on theoretical and numerical analysis of partial differential
 
 Highlights
 ======
-- I presented my work on Monolithic DG/FV schemes for 1D Nonlinear Shallow-Water in a poster session during IMAG Ph.D. Day the 20/03, see [Posters](https://sachacardonna.github.io/talks)
+- I presented my work on Monolithic DG/FV schemes for 1D Nonlinear Shallow-Water in a poster session during IMAG Ph.D. Day the 20/03, see [Posters](https://sachacardonna.github.io/talks).
 - I will soon introduce applied mathematics to high-schoolers during MathC2+ program, see [Teaching](https://sachacardonna.github.io/teaching) for more details.
