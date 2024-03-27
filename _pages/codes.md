@@ -31,7 +31,7 @@ For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~mar
 
 ***
 
-<b> EasyDG4SCL </b>  <br>
+<b> DG4SCL </b>  <br>
 <i> Keywords. </i> Discontinuous Galerkin, Scalar Conservation Laws. <br>
 <i> Language. </i> C++. 
 
