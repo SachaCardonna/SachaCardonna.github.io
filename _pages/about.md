@@ -10,7 +10,7 @@ redirect_from:
 
 I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG - UMR 5149).
 
-I'm also a teaching assistant in Mathematics at [Polytech Montpellier](https://www.polytech.umontpellier.fr) (Engineering School attached to University of Montpellier).
+I'm also a teaching assistant for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
 
 Research interests
 ======
@@ -21,10 +21,9 @@ I am interested in theoretical and numerical analysis of partial differential eq
 - <b>Applications</b>. Fluid mechanics, nonlinear Shallow-Water equations, dispersive PDEs.
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing.
 
-During my thesis, I work on Shallow-Water equations, which represents a non-linear hyperbolic system with source term: 
+During my thesis, I work on Shallow-Water equations, which represents a nonlinear hyperbolic system with source term: 
 $$\partial_t\textbf{V}+\nabla \cdot \textbf{F}\left(\textbf{V},b\right)=\textbf{B}(\textbf{V},\nabla b)$$
-{% include feature_row id="falling" type="center" %}
-with $\textbf{V}=(\eta,q_x,q_y)^T$ ($\eta$: total water elevation, $\bfq$: horizontal discharge).
+with $\textbf{V}=(\eta,q_x,q_y)^T$ ($\eta$: total water elevation, $\textbf{q}$: horizontal discharge) and $\textbf{F}$ being the nonlinear flux function.
 
 Highlights
 ======
