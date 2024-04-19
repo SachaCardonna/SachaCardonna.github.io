@@ -18,8 +18,7 @@ Research interests
 During my thesis, I work on Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
-\partial_t\textbf{V}+\nabla \cdot \textbf{F}=\textbf{B} \Leftrightarrow  \begin{cases}
-         \partial_t\mathbf{V} + \nabla \cdot \mathbf{F} &= \mathbf{B} \Leftrightarrow \begin{cases}
+\partial_t\textbf{V}+\nabla \cdot \textbf{F}=\textbf{B} \Leftrightarrow \begin{cases}
       \partial_t \eta + \partial_x q_x + \partial_y q_y = 0, \\
       \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g(\eta^2 - 2\eta b)\mathbf{I}_2  \right] = -g\eta \nabla b,
     \end{cases} \nonumber
