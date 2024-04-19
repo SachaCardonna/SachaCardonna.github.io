@@ -19,9 +19,9 @@ During my thesis, I work on Shallow-Water equations, which represent a nonlinear
 <div style="text-align: center;">
 $$
 \partial_t\textbf{V}+\nabla \cdot \textbf{F}=\textbf{B} \Leftrightarrow  \begin{cases}
-        \partial_t \eta + \partial_x q_x + \partial_y q_y = 0, \\
-        \partial_t q_x + \partial_x\left( u_x q_x + \frac{1}{2}g(\eta^2 - 2\eta b) \right) + \partial_y(u_x q_y) = - g\eta\partial_x b, \\
-        \partial_t q_y + \partial_x(u_y q_x) + \partial_y\left( u_y q_y + \frac{1}{2}g(\eta^2 - 2\eta b) \right) =  - g\eta\partial_y b,
+         \partial_t\mathbf{V} + \nabla \cdot \mathbf{F} &= \mathbf{B} \Leftrightarrow \begin{cases}
+      \partial_t \eta + \partial_x q_x + \partial_y q_y = 0, \\
+      \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g(\eta^2 - 2\eta b)\mathbf{I}_2  \right] = -g\eta \nabla b,
     \end{cases} \nonumber
 $$
 </div>
