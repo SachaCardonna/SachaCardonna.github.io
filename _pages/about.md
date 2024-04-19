@@ -18,12 +18,14 @@ Research interests
 During my thesis, I work on Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
-\partial_t\textbf{V}+\nabla \cdot \textbf{F}\left(\textbf{V},b\right)=\textbf{B}(\textbf{V},\nabla b) \Leftrightarrow 
+\partial_t\textbf{V}+\nabla \cdot \textbf{F}\left(\textbf{V},b\right)=\textbf{B}(\textbf{V},\nabla b) \Leftrightarrow  \begin{cases}
+        \frac{\partial \eta}{\partial t} + \frac{\partial q_x}{\partial x} + \frac{\partial q_y}{\partial y} = 0, \\
+        \frac{\partial q_x}{\partial t} + \frac{\partial}{\partial x}\left( u_x q_x + \frac{1}{2}g(\eta^2 - 2\eta b) \right) + \frac{\partial}{\partial y}(u_x q_y) = - g\eta\partial_x b, \\
+        \frac{\partial q_y}{\partial t} + \frac{\partial}{\partial x}(u_y q_x) + \frac{\partial}{\partial y}\left( u_y q_y + \frac{1}{2}g(\eta^2 - 2\eta b) \right) =  - g\eta\partial_y b,
+    \end{cases} \nonumber
 $$
-{% include feature_row id="falling" type="center" %}
 </div>
-
-with $\textbf{V}=(\eta,q_x,q_y)^T$ ($\eta$: total water elevation, $\textbf{q}$: horizontal discharge) and $\textbf{F}$ being the nonlinear flux function.
+with $\textbf{V}=(\eta,q_x,q_y)^T$ ($\eta$ reprensents total water elevation, $\textbf{q}$ is the horizontal discharge) and $\textbf{F}$ being the nonlinear flux function.
 
 More generally, I am interested in theoretical and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
 
