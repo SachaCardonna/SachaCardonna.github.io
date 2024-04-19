@@ -20,7 +20,7 @@ Courses
 
 <i> Description. </i> The preparatory cycle at Polytech Montpellier is tailored to prepare students for the pursuit of an engineering degree within any specialized field available in France. Mathematics courses are intentionally designed to be both comprehensive and profound, with a particular focus on students who aspire to explore theoretical domains such as mathematical engineering, physics, and mechanics. These courses consistently encompass both analytical and algebraic chapters, guaranteeing that students acquire a robust and well-rounded mathematical foundation to serve them effectively in their forthcoming engineering endeavors. 
 
-<i> Topics. </i> Differential calculus, multivariable integration, topology, bilinear algebra.
+<i> Topics. </i> Differential calculus, multivariable integration, topology of $\mathbb{R}^n$, bilinear algebra.
 
 [Course page](https://sachacardonna.github.io/teaching/HA8401H).
 
@@ -42,7 +42,7 @@ Scientific diffusion
 <b> MathC2+ program - Mathematics and Modeling </b> (04/24, IRES/IMAG, Montpellier) <br>
 <i> Supervision of high school students volunteers </i> 
 
-<i> Description. </i> The goal is to introduce to applied mathematics, modeling and scientific computing to high-schoolers. The first day focuses on introducing some essential mathematics notions, followed by a hands-on activity measuring the free fall times of objects of varying weights from different heights, and a lesson on integration and point kinematics to derive the motion equation as a second-degree polynomial. The second day delves into numerical resolution methods, including bisection, Newton, and secant methods, highlighting their significance in physics and engineering. This is complemented by constructing mini catapults in groups to explore physical principles for optimization, linking these to motion equations discussed on day one. The final day introduces Python programming, where participants will create small programs to familiarize themselves with coding and algorithmic thinking. The culmination of the internship involves developing a code that both theoretically and numerically solves the quadratic equation ax^2 + bx + c = 0, serving as the capstone project.
+<i> Description. </i> The goal is to introduce to applied mathematics, modeling and scientific computing to high-schoolers. The first day focuses on introducing some essential mathematics notions, followed by a hands-on activity measuring the free fall times of objects of varying weights from different heights, and a lesson on integration and point kinematics to derive the motion equation as a second-degree polynomial. The second day delves into numerical resolution methods, including bisection, Newton, and secant methods, highlighting their significance in physics and engineering. This is complemented by constructing mini catapults in groups to explore physical principles for optimization, linking these to motion equations discussed on day one. The final day introduces Python programming, where participants will create small programs to familiarize themselves with coding and algorithmic thinking. The culmination of the internship involves developing a code that both theoretically and numerically solves the quadratic equation $ax^2 + bx + c = 0$, serving as the capstone project.
 
 [Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+.pdf) & [Ressources](https://drive.google.com/drive/folders/17mKAO9z5WmKf6Ay4QbG2_Txv-a8TvGIz?usp=share_link).
 

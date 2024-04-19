@@ -39,6 +39,16 @@ Research Topics
 
 <b>Shallow-Water equations</b>
 
+<div style="text-align: center;">
+$$
+\partial_t\textbf{V}+\nabla \cdot \textbf{F}=\textbf{B} \Leftrightarrow  \begin{cases}
+        \partial_t \eta + \partial_x q_x + \partial_y q_y = 0, \\
+        \partial_t q_x + \partial_x\left( u_x q_x + \frac{1}{2}g(\eta^2 - 2\eta b) \right) + \partial_y(u_x q_y) = - g\eta\partial_x b, \\
+        \partial_t q_y + \partial_x(u_y q_x) + \partial_y\left( u_y q_y + \frac{1}{2}g(\eta^2 - 2\eta b) \right) =  - g\eta\partial_y b,
+    \end{cases} \nonumber
+$$
+</div>
+
 The Shallow-Water equations are a collection of partial differential equations that describe the behavior of fluids in shallow areas such as rivers, lakes, and coastal areas. Mathematicians, engineers, and scientists are all interested to them because they provide a fundamental framework for understanding fluid dynamics in a wide range of practical applications. SW equations were developed in the mid-nineteenth century by mathematicians and physicists who wanted to understand the behavior of water waves, obtained by  deriving the full Navier-Stokes equations, which describe fluid motion in general. The fluid was simplified by assuming that it is incompressible and inviscid, and that its depth is much smaller than its horizontal extent. The main advantage of this model is its computation cost, allowing scientists to perform big-scale simulations in real time.
 
 <b>High-order discontinuous Galerkin schemes</b>
