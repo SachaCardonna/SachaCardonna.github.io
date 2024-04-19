@@ -1,1 +1,1 @@
-Personal page of Sacha Cardonna, forked by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License.
+Personal page of Sacha Cardonna, forked from [Academic Pages](https://academicpages.github.io) by [Stuart Geiger](https://github.com/staeiou).
