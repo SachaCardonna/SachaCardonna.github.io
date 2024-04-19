@@ -14,12 +14,17 @@ I'm also a teaching assistant in Mathematics at [Polytech Montpellier](https://w
 
 Research interests
 ======
-My work is focused on theoretical and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
+I am interested in theoretical and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
 
 - <b>Models</b>. Conservation laws, non-linear hyperbolic systems of PDEs, models coupling.
 - <b>Numerics</b>. Discontinuous Galerkin & Finite-Volume schemes, well-balanced schemes, ALE approaches.
 - <b>Applications</b>. Fluid mechanics, nonlinear Shallow-Water equations, dispersive PDEs.
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing.
+
+During my thesis, I work on Shallow-Water equations, which represents a non-linear hyperbolic system with source term: 
+$$\partial_t\textbf{V}+\nabla \cdot \textbf{F}\left(\textbf{V},b\right)=\textbf{B}(\textbf{V},\nabla b)$$
+{% include feature_row id="falling" type="center" %}
+with $\textbf{V}=(\eta,q_x,q_y)^T$ ($\eta$: total water elevation, $\bfq$: horizontal discharge).
 
 Highlights
 ======
