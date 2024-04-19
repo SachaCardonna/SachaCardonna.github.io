@@ -18,10 +18,10 @@ Research interests
 During my thesis, I work on Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
-\partial_t\textbf{V}+\nabla \cdot \textbf{F}\left(\textbf{V},b\right)=\textbf{B}(\textbf{V},\nabla b) \Leftrightarrow  \begin{cases}
-        \frac{\partial \eta}{\partial t} + \frac{\partial q_x}{\partial x} + \frac{\partial q_y}{\partial y} = 0, \\
-        \frac{\partial q_x}{\partial t} + \frac{\partial}{\partial x}\left( u_x q_x + \frac{1}{2}g(\eta^2 - 2\eta b) \right) + \frac{\partial}{\partial y}(u_x q_y) = - g\eta\partial_x b, \\
-        \frac{\partial q_y}{\partial t} + \frac{\partial}{\partial x}(u_y q_x) + \frac{\partial}{\partial y}\left( u_y q_y + \frac{1}{2}g(\eta^2 - 2\eta b) \right) =  - g\eta\partial_y b,
+\partial_t\textbf{V}+\nabla \cdot \textbf{F}\left(\textbf{V},b\right)=\textbf{B}(\textbf{V},\nabla b) \\ \Leftrightarrow  \begin{cases}
+        \partial_t \eta + \partial_x q_x + \partial_y q_y = 0, \\
+        \partial_t q_x + \partial_x\left( u_x q_x + \frac{1}{2}g(\eta^2 - 2\eta b) \right) + \partial_y(u_x q_y) = - g\eta\partial_x b, \\
+        \partial_t q_y + \partial_x(u_y q_x) + \partial_y\left( u_y q_y + \frac{1}{2}g(\eta^2 - 2\eta b) \right) =  - g\eta\partial_y b,
     \end{cases} \nonumber
 $$
 </div>
