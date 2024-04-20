@@ -18,10 +18,10 @@ Research interests
 During my thesis, I work on Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
-\begin{dcases}
+\begin{cases}
       \partial_t \eta + \nabla \cdot \mathbf{q} = 0, \\
       \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2  \right] = -g\eta \nabla b,
-\end{dcases} \nonumber
+\end{cases} \nonumber
 $$
 </div>
 where $\eta$ is water total elevation, $\textbf{q}=(q_x,q_y)^T$ is the horizontal discharge, $\textbf{B}$ the topography source term, and $\textbf{F}$ being the nonlinear flux function.
