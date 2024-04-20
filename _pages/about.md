@@ -20,7 +20,7 @@ During my thesis, I work on Shallow-Water equations, which represent a nonlinear
 $$
 \begin{dcases}
       \partial_t \eta + \nabla \cdot \mathbf{q} = 0, \\
-      \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{\mathbf{I}_2}{2}g\eta(\eta - 2b)  \right] = -g\eta \nabla b,
+      \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2  \right] = -g\eta \nabla b,
 \end{dcases} \nonumber
 $$
 </div>
