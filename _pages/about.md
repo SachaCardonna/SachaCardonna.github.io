@@ -18,13 +18,13 @@ Research interests
 During my thesis, I work on Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
-\partial_t\textbf{V}+\nabla \cdot \textbf{F}=\textbf{B} \Leftrightarrow \begin{cases}
-      \partial_t \eta + \partial_x q_x + \partial_y q_y = 0, \\
-      \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2  \right] = -g\eta \nabla b,
-    \end{cases} \nonumber
+\begin{cases}
+      \partial_t \eta + \nabla \cdot \mathbf{q} = 0, \\
+      \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{\mathbf{I}_2}{2}g\eta(\eta - 2b)  \right] = -g\eta \nabla b,
+\end{cases} \nonumber
 $$
 </div>
-with $\textbf{V}=(\eta,q_x,q_y)^T$, where $\eta$ is water total elevation, $\textbf{q}=(q_x,q_y)^T$ is the horizontal discharge, $\textbf{B}$ the topography source term, and $\textbf{F}$ being the nonlinear flux function.
+where $\eta$ is water total elevation, $\textbf{q}=(q_x,q_y)^T$ is the horizontal discharge, $\textbf{B}$ the topography source term, and $\textbf{F}$ being the nonlinear flux function.
 
 More generally, I am interested in theoretical and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
 
