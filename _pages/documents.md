@@ -21,7 +21,7 @@ Internships
 
 Advised by François Vilar & Fabien Marche.
 
-[Report]({{ site.url }}/files/projects/DG-FV4SW.pdf) & [Beamer]({{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf).
+[Report]({{ site.url }}/files/projects/DG-FV4SW.pdf) & [Slides]({{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf).
 
 ***
 
@@ -31,7 +31,7 @@ Advised by François Vilar & Fabien Marche.
 
 Advised by Michel Bellieud.
 
-[Report]({{ site.url }}/files/projects/Homogeneisation.pdf) & [Beamer]({{ site.url }}/files/projects/Soutenance homogeneisation.pdf).
+[Report]({{ site.url }}/files/projects/Homogeneisation.pdf) & [Slides]({{ site.url }}/files/projects/Soutenance homogeneisation.pdf).
 
 ***
 
@@ -41,7 +41,7 @@ Advised by Michel Bellieud.
 
 Advised by Daniel Massart.
 
-[Report]({{ site.url }}/files/projects/Billards.pdf) & [Beamer]({{ site.url }}/files/projects/Soutenance billards.pdf).
+[Report]({{ site.url }}/files/projects/Billards.pdf) & [Slides]({{ site.url }}/files/projects/Soutenance billards.pdf).
 
 ***
 
@@ -51,7 +51,7 @@ Advised by Daniel Massart.
 
 Advised by Sylvain Brochard.
 
-[Report]({{ site.url }}/files/projects/Progression arithmetique.pdf) & [Beamer]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf).
+[Report]({{ site.url }}/files/projects/Progression arithmetique.pdf) & [Slides]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf).
 
 ***
 
