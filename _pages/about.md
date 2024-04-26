@@ -24,7 +24,7 @@ $$
 \end{cases} \nonumber
 $$
 </div>
-where $\eta$ is water total elevation, $\textbf{q}=(q_x,q_y)^T$ is the horizontal discharge, $\textbf{B}$ the topography source term, and $\textbf{F}$ being the nonlinear flux function.
+where $\eta$ is water total elevation, $\textbf{q}=(q_x,q_y)^T$ is the horizontal discharge, $\textbf{B} = (0, -g\eta \nabla b)^T$ the topography source term, and $\textbf{F} = (\textbf{q}, \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2)^$ being the nonlinear flux function.
 
 More generally, I am interested in theoretical and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
 
