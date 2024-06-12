@@ -14,7 +14,7 @@ Explore my doctoral journey and research interests.
 About my Ph.D. 
 ======
 
-<i>Title</i>. Numerical study of free-border problem and wave-structure interaction.
+<i>Title</i>. Modeling and numerical study of free-border problem and wave-structure interaction.
 
 <i>Field</i>. Applied Mathematics, Mathematical Physics.
 
