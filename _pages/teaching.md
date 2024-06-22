@@ -44,7 +44,7 @@ Scientific diffusion
 
 <i> Description. </i> The internship explores the math behind three popular games: Tic-Tac-Toe, Mastermind, and Spot It. On the first day, we play Tic-Tac-Toe and introduce game theory and strategy, helping students anticipate moves and understand optimal play. The second day is dedicated to Mastermind, focusing on logic and deduction, such as using Knuth's algorithm to break the code. The last day is about Spot It (Dobble) and demonstrates how abstract concepts like combinatorial designs and projective geometry can be used not only for research purposes but also in designing board games. The culmination of this internship is the development of a code to create a homemade Spot It game cards with their favorite pictures or logos.
 
-[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+_games.pdf), [Spot_It_Generator](https://drive.google.com/drive/folders/1-um0e3o-2jZF2PzBVca9z0-1Gwa3b0Vv?usp=share_link) & [Ressources](https://drive.google.com/drive/folders/17NNeur7VTuKg8do4X6xbIorIVkiRFRHQ?usp=share_link).
+[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+_games.pdf) & ["Spot It!" Generator](https://drive.google.com/drive/folders/1-um0e3o-2jZF2PzBVca9z0-1Gwa3b0Vv?usp=share_link) & [Ressources](https://drive.google.com/drive/folders/17NNeur7VTuKg8do4X6xbIorIVkiRFRHQ?usp=share_link).
 
 ***
 
