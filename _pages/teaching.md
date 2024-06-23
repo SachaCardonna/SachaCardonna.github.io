@@ -39,7 +39,7 @@ Scientific diffusion
 
 ***
 
-<b> MathC2+ program - Mastering games with Mathematics </b> (06/24, IRES/IMAG, Montpellier) <br>
+<b> MathC2+ program - Mastering games with Mathematics </b> (06/24, IRES & LabEx NUMEV, Montpellier) <br>
 <i> Supervision of high school students interns </i> 
 
 <i> Description. </i> The internship explores the math behind three popular games: Tic-Tac-Toe, Mastermind, and Spot It. On the first day, we play Tic-Tac-Toe and introduce game theory and strategy, helping students anticipate moves and understand optimal play. The second day is dedicated to Mastermind, focusing on logic and deduction, such as using Knuth's algorithm to break the code. The last day is about Spot It (Dobble) and demonstrates how abstract concepts like combinatorial designs and projective geometry can be used not only for research purposes but also in designing board games. The culmination of this internship is the development of a code to create a homemade Spot It game cards with their favorite pictures or logos.
@@ -48,7 +48,16 @@ Scientific diffusion
 
 ***
 
-<b> MathC2+ program - Mathematics and Modeling </b> (04/24, IRES/IMAG, Montpellier) <br>
+<b> MATh.en.JEANS congress - Promoting mathematical research to high-schoolers </b> (05/24, Faculty of Sciences, Montpellier) <br>
+<i> Supervised by Louise Nyssen (IMAG \& IRES) </i> 
+
+<i> Description. </i> MATh.en.JEANS congress aims to introduce mathematics research to young students, under the leadership of a researcher and their teacher. Chain is based on volunteers (students, teachers, researchers), and is not graded. The twinning system allows students to explain and compare their ideas with those of a group of students who have worked on the same subject, in another establishment in the same city. Throughout France, more than 200 establishments host a MATh.en.JEANS workshop each year, the culmination being the presentation by students of the results of their work at a national conference.
+
+[Website](https://www.mathenjeans.fr/Congres2024/Montpellier).
+
+***
+
+<b> MathC2+ program - Mathematics and Modeling </b> (04/24, IRES & LabEx NUMEV, Montpellier) <br>
 <i> Supervision of high school students volunteers </i> 
 
 <i> Description. </i> The goal is to introduce to applied mathematics, modeling and scientific computing to high-schoolers. The first day focuses on introducing some essential mathematics notions, followed by a hands-on activity measuring the free fall times of objects of varying weights from different heights, and a lesson on integration and point kinematics to derive the motion equation as a second-degree polynomial. The second day delves into numerical resolution methods, including bisection, Newton, and secant methods, highlighting their significance in physics and engineering. This is complemented by constructing mini catapults in groups to explore physical principles for optimization, linking these to motion equations discussed on day one. The final day introduces Python programming, where participants will create small programs to familiarize themselves with coding and algorithmic thinking. The culmination of the internship involves developing a code that both theoretically and numerically solves the quadratic equation $ax^2 + bx + c = 0$, serving as the capstone project.
