@@ -35,5 +35,5 @@ More generally, I am interested in theoretical and numerical analysis of partial
 
 Highlights
 ======
-- I presented my work on Monolithic DG/FV schemes for 1D Nonlinear Shallow-Water in a poster session during IMAG Ph.D. Day the 20/03, see [Posters](https://sachacardonna.github.io/talks).
-- I introduced applied mathematics to high-schoolers during MathC2+ program, see [Teaching](https://sachacardonna.github.io/teaching) for more details.
+- I presented my work on Monolithic DG/FV schemes for 1D Nonlinear Shallow-Water in a poster session during IMAG Ph.D. Day, see [Posters](https://sachacardonna.github.io/talks).
+- I introduced high-schoolers to mathematics from party games during MathC2+ program, see [Teaching](https://sachacardonna.github.io/teaching) for more details.
