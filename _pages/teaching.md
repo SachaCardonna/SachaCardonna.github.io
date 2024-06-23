@@ -49,7 +49,7 @@ Scientific diffusion
 ***
 
 <b> MATh.en.JEANS congress - Promoting mathematical research to high-schoolers </b> (05/24, Faculty of Sciences, Montpellier) <br>
-<i> Supervised by Louise Nyssen (IMAG \& IRES) </i> 
+<i> Supervised by Louise Nyssen (IMAG & IRES) </i> 
 
 <i> Description. </i> MATh.en.JEANS congress aims to introduce mathematics research to young students, under the leadership of a researcher and their teacher. Chain is based on volunteers (students, teachers, researchers), and is not graded. The twinning system allows students to explain and compare their ideas with those of a group of students who have worked on the same subject, in another establishment in the same city. Throughout France, more than 200 establishments host a MATh.en.JEANS workshop each year, the culmination being the presentation by students of the results of their work at a national conference.
 
