@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Teaching & Scientific Diffusion"
-permalink: /teaching/
+title: "Scientific Diffusion"
+permalink: /diffusion/
 author_profile: true
 redirect_from:
   - /resume
