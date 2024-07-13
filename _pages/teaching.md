@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching & Scientific Diffusion"
+title: "Teaching"
 permalink: /teaching/
 author_profile: true
 redirect_from:
