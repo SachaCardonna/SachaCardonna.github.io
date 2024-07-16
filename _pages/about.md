@@ -35,6 +35,7 @@ More generally, I am interested in theoretical and numerical analysis of partial
 
 Highlights
 ======
+- I started writing my first article, in collaboration with A. Haidar and my thesis directors. 
 - I introduced high-schoolers to mathematics from party games during MathC2+ program, see [Diffusion](https://sachacardonna.github.io/diffusion) for more details.
-- I presented my work on Monolithic DG/FV schemes for 1D Nonlinear Shallow-Water in a poster session during IMAG Ph.D. Day, see [Posters](https://sachacardonna.github.io/talks).
+
 

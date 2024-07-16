@@ -9,7 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-Explore my doctoral journey and research interests.
+Explore my publications and research interests.
+
+***
+
+Publications
+======
+
+1. S. Cardonna, A. Haidar, F. Marche & F. Vilar - <b>Monolithic DG-FV convex property preserving scheme for nonlinear Shallow Water</b>, <i>in preparation</i>.
+
+***
 
 About my Ph.D. 
 ======
