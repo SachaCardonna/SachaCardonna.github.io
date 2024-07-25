@@ -8,8 +8,8 @@ main:
     url: /diffusion/ 
   - title: "Documents"
     url: /documents/
-  - title: "Talks"
-    url: /talks/ 
+  # - title: "Talks"
+  #   url: /talks/ 
   - title: "Softwares"
     url: /codes/
   - title: "Resume"
