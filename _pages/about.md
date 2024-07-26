@@ -18,13 +18,13 @@ Research interests
 During my thesis, I work on nonlinear Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
-\begin{cases}
-      \partial_t \eta + \nabla \cdot \mathbf{q} = 0, \\
-      \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2  \right] = -g\eta \nabla b,
-\end{cases} \nonumber
+\begin{dcases}
+      \partial_t \eta + \nabla_{\mathbf{x}} \cdot \mathbf{q} = 0, \\
+      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2  \right] = -g\eta \nabla_{\mathbf{x}} b,
+\end{dcases} \nonumber
 $$
 </div>
-where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^T$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla b)^T$ the topography source term.
+where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^T$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla_{\mathbf{x}} b)^T$ the topography source term.
 
 More generally, I am interested in theoretical and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
 
