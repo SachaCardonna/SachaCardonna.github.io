@@ -69,14 +69,16 @@ Research Topics
 
 <b>Shallow-Water equations</b>
 
+Let us remind the nonlinear Shallow-Water equations: 
 <div style="text-align: center;">
 $$
-\partial_t\textbf{V}+\nabla \cdot \textbf{F}=\textbf{B} \Leftrightarrow \begin{cases}
-      \partial_t \eta + \partial_x q_x + \partial_y q_y = 0, \\
-      \partial_t \mathbf{q} + \nabla \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2  \right] = -g\eta \nabla b,
-    \end{cases} \nonumber
+\begin{dcases}
+      \partial_t \eta + \nabla_{\mathbf{x}} \cdot \mathbf{q} = 0, \\
+      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2  \right] = -g\eta \nabla_{\mathbf{x}} b,
+\end{dcases} \nonumber
 $$
 </div>
+where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^T$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla_{\mathbf{x}} b)^T$ the topography source term.
 
 The Shallow-Water equations are a collection of partial differential equations that describe the behavior of fluids in shallow areas such as rivers, lakes, and coastal areas. Mathematicians, engineers, and scientists are all interested to them because they provide a fundamental framework for understanding fluid dynamics in a wide range of practical applications. SW equations were developed in the mid-nineteenth century by mathematicians and physicists who wanted to understand the behavior of water waves, obtained by  deriving the full Navier-Stokes equations, which describe fluid motion in general. The fluid was simplified by assuming that it is incompressible and inviscid, and that its depth is much smaller than its horizontal extent. The main advantage of this model is its computation cost, allowing scientists to perform big-scale simulations in real time.
 
