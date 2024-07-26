@@ -18,10 +18,10 @@ Research interests
 During my thesis, I work on nonlinear Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
-\begin{dcases}
+\begin{cases}
       \partial_t \eta + \nabla_{\mathbf{x}} \cdot \mathbf{q} = 0, \\
-      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbf{I}_2  \right] = -g\eta \nabla_{\mathbf{x}} b,
-\end{dcases} \nonumber
+      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbb{I}_2  \right] = -g\eta \nabla_{\mathbf{x}} b,
+\end{cases} \nonumber
 $$
 </div>
 where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^T$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla_{\mathbf{x}} b)^T$ the topography source term.
