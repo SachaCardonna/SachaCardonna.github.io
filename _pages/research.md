@@ -74,7 +74,7 @@ Let us remind the nonlinear Shallow-Water equations:
 $$
 \begin{cases}
       \partial_t \eta + \nabla_{\mathbf{x}} \cdot \mathbf{q} = 0, \\
-      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{1}{2}g\eta(\eta - 2b)\mathbb{I}_2  \right] = -g\eta \nabla_{\mathbf{x}} b,
+      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left[ \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right] = -g\eta \nabla_{\mathbf{x}} b,
 \end{cases} \nonumber
 $$
 </div>
