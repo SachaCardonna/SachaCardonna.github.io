@@ -41,7 +41,7 @@ Posters
 
 ***
 
-About my Ph.D. 
+More about my Ph.D. 
 ======
 
 <i>Title</i>. Modeling and numerical study of free-border problem and wave-structure interaction.
