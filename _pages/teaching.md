@@ -42,15 +42,6 @@ Access courses materials for my students.
 [Course page](https://sachacardonna.github.io/teaching/HA8401H).
 
 ***
-<b> XADES4 </b> - <b> Supervised mathematical assignments </b>(2nd year B.Sc.) <br>
-<i> Engineering school Polytech Montpellier</i> 
-
-<i> Description. </i> Supervised assignments is a specific system for students following the preparatory cycle in Polytech Montpellier, allowing them to assimilate the educational content provided by developing their autonomy and their capacity for self-assessment. 
-Each week, students are placed in exam conditions with a subject to be covered in two hours. Teachers are there to guide them, help them overcome their difficulties and possibly become aware of their shortcomings. This course is directly related to HA8401H.
-
-[Course page](https://sachacardonna.github.io/teaching/HA8401H).
-
-***
 <b> HAS101X </b> - <b> Mathematical tools for sciences and engineering </b>(1st year B.Sc.) <br>
 <i> Montpellier Faculty of Sciences </i> 
 
@@ -59,3 +50,12 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <i> Topics. </i> Logical reasoning, set theory, continuous & differentiable functions, integral calculus, 1st-order differential equations.
 
 [Course page](https://sachacardonna.github.io/teaching/HAS101X).
+
+***
+<b> XADES4 </b> - <b> Supervised mathematical assignments </b>(2nd year B.Sc.) <br>
+<i> Engineering school Polytech Montpellier</i> 
+
+<i> Description. </i> Supervised assignments is a specific system for students following the preparatory cycle in Polytech Montpellier, allowing them to assimilate the educational content provided by developing their autonomy and their capacity for self-assessment. 
+Each week, students are placed in exam conditions with a subject to be covered in two hours. Teachers are there to guide them, help them overcome their difficulties and possibly become aware of their shortcomings. This course is directly related to HA8401H.
+
+[Course page](https://sachacardonna.github.io/teaching/HA8401H).
