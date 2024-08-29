@@ -2,7 +2,7 @@
 title: "HAX604X - Numerical analysis of differential equations"
 collection: teaching
 type: "3rd year B.Sc"
-permalink: /teaching/HAS101X
+permalink: /teaching/HAX604X
 venue: "Montpellier Faculty of Sciences"
 date: 2024-01-01
 ---
