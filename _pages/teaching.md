@@ -12,6 +12,26 @@ redirect_from:
 Access courses materials for my students.
 
 ***
+<b> HAX604X </b> - <b> Numerical analysis of differential equations </b>(3rd year B.Sc.) <br>
+<i> Montpellier Faculty of Sciences </i> 
+
+<i> Description. </i> This course is designed for third-year mathematics undergraduates who are planning to pursue a research-oriented master's degree. The objective is to equip students with fundamental concepts in numerical methods for differential equations. Students should have completed analysis courses from the first and second years, as well as from the first semester of the third year, particularly the following courses: integration and elementary differential equations (HAX302X) & differential calculus and differential equations (HAX502X).
+
+<i> Topics. </i> Numerical schemes (Euler, Runge-Kutta, Finite Difference, ...), ordinary and partial differential equations.
+
+[Course page](https://sachacardonna.github.io/teaching/HAX604X).
+
+***
+<b> HAX606X </b> - <b> Convex optimization </b>(3rd year B.Sc.) <br>
+<i> Montpellier Faculty of Sciences </i> 
+
+<i> Description. </i> This course is intended for third-year mathematics students who aim to pursue a research-focused master's degree. The aim is to provide students with fundamental concepts in mathematical optimization and its applications. Students should have completed introductory analysis courses from the first and second years, as well as the following courses: topology of $\mathbb{R}^n$ and multivariable functions (HAX404X) & differential calculus and differential equations (HAX502X).
+
+<i> Topics. </i> Unconstrained and constrained extremas, applied mathematics, mathematical learning.
+
+[Course page](https://sachacardonna.github.io/teaching/HAX606X).
+
+***
 <b> HA8401H </b> - <b> Differential calculus & multivariable integration </b>(2nd year B.Sc.) <br>
 <i> Engineering school Polytech Montpellier</i> 
 
@@ -26,5 +46,16 @@ Access courses materials for my students.
 <i> Engineering school Polytech Montpellier</i> 
 
 <i> Description. </i> Supervised assignments is a specific system for students following the preparatory cycle in Polytech Montpellier, allowing them to assimilate the educational content provided by developing their autonomy and their capacity for self-assessment. 
-Each week, students are placed in exam conditions with a subject to be covered in two hours. Teachers are there to guide them, help them overcome their difficulties and possibly become aware of their shortcomings. 
-These homework are training in scientific and technical production, here in mathematics.
+Each week, students are placed in exam conditions with a subject to be covered in two hours. Teachers are there to guide them, help them overcome their difficulties and possibly become aware of their shortcomings. This course is directly related to HA8401H.
+
+[Course page](https://sachacardonna.github.io/teaching/HA8401H).
+
+***
+<b> HAS101X </b> - <b> Mathematical tools for sciences and engineering </b>(1st year B.Sc.) <br>
+<i> Montpellier Faculty of Sciences </i> 
+
+<i> Description. </i> This course is intended for first-year students majoring in physics, chemistry, mechanics, and electronics. It provides an introduction to analysis, focusing on functions of a real variable. It requires high school mathematics curriculum and optionally advanced mathematics option.
+
+<i> Topics. </i> Logical reasoning, set theory, continuous & differentiable functions, integral calculus, 1st-order differential equations.
+
+[Course page](https://sachacardonna.github.io/teaching/HAS101X).
