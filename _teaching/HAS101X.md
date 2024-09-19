@@ -13,18 +13,10 @@ Documents
 Lecture notes: 
 - Course 1 - Logic & set theory ([Notes]({{ site.url }}/files/teaching/HAS101X/C1-LogiqueEnsembles.pdf))
 - Course 2 - Functions of a real variable ([Notes]({{ site.url }}/files/teaching/HAS101X/C2-fonctions.pdf))
-<!-- - Course 3 - Continuity ([Notes]({{ site.url }}/files/teaching/HAS101X/C3-continuite.pdf))
-- Course 4 - Differentiability and variations ([Notes]({{ site.url }}/files/teaching/HAS101X/C4-derivation.pdf))
-- Course 5 - Integration ([Notes]({{ site.url }}/files/teaching/HAS101X/C5-integration.pdf))
-- Course 6 - Differential equations ([Notes]({{ site.url }}/files/teaching/HAS101X/C6-equadiffs.pdf)) -->
 
 Exercise sheets: 
 - TD1 - Logic & set theory ([Notes]({{ site.url }}/files/teaching/HAS101X/TD1-LogiqueEnsemble.pdf))
 - TD2 - Functions of a real variable ([Notes]({{ site.url }}/files/teaching/HAS101X/TD2-fonctions.pdf))
-<!-- - TD3 - Continuity ([Notes]({{ site.url }}/files/teaching/HAS101X/TD3-continuite.pdf))
-- TD4 - Differentiability and variations ([Notes]({{ site.url }}/files/teaching/HAS101X/TD4-derivation.pdf))
-- TD5 - Integration ([Notes]({{ site.url }}/files/teaching/HAS101X/TD5-integration.pdf))
-- TD6 - Differential equations ([Notes]({{ site.url }}/files/teaching/HAS101X/TD6-equadiffs.pdf)) -->
 
 Additional ressources:
 - Usual functions and their properties ([Notes]({{ site.url }}/files/teaching/HAS101X/C6-equadiffs.pdf))
