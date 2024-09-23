@@ -15,8 +15,8 @@ Lecture notes:
 - Course 2 - Functions of a real variable ([Notes]({{ site.url }}/files/teaching/HAS101X/C2-fonctions.pdf))
 
 Exercise sheets: 
-- TD1 - Logic & set theory ([Notes]({{ site.url }}/files/teaching/HAS101X/TD1-LogiqueEnsemble.pdf))
-- TD2 - Functions of a real variable ([Notes]({{ site.url }}/files/teaching/HAS101X/TD2-fonctions.pdf))
+- TD1 - Logic & set theory ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD1-LogiqueEnsemble.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD1-corrige-LogiqueEnsemble.pdf))
+- TD2 - Functions of a real variable ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD2-fonctions.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD2-corrige-fonctions.pdf))
 
 Additional ressources:
 - Usual functions and their properties ([Notes]({{ site.url }}/files/teaching/HAS101X/C6-equadiffs.pdf))
