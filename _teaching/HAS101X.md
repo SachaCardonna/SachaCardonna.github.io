@@ -18,8 +18,11 @@ Exercise sheets:
 - TD1 - Logic & set theory ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD1-LogiqueEnsemble.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD1-corrige-LogiqueEnsemble.pdf))
 - TD2 - Functions of a real variable ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD2-fonctions.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD2-corrige-fonctions.pdf))
 
+Exam preparations: 
+ - Midterm 1 - Sets, Trigonometry, Real Functions ([Exam]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_corrigé.pdf))
+
 Additional ressources:
-- Usual functions and their properties ([Notes]({{ site.url }}/files/teaching/HAS101X/C6-equadiffs.pdf))
+- Usual functions and their properties ([Notes]({{ site.url }}/files/teaching/HAS101X/Fonctions Usuelles.pdf))
 
 ***
 
