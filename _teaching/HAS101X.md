@@ -17,6 +17,7 @@ Lecture notes:
 Exercise sheets: 
 - TD1 - Logic & set theory ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD1-LogiqueEnsemble.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD1-corrige-LogiqueEnsemble.pdf))
 - TD2 - Functions of a real variable ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD2-fonctions.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD2-corrige-fonctions.pdf))
+- TD3 - Continuity ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD3-continuite.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD3-corrige-Continuite.pdf))
 
 Exam preparations: 
  - Midterm 1 - Sets, Trigonometry, Real Functions ([Exam]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_corrigé.pdf))
