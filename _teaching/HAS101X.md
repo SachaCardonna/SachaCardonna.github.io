@@ -13,6 +13,7 @@ Documents
 Lecture notes: 
 - Course 1 - Logic & set theory ([Notes]({{ site.url }}/files/teaching/HAS101X/C1-LogiqueEnsembles.pdf))
 - Course 2 - Functions of a real variable ([Notes]({{ site.url }}/files/teaching/HAS101X/C2-fonctions.pdf))
+- Course 3 - Continuity ([Notes]({{ site.url }}/files/teaching/HAS101X/C3-continuite.pdf))
 
 Exercise sheets: 
 - TD1 - Logic & set theory ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD1-LogiqueEnsemble.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD1-corrige-LogiqueEnsemble.pdf))
@@ -23,7 +24,7 @@ Exam preparations:
  - Midterm 1 - Sets, Trigonometry, Real Functions ([Exam]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_corrigé.pdf))
 
 Additional ressources:
-- Review course on functions, trigonometry, limits, derivatives, and integrations ([Notes]({{ site.url }}/files/teaching/HAS101X/Revision.pdf))
+- Review course on functions, trigonometry, limits, derivatives, and integrations ([Notes]({{ site.url }}/files/teaching/HAS101X/HAS101X_révisions.pdf))
 - Usual functions and their properties ([Notes]({{ site.url }}/files/teaching/HAS101X/Fonctions Usuelles.pdf))
 
 ***
