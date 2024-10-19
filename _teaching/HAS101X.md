@@ -24,7 +24,7 @@ Exam preparations:
  - Midterm 1 - Sets, Trigonometry, Real Functions ([Exam]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_corrigé.pdf))
 
 Additional ressources:
-- Review course on functions, trigonometry, limits, derivatives, and integrations ([Notes]({{ site.url }}/files/teaching/HAS101X/C3-continuite.pdf))
+- Review course on functions, trigonometry, limits, derivatives, and integrations ([Notes]({{ site.url }}/files/teaching/HAS101X/revisions.pdf))
 - Usual functions and their properties ([Notes]({{ site.url }}/files/teaching/HAS101X/Fonctions Usuelles.pdf))
 
 ***
