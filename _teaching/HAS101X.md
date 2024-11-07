@@ -20,8 +20,12 @@ Exercise sheets:
 - TD2 - Functions of a real variable ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD2-fonctions.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD2-corrige-fonctions.pdf))
 - TD3 - Continuity ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD3-continuite.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD3-corrige-Continuite.pdf))
 
+Exams & midterms: 
+ - Midterm 1 - Real functions & continuity (soon...)
+
 Exam preparations: 
- - Midterm 1 - Sets, Trigonometry, Real Functions ([Exam]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_corrigé.pdf))
+ - Midterm 1.1 - Sets, Trigonometry, Real functions ([Exam]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_corrigé.pdf))
+ - Midterm 1.2 - Real functions & continuity ([Kahoot](https://create.kahoot.it/share/has101x-fonctions-reelles-et-continuite/a66bea4c-5679-4cd7-8d5b-13997e616f8d))
 
 Additional ressources:
 - Review course on functions, trigonometry, limits, derivatives, and integrations ([Notes]({{ site.url }}/files/teaching/HAS101X/revisions.pdf))
