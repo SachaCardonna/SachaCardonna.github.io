@@ -15,7 +15,7 @@ I'm also a teaching assistant for the Department of Mathematics at [Montpellier 
 Research interests
 ======
 
-During my thesis, I work on nonlinear Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
+During my thesis, I design and implement high-order methods on nonlinear Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
 \begin{cases}
@@ -26,7 +26,7 @@ $$
 </div>
 where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^T$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla_{\mathbf{x}} b)^T$ the topography source term.
 
-More generally, I am interested in theoretical and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
+More generally, I am interested in modeling and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
 
 - <b>Models</b>. Conservation laws, non-linear hyperbolic systems of PDEs, models coupling.
 - <b>Numerics</b>. Discontinuous Galerkin & Finite-Volume schemes, well-balanced schemes, ALE approaches.

@@ -18,7 +18,7 @@ Discover my several scientific diffusion missions and productions.
 
 <i> Description. </i> The internship explores the math behind three popular games: Tic-Tac-Toe, Mastermind, and Spot It. On the first day, we play Tic-Tac-Toe and introduce game theory and strategy, helping students anticipate moves and understand optimal play. The second day is dedicated to Mastermind, focusing on logic and deduction, such as using Knuth's algorithm to break the code. The last day is about Spot It (Dobble) and demonstrates how abstract concepts like combinatorial designs and projective geometry can be used not only for research purposes but also in designing board games. The culmination of this internship is the development of a code to create a homemade Spot It game cards with their favorite pictures or logos.
 
-[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+_games.pdf) & ["Spot It!" Generator](https://drive.google.com/drive/folders/1-um0e3o-2jZF2PzBVca9z0-1Gwa3b0Vv?usp=share_link) & [Ressources](https://drive.google.com/drive/folders/17NNeur7VTuKg8do4X6xbIorIVkiRFRHQ?usp=share_link).
+[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+_games.pdf) & ["Spot It!" Generator](https://drive.google.com/drive/folders/1-um0e3o-2jZF2PzBVca9z0-1Gwa3b0Vv?usp=share_link) & [Kahoot](https://create.kahoot.it/share/mathc2-estimations-d-ordres-de-grandeurs/3dbf92e4-0b4d-428b-8b47-6fda6a234c90) & [Ressources](https://drive.google.com/drive/folders/17NNeur7VTuKg8do4X6xbIorIVkiRFRHQ?usp=share_link).
 
 ***
 
@@ -36,7 +36,7 @@ Discover my several scientific diffusion missions and productions.
 
 <i> Description. </i> The goal is to introduce to applied mathematics, modeling and scientific computing to high-schoolers. The first day focuses on introducing some essential mathematics notions, followed by a hands-on activity measuring the free fall times of objects of varying weights from different heights, and a lesson on integration and point kinematics to derive the motion equation as a second-degree polynomial. The second day delves into numerical resolution methods, including bisection, Newton, and secant methods, highlighting their significance in physics and engineering. This is complemented by constructing mini catapults in groups to explore physical principles for optimization, linking these to motion equations discussed on day one. The final day introduces Python programming, where participants will create small programs to familiarize themselves with coding and algorithmic thinking. The culmination of the internship involves developing a code that both theoretically and numerically solves the quadratic equation $ax^2 + bx + c = 0$, serving as the capstone project.
 
-[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+_phymath.pdf) & [Ressources](https://drive.google.com/drive/folders/17mKAO9z5WmKf6Ay4QbG2_Txv-a8TvGIz?usp=share_link).
+[Notes]({{ site.url }}/files/teaching/vulga/stage_MathC2+_phymath.pdf) & [Kahoot](https://create.kahoot.it/share/mathc2-estimations-d-ordres-de-grandeurs/3dbf92e4-0b4d-428b-8b47-6fda6a234c90) & [Ressources](https://drive.google.com/drive/folders/17mKAO9z5WmKf6Ay4QbG2_Txv-a8TvGIz?usp=share_link).
 
 ***
 
