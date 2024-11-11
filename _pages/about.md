@@ -15,7 +15,7 @@ I'm also a teaching assistant for the Department of Mathematics at [Montpellier 
 Research interests
 ======
 
-During my thesis, I design and implement high-order methods on nonlinear Shallow-Water equations, which represent a nonlinear hyperbolic system with source term: 
+During my thesis, I design and implement high-order methods on water waves models, especially nonlinear Shallow-Water equations (NSW), which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
 \begin{cases}
