@@ -14,11 +14,18 @@ Lecture notes:
 - Course 1 - Logic & set theory ([Notes]({{ site.url }}/files/teaching/HAS101X/C1-LogiqueEnsembles.pdf))
 - Course 2 - Functions of a real variable ([Notes]({{ site.url }}/files/teaching/HAS101X/C2-fonctions.pdf))
 - Course 3 - Continuity ([Notes]({{ site.url }}/files/teaching/HAS101X/C3-continuite.pdf))
+- Course 4 - Differentiability ([Notes]({{ site.url }}/files/teaching/HAS101X/C4-derivation.pdf))
+- Course 5 - Integration ([Notes]({{ site.url }}/files/teaching/HAS101X/C5-integration.pdf))
+- Course 6 - Differential equations ([Notes]({{ site.url }}/files/teaching/HAS101X/C6-equadiffs.pdf))
+
 
 Exercise sheets: 
 - TD1 - Logic & set theory ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD1-LogiqueEnsemble.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD1-corrige-LogiqueEnsemble.pdf))
 - TD2 - Functions of a real variable ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD2-fonctions.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD2-corrige-fonctions.pdf))
 - TD3 - Continuity ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD3-continuite.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD3-corrige-Continuite.pdf))
+- TD4 - Differentiability ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD4-derivation.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD4-corrige-derivation.pdf))
+- TD5 - Integration ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD5-integration.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD5-corrige-integration.pdf))
+- TD6 - Differential equations ([Worksheet]({{ site.url }}/files/teaching/HAS101X/TD6-equadiffs.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/TD6-corrige-equadiffs.pdf))
 
 Exams & midterms: 
  - Midterm 1 - Real functions & continuity ([Exam]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC1_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC1_correction.pdf))
