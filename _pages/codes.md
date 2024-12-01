@@ -30,7 +30,7 @@ During my Ph.D., I developped a whole new section dedicated to high-order monoli
 
 For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~marche/).
 
-![2d monolithic DG-FV wet dam-break](images/dambreak2d.png)
+<img src="images/dambreak2d.png" alt="WaveBox Visualization" style="width:80%; height:auto;"/>
 
 ***
 
