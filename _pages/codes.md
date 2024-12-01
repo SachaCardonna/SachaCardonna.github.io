@@ -30,6 +30,8 @@ During my Ph.D., I developped a whole new section dedicated to high-order monoli
 
 For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~marche/).
 
+![2d monolithic DG-FV wet dam-break](images/dambreak2d.png)
+
 ***
 
 <b> DG4SCL - Compact and student friendly code for DG methods on 1D SCL </b>  <br>
