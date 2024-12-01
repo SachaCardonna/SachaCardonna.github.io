@@ -30,7 +30,7 @@ During my Ph.D., I developped a whole new section dedicated to high-order monoli
 
 For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~marche/).
 
-<img src="images/dambreak2d.png" alt="WaveBox Visualization" style="width:80%; height:auto;"/>
+![WaveBox Simulation]({{ site.baseurl }}/images/dambreak2d.png)
 
 ***
 
@@ -44,3 +44,4 @@ By expanding its functionality and making it more comprehensive, I aim to create
 
 Contact me to get the source.
 
+<img src="{{ site.baseurl }}/images/dambreak2d.png" alt="WaveBox Visualization" style="width:80%; height:auto;"/>
