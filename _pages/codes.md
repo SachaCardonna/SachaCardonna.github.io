@@ -34,6 +34,7 @@ For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~mar
   <img src="{{ site.baseurl }}/images/eta_dam.png" alt="WaveBox Simulation 1" style="width: 48%; height: auto;">
   <img src="{{ site.baseurl }}/images/q1_dam.png" alt="WaveBox Simulation 2" style="width: 48%; height: auto;">
 </div>
+
 ![WaveBox Simulation]({{ site.baseurl }}/images/dambreak2d.png)
 
 ***
