@@ -30,6 +30,7 @@ During my Ph.D., I developped a whole new section dedicated to high-order monoli
 
 For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~marche/).
 
+| ![Image 1]({{ site.baseurl }}/images/eta_dam.png) | ![Image 2]({{ site.baseurl }}/images/q1_dam.png) |
 ![WaveBox Simulation]({{ site.baseurl }}/images/dambreak2d.png)
 
 ***
@@ -43,5 +44,3 @@ This code is a work in progress, far from being complete or flawless. Its creati
 By expanding its functionality and making it more comprehensive, I aim to create a valuable resource for students seeking a simplified example of DG schemes. This endeavor stems from my own experiences as a student, where access to such a resource would have greatly facilitated my understanding and learning process.
 
 Contact me to get the source.
-
-<img src="{{ site.baseurl }}/images/dambreak2d.png" alt="WaveBox Visualization" style="width:80%; height:auto;"/>

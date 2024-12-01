@@ -33,6 +33,8 @@ More generally, I am interested in modeling and numerical analysis of partial di
 - <b>Applications</b>. Fluid mechanics, nonlinear Shallow-Water equations, dispersive PDEs.
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing.
 
+![WaveBox Simulation]({{ site.baseurl }}/images/dambreak2d.png)
+
 Highlights
 ======
 - I started writing my first article, in collaboration with A. Haidar and my thesis directors, see [Research](https://sachacardonna.github.io/research) for more details. 
