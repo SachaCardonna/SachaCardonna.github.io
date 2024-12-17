@@ -33,7 +33,7 @@ Exercise sheets:
 
 Exams & midterms: 
  - Midterm 1 - Real functions & continuity ([Exam]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC1_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC1_correction.pdf))
- - Midterm 2 - Continuity, differentiability & integration ([Exam]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC2_suje.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC2_correctio.pdf))
+ - Midterm 2 - Continuity, differentiability & integration ([Exam]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC2_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC2_correction.pdf))
 
 Exam preparations: 
  - Midterm 1.1 - Sets, Trigonometry, Real functions ([Exam]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_corrige.pdf))
