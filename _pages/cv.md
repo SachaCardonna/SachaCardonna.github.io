@@ -11,7 +11,7 @@ redirect_from:
 
 Uncover my academic achievements and qualifications.
 
-<b>Full resume</b>: [English]({{ site.url }}/files/cv/CV_ENG.pdf) & [French]({{ site.url }}/files/cv/CV_ENG.pdf).
+<b>Full resume</b>: [English]({{ site.url }}/files/cv/CV_ENG.pdf) & [French]({{ site.url }}/files/cv/CV_FR.pdf).
 
 ***
 
