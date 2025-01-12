@@ -35,7 +35,7 @@ More generally, I am interested in modeling and numerical analysis of partial di
 
 ![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d.png)
 
-Highlights
+News
 ======
 - I started writing my first article, in collaboration with A. Haidar and my thesis directors, see [Research](https://sachacardonna.github.io/research) for more details. 
 - I introduced high-schoolers to mathematics from party games during MathC2+ program, see [Diffusion](https://sachacardonna.github.io/diffusion) for the materials.
