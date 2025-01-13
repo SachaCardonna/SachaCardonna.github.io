@@ -24,7 +24,7 @@ $$
 \end{cases} \nonumber
 $$
 </div>
-where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^T$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla_{\mathbf{x}} b)^T$ the topography source term. You can find some numerical results and simulation in [Softwares](https://sachacardonna.github.io/softwares).
+where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^T$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla_{\mathbf{x}} b)^T$ the topography source term. Readers can find some numerical results and simulation in [Softwares](https://sachacardonna.github.io/codes).
 
 More generally, I am interested in modeling and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
 
