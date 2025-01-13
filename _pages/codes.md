@@ -30,9 +30,9 @@ During my Ph.D., I developped a whole new section dedicated to high-order monoli
 
 For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~marche/).
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<div style="display: flex; justify-content: center; padding: 20px 0;">
   <video controls style="width: 60%; height: auto;">
-    <source src="{{ site.baseurl }}/videos/rock_wave_P6RK2.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/images/rock_wave_P6RK2.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -42,9 +42,9 @@ For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~mar
   <img src="{{ site.baseurl }}/images/rock_wave_3.png" alt="WaveBox Image 3" style="width: 32%; height: auto;">
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<div style="display: flex; justify-content: center; padding: 20px 0;">
   <video controls style="width: 60%; height: auto;">
-    <source src="{{ site.baseurl }}/videos/tsunami_P2RK2.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/images/tsunami_P2RK2.mp4" type="video/mp4">
   </video>
 </div>
 
