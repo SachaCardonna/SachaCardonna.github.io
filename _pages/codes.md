@@ -26,36 +26,13 @@ WaveBox is a multi-models numerical platform created by Fabien Marche, dedicated
 - Wave breaking treatment with dynamic switching strategy.
 
 During Ali Haidar's Ph.D., he implemented in WaveBox François Vilar's a posteriori stabilization methods for 1D Saint-Venant equations coupled with a floating object. 
-During my Ph.D., I developped a whole new section dedicated to high-order monolithic DG-FV schemes, with grid subdivisions and a priori stabilization methods, in 1D & 2D. I also developped several vizualization tools on Python. One of the main goals of my future work is to implement monolithic schemes on NSW coupled with a floating object.
+During my Ph.D., I developped a whole new section dedicated to high-order monolithic DG-FV schemes, with grid subdivisions and a priori stabilization methods, in 1D & 2D. I also developped several vizualization tools on Python. One of the main goals of our future work is to implement monolithic schemes on NSW coupled with a floating object.
 
-For more informations, contact [Fabien Marche](https://imag.umontpellier.fr/~marche/).
+Some numerical simulations: 
+- 7th-order interaction between a single wave and a rock ([MP4]({{ site.baseurl }}/images/rock_wave_P6RK2.avi))
+- 3rd-order tsunami over a dry island with three conical obstacles ([MP4]({{ site.baseurl }}/images/tsunami_P2RK2.avi))
 
-<div style="display: flex; justify-content: center; padding: 20px 0;">
-  <img src="{{ site.baseurl }}/images/tsunami_P2RK2.gif" alt="Simulation GIF" style="height: 300px; width: auto;">
-</div>
-
-<div style="display: flex; justify-content: space-between; gap: 10px;">
-  <img src="{{ site.baseurl }}/images/rock_wave_1.png" alt="WaveBox Image 1" style="height: 300px; width: auto;">
-  <img src="{{ site.baseurl }}/images/rock_wave_2.png" alt="WaveBox Image 2" style="height: 300px; width: auto;">
-  <img src="{{ site.baseurl }}/images/rock_wave_3.png" alt="WaveBox Image 3" style="height: 300px; width: auto;">
-</div>
-
-<div style="display: flex; justify-content: center; padding: 20px 0;">
-  <img src="{{ site.baseurl }}/images/rock_wave_P6RK2.gif" alt="Simulation GIF" style="height: 300px; width: auto;">
-</div>
-
-<div style="display: flex; justify-content: center; padding: 20px 0;">
-  <img src="{{ site.baseurl }}/images/tsunami2d.png" alt="WaveBox Simulation" style="height: 300px; width: auto;">
-</div>
-
-<div style="display: flex; justify-content: space-between; gap: 10px;">
-  <img src="{{ site.baseurl }}/images/eta_dam.png" alt="WaveBox Simulation 1" style="height: 300px; width: auto;">
-  <img src="{{ site.baseurl }}/images/q1_dam.png" alt="WaveBox Simulation 2" style="height: 300px; width: auto;">
-</div>
-
-<div style="display: flex; justify-content: center; padding: 20px 0;">
-  <img src="{{ site.baseurl }}/images/dambreak2d.png" alt="WaveBox Simulation" style="height: 300px; width: auto;">
-</div>
+![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d_2.png)
 
 ***
 
