@@ -18,7 +18,7 @@ Publications
 2. S. Cardonna, F. Marche & F. Vilar - <b> Local monolithic DG-FV subcell correction for 2D NSW on unstructured grids</b>, <i>in preparation</i>.
 ![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d_2.png)
 
-1. S. Cardonna, A. Haidar, F. Marche & F. Vilar - <b>Monolithic DG-FV convex property preserving scheme for nonlinear Shallow Water and its extension to dispersive equations.</b>, <i>in preparation</i>.
+1. S. Cardonna, A. Haidar, F. Marche & F. Vilar - <b>Monolithic DG-FV convex property preserving scheme for nonlinear Shallow Water and its extension to dispersive equations</b>, <i>in preparation</i>.
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <img src="{{ site.baseurl }}/images/1d_1.png" alt="WaveBox Image 1" style="width: 23%; height: auto;">
   <img src="{{ site.baseurl }}/images/1d_2.png" alt="WaveBox Image 2" style="width: 23%; height: auto;">
