@@ -16,7 +16,7 @@ Explore my publications, the talks and conferences I participated in and my rese
 Publications
 ======
 2. S. Cardonna, F. Marche & F. Vilar - <b> Local monolithic DG-FV subcell correction for 2D NSW on unstructured grids</b>, <i>in preparation</i>.
-![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d.png)
+![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d_2.png)
 
 1. S. Cardonna, A. Haidar, F. Marche & F. Vilar - <b>Monolithic DG-FV convex property preserving scheme for nonlinear Shallow Water and its extension to dispersive equations.</b>, <i>in preparation</i>.
 <div style="display: flex; justify-content: space-between; gap: 10px;">
