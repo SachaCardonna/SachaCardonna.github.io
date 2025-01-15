@@ -15,7 +15,7 @@ Read more about the scientific computing codes I made or participated in.
 
 <b> WaveBox 2024 - Multi-models C++ numerical platform for water-waves equations </b>  <br>
 <i> Keywords. </i> DG, HDG, Saint-Venant, Boussinesq, Green-Naghdi, Finite-Volume subcells methods. <br>
-<i> Language. </i> C++.
+<i> Language. </i> C++, Python (visualization).
 
 WaveBox is a multi-models numerical platform created by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG) and DG methods on general unstructured meshes (Saint-Venant, Boussinesq and Green-Naghdi equations). Main features are: 
 - Sub-models CPU-GPU co-processing;
