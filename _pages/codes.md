@@ -32,7 +32,7 @@ Some numerical simulations:
 - $\mathbb{P}^6$ interaction between a single wave and a rock ([MP4]({{ site.baseurl }}/images/rock_wave_P6RK2.mp4))
 - $\mathbb{P}^2$ tsunami over a dry island with three conical obstacles ([MP4]({{ site.baseurl }}/images/tsunami_P2RK2.mp4))
 
-![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d_2.png)
+![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d.png)
 
 ***
 
