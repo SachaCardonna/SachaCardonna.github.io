@@ -19,7 +19,7 @@ Explore my publications, the talks and conferences I participated in and my rese
     S. Cardonna, F. Marche & F. Vilar - <b>Local monolithic DG-FV subcell correction for 2D NSW on unstructured grids</b>, <i>in preparation</i>.
     <div style="display: flex; justify-content: space-between; gap: 10px;">
       <img src="{{ site.baseurl }}/images/tsunami2d_2.png" alt="WaveBox Image 1" style="width: 48%; height: auto;">
-      <img src="{{ site.baseurl }}/images/tsunami2d_2_theta.png" alt="WaveBox Image 3" style="width: 48%; height: auto;">
+      <img src="{{ site.baseurl }}/images/tsunami2d_theta.png" alt="WaveBox Image 3" style="width: 48%; height: auto;">
     </div>
   </li>
   <li>
