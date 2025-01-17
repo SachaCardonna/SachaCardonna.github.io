@@ -17,7 +17,7 @@ Exercise sheets:
  - TD2 - Multistep schemes & stiff equations ([Worksheet]({{ site.url }}/files/teaching/HAX604X/td2_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD2_correction.pdf))
 
 Pratical works:
-- TP1 - 
+- TP1 - Geometrical interpretation of an ODE and Euler scheme ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp1_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/notyet.pdf))
 
 ***
 
