@@ -13,8 +13,8 @@ Documents
 Lecture notes: [Notes]({{ site.url }}/files/teaching/HAX604X/coursequadiff.pdf)
 
 Exercise sheets: 
- - TD1 - Cauchy problem, Euler & Runge schemes ([Worksheet]({{ site.url }}/files/teaching/HAX604X/td1_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD1_correction.pdf))
- - TD2 - Multistep schemes & stiff equations ([Worksheet]({{ site.url }}/files/teaching/HAX604X/td2_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD2_correction.pdf))
+ - TD1 - Cauchy problem, Euler & Runge schemes ([Worksheet]({{ site.url }}/files/teaching/HAX604X/td1_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD1_correctionn.pdf))
+ - TD2 - Multistep schemes & stiff equations ([Worksheet]({{ site.url }}/files/teaching/HAX604X/td2_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD2_correctionn.pdf))
 
 Pratical works:
 - TP1 - Geometrical interpretation of an ODE and Euler scheme ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp1_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/notyet.pdf))
