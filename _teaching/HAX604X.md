@@ -1,5 +1,5 @@
 ---
-title: "HAX604X - Numerical analysis of differential equations"
+title: "HAX604X - Numerical analysis of ordinary and partial differential equations"
 collection: teaching
 type: "3rd year B.Sc"
 permalink: /teaching/HAX604X

@@ -12,7 +12,7 @@ redirect_from:
 Access courses materials for my students.
 
 ***
-<b> HAX604X </b> - <b> Numerical analysis of differential equations </b>(3rd year B.Sc.) <br>
+<b> HAX604X </b> - <b> Numerical analysis of ordinary and partial differential equations </b>(3rd year B.Sc.) <br>
 <i> Montpellier Faculty of Sciences </i> 
 
 <i> Description. </i> This course is designed for third-year mathematics undergraduates who are planning to pursue a research-oriented master's degree. The objective is to equip students with fundamental concepts in numerical methods for differential equations. Students should have completed analysis courses from the first and second years, as well as from the first semester of the third year, particularly the following courses: integration and elementary differential equations (HAX302X) & differential calculus and differential equations (HAX502X).
