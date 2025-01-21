@@ -34,4 +34,4 @@ Contents
 
 4) Some application domains
 
-Main responsible: Fabien Marche
+**Main responsible**: Fabien Marche

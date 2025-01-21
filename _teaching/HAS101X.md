@@ -70,7 +70,7 @@ Contents
 
 7) First-order ordinary differential equations (non-linear, separation of variables, etc.)
 
-Main responsible: Clément Gallo
+**Main responsible**: Clément Gallo
 
 
 

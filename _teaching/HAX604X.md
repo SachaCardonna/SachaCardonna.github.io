@@ -36,7 +36,7 @@ Contents
 - Diffusion equations: heat equation, convolution solution, Fourier series, finite difference discretization
 - Higher dimensions: Poisson equation
 
-Main responsible: Pascal Azerad
+**Main responsible**: Pascal Azerad
 
 
 
