@@ -34,7 +34,7 @@ More generally, I am interested in modeling and numerical analysis of partial di
 - <b>Applications</b>. Fluid mechanics, nonlinear Shallow-Water equations, dispersive PDEs.
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing.
 
-![Tsunami](images/tsunami_P2RK2.gif)
+![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d.png)
 
 News
 ======
