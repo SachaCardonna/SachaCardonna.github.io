@@ -10,7 +10,11 @@ date: 2025-01-01
 Documents
 ======
 
-Coming soon...
+Lecture notes: [Notes]({{ site.url }}/files/teaching/HAX606X/optim_L3_main.pdf)
+
+Pratical works:
+- TP1 - Dichotomy, Newton, Golden Section ([Worksheet]({{ site.url }}/files/teaching/HAX606X/tp1.pdf) & [IPYNB]({{ site.url }}/files/teaching/HAX606X/TP1_correction.ipynb))
+
 
 ***
 
