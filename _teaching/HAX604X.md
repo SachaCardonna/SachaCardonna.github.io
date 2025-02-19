@@ -18,7 +18,8 @@ Exercise sheets:
 
 Pratical works:
 - TP1 - Geometrical interpretation of an ODE and Euler scheme ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp1_equadiff.pdf) & [IPYNB]({{ site.url }}/files/teaching/HAX604X/TP1_correction.ipynb))
-- TP2 - Euler, Midpoint, Heun & RK4 ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp2_equadiff.pdf) & [IPYNB]({{ site.url }}/files/teaching/HAX604X/TP2_correction.ipynb))
+- TP2 - Euler, Midpoint, Heun & RK4 schemes ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp2_equadiff.pdf) & [IPYNB]({{ site.url }}/files/teaching/HAX604X/TP2_correction.ipynb))
+- TP3 - Crank-Nicolson scheme ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp3_equadiff.pdf) & [IPYNB]({{ site.url }}/files/teaching/HAX604X/TP3_correction.ipynb))
 
 ***
 
