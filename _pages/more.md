@@ -45,6 +45,7 @@ Discover diverse content encompassing mathematics, physics and more.
 <b> Useful tools</b>:
 - To start using Latex, the best way is probably to use [Overleaf](https://fr.overleaf.com/login?), that allows to write online, and provides a lot of cool templates to start with. Use this [document](https://texlive.mycozy.space/info/symbols/comprehensive/symbols-a4.pdf) to get all the notations you may need.
 - For PDFs conversions and more, use [iLovePDF](https://www.ilovepdf.com/fr).
+- If you're interested in steganography, go to [Pelock](https://www.pelock.com/products/steganography-online-codec).
 
 
 <i>Note to students and colleagues</i>. If you're looking for maths or physics books in PDF, don't hesitate to ask me, I may share some with you if you promise you won't report me to the police.
