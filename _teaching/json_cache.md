@@ -1,9 +1,7 @@
 ---
 title: "ỳ̷̢̰ö̴̰̮́u̵̱͘ ̶̢͖̇̒a̷̭̒̈́r̷̫̋͝e̷̢͌ ̶̠̃d̵̗̙̾o̷̧̊i̵͙͒n̶̬̔g̵͙̊̈́ ̴͉̋w̸͇͛̽e̴̲̍̊l̵̞̈́l̸̨͍̄́"
 collection: teaching
-type: ""
 permalink: /teaching/HAX000X
-venue: ""
 date: 2077-01-01
 ---
 
