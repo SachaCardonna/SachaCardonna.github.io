@@ -5,6 +5,8 @@ permalink: /teaching/HAX000X
 date: 2077-01-01
 ---
 
+<!-- nothing to be afraid of,  a little easter egg for curious visitors :-) -->
+
 <style>
   .grid-container {
       display: grid;

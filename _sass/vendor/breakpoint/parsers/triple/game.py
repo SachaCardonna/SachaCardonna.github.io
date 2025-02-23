@@ -13930,8 +13930,8 @@ class GameApp:
             "you step away from the ship’s hum, but it follows you. a rhythmic, knowing breath, always just behind you."
         ]
 
-        ending_reflection = "congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward. \n \n \n xjjfi sebed ibqix ibqix thylu tej weewbu tej sec ibqix vybu ibqix t ibqix 1uWDM9nkCyekUd kdtuhisehu Yc31B5IAw9 kdtuhisehu UgvnC0 ibqix lyum gkuijyedcqha kif ugkqbi ixqhydw"
-        ending_resistance = "congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward. \n \n \n rddzc myvyx cvkcr cvkcr nbsfo nyd qyyqvo nyd myw cvkcr psvo cvkcr n cvkcr 1hec exnobcmybo QTBckeT4p9hOdyB4rClYckpBlbNs cvkcr fsog aeocdsyxwkbu ecz oaekvc crkbo exnobcmybo vsxu"
+        ending_reflection = "congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward. \n \n \n rddzc myvyx cvkcr cvkcr nbsfo nyd qyyqvo nyd myw cvkcr psvo cvkcr n cvkcr 1Ax1OxET04iBZ8rGHmlwCLiR6S37X9Mcs cvkcr fsog aeocdsyx wkbu ecz oaekv crkbo exnobcmybo vsxu"
+        ending_resistance = "congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward. \n \n \n xjjfi sebed ibqix ibqix thylu tej weewbu tej sec ibqix vybu ibqix t ibqix 1Fcyvgfu2tRxxbVRjQXG9l-5Dsg4Hlc3g ibqix lyum gkuijyed cqha kif ugkqb ixqhydw"
 
         if step < len(choices):
             text, option1, option2 = choices[step]
