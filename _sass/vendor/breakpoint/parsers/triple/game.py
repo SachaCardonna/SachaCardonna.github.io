@@ -13856,14 +13856,14 @@ class GameApp:
                 "look away.",
             ),
             (
-                f"a voice echoes, distorted, calling '{self.personality.name}'. do you respond?",
+                f"it is a music partition. then, a voice echoes, distorted, calling '{self.personality.name}'. do you respond?",
                 "answer cautiously.",
                 "remain silent.",
             ),
             (
-                "your breath fogs up the glass as you press your forehead against it. do you wipe it away?",
-                "wipe the condensation.",
-                "let it fade on its own.",
+               "the voice stops, and your heavy breathing grows more intense, blurring your vision. do you try to focus on your breathing or your sight?"
+                "breath.",
+                "sight.",
             ),
             (
                 "a familiar melody suddenly pulls you from the depths of sleep. you don’t remember falling asleep, yet here you are, waking to its soft tune. do you let it continue?",
@@ -13886,19 +13886,19 @@ class GameApp:
                 "look away, refusing to meet its gaze.",
             ),
             (
-                "the ship hums around you, rhythmic and steady—until it isn’t. the sound distorts, twisting into something alive, something breathing. it isn’t just the ship. it’s something else. do you listen?",
+                "it starts looking at you, while the ship hums around you, rhythmic and steady—until it isn’t. the sound distorts, twisting into something alive, something breathing. it isn’t just the ship. it’s something else. do you listen?",
                 "match your breathing to it, feeling its presence.",
                 "step back, pulse quickening.",
             ),
             (
                 "the hum deepens, reverberating inside your chest. your vision swims. it’s calling you, a voice without words, a presence without form. something is waiting. something is watching. do you answer?",
-                "whisper back, accepting the unknown.",
-                "resist, holding onto yourself.",
+                "whisper back.",
+                "resist.",
             ),
             (
-                "the air grows heavy. your reflection in the glass watches, waiting for your decision. if you answer, you will no longer be alone. if you resist, you may lose whatever is left of you. there is no turning back now.",
-                "step forward, into the reflection.",
-                "close your eyes, refusing to become what it wants.",
+                "the air grows heavy. your reflection in the glass watches, waiting for your decision. if you step forward and accept it, you will no longer be alone—but will you still be yourself? \n if you resist, you may remain the same, or lose whatever is left of you. \n There is no turning back now.",
+                "step forward.",
+                "close your eyes.",
             )
         ]
 
@@ -13917,42 +13917,46 @@ class GameApp:
             "the panel flickers and then fades. you will never know what lay beneath.",
             "the stars keep shifting, leaving you behind in their unknown dance.",
             "the voice fades into static, lost forever.",
-            "the fog on the window thickens, obscuring everything beyond.",
+            "the fog on your sight thickens, obscuring everything beyond.",
             "the melody cuts off abruptly, leaving a void of silence behind.",
             "the blinking light stops, its purpose lost in time.",
             "you got up but your legs were weak. you fall to the ground, unable to move.",
-            "there is multiple versions of you surrounding you. which one is real? are you?",
+            "there are multiple versions of you surrounding you. which one is real? are you?",
             "the heartbeat of the ship slows, then disappears entirely.",
             "you turn off the melody, and the silence that follows is absolute. something has changed. you are no longer where you were.",
             "you hesitate to press the blinking light. the pulsing quickens, more frantic, before suddenly stopping. it will not call you again.",
             "you leave the photograph untouched, but as you look away, the image changes. the person in it is staring at you now.",
-            "you lean in closer to your reflection, but it does not blink. instead, its mouth moves, forming words you cannot hear.",
+            "you lean in closer to your reflection, but it does not blink. instead, its mouth moves, paralyzing you.",
             "you step away from the ship’s hum, but it follows you. a rhythmic, knowing breath, always just behind you."
         ]
 
-        ending_reflection = "congratulations. you have crossed the rubicon—there is no turning back now. your fate is sealed. re-use your key wisely, and discover your reward. \n \n \n xjjfi sebed ibqix ibqix thylu tej weewbu tej sec ibqix vybu ibqix t ibqix 1uWDM9nkCyekUd kdtuhisehu Yc31B5IAw9 kdtuhisehu UgvnC0 ibqix lyum gkuijyedcqha kif ugkqbi ixqhydw"
-        ending_resistance = "congratulations. you have crossed the rubicon—there is no turning back now. your fate is sealed. re-use your key wisely, and discover your reward. \n \n \n rddzc myvyx cvkcr cvkcr nbsfo nyd qyyqvo nyd myw cvkcr psvo cvkcr n cvkcr 1hec exnobcmybo QTBckeT4p9hOdyB4rClYckpBlbNs cvkcr fsog aeocdsyxwkbu ecz oaekvc crkbo exnobcmybo vsxu"
+        ending_reflection = "congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward. \n \n \n xjjfi sebed ibqix ibqix thylu tej weewbu tej sec ibqix vybu ibqix t ibqix 1uWDM9nkCyekUd kdtuhisehu Yc31B5IAw9 kdtuhisehu UgvnC0 ibqix lyum gkuijyedcqha kif ugkqbi ixqhydw"
+        ending_resistance = "congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward. \n \n \n rddzc myvyx cvkcr cvkcr nbsfo nyd qyyqvo nyd myw cvkcr psvo cvkcr n cvkcr 1hec exnobcmybo QTBckeT4p9hOdyB4rClYckpBlbNs cvkcr fsog aeocdsyxwkbu ecz oaekvc crkbo exnobcmybo vsxu"
 
         if step < len(choices):
             text, option1, option2 = choices[step]
             self.label.config(text=text)
 
-            if random.choice([True, False]):
+            if step == len(choices) - 1:  
                 self.option1.config(
-                    text=option1, command=lambda: self.advance_story(step + 1)
+                    text=option1,
+                    command=lambda: [
+                        self.clear_buttons(),
+                        self.label.config(text=ending_reflection)
+                    ]
                 )
                 self.option2.config(
                     text=option2,
                     command=lambda: [
                         self.clear_buttons(),
-                        self.label.config(text=failure_texts[step]),
-                    ],
+                        self.label.config(text=ending_resistance)
+                    ]
                 )
             else:
-                self.option2.config(
+                self.option1.config(
                     text=option1, command=lambda: self.advance_story(step + 1)
                 )
-                self.option1.config(
+                self.option2.config(
                     text=option2,
                     command=lambda: [
                         self.clear_buttons(),
@@ -13961,11 +13965,6 @@ class GameApp:
                 )
         else:
             self.clear_buttons()
-            if step == len(choices): 
-                if "step forward" in choices[step-1][1].lower():  
-                    self.label.config(text=ending_reflection)
-                else:
-                    self.label.config(text=ending_resistance)
 
     def clear_buttons(self):
         self.option1.pack_forget()
