@@ -7,6 +7,7 @@ date: 2077-01-01
 
 <!-- nothing to be afraid of, a little easter egg for curious visitors :-) if you want to start the research, provoke first a 404... -->
 
+
 <style>
   .container {
       text-align: center;
@@ -31,6 +32,7 @@ date: 2077-01-01
       gap: 20px;
       max-width: 800px;
       margin: auto;
+      margin-top: 20px;
   }
   .grid-item {
       background-color: #222;
@@ -53,14 +55,13 @@ date: 2077-01-01
     <h2>Réponds à la question pour débloquer le contenu</h2>
     <p>Quel est le mot de passe ?</p>
     <input type="password" id="password" class="password-input" placeholder="Entrez le mot de passe">
-    <button class="submit-btn" onclick="checkPassword()">Valider</button>
+    <button id="submit-btn" class="submit-btn">Valider</button>
     <p id="error-message" style="color: red; display: none;">Mot de passe incorrect.</p>
 </div>
 
 <div id="gif-container" class="hidden">
 
     <div class="grid-container">
-
         <div class="grid-item">
             <div class="tenor-gif-embed" data-postid="15336018859847704040" data-share-method="host" data-aspect-ratio="1.33155" data-width="100%">
                 <a href="https://tenor.com/view/telenoid-gif-15336018859847704040">Telenoid GIF</a>
@@ -102,23 +103,25 @@ date: 2077-01-01
             </div>
             <a class="audio-link" href="{{ site.url }}/files/misc/carolyns_finger.mp3">𝘩⃨⃰𝘪⃨⃰</a>
         </div>
-
     </div>
 
 </div>
 
 <script>
-  function checkPassword() {
-      var correctPassword = "monsecret";  // <-- Remplace ceci par ton mot de passe
-      var enteredPassword = document.getElementById("password").value;
-      var errorMessage = document.getElementById("error-message");
-      var gifContainer = document.getElementById("gif-container");
+  document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("submit-btn").addEventListener("click", function() {
+          var correctPassword = "monsecret";  // <-- Remplace ceci par ton mot de passe
+          var enteredPassword = document.getElementById("password").value;
+          var errorMessage = document.getElementById("error-message");
+          var gifContainer = document.getElementById("gif-container");
 
-      if (enteredPassword === correctPassword) {
-          gifContainer.classList.remove("hidden");
-          errorMessage.style.display = "none";
-      } else {
-          errorMessage.style.display = "block";
-      }
-  }
+          if (enteredPassword === correctPassword) {
+              gifContainer.style.display = "block";  // Affiche la section
+              gifContainer.classList.remove("hidden");
+              errorMessage.style.display = "none";
+          } else {
+              errorMessage.style.display = "block";
+          }
+      });
+  });
 </script>
