@@ -1,7 +1,7 @@
 ---
 title: "ḧ̸̢̧̡̛̯̜̬̦͙̺̟̝̯̺̮̜͈̲͙̦̼̲͙̬̯͓̭͈̹͚̺̗̗̤̻̹̣̲̺̼̯̼̹̳͙̗͔̪͖̱̣̳͍̹͚̃̀̔̓̔͊̿̽̆̋̊̄̎̐̄̌͂̊̈́̎̌͐̒̅̋̎̀͑̈̅̏̊͊̅̽̃̕͘͜͜͜͜͝͝ͅͅͅē̶̛̝͈̬͕̟͎̂̓̂̽͂̋̓͆͋͛̀̾͌͛͒͆̿͂͆̇̕͝a̴̢̧̨̧̡̢̛̙̪̝̘̣͉̜̤̫͉̟͔̯̝̗͇̙̟̮̜͔͍̠͓̘̾́̑̍̓̌̋̑̽̾̿̏̌̐͒̓̐͋͆̿̓̏̐̄͒͜͜͜͝͝v̵̧̛͉̞̳͎̖͍͑̎̋͒̇̾̑̔͌̒͂̒͂̒̌̋̀̏́͑̚͠͠ȩ̵̡̧̛̛̪̳̱̮̪̹͉̬͇̖̪̦̗̺̫̼͎̬͍̈́̉́́̃͋́͊͐̿́̍̈́̂̽́̿̓̓̕͝ň̶̢̛̙͍͍̟͊̾̔͑̏̓ ̷̡̨̧̡̨̨̛̺͉̼̤̜͚̩̘̙̼̠̞̫̺̪̘̻͚̥͉̳̻͚̲͓̞̣͖̹̫̩̘͚̘̤͈͓̗̱̭̥̫̼̖̜̤̝̻̬̤̙̥͋̄́͐̈́̅̌̓̎̔͗̿̄͒̅̆͛̉̅̽̆̂̾̏̀̄͒̀͒̑͒͊̍͐̐̕͜͠͝ͅo̴̢̻͓̦̠̹̞̫̤̻͈͔͙̼̮̥̘̖͕̲̯̱̲̣̮̣̦͒̏͐̽̆̈̀̌͋̃͛̀̑͊̎̀̉̏̾͆̏̍̑̓͋̄̽̓͛̅̉͌̓̀̅̓̆́̄̕̚̚͘̕͘͠͝͝͝ř̴̛̖̼̜̯̙̬͓̰̞͙̹̮̬͊̓̀́͋͋̉̚ ̶̧̢̧̧̡̛̛̛͉̮͔̳̺̥̳̰͍̹̩̪̱̞͇̭̞͎̘̮̼̲͙͍̦̻͐̑̓͑̿͊͊̆̈́͌̔̉̓̈́͑̀̒̄͛̓̈́̓̉̐̋̀̾̓̽́̐͑͐̑̋͋̀̍̉̑̾̃̿́̐̎̉̇̓̓͗̾̕͠͠͝͠͠L̸̢̡̛̛̦̮͖̬̲̖̤̹̇̉̽̐̈́͗́͌͐̏̏̔͛̊̐̈́͐͒͑̊͗̄̏̅̊̀̆͂́͘̚͝͝͠a̷̧̨̧̰͖̫̬̬̼͙̬̙̘͎̜͕͉͓̟̬̜̭̫͉̬͔͍̝̻̯̤͚͔͍̅̈́̊̔̔̎̈́͊̈́̐͐̓́̈́͆̇̑̎́͘͝ș̴̨̛̛͛̈́͋̌́̀̈́͌͊͛ ̸̢̨͎̗̹̬̟͎͍͚̜̙̜͕͔̯̮͓̲̟̻̗̻̼̬̞͙̜̳̤̻̹͎̰̫͓̤̦̥͍͈͎̬̝̼̿̾͌͐̄͠ͅͅṼ̸̢̨̡̨̧̧̡̛̜̹̪͍̱͍̮̭̠͖̘̥͇̳̠̘̞̼̳͉̲̦̺̹̗̟̦̦̠͔͙͙̬̼͎͇̰̙̜̣̘̥̗̝͔̹̊͌͊̒̄̀͋̃̑͗͊͋̊̓̏̄̓͗̀̑̈͛͌̉̎͛̏͘͘͝ͅͅȩ̷̛̳̫̪̬͚̲̻̭̥̞̜̟͎͙̭͇̞̝͇̺͉͙̬̜̜̘̼͕̫̗̼̥̻̘̜̩̙̐͋̊̃͊̐͌̎̆̐͛̔͘͜͝͠g̴̢̬̝͎̒̅̽̍͂̕ḁ̴̢̡̧̛̝͕̬̬̬͕͇̜͇̩̦͈̣͈͖̬̫͓͇̱̯̼̺̀̇̃̅̓́̔́̏͂̊̇̿̈̍̿͋͌̀̈́̊̌̏̂̀̒̌̑̈̀͂͑͑͗͊̂͂͐̈́̉̚̚͘̚͜͝͝͠ͅş̵̧̨͎̩̝̻͓̖͍̬̦̼͙̥̪̯͎͖̺͓̦͍̗̦̹̻̰͎͙̼̖͚̠͕̤̝̻͓̣̖̘̏͌͆̆̅̈́́̈́͛̾͐̕͜͜"
 collection: teaching
-permalink: /teaching/HA0O0X
+permalink: /teaching/HAX0O0X
 date: 2077-01-01
 ---
 
@@ -9,8 +9,8 @@ date: 2077-01-01
 
 <style>
   body {
-      background-color: black;
-      color: white;
+      background-color: White;
+      color: Black;
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 20px;
@@ -124,14 +124,28 @@ date: 2077-01-01
 
 <script>
     function checkAnswer() {
-        let answer = document.getElementById("answer").value.trim().toLowerCase();
-        let correctAnswer = "01101000 01101001";  // Correspond à "hi" en binaire
+        let answer = document.getElementById("answer").value.trim().replace(/\s+/g, ''); 
+        let correctAnswer = "0110100001101001";  // Correspond à "hi" en binaire sans espace
+
+        console.log("Réponse entrée :", answer); // Vérifier la valeur entrée
+        console.log("Réponse correcte attendue :", correctAnswer);
 
         if (answer === correctAnswer) {
             document.getElementById("puzzle").classList.add("hidden");
             document.getElementById("gif-container").classList.remove("hidden");
         } else {
-            document.getElementById("error-message").classList.remove("hidden");
+            let errorMessage = document.getElementById("error-message");
+            errorMessage.classList.remove("hidden");
+            
+            // Disparition du message d'erreur après 2s
+            setTimeout(() => {
+                errorMessage.classList.add("hidden");
+            }, 2000);
         }
     }
+
+    // Ajoute un écouteur pour masquer le message d'erreur quand l'utilisateur commence à taper
+    document.getElementById("answer").addEventListener("input", function() {
+        document.getElementById("error-message").classList.add("hidden");
+    });
 </script>
