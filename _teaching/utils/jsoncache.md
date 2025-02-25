@@ -6,7 +6,6 @@ date: 2077-01-01
 ---
 
 <!-- nothing to be afraid of,  a little easter egg for curious visitors :-) if you want to start the research, provoke first a 404... -->
-
 <style>
   body {
       background-color: White;
@@ -71,7 +70,7 @@ date: 2077-01-01
     <div class="question-box">
         <input type="text" id="answer" class="input-box" placeholder="enter your answer...">
         <br>
-        <button onclick="checkAnswer()" class="submit-btn">submit</button>
+        <button id="submit-btn" class="submit-btn">submit</button>
         <p id="error-message" class="error-message hidden">mauvaise réponse</p>
     </div>
 </div>
@@ -123,29 +122,31 @@ date: 2077-01-01
 </div>
 
 <script>
-    function checkAnswer() {
-        let answer = document.getElementById("answer").value.trim().replace(/\s+/g, ''); 
-        let correctAnswer = "0110100001101001";  // Correspond à "hi" en binaire sans espace
+    document.addEventListener("DOMContentLoaded", function () {
+        function checkAnswer() {
+            let answer = document.getElementById("answer").value.trim().replace(/\s+/g, ''); 
+            let correctAnswer = "0110100001101001";  // Correspond à "hi" en binaire sans espace
 
-        console.log("Réponse entrée :", answer); // Vérifier la valeur entrée
-        console.log("Réponse correcte attendue :", correctAnswer);
+            console.log("Réponse entrée :", answer);
+            console.log("Réponse correcte attendue :", correctAnswer);
 
-        if (answer === correctAnswer) {
-            document.getElementById("puzzle").classList.add("hidden");
-            document.getElementById("gif-container").classList.remove("hidden");
-        } else {
-            let errorMessage = document.getElementById("error-message");
-            errorMessage.classList.remove("hidden");
-            
-            // Disparition du message d'erreur après 2s
-            setTimeout(() => {
-                errorMessage.classList.add("hidden");
-            }, 2000);
+            if (answer === correctAnswer) {
+                document.getElementById("puzzle").classList.add("hidden");
+                document.getElementById("gif-container").classList.remove("hidden");
+            } else {
+                let errorMessage = document.getElementById("error-message");
+                errorMessage.classList.remove("hidden");
+
+                setTimeout(() => {
+                    errorMessage.classList.add("hidden");
+                }, 2000);
+            }
         }
-    }
 
-    // Ajoute un écouteur pour masquer le message d'erreur quand l'utilisateur commence à taper
-    document.getElementById("answer").addEventListener("input", function() {
-        document.getElementById("error-message").classList.add("hidden");
+        document.getElementById("answer").addEventListener("input", function() {
+            document.getElementById("error-message").classList.add("hidden");
+        });
+
+        document.getElementById("submit-btn").addEventListener("click", checkAnswer);
     });
 </script>
