@@ -6,6 +6,7 @@ date: 2077-01-01
 ---
 
 <!-- nothing to be afraid of,  a little easter egg for curious visitors :-) if you want to start the research, provoke first a 404... -->
+
 <style>
   body {
     background-color: white;
@@ -114,6 +115,7 @@ date: 2077-01-01
   </div>
 </div>
 
+{% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const answerInput = document.getElementById("answer");
@@ -142,6 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
+{% endraw %}
 
 <!-- Chargement du script d'intégration des GIFs Tenor -->
 <script type="text/javascript" src="https://tenor.com/embed.js"></script>
