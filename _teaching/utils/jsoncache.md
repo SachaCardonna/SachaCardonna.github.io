@@ -42,16 +42,16 @@ date: 2077-01-01
   }
   .input-box {
       padding: 10px;
-      border: 2px solid cyan;
-      background: black;
-      color: white;
+      border: 2px solid black;
+      background: white;
+      color: black;
       font-size: 18px;
       text-align: center;
   }
   .submit-btn {
       padding: 10px 20px;
-      background-color: cyan;
-      color: black;
+      background-color: black;
+      color: white;
       border: none;
       cursor: pointer;
       font-size: 18px;
