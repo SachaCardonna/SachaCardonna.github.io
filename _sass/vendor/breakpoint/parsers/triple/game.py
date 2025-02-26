@@ -13740,7 +13740,7 @@ class GameApp:
         )
         self.label.pack(expand=True)
 
-        self.root.after(15000, self.start_game)
+        self.root.after(25000, self.start_game)
 
     def start_game(self):
         self.label.config(
