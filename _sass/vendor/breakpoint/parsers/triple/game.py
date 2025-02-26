@@ -13574,28 +13574,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import tkinter as tk
 import random
 import time
@@ -13730,7 +13708,6 @@ class GameApp:
             "you don't remember your name, nor how you arrived here.\n"
             "the vast emptiness surrounds you, an endless void stretching in every direction.\n\n"
             "were you sent here for a purpose, or is this a cruel trick of fate?\n"
-            "the only thing that remains is the choice before you.\n\n"
             "the stars whisper secrets lost to time.",
             fg="white",
             bg="black",
@@ -13774,7 +13751,7 @@ class GameApp:
 
     def choice_0(self):
         self.label.config(
-            text="you try to call your family, but the connection is weak in deep space."
+            text="you try to call your family, but the connection is weak in deep space. you're just too far now."
         )
         self.clear_buttons()
 
@@ -13844,22 +13821,22 @@ class GameApp:
                 "leave it alone.",
             ),
             (
-                "the stars beyond the window seem to shift, forming patterns. do you try to understand?",
-                "trace them with your fingers.",
-                "look away.",
+                "there is stars beyond this panel. they are shifting, forming patterns. what do you do?",
+                "try to trace the forms with your fingers.",
+                "try to break the panel.",
             ),
             (
-                f"it is a music partition. then, a voice echoes, distorted, calling '{self.personality.name}'. do you respond?",
+                f"it makes a music partition. then, a voice echoes, distorted, calling {self.personality.name}. do you respond?",
                 "answer cautiously.",
                 "remain silent.",
             ),
             (
-               "the voice stops, and your heavy breathing grows more intense, blurring your vision. do you try to focus on your breathing or your sight?"
+               "the voice stops, and your heavy breathing grows more intense, blurring your vision. do you try to focus on your breathing or your sight?",
                 "breath.",
                 "sight.",
             ),
             (
-                "a familiar melody suddenly pulls you from the depths of sleep. you don’t remember falling asleep, yet here you are, waking to its soft tune. do you let it continue?",
+                "suddenly, a familiar melody suddenly pulls you from the depths of sleep. you don’t remember falling asleep, yet here you are, waking to its soft tune. do you let it continue?",
                 "hum along.",
                 "turn it off.",
             ),
@@ -13869,58 +13846,55 @@ class GameApp:
                 "do nothing.",
             ),
             (
-                "you glance at the dashboard. an old photograph sits there, but as you reach for it, a shiver runs down your spine. do you pick it up?",
+                "you glance at the dashboard. an old photograph sits there. the edges are worn, and something about it feels familiar. as you reach for it, your fingertips tremble. do you pick it up?",
                 "turn it over and look at the back.",
-                "get up from your chair.",
+                "leave it where it is.",
             ),
             (
-                "your reflection in the window doesn’t move when you do. it stares at you with empty eyes, its mouth slightly parted, as if whispering. do you look closer?",
+                "the photograph feels cold, almost unnatural. on the back, a date is scrawled in ink, but it’s smudged. before you can focus, you see movement in the glass in front of you. your reflection—it's slightly out of sync. do you look closer?",
                 "lean in, heart pounding.",
-                "look away, refusing to meet its gaze.",
+                "turn away, refusing to meet its gaze.",
             ),
             (
-                "it starts looking at you, while the ship hums around you, rhythmic and steady—until it isn’t. the sound distorts, twisting into something alive, something breathing. it isn’t just the ship. it’s something else. do you listen?",
+                "your reflection doesn't blink. its mouth moves silently, forming words you cannot hear. at the same moment, the ship’s hum changes. it's no longer mechanical. it breathes. it’s alive. do you focus on the sound?",
                 "match your breathing to it, feeling its presence.",
                 "step back, pulse quickening.",
             ),
             (
-                "the hum deepens, reverberating inside your chest. your vision swims. it’s calling you, a voice without words, a presence without form. something is waiting. something is watching. do you answer?",
+                "the hum deepens, reverberating inside your chest. your vision distorts, as if the air itself is shifting. the reflection starts to whisper now, a voice without sound, forming your name. something is waiting. something is watching. do you answer?",
                 "whisper back.",
-                "resist.",
+                "resist, forcing yourself to stay silent.",
             ),
             (
-                "the air grows heavy. your reflection in the glass watches, waiting for your decision. if you step forward and accept it, you will no longer be alone—but will you still be yourself? \n if you resist, you may remain the same, or lose whatever is left of you. \n There is no turning back now.",
+                "the reflection steps forward. no, it's not a reflection anymore. it's you. or something like you. it tilts its head, waiting. if you accept, you will no longer be alone—but will you still be yourself?\n if you resist, you may remain, or lose whatever is left of you.\n there is no turning back now.",
                 "step forward.",
-                "close your eyes.",
+                "close your eyes, rejecting it.",
             )
         ]
 
         failure_texts = [
             "you ignore the lighthouse. the fog thickens, and soon, you can't see anything at all.",
-            "you circle the lighthouse, but there is no other entrance. the wind howls around you.",
-            "you take right, and fall into an infinite void. after all, maybe it is the only way to find peace.",
-            "you wait too long, and the child vanishes before your eyes, leaving only silence.",
-            "you hesitate to speak, and he turns away. a deep sadness settles in the room.",
-            "you say nothing, and the child lowers his gaze. a long silence follows.",
-            "you refuse to turn around, and the child fades away, leaving you alone once more.",
-            "you wait instead of approaching, and the house dissolves like mist in the wind.",
-            "you run, but the house is always just beyond your reach, disappearing into the void.",
-            "you turn back, but the path behind you no longer exists. you are lost in the nothingness.",
-            "the hum continues, but your hesitation drowns it in uncertainty.",
-            "the panel flickers and then fades. you will never know what lay beneath.",
-            "the stars keep shifting, leaving you behind in their unknown dance.",
-            "the voice fades into static, lost forever.",
-            "the fog on your sight thickens, obscuring everything beyond.",
-            "the melody cuts off abruptly, leaving a void of silence behind.",
-            "the blinking light stops, its purpose lost in time.",
-            "you got up but your legs were weak. you fall to the ground, unable to move.",
-            "there are multiple versions of you surrounding you. which one is real? are you?",
-            "the heartbeat of the ship slows, then disappears entirely.",
-            "you turn off the melody, and the silence that follows is absolute. something has changed. you are no longer where you were.",
-            "you hesitate to press the blinking light. the pulsing quickens, more frantic, before suddenly stopping. it will not call you again.",
-            "you leave the photograph untouched, but as you look away, the image changes. the person in it is staring at you now.",
-            "you lean in closer to your reflection, but it does not blink. instead, its mouth moves, paralyzing you.",
-            "you step away from the ship’s hum, but it follows you. a rhythmic, knowing breath, always just behind you."
+            "you circle the lighthouse, but there is no other entrance. the wind howls around you, and the door remains closed.",
+            "you take the right door, but there is nothing beyond it. just a void. you step forward, and suddenly, you are falling.",
+            "you wait too long. the child fades into the darkness, leaving nothing behind.",
+            "you hesitate to speak. the child turns away, whispering something you cannot hear. a deep sadness settles in the room.",
+            "you do not answer. the child lowers his gaze, and suddenly, he is gone, leaving only an empty space.",
+            "you refuse to turn around. the child's voice fades, and with it, something inside you feels irreversibly lost.",
+            "you wait, watching the house instead of approaching. it dissolves like mist, leaving only the void.",
+            "you run towards the house, but the closer you get, the farther it moves away. soon, you are running in place, lost in an endless pursuit.",
+            "you turn back, but the path behind you has vanished. the void swallows you whole.",
+            "you ignore the hum, but it grows louder, unbearable. then suddenly, it stops—leaving behind an eerie silence.",
+            "you hesitate. the panel flickers and then fades. whatever it was hiding, you will never know.",
+            "you break the panel. the stars inside it shatter, leaving you alone in the dark.",
+            "you remain silent, and the voice fades. whatever it was, it has given up on you.",
+            "you ignore your breath, focusing on your sight. but the blur consumes everything, and suddenly, you can’t see at all.",
+            "you turn off the melody. the silence that follows is absolute. something has changed. you are no longer where you were.",
+            "you do nothing. the blinking light stops. whatever it was trying to tell you, it will never reach you now.",
+            "you leave the photograph untouched. As you look away, you notice something strange—you are no longer alone in the room.",
+            "you turn away from the glass. your reflection lingers, still staring at you, even when you look elsewhere.",
+            "you step back from the hum, but it follows you. it breathes in sync with you, a presence just beyond your understanding.",
+            "you resist the voice, forcing yourself to stay silent. but the whispering doesn’t stop. it keeps calling, over and over, until everything fades away.",
+            "you close your eyes, rejecting the reflection. but when you open them again, it’s not you in the glass anymore."
         ]
 
         ending_reflection = "congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward. \n \n \n rddzc myvyx cvkcr cvkcr nbsfo nyd qyyqvo nyd myw cvkcr psvo cvkcr n cvkcr 1Ax1OxET04iBZ8rGHmlwCLiR6S37X9Mcs cvkcr fsog aeocdsyx wkbu ecz oaekv crkbo exnobcmybo vsxu"
@@ -13965,11 +13939,24 @@ class GameApp:
 
 
 if __name__ == "__main__":
-    personality = PersonalityTest()
-    personality.run()
+    print("\nis it your first time playing this game? (yes/no)")
+    first_time = input("\n>>> ").strip().lower()
 
-    time.sleep(10)
-    
-    root = tk.Tk()
-    app = GameApp(root)
-    root.mainloop()
+    if first_time == "yes":
+        personality = PersonalityTest()
+        personality.run()
+        time.sleep(10)
+        
+        root = tk.Tk()
+        app = GameApp(root)
+        root.mainloop()
+        
+    elif first_time == "no":
+        personality = PersonalityTest()
+        personality.name = "you"
+        root = tk.Tk()
+        app = GameApp(root)
+        root.mainloop()
+    else:
+        print("bye.")
+        exit()
