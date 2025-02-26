@@ -14,7 +14,7 @@ Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
 Correction of exercise sheets: 
  - TD1 - Cauchy problem, Euler & Runge schemes ([Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD1_correction.pdf))
- - TD2 - Multistep schemes & stiff equations ([Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD2_correctionn.pdf))
+ - TD2 - Multistep schemes & stiff equations ([Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD2_correction.pdf))
 
 Correction of pratical works:
 - TP1 - Geometrical interpretation of an ODE and Euler scheme ([IPYNB]({{ site.url }}/files/teaching/HAX604X/TP1_correction.ipynb))
