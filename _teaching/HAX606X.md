@@ -10,6 +10,8 @@ date: 2025-01-01
 Documents
 ======
 
+Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
+
 Lecture notes: [Notes]({{ site.url }}/files/teaching/HAX606X/optim_L3_main.pdf)
 
 Pratical works:
