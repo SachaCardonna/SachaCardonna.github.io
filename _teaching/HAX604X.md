@@ -12,16 +12,14 @@ Documents
 
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
-Lecture notes: [Notes]({{ site.url }}/files/teaching/HAX604X/coursequadiff.pdf)
+Correction of exercise sheets: 
+ - TD1 - Cauchy problem, Euler & Runge schemes ([Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD1_correction.pdf))
+ - TD2 - Multistep schemes & stiff equations ([Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD2_correctionn.pdf))
 
-Exercise sheets: 
- - TD1 - Cauchy problem, Euler & Runge schemes ([Worksheet]({{ site.url }}/files/teaching/HAX604X/td1_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD1_correction.pdf))
- - TD2 - Multistep schemes & stiff equations ([Worksheet]({{ site.url }}/files/teaching/HAX604X/td2_equadiff.pdf) & [Solutions]({{ site.url }}/files/teaching/HAX604X/HAX604X_TD2_correctionn.pdf))
-
-Pratical works:
-- TP1 - Geometrical interpretation of an ODE and Euler scheme ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp1_equadiff.pdf) & [IPYNB]({{ site.url }}/files/teaching/HAX604X/TP1_correction.ipynb))
-- TP2 - Euler, Midpoint, Heun & RK4 schemes ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp2_equadiff.pdf) & [IPYNB]({{ site.url }}/files/teaching/HAX604X/TP2_correction.ipynb))
-- TP3 - Crank-Nicolson scheme ([Worksheet]({{ site.url }}/files/teaching/HAX604X/tp3_equadiff.pdf) & [IPYNB]({{ site.url }}/files/teaching/HAX604X/TP3_correction.ipynb))
+Correction of pratical works:
+- TP1 - Geometrical interpretation of an ODE and Euler scheme ([IPYNB]({{ site.url }}/files/teaching/HAX604X/TP1_correction.ipynb))
+- TP2 - Euler, Midpoint, Heun & RK4 schemes ([IPYNB]({{ site.url }}/files/teaching/HAX604X/TP2_correction.ipynb))
+- TP3 - Crank-Nicolson scheme ([IPYNB]({{ site.url }}/files/teaching/HAX604X/TP3_correction.ipynb))
 
 ***
 
