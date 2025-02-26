@@ -12,10 +12,6 @@ Documents
 
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
-Solutions of pratical works:
-- TP1 - Dichotomy, Newton, Golden Section ([IPYNB]({{ site.url }}/files/teaching/HAX606X/TP1_correction.ipynb))
-
-
 ***
 
 Contents
