@@ -13635,7 +13635,6 @@ class PersonalityTest:
         with open(filename, "w", encoding="utf-8") as file:
             file.write(f"hi {self.name}.\n\n")
 
-            # question sur le temps
             if self.answers["time"] in ["yes", "y", "oui"]:
                 file.write(
                     "time slips through your fingers like sand. you feel it passing, unstoppable, "
@@ -13647,7 +13646,6 @@ class PersonalityTest:
                     "instead, you let it flow around you like a river that never truly stops.\n\n"
                 )
 
-            # question sur le passé
             if self.answers["change_past"] in ["yes", "y", "oui"]:
                 file.write(
                     "you often find yourself lost in thoughts of what could have been. "
@@ -13659,7 +13657,6 @@ class PersonalityTest:
                     "mistakes, triumphs, regrets… all form the foundation of who you are today.\n\n"
                 )
 
-            # question sur la mémoire
             if self.answers["memories"] in ["first", "1", "memories shape us"]:
                 file.write(
                     f"memories carve deep paths within you, defining the roads you take since {self.age}. "
@@ -13671,13 +13668,11 @@ class PersonalityTest:
                     "not fixed moments, but reflections of who you choose to become.\n\n"
                 )
 
-            # question sur la paix
             file.write(
                 f"that feeling of peace... when was it? you remember {self.answers['peace']}, "
                 "a fleeting moment etched into your mind. do you wish you could return to it, or is it still waiting ahead?\n\n"
             )
 
-            # question sur les regrets
             if self.answers["regret"] in ["yes", "y", "oui"]:
                 file.write(
                     "some regrets never fade. they linger in the corners of your mind, resurfacing when you least expect them. "
@@ -13689,7 +13684,6 @@ class PersonalityTest:
                     "you choose to move forward, accepting the choices that have led you here.\n\n"
                 )
 
-            # question sur la peur d'être oublié
             if self.answers["fear"] in ["yes", "y", "oui"]:
                 file.write(
                     "you fear being forgotten, as if your existence depends on the memories of others. "
@@ -13701,7 +13695,6 @@ class PersonalityTest:
                     "you exist, here and now, and that is enough.\n\n"
                 )
 
-            # question sur les rêves (divisée en deux parties)
             if self.answers["dream"] in ["yes", "y", "oui"] and self.answers["dream_place"]:
                 file.write(
                     f"and the dreams… you often see yourself in {self.answers['dream_place']}, "

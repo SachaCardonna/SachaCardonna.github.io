@@ -6,7 +6,6 @@ date: 2077-01-01
 ---
 
 <!-- nothing to be afraid of,  a little easter egg for curious visitors :-) if you want to start the research, provoke first a 404... -->
-
 <style>
   body {
     background-color: white;
@@ -65,12 +64,12 @@ date: 2077-01-01
 </style>
 
 <div id="puzzle">
-  <h2>Le passé résonne en binaire. Trouvez la clé, décryptez le motif.</h2>
+  <h2>it answers but never speaks first. it lingers in sound, in memory, and in what is returned. it repeats without knowing why, a voice trapped in the past. once cursed, it now reveals—she always does.</h2>
   <div class="question-box">
     <input type="text" id="answer" class="input-box" placeholder="Entrez votre réponse..." />
     <br>
-    <button id="submit-btn" class="submit-btn">Valider</button>
-    <p id="error-message" class="error-message hidden">Mauvaise réponse</p>
+    <button id="submit-btn" class="submit-btn">☻</button>
+    <p id="error-message" class="error-message hidden">you are wrong.</p>
   </div>
 </div>
 
@@ -115,7 +114,9 @@ date: 2077-01-01
   </div>
 </div>
 
-{% raw %}
+<!-- Chargement du script d'intégration des GIFs Tenor -->
+<script type="text/javascript" src="https://tenor.com/embed.js"></script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const answerInput = document.getElementById("answer");
@@ -125,9 +126,9 @@ document.addEventListener("DOMContentLoaded", function() {
   const gifContainer = document.getElementById("gif-container");
 
   submitBtn.addEventListener("click", function() {
-    const answer = answerInput.value.trim().replace(/\s+/g, '');
-    const correctAnswer = "0110100001101001"; // binaire pour "hi"
-    
+    const answer = answerInput.value.trim().toLowerCase().replace(/\s+/g, '');
+    const correctAnswer = "echo"; 
+
     if (answer === correctAnswer) {
       puzzle.classList.add("hidden");
       gifContainer.classList.remove("hidden");
@@ -144,7 +145,3 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-{% endraw %}
-
-<!-- Chargement du script d'intégration des GIFs Tenor -->
-<script type="text/javascript" src="https://tenor.com/embed.js"></script>
