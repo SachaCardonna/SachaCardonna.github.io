@@ -64,9 +64,9 @@ date: 2077-01-01
 </style>
 
 <div id="puzzle">
-  <h2>it answers but never speaks first. it lingers in sound, in memory, and in what is returned. it repeats without knowing why, a voice trapped in the past. once cursed, it now reveals—she always does.</h2>
+  <h2> <br> <br>answers but never speaks first. lingers in sound, in memory, and in what is returned. <br>repeats without knowing why, a voice trapped in the past. <br>once cursed, it now reveals—she always does.</h2>
   <div class="question-box">
-    <input type="text" id="answer" class="input-box" placeholder="Entrez votre réponse..." />
+    <input type="text" id="answer" class="input-box" placeholder="enter your answer..." />
     <br>
     <button id="submit-btn" class="submit-btn">☻</button>
     <p id="error-message" class="error-message hidden">you are wrong.</p>
