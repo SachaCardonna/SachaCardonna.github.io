@@ -16,6 +16,10 @@ Documents
 
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
+Exams & midterms: 
+ - Midterm 1 - Real functions & continuity ([Exam]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC1_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC1_correction.pdf))
+ - Midterm 2 - Continuity, differentiability & integration ([Exam]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC2_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/HAS101X_CC2_correction.pdf))
+
 Exam preparations: 
  - Midterm 1.1 - Sets, Trigonometry, Real functions ([Exam]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS101X/Interro_fonctions_corrige.pdf))
  - Midterm 1.2 - Real functions & continuity ([Kahoot](https://create.kahoot.it/share/has101x-fonctions-reelles-et-continuite/a66bea4c-5679-4cd7-8d5b-13997e616f8d))
