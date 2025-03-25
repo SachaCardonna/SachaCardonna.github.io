@@ -22,7 +22,7 @@ Internships
 
 Advised by François Vilar & Fabien Marche.
 
-[Report]({{ site.url }}/files/projects/DG-FV4SW.pdf) & [Slides]({{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf).
+[Slides]({{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf).
 
 ***
 
