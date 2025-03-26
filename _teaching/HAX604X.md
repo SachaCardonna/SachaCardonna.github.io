@@ -7,6 +7,10 @@ venue: "Montpellier Faculty of Sciences"
 date: 2025-01-01
 ---
 
+<b>Satisfaction survey</b>: [here](https://docs.google.com/forms/d/e/1FAIpQLScdkBjpwv2svpGO8qJ8oxLAolF0htzc6mEiZ_Z5iYd6BGrASA/viewform?usp=dialog).
+
+***
+
 Documents
 ======
 
