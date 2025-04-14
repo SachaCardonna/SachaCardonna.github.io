@@ -15,7 +15,7 @@ I'm also a teaching assistant for the Department of Mathematics at [Montpellier 
 Research interests
 ======
 
-During my thesis, I design and implement high-order methods on water waves models, especially nonlinear Shallow-Water equations (NSW), which represent a nonlinear hyperbolic system with source term: 
+During my thesis, I design and implement arbitrary-order methods for partial differential equations arising in the modeling of water waves and wave–structure interactions. For instance, one of the systems I have studied extensively is the nonlinear shallow water equations (NSW), which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
 \begin{cases}
@@ -29,10 +29,10 @@ Visitors can find some numerical results and simulation in [Softwares](https://s
 
 More generally, I am interested in modeling and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
 
-- <b>Models</b>. Conservation laws, non-linear hyperbolic systems of PDEs, models coupling.
-- <b>Numerics</b>. Discontinuous Galerkin & Finite-Volume schemes, well-balanced schemes, ALE approaches.
-- <b>Applications</b>. Fluid mechanics, nonlinear Shallow-Water equations, dispersive PDEs.
-- <b>Scientific computing</b>. Object oriented and generic programming, parallel computing.
+- <b>Modeling</b>. Conservation laws, non-linear hyperbolic systems, dispersive equations, elliptic equations, models coupling...
+- <b>Numerical analysis</b>. Finite elements & discontinuous Galerkin methods, finite volume schemes, monolithic DG-FV subcells & hybrid high-order methods, well-balancing, entropy-preserving schemes, ALE approaches...
+- <b>Scientific computing</b>. Object oriented and generic programming, parallel computing...
+- <b>Applications</b>. Fluid mechanics, nonlinear shallow water equations, Green-Naghdi equations, wave-structure interactions...
 
 ![WaveBox Simulation]({{ site.baseurl }}/images/tsunami2d_2.png)
 
