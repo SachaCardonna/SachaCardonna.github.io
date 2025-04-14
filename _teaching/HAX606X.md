@@ -9,6 +9,8 @@ date: 2025-01-01
 
 <b>Satisfaction survey</b>: [here](https://docs.google.com/forms/d/e/1FAIpQLSf74ULRnuyJpjOjKKE8Qx2Z63KKHxqG7n_Y3HVjio56ZjmJ0A/viewform?usp=dialog).
 
+
+TP5 : [here]({{ site.url }}/files/teaching/HAX606X/tp5.pdf).
 ***
 
 Documents
