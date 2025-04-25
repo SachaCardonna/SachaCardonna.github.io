@@ -100,8 +100,8 @@ date: 2077-01-01
       <a class="audio-link" href="{{ site.url }}/files/misc/carolyns_fingers.mp3">んﾉ</a>
     </div>
     <div class="grid-item">
-      <div class="tenor-gif-embed" data-postid="4623647857046952704" data-share-method="host" data-aspect-ratio="0.559322" data-width="100%">
-        <a href="https://tenor.com/view/pisdo-gif-4623647857046952704">Pisdo GIF</a>
+      <div class="tenor-gif-embed" data-postid="11874127326644298567" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+        <a href="https://tenor.com/view/man-old-creepy-horror-antichrist-gif-11874127326644298567">Man Old Sticker</a>
       </div>
       <a class="audio-link" href="{{ site.url }}/files/misc/carolyns_finger.mp3">ዘጎ</a>
     </div>
