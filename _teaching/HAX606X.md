@@ -7,7 +7,7 @@ venue: "Montpellier Faculty of Sciences"
 date: 2025-01-01
 ---
 
-<b>Satisfaction survey</b>: [here](https://docs.google.com/forms/d/e/1FAIpQLSf74ULRnuyJpjOjKKE8Qx2Z63KKHxqG7n_Y3HVjio56ZjmJ0A/viewform?usp=dialog).
+<b>Satisfaction survey</b>: opinions of students on my teachings ([Summary]({{ site.url }}/files/teaching/HAX606X/survey_HAX606X.pdf) & [All answers](https://docs.google.com/spreadsheets/d/1DyxQ35Q87XlJb4_tCRzvcL3QfUoOaHuBOW0VeYgIrRY/edit?usp=sharing)).
 
 ***
 
