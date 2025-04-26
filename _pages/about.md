@@ -38,7 +38,7 @@ More generally, I am interested in modeling and numerical analysis of partial di
 
 News
 ======
-- I will participate at the [CIMAV 2025](https://cimav2025.sciencesconf.org) conference in May, held in Aussois, and I am also planning to attend [ICOSAHOM 2025](https://icosahom2025.org) in July, which will take place in Montréal, Canada.
+- I will participate at the [CIMAV 2025](https://cimav2025.sciencesconf.org) conference in May, held in Aussois, and I am also planning to make a presentation at [ICOSAHOM 2025](https://icosahom2025.org) in July, which will take place in Montréal, Canada.
 - I started writing my first articles, in collaboration with A. Haidar and my thesis directors, see [Research](https://sachacardonna.github.io/research) for more details. 
 
 
