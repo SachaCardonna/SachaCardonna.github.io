@@ -139,17 +139,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const answer = answerInput.value.trim().toLowerCase().replace(/\s+/g, '');
     const correctAnswer = "echo"; 
 
-    if (answer === correctAnswer) {
+if (answer === correctAnswer) {
   puzzle.classList.add("hidden");
   gifContainer.classList.remove("hidden");
-  gifContainer.style.display = "block"; 
+  gifContainer.style.display = "flex"; // ← ici mets "flex" et pas "block"
 } else {
-      errorMessage.classList.remove("hidden");
-      setTimeout(function() {
-        errorMessage.classList.add("hidden");
-      }, 2000);
-    }
-  });
+  errorMessage.classList.remove("hidden");
+  setTimeout(function() {
+    errorMessage.classList.add("hidden");
+  }, 2000);
+};
 
   answerInput.addEventListener("input", function() {
     errorMessage.classList.add("hidden");
