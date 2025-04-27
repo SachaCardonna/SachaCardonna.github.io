@@ -140,9 +140,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const correctAnswer = "echo"; 
 
     if (answer === correctAnswer) {
-      puzzle.classList.add("hidden");
-      gifContainer.classList.remove("hidden");
-    } else {
+  puzzle.classList.add("hidden");
+  gifContainer.classList.remove("hidden");
+  gifContainer.style.display = "block"; 
+} else {
       errorMessage.classList.remove("hidden");
       setTimeout(function() {
         errorMessage.classList.add("hidden");
