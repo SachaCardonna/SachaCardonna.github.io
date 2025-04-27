@@ -64,20 +64,6 @@ date: 2077-01-01
     color: red;
     margin-top: 10px;
   }
-  #puzzle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-#gif-container {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 </style>
 
 <div id="puzzle">
@@ -146,16 +132,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const answer = answerInput.value.trim().toLowerCase().replace(/\s+/g, '');
     const correctAnswer = "echo"; 
 
-if (answer === correctAnswer) {
-  puzzle.classList.add("hidden");  
-  gifContainer.classList.remove("hidden");  
-  gifContainer.style.display = "flex";  
-} else {
-  errorMessage.classList.remove("hidden");
-  setTimeout(function() {
-    errorMessage.classList.add("hidden");
-  }, 2000);
-}
+    if (answer === correctAnswer) {
+      puzzle.classList.add("hidden");
+      gifContainer.classList.remove("hidden");
+    } else {
+      errorMessage.classList.remove("hidden");
+      setTimeout(function() {
+        errorMessage.classList.add("hidden");
+      }, 2000);
+    }
+  });
 
   answerInput.addEventListener("input", function() {
     errorMessage.classList.add("hidden");
