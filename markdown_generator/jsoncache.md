@@ -71,6 +71,13 @@ date: 2077-01-01
   align-items: center;
   min-height: 100vh;
 }
+#gif-container {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 </style>
 
 <div id="puzzle">
@@ -140,15 +147,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const correctAnswer = "echo"; 
 
 if (answer === correctAnswer) {
-  puzzle.classList.add("hidden");
-  gifContainer.classList.remove("hidden");
-  gifContainer.style.display = "flex"; // ← ici mets "flex" et pas "block"
+  puzzle.classList.add("hidden");  
+  gifContainer.classList.remove("hidden");  
+  gifContainer.style.display = "flex";  
 } else {
   errorMessage.classList.remove("hidden");
   setTimeout(function() {
     errorMessage.classList.add("hidden");
   }, 2000);
-};
+}
 
   answerInput.addEventListener("input", function() {
     errorMessage.classList.add("hidden");
