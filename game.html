@@ -1,0 +1,312 @@
+---
+layout: null       
+permalink: /you/shouldnt/be/here/  
+sitemap: false    
+published: true    
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>you shouldn't be here.</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #container {
+            width: 600px;
+            text-align: center;
+            background: #000;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #label {
+            white-space: pre-wrap;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background: #222;
+            color: white;
+            min-width: 120px;
+        }
+
+        .input-text {
+            padding: 8px;
+            font-size: 16px;
+            width: calc(100% - 20px);
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: none;
+            background: #111;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="label"></div>
+        <div id="buttons"></div>
+    </div>
+    <script>
+        // Questionnaire definitions
+        const questions = [
+            { key: 'name', q: "what is your name?", type: 'text' },
+            { key: 'age', q: "how old are you?", type: 'text' },
+            { key: 'time', q: "do you ever feel like time is slipping away?", type: 'yesno' },
+            { key: 'change_past', q: "if you could change one moment from your past, would you?", type: 'yesno' },
+            { key: 'memories', q: "do you believe memories shape who we are, or do we shape our memories?", type: 'choice', choices: ['we shape them', 'they shape us'] },
+            { key: 'peace', q: "when was the last time you felt truly at peace?", type: 'text' },
+            { key: 'dream', q: "do you ever dream of a place you've never been?", type: 'yesno' },
+            { key: 'dream_place', q: "what is this place?", type: 'text', conditionalKey: 'dream', conditionalValue: ['yes', 'y', 'oui'] },
+            { key: 'regret', q: "do you regret something deeply?", type: 'yesno' },
+            { key: 'fear', q: "do you fear being forgotten?", type: 'yesno' },
+            { key: 'death_fear', q: "do you fear death?", type: 'yesno' },
+            { key: 'deepest_fear', q: "what is your deepest fear?", type: 'text' },
+            { key: 'purpose', q: answers => `what the fuck are you doing here ${answers.name}?`, type: 'text' }
+        ];
+        let answers = {};
+
+        // Story branches
+        const branches = [
+            ["a fragment of your past emerges. you see a lighthouse in the distance. what do you do?", ["walk towards it.", "ignore it and keep walking."]],
+            ["the lighthouse door is ajar. do you enter?", ["step inside.", "circle around it first."]],
+            ["inside, the air is heavy with dust. two doors stand before you. which do you take?", ["go through the left door.", "go through the right door."]],
+            ["the right door creaks open. a child stands in the dim light, facing away. do you call out?", ["say 'hello'.", "wait and observe."]],
+            ["the child turns around. it's... you, from years ago. he stares, eyes wide. what do you say?", ["ask him if he's okay.", "ask him why he's here."]],
+            ["he hesitates, then whispers: 'are you happy?'. how do you respond?", ["yes, i am.", "no, i'm not."]],
+            ["tears form in his eyes. he nods, then says: 'turn around.'", ["turn around slowly.", "refuse and stay still."]],
+            ["a house now stands where there was only mist. do you approach?", ["walk toward it.", "wait and observe."]],
+            ["as you step closer, the house moves further away. what do you do?", ["run towards it.", "stand still and watch."]],
+            ["the house remains distant, fading. a new path appears. do you follow it?", ["follow the path.", "turn back the way you came."]],
+            ["a soft hum vibrates in the air, mechanical yet familiar. do you listen?", ["close your eyes and focus on the sound.", "ignore it and move forward."]],
+            ["a panel in the floor glows faintly. do you investigate?", ["step closer and examine it.", "leave it alone."]],
+            ["there is stars beyond this panel. they are shifting, forming patterns. what do you do?", ["try to trace the forms with your fingers.", "try to break the panel."]],
+            ["it makes a music partition. then, a voice echoes, distorted, calling {name}. do you respond?", ["answer cautiously.", "remain silent."]],
+            ["the voice stops, and your heavy breathing grows more intense, blurring your vision. do you try to focus on your breathing or your sight?", ["breath.", "sight."]],
+            ["suddenly, a familiar melody pulls you from the depths of sleep. you don’t remember falling asleep, yet here you are, waking to its soft tune. do you let it continue?", ["hum along.", "turn it off."]],
+            ["as your senses return, you notice the blinking light on the control panel. it's faster now, as if trying to get your attention. do you press it?", ["press it.", "do nothing."]],
+            ["you glance at the dashboard. an old photograph sits there. the edges are worn, and something about it feels familiar. as you reach for it, your fingertips tremble. do you pick it up?", ["turn it over and look at the back.", "leave it where it is."]],
+            ["the photograph feels cold, almost unnatural. on the back, a date is scrawled in ink, but it’s smudged. before you can focus, you see movement in the glass in front of you. your reflection—it's slightly out of sync. do you look closer?", ["lean in, heart pounding.", "turn away, refusing to meet its gaze."]],
+            ["your reflection doesn't blink. its mouth moves silently, forming words you cannot hear. at the same moment, the ship’s hum changes. it's no longer mechanical. it breathes. it’s alive. do you focus on the sound?", ["match your breathing to it, feeling its presence.", "step back, pulse quickening."]],
+            ["the hum deepens, reverberating inside your chest. your vision distorts, as if the air itself is shifting. the reflection starts to whisper now, a voice without sound, forming your name. something is waiting. something is watching. do you answer?", ["whisper back.", "resist, forcing yourself to stay silent."]],
+            ["the reflection steps forward. no, it's not a reflection anymore. it's you. or something like you. it tilts its head, waiting. if you accept, you will no longer be alone—but will you still be yourself?\nif you resist, you may remain, or lose whatever is left of you.\nthere is no turning back now.", ["step forward.", "close your eyes, rejecting it."]]
+        ];
+        const failures = [
+            "you ignore the lighthouse. the fog thickens, and soon, you can't see anything at all.",
+            "you circle the lighthouse, but there is no other entrance. the wind howls around you, and the door remains closed.",
+            "you take the right door, but there is nothing beyond it. just a void. you step forward, and suddenly, you are falling.",
+            "you wait too long. the child fades into the darkness, leaving nothing behind.",
+            "you hesitate to speak. the child turns away, whispering something you cannot hear. a deep sadness settles in the room.",
+            "you do not answer. the child lowers his gaze, and suddenly, he is gone, leaving only an empty space.",
+            "you refuse to turn around. the child's voice fades, and with it, something inside you feels irreversibly lost.",
+            "you wait, watching the house instead of approaching. it dissolves like mist, leaving only the void.",
+            "you run towards the house, but the closer you get, the farther it moves away. soon, you are running in place, lost in an endless pursuit.",
+            "you turn back, but the path behind you has vanished. the void swallows you whole.",
+            "you ignore the hum, but it grows louder, unbearable. then suddenly, it stops—leaving behind an eerie silence.",
+            "you hesitate. the panel flickers and then fades. whatever it was hiding, you will never know.",
+            "you break the panel. the stars inside it shatter, leaving you alone in the dark.",
+            "you remain silent, and the voice fades. whatever it was, it has given up on you.",
+            "you ignore your breath, focusing on your sight. but the blur consumes everything, and suddenly, you can’t see at all.",
+            "you turn off the melody. the silence that follows is absolute. something has changed. you are no longer where you were.",
+            "you do nothing. the blinking light stops. whatever it was trying to tell you, it will never reach you now.",
+            "you leave the photograph untouched. as you look away, you notice something strange—you are no longer alone in the room.",
+            "you turn away from the glass. your reflection lingers, still staring at you, even when you look elsewhere.",
+            "you step back from the hum, but it follows you. it breathes in sync with you, a presence just beyond your understanding.",
+            "you resist the voice, forcing yourself to stay silent. but the whispering doesn’t stop. it keeps calling, over and over, until everything fades away.",
+            "you close your eyes, rejecting the reflection. but when you open them again, it’s not you in the glass anymore."
+        ];
+        // End texts with manual line breaks
+        const endReflect = `congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward.
+
+
+rddzcmyvyxcvkcrcvkcrnbsfonydqyyqvonydmywcvkcrpsvocvkcrncvkcr1Ax1OxET04iBZ8rGHmlwCLiR6S37X9Mcscvkcrfsogaeocdsyxwkbueczoaekvcrkboexnobcmybovsxu`;
+        const endResist = `congratulations. you have crossed the rubicon—you can’t go back, even if you wanted to. your fate is sealed. use your key wisely, and discover your reward.
+
+
+xjjfisebedibqixibqixthylutejweewbutejsecibqixvybuibqixtibqix1Fcyvgfu2tRxxbVRjQXG9l-5Dsg4Hlc3gibqixlyumgkuijyedcqhakifugkqbixqhydw`;
+
+        const labelEl = document.getElementById('label');
+        const buttonsEl = document.getElementById('buttons');
+
+        // Utility to render options randomly left/right
+        function renderOptions(opts) {
+            // opts: array of { text, handler }
+            const order = opts.slice().sort(() => Math.random() - 0.5);
+            order.forEach(o => {
+                const btn = document.createElement('button');
+                btn.className = 'button'; btn.textContent = o.text;
+                btn.onclick = o.handler;
+                buttonsEl.appendChild(btn);
+            });
+        }
+
+        // Personality UI
+        function startPersonality(index = 0) {
+            if (index >= questions.length) {
+                // Build and download
+                let txt = `hi ${answers.name}.
+
+`;
+                txt += answers.time.startsWith('y')
+                    ? "time slips through your fingers like sand. you feel it passing, unstoppable, a quiet reminder that every second lost can never be reclaimed."
+                    : "time moves forward, steady and unyielding. you don’t dwell on its passage—instead, you let it flow around you like a river that never truly stops.";
+                txt += "\n\n";
+                txt += answers.change_past.startsWith('y')
+                    ? "you often find yourself lost in thoughts of what could have been. the past lingers, whispering what-ifs in your ears, but the present does not wait."
+                    : "you accept the past as it is—an unchangeable force, neither friend nor enemy. mistakes, triumphs, regrets… all form the foundation of who you are today.";
+                txt += "\n\n";
+                txt += answers.memories === 'first'
+                    ? `memories carve deep paths within you, defining the roads you take since ${answers.age}. each experience shapes your being, leaving imprints like footsteps in the sand.`
+                    : "you are the sculptor of your memories. they shift, reshape, change over time—not fixed moments, but reflections of who you choose to become.";
+                txt += "\n\n";
+                txt += `that feeling of peace... when was it? you remember ${answers.peace}, a fleeting moment etched into your mind. do you wish you could return to it, or is it still waiting ahead?`;
+                txt += "\n\n";
+                txt += answers.regret.startsWith('y')
+                    ? "some regrets never fade. they linger in the corners of your mind, resurfacing when you least expect them. perhaps you wish you could undo them, mais le passé est implacable."
+                    : "regret is a chain some people carry, but you have let yours go. you choose to move forward, accepting the choices that have led you here.";
+                txt += "\n\n";
+                txt += answers.fear.startsWith('y')
+                    ? "you fear being forgotten, as if your existence depends on the memories of others. perhaps this is why you hold onto moments so tightly, afraid they will slip away."
+                    : "whether people remember you or not does not change who you are. you exist, here and now, and that is enough.";
+                txt += "\n\n";
+                if (answers.dream.startsWith('y') && answers.dream_place) {
+                    txt += `and the dreams… you often see yourself in ${answers.dream_place}, a place that calls to you despite never having been there. is it a memory from another life, or a destination waiting beyond the horizon?`;
+                } else {
+                    txt += "your nights are quiet, void of strange landscapes or forgotten places. perhaps your mind is at peace, or perhaps it is simply waiting for a reason to dream.";
+                }
+                txt += "\n\n";
+                txt += answers.death_fear.startsWith('y')
+                    ? "the thought of death hovers, a silent sentinel at the edge of your days."
+                    : "you accept death’s approach as an inevitable hush at life’s end.";
+                txt += "\n\n";
+                txt += `you are afraid of ${answers.deepest_fear}. a cold whisper that coils around your heart, echoing in the void of every sleepless night.`;
+                txt += "\n\n";
+                txt += `and why do you linger here, ${answers.name}? your own voice drifts back, hollow and uncertain, a ghost’s question in an empty room.`;
+                txt += "\n\n";
+                txt += "in the hollow of this silence, we became the sum of our broken thoughts.";
+
+                const blob = new Blob([txt], { type: 'text/plain' });
+                const link = document.createElement('a'); link.href = URL.createObjectURL(blob);
+                link.download = `dear_${answers.name.toLowerCase().replace(/\s+/g, '_')}.txt`;
+                link.click();
+                setTimeout(showIntro, 1000);
+                return;
+            }
+            const q = questions[index];
+            // condition éventuelle
+            if (q.conditionalKey && !q.conditionalValue.includes(answers[q.conditionalKey])) {
+                return startPersonality(index + 1);
+            }
+
+            // affiche la question, qu'elle soit statique ou dynamique
+            const questionText = (typeof q.q === 'function')
+                ? q.q(answers)
+                : q.q;
+            labelEl.textContent = questionText;
+            buttonsEl.innerHTML = '';
+            if (q.type === 'text') {
+                const input = document.createElement('input'); input.className = 'input-text'; input.type = 'text';
+                const btn = document.createElement('button'); btn.className = 'button'; btn.textContent = 'OK';
+                if (q.key === 'deepest_fear') {
+                    btn.onclick = () => {
+                        answers[q.key] = input.value.trim();
+                        labelEl.textContent = '';
+                        buttonsEl.innerHTML = '';
+                        setTimeout(() => startPersonality(index + 1), 8000);
+                    };
+                } else {
+                    btn.onclick = () => {
+                        answers[q.key] = input.value.trim();
+                        startPersonality(index + 1);
+                    };
+                }
+                buttonsEl.appendChild(input); buttonsEl.appendChild(btn);
+            } else {
+                const yes = { text: 'yes', handler: () => { answers[q.key] = 'yes'; startPersonality(index + 1); } };
+                const no = { text: 'no', handler: () => { answers[q.key] = 'no'; startPersonality(index + 1); } };
+                if (q.type === 'yesno') renderOptions([yes, no]);
+                else {
+                    const c0 = { text: q.choices[0], handler: () => { answers[q.key] = q.choices[0]; startPersonality(index + 1); } };
+                    const c1 = { text: q.choices[1], handler: () => { answers[q.key] = q.choices[1]; startPersonality(index + 1); } };
+                    renderOptions([c0, c1]);
+                }
+            }
+        }
+
+        // Show intro
+        function showIntro() {
+            labelEl.textContent =
+                "you have been here, in space, for longer than you can remember.\n\n" +
+                "you don't remember your name, nor how you arrived here.\n" +
+                "the vast emptiness surrounds you, an endless void stretching in every direction.\n\n" +
+                "were you sent here for a purpose, or is this a cruel trick of fate?\n" +
+                "the stars whisper secrets lost to time.";
+            buttonsEl.innerHTML = '';
+            setTimeout(() => launchBranch(0), 25000);
+        }
+
+        // Branch launcher
+        function launchBranch(i) {
+            let text, opts;
+            if (i === 0) {
+                text = "you’re at the window, watching earth drift farther away.\nwhat do you do?";
+                const left = { text: 'call my family.', handler: () => { labelEl.textContent = "you try to call your family, but the connection is weak in deep space. you're just too far now."; buttonsEl.innerHTML = ''; } };
+                const right = { text: 'recall my memories.', handler: () => launchBranch(1) };
+                labelEl.textContent = text; buttonsEl.innerHTML = ''; renderOptions([left, right]);
+                return;
+            }
+            [text, opts] = branches[i - 1];
+            text = text.replace('{name}', answers.name || 'you');
+            labelEl.textContent = text; buttonsEl.innerHTML = '';
+            const advance = { text: opts[0], handler: () => { if (i < branches.length) launchBranch(i + 1); else { labelEl.textContent = endReflect; buttonsEl.innerHTML = ''; } } };
+            const fail = { text: opts[1], handler: () => { labelEl.textContent = failures[i - 1]; buttonsEl.innerHTML = ''; } };
+            renderOptions([advance, fail]);
+        }
+
+        function showFirstTimeQuestion() {
+            labelEl.textContent = "is it your first time playing this game?";
+            buttonsEl.innerHTML = '';
+            const yes = {
+                text: 'yes',
+                handler: () => startPersonality(0)
+            };
+            const no = {
+                text: 'no',
+                handler: () => {
+                    answers.name = 'you';
+                    showIntro();
+                }
+            };
+            renderOptions([yes, no]);
+        }
+
+        // Init
+        window.onload = () => {
+            showFirstTimeQuestion();
+        };
+    </script>
+</body>
+
+</html>
