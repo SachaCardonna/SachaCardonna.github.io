@@ -1,10 +1,9 @@
 ---
-layout: null       
-permalink: /youshouldntbehere/  
-sitemap: false    
-published: true    
+layout: null
+permalink: /youshouldntbehere/
+sitemap: false
+published: true
 ---
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -257,14 +256,19 @@ xjjfisebedibqixibqixthylutejweewbutejsecibqixvybuibqixtibqix1Fcyvgfu2tRxxbVRjQXG
 
         // Show intro
         function showIntro() {
-            labelEl.textContent =
-                "you have been here, in space, for longer than you can remember.\n\n" +
-                "you don't remember your name, nor how you arrived here.\n" +
-                "the vast emptiness surrounds you, an endless void stretching in every direction.\n\n" +
-                "were you sent here for a purpose, or is this a cruel trick of fate?\n" +
-                "the stars whisper secrets lost to time.";
+            labelEl.textContent = '';
             buttonsEl.innerHTML = '';
-            setTimeout(() => launchBranch(0), 25000);
+
+            setTimeout(() => {
+                labelEl.textContent =
+                    "you have been here, in space, for longer than you can remember.\n\n" +
+                    "you don't remember your name, nor how you arrived here.\n" +
+                    "the vast emptiness surrounds you, an endless void stretching in every direction.\n\n" +
+                    "were you sent here for a purpose, or is this a cruel trick of fate?\n" +
+                    "the stars whisper secrets lost to time.";
+
+                setTimeout(() => launchBranch(0), 25000);
+            }, 10000);
         }
 
         // Branch launcher
