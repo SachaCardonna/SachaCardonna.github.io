@@ -64,6 +64,13 @@ date: 2077-01-01
     color: red;
     margin-top: 10px;
   }
+  #puzzle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 </style>
 
 <div id="puzzle">
