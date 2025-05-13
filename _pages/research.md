@@ -47,7 +47,7 @@ Talks
 <b>Séminaire des Doctorants</b> <br>
 <i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions. <br>
 <i>Date</i>. 25/10/23.<br>
-[Slides]({{ site.url }}/files/talks/SemDoc Cardonna.pdf).
+[Slides]({{ site.url }}/files/talks/SEMDOC.pdf).
 
 ***
 
