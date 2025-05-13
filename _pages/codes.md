@@ -29,7 +29,10 @@ During Ali Haidar's Ph.D., he implemented in WaveBox François Vilar's a posteri
 During my Ph.D., I developped a whole new section dedicated to high-order monolithic DG-FV schemes, with grid subdivisions and a priori stabilization methods, in 1D & 2D. I also developped several vizualization tools on Python. One of the main goals of our future work is to implement monolithic schemes on NSW coupled with a floating object.
 
 Some numerical simulations: 
-- $\mathbb{P}^6$ interaction between a single wave and a rock ([MP4]({{ site.baseurl }}/images/rock_wave_P6RK2.mp4))
+- $\mathbb{P}^6$ interaction between a single wave and a rock ([MP4]({{ site.baseurl }}/images/rock_wave_P6.mp4))
+<!-- - $\mathbb{P}^2$ tidal wave on a conical island ([MP4]({{ site.baseurl }}/images/tidal_wave_P2.mp4))
+- $\mathbb{P}^4$ dam-break on a wet & on a dry bed ([MP4.1]({{ site.baseurl }}/images/wet_dam_break_P4.mp4) & [MP4.1]({{ site.baseurl }}/images/dry_dam_break_P4.mp4))
+- $\mathbb{P}^3$ circular dam-break ([MP4]({{ site.baseurl }}/images/circ_dam_break_P3RK3.mp4)) -->
 - $\mathbb{P}^2$ tsunami over a dry island with three conical obstacles ([MP4]({{ site.baseurl }}/images/tsunami_P2RK2.mp4))
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
