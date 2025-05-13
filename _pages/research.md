@@ -40,15 +40,13 @@ Talks
 ======
 
 <b>Congrès Interdisciplinaire sur les Modèles Avancés de Vagues (CIMAV)</b> <br>
-<i>Title</i>. Local subcell monolithic DG/FV scheme for nonlinear shallow water equations with source terms on unstructured grids. <br>
-<i>Date</i>. 13/05/25.<br>
-
+<i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
+<i>Date</i>. 13/05/25.<br> 
 [Slides]({{ site.url }}/files/talks/CIMAV.pdf).
 
 <b>Séminaire des Doctorants</b> <br>
 <i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions. <br>
 <i>Date</i>. 25/10/23.<br>
-
 [Slides]({{ site.url }}/files/talks/SemDoc Cardonna.pdf).
 
 ***
