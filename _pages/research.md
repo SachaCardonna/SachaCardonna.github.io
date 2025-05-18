@@ -39,12 +39,12 @@ Explore my publications, the talks and conferences I participated in and my rese
 Talks
 ======
 
-<b>Congrès Interdisciplinaire sur les Modèles Avancés de Vagues (CIMAV)</b> <br>
+<b>CIMAV - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
 <i>Date</i>. 13/05/25.<br> 
 [Slides]({{ site.url }}/files/talks/CIMAV.pdf).
 
-<b>Séminaire des Doctorants</b> <br>
+<b>SemDoc - Séminaire des Doctorants</b> <br>
 <i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions. <br>
 <i>Date</i>. 25/10/23.<br>
 [Slides]({{ site.url }}/files/talks/SEMDOC.pdf).
