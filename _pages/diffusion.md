@@ -13,6 +13,15 @@ Discover my several scientific diffusion missions and productions.
 
 ***
 
+<b> $\mathbb{T}\mathbb{F}\mathbb{J}\mathbb{M}^2$ – Tournoi Français des Jeunes Mathématiciennes et Mathématiciens </b> (06/25, National contest – Montpellier)  
+<i> Jury member – High school research competition <i>
+
+<i>Description. <i> The TFJM² is a national math tournament where high school students investigate open-ended research problems over several months and present their findings through oral defenses. As a jury member for the Montpellier regional round, my role was to evaluate the students' mathematical reasoning, communication, and teamwork. I guided teams through critical discussion and asked challenging questions to test the depth of their understanding. Beyond assessing correctness, I aimed to encourage collaborative spirit, scientific rigor, and the ability to build and communicate original ideas.
+
+[Website](https://tfjm.org).
+
+***
+
 <b> MathC2+ program - Mastering games with Mathematics </b> (06/24, IRES & LabEx NUMEV, Montpellier) <br>
 <i> Supervision of high school students interns </i> 
 
