@@ -32,7 +32,7 @@ Advised by François Vilar & Fabien Marche.
 
 Advised by Michel Bellieud.
 
-[[Report]({{ site.url }}/files/projects/Homogeneisation.pdf) $|$ [Slides]({{ site.url }}/files/projects/Soutenance homogeneisation.pdf)]
+[[Report]({{ site.url }}/files/projects/Homogeneisation.pdf) / [Slides]({{ site.url }}/files/projects/Soutenance homogeneisation.pdf)]
 
 ***
 
