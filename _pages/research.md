@@ -36,31 +36,28 @@ Explore my publications, the talks and conferences I participated in and my rese
 
 ***
 
-Talks
+Talks & posters
 ======
 
 <b>MIPS Colloquia - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
 <i>Title</i>. Designing numerical methods for free-surface flows towards reliable wave-structure interactions. <br>
 <i>Date</i>. 02/06/25.<br> 
-[Slides]({{ site.url }}/files/talks/MIPS.pdf).
+[[Slides]({{ site.url }}/files/talks/MIPS.pdf)]
 
 <b>CIMAV - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
 <i>Date</i>. 13/05/25.<br> 
-[Slides]({{ site.url }}/files/talks/CIMAV.pdf).
+[[Slides]({{ site.url }}/files/talks/CIMAV.pdf)]
+
+<b>Ph.D. Day</b> <br>
+<i>Title</i>. Monolithic DG/FV schemes on 1D Nonlinear Shallow-Water <br>
+<i>Date</i>. 15/03/24.<br>
+[[Poster]({{ site.url }}/files/talks/poster_phd_day24.pdf)]
 
 <b>SemDoc - Séminaire des Doctorants</b> <br>
 <i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions. <br>
 <i>Date</i>. 25/10/23.<br>
-[Slides]({{ site.url }}/files/talks/SEMDOC.pdf).
-
-***
-
-Posters
-======
-
-<b>Ph.D. Day</b> (03/24): Monolithic DG/FV schemes on 1D Nonlinear Shallow-Water.<br>
-[Poster]({{ site.url }}/files/talks/poster_phd_day24.pdf).
+[[Slides]({{ site.url }}/files/talks/SEMDOC.pdf)]
 
 ***
 

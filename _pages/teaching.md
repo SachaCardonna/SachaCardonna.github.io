@@ -19,7 +19,7 @@ Access courses materials for my students.
 
 <i> Topics. </i> Numerical schemes (Euler, Runge-Kutta, Finite Difference, ...), ordinary and partial differential equations.
 
-[Course page](https://sachacardonna.github.io/teaching/HAX604X).
+[[Course page](https://sachacardonna.github.io/teaching/HAX604X)]
 
 ***
 <b> HAX606X </b> - <b> Convex optimization </b>(3rd year B.Sc.) <br>
@@ -29,7 +29,7 @@ Access courses materials for my students.
 
 <i> Topics. </i> Unconstrained and constrained extremas, applied mathematics, mathematical learning.
 
-[Course page](https://sachacardonna.github.io/teaching/HAX606X).
+[[Course page](https://sachacardonna.github.io/teaching/HAX606X)]
 
 ***
 <b> HA8401H </b> - <b> Differential calculus & multivariable integration </b>(2nd year B.Sc.) <br>
@@ -39,7 +39,7 @@ Access courses materials for my students.
 
 <i> Topics. </i> Differential calculus, multivariable integration, topology of $\mathbb{R}^n$, bilinear algebra.
 
-[Course page](https://sachacardonna.github.io/teaching/HA8401H).
+[[Course page](https://sachacardonna.github.io/teaching/HA8401H)]
 
 ***
 <b> HAS101X </b> - <b> Mathematical tools for sciences and engineering </b>(1st year B.Sc.) <br>
@@ -49,7 +49,7 @@ Access courses materials for my students.
 
 <i> Topics. </i> Logical reasoning, set theory, continuous & differentiable functions, integral calculus, 1st-order differential equations.
 
-[Course page](https://sachacardonna.github.io/teaching/HAS101X).
+[[Course page](https://sachacardonna.github.io/teaching/HAS101X)]
 
 ***
 <b> XADES4 </b> - <b> Supervised mathematical assignments </b>(2nd year B.Sc.) <br>
@@ -58,4 +58,4 @@ Access courses materials for my students.
 <i> Description. </i> Supervised assignments is a specific system for students following the preparatory cycle in Polytech Montpellier, allowing them to assimilate the educational content provided by developing their autonomy and their capacity for self-assessment. 
 Each week, students are placed in exam conditions with a subject to be covered in two hours. Teachers are there to guide them, help them overcome their difficulties and possibly become aware of their shortcomings. This course is directly related to HA8401H.
 
-[Course page](https://sachacardonna.github.io/teaching/HA8401H).
+[[Course page](https://sachacardonna.github.io/teaching/HA8401H)]

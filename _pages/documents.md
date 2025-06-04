@@ -22,7 +22,7 @@ Internships
 
 Advised by François Vilar & Fabien Marche.
 
-[Slides]({{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf).
+[[Slides]({{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf)]
 
 ***
 
@@ -32,7 +32,7 @@ Advised by François Vilar & Fabien Marche.
 
 Advised by Michel Bellieud.
 
-[Report]({{ site.url }}/files/projects/Homogeneisation.pdf) & [Slides]({{ site.url }}/files/projects/Soutenance homogeneisation.pdf).
+[[Report]({{ site.url }}/files/projects/Homogeneisation.pdf) | [Slides]({{ site.url }}/files/projects/Soutenance homogeneisation.pdf)]
 
 ***
 
@@ -42,7 +42,7 @@ Advised by Michel Bellieud.
 
 Advised by Daniel Massart.
 
-[Report]({{ site.url }}/files/projects/Billards.pdf) & [Slides]({{ site.url }}/files/projects/Soutenance billards.pdf).
+[[Report]({{ site.url }}/files/projects/Billards.pdf) | [Slides]({{ site.url }}/files/projects/Soutenance billards.pdf)]
 
 ***
 
@@ -52,7 +52,7 @@ Advised by Daniel Massart.
 
 Advised by Sylvain Brochard.
 
-[Report]({{ site.url }}/files/projects/Progression arithmetique.pdf) & [Slides]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf).
+[[Report]({{ site.url }}/files/projects/Progression arithmetique.pdf) | [Slides]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf)]
 
 ***
 
@@ -60,19 +60,19 @@ Projects
 ======
 
 <b>Hybrid High-Order method on Leray-Lions operators</b>: studying a new non-conform finite-element method and its main discrete functional analysis results on Leray-Lions operators.<br>
-[Report]({{ site.url }}/files/projects/HHO pour Leray-Lions.pdf).
+[[Report]({{ site.url }}/files/projects/HHO pour Leray-Lions.pdf)]
 
-<b>Müller's SPH C++ implementation for fluid dynamics</b>: building and implementing Smooth Particle Hydrodynamics method for a C++ simulation.<br>[Report]({{ site.url }}/files/projects/RapportSPH.pdf) & [Simulation](https://drive.google.com/file/d/1cjR-ff4ITVlfS-i6fOHcgMsZEe19j2L_/view?usp=share_link).
+<b>Müller's SPH C++ implementation for fluid dynamics</b>: building and implementing Smooth Particle Hydrodynamics method for a C++ simulation.<br>[[Report]({{ site.url }}/files/projects/RapportSPH.pdf) | [Simulation](https://drive.google.com/file/d/1cjR-ff4ITVlfS-i6fOHcgMsZEe19j2L_/view?usp=share_link)]
 
-<b>Some results about measure theory</b>: proving measure theory results, including differentiation of Radon measures, Besicovitch & Vitali covering theorems, Tietze & Lusin’s theorems.<br>[Notes](https://drive.google.com/drive/folders/13TeVJGtoIO5Xk9MxeGtBkZnzkxi8J9TG?usp=sharing).
+<b>Some results about measure theory</b>: proving measure theory results, including differentiation of Radon measures, Besicovitch & Vitali covering theorems, Tietze & Lusin’s theorems.<br>[[Notes](https://drive.google.com/drive/folders/13TeVJGtoIO5Xk9MxeGtBkZnzkxi8J9TG?usp=sharing)]
 
-<b>Projects for a posteriori estimates course</b>: some results on a posteriori estimates and mesh adaption, some implementation on Fortran, Python and C++.<br>[Reports](https://drive.google.com/drive/folders/1z1DtewZAjelfo_tHnjh6TZzA_A_a4aCj?usp=sharing).
+<b>Projects for a posteriori estimates course</b>: some results on a posteriori estimates and mesh adaption, some implementation on Fortran, Python and C++.<br>[[Reports](https://drive.google.com/drive/folders/1z1DtewZAjelfo_tHnjh6TZzA_A_a4aCj?usp=sharing)]
 
-<b>Reports for analysis courses</b>: some results on Hölderian functions and distribution theory.<br> [Reports](https://drive.google.com/drive/folders/1pF1-KXYOm8rfycXRVeirWSbSoufYTr0s?usp=sharing).
+<b>Reports for analysis courses</b>: some results on Hölderian functions and distribution theory.<br> [[Reports](https://drive.google.com/drive/folders/1pF1-KXYOm8rfycXRVeirWSbSoufYTr0s?usp=sharing)]
 
-<b>Reports for algebra courses</b>: results on cube automorphism and euclidian ring, diophantine equations.<br> [Reports](https://drive.google.com/drive/folders/12k5KvgNMU8iEU9qYQoFYRyaJ8ebhsgBu?usp=sharing).
+<b>Reports for algebra courses</b>: results on cube automorphism and euclidian ring, diophantine equations.<br> [[Reports](https://drive.google.com/drive/folders/12k5KvgNMU8iEU9qYQoFYRyaJ8ebhsgBu?usp=sharing)]
 
-<b>Projects for machine learning and optimization course</b>: database analysis and programming regression methods for machine learning on Python.<br>[Reports](https://drive.google.com/drive/folders/1eqYNW_TL_0TBVxVPYGF3PJ686cYDTE3d?usp=sharing).
+<b>Projects for machine learning and optimization course</b>: database analysis and programming regression methods for machine learning on Python.<br>[[Reports](https://drive.google.com/drive/folders/1eqYNW_TL_0TBVxVPYGF3PJ686cYDTE3d?usp=sharing)]
 
 
 
