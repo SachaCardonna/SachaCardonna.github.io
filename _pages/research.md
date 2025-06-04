@@ -39,6 +39,11 @@ Explore my publications, the talks and conferences I participated in and my rese
 Talks
 ======
 
+<b>MIPS Colloquia - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
+<i>Title</i>. Designing numerical methods for free-surface flows towards reliable wave-structure interactions. <br>
+<i>Date</i>. 02/06/25.<br> 
+[Slides]({{ site.url }}/files/talks/MIPS.pdf).
+
 <b>CIMAV - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
 <i>Date</i>. 13/05/25.<br> 

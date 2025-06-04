@@ -37,7 +37,7 @@ More generally, I am interested in modeling and numerical analysis of partial di
 News
 ======
 - I will talk about my thesis work at [ICOSAHOM 2025](https://icosahom2025.org) in July, which will take place in Montréal, Canada.
-- During [MIPS Week](https://www.umontpellier.fr/agenda/semaine-du-pole-mips), I will present some aspects of modeling and scientific computing to non-experts scientists.
+- During [MIPS Week](https://www.umontpellier.fr/agenda/semaine-du-pole-mips), I presented some aspects of modeling and scientific computing to non-experts scientists, see the [slides]({{ site.url }}/files/talks/MIPS.pdf). 
 - Recently made a presentation at the [CIMAV 2025](https://cimav2025.sciencesconf.org) conference in May, held in Aussois, see the [slides]({{ site.url }}/files/talks/CIMAV.pdf). 
 - Started writing my first articles, in collaboration with A. Haidar and my thesis directors, see [Research](https://sachacardonna.github.io/research) for more details. 
 
