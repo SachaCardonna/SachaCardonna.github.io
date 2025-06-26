@@ -13,11 +13,11 @@ Read more about the scientific computing codes I made or participated in.
 
 ***
 
-<b> WaveBox 2024 - Multi-models C++ numerical platform for water-waves equations </b>  <br>
+<b> WaveBox - Multi-models C++ numerical platform for water-waves equations </b>  <br>
 <i> Keywords. </i> DG, HDG, Saint-Venant, Boussinesq, Green-Naghdi, Finite-Volume subcells methods. <br>
 <i> Language. </i> C++, Python (visualization).
 
-WaveBox is a multi-models numerical platform created by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG) and DG methods on general unstructured meshes (Saint-Venant, Boussinesq and Green-Naghdi equations). Main features are: 
+WaveBox is a multi-models numerical platform created by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG-FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). Main features are: 
 - Sub-models CPU-GPU co-processing;
 - Arbitrary order of accuracy (h and p-adaptivity);
 - Robust treatment of the run-up and flooding processes (strict maximum-principle enforcement);
@@ -25,7 +25,6 @@ WaveBox is a multi-models numerical platform created by Fabien Marche, dedicated
 - Unstructured meshes & mesh subdivision;
 - Wave breaking treatment with dynamic switching strategy.
 
-During Ali Haidar's Ph.D., he implemented in WaveBox François Vilar's a posteriori stabilization methods for 1D Saint-Venant equations coupled with a floating object. 
 During my Ph.D., I developped a whole new section dedicated to high-order monolithic DG-FV schemes, with grid subdivisions and a priori stabilization methods, in 1D & 2D. I also developped several vizualization tools on Python. One of the main goals of our future work is to implement monolithic schemes on NSW coupled with a floating object.
 
 Some numerical simulations: 
