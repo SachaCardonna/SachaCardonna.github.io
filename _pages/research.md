@@ -39,28 +39,33 @@ Explore my publications, the talks and conferences I participated in and my rese
 Talks & posters
 ======
 
-<b>ICOSAHOM - International Congress on Spectral and High Order Method</b>, <i>Montréal, Canada </i> <br>
+<b>ICOSAHOM - International Congress on Spectral and High Order Method</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
+<i>Location</i>. Montréal, Canada. <br>
 <i>Date</i>. 13/05/25.<br> 
 [[Slides]({{ site.url }}/files/talks/ICOSAHOM.pdf)]
 
-<b>MIPS Colloquia - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b>, <i>Montpellier, France </i> <br>
+<b>MIPS Colloquia - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
 <i>Title</i>. Designing numerical methods for free-surface flows towards reliable wave-structure interactions. <br>
+<i>Location</i>. Montpellier, France. <br>
 <i>Date</i>. 02/06/25.<br> 
 [[Slides]({{ site.url }}/files/talks/MIPS.pdf)]
 
 <b>CIMAV - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b>, <i>Aussois, France </i> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
+<i>Location</i>. Aussois, France. <br>
 <i>Date</i>. 13/05/25.<br> 
 [[Slides]({{ site.url }}/files/talks/CIMAV.pdf)]
 
-<b>Ph.D. Day - Séminaire des Doctorants</b>, <i>Montpellier, France </i> <br>
+<b>Ph.D. Day - Séminaire des Doctorants</b> <br>
 <i>Title</i>. Monolithic DG/FV schemes on 1D Nonlinear Shallow-Water <br>
+<i>Location</i>. Montpellier, France. <br>
 <i>Date</i>. 15/03/24.<br>
 [[Poster]({{ site.url }}/files/talks/poster_phd_day24.pdf)]
 
-<b>Introduction to newcomers - Séminaire des Doctorants</b>, <i>Montpellier, France </i> <br>
+<b>Introduction to newcomers - Séminaire des Doctorants</b> <br>
 <i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions. <br>
+<i>Location</i>. Montpellier, France. <br>
 <i>Date</i>. 25/10/23.<br>
 [[Slides]({{ site.url }}/files/talks/SEMDOC.pdf)]
 
