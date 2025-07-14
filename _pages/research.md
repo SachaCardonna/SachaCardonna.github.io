@@ -42,7 +42,7 @@ Talks & posters
 <b>ICOSAHOM - International Congress on Spectral and High Order Method</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
 <i>Location</i>. Montréal, Canada. <br>
-<i>Date</i>. 13/05/25.<br> 
+<i>Date</i>. 14/07/25.<br> 
 [[Slides]({{ site.url }}/files/talks/ICOSAHOM.pdf)]
 
 <b>MIPS Colloquia - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
