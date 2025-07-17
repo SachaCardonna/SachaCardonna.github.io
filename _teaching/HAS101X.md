@@ -1,5 +1,5 @@
 ---
-title: "HAS101X - Mathematical tools for sciences and engineering"
+title: "HAS101X - Mathematical analysis for sciences and engineering"
 collection: teaching
 type: "1st year B.Sc"
 permalink: /teaching/HAS101X
