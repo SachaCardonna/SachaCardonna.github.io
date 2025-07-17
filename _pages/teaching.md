@@ -13,7 +13,7 @@ Access courses materials for my students.
 
 ***
 
-<h3>1st year B.Sc.</h3>
+<h3 style="text-align:center">1st year B.Sc.</h3>
 
 <b> HAS101X </b> - <b> Mathematical tools for sciences and engineering </b>(1st year B.Sc.) <br>
 <i> Montpellier Faculty of Sciences </i>  
@@ -26,7 +26,7 @@ Access courses materials for my students.
 
 ***
 
-<h3>2nd year B.Sc. / Engineering prep</h3>
+<h3 style="text-align:center">2nd year B.Sc. / Engineering prep</h3>
 
 <b> HA8401H </b> - <b> Differential calculus & multivariable integration </b>(2nd year B.Sc.) <br>
 <i> Engineering school Polytech Montpellier</i>  
@@ -49,7 +49,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 
 ***
 
-<h3>3rd year B.Sc.</h3>
+<h3 style="text-align:center">3rd year B.Sc.</h3>
 
 <b> HAX604X </b> - <b> Numerical analysis of ordinary and partial differential equations </b>(3rd year B.Sc.) <br>
 <i> Montpellier Faculty of Sciences </i>  
