@@ -12,7 +12,7 @@ redirect_from:
 Access courses materials for my students.
 
 <details>
-<summary><h3 style="display:inline-block; cursor:pointer;">1st year B.Sc.</h3></summary>
+<summary><h2 style="display:inline-block; cursor:pointer;">1st year B.Sc.</h2></summary>
 
 <p><b> HAS101X </b> - <b> Mathematical tools for sciences and engineering </b>(1st year B.Sc.)<br>
 <i> Montpellier Faculty of Sciences </i> <br><br>
@@ -26,7 +26,7 @@ Access courses materials for my students.
 </details>
 
 <details>
-<summary><h3 style="display:inline-block; cursor:pointer;">2nd year B.Sc. / Engineering prep</h3></summary>
+<summary><h2 style="display:inline-block; cursor:pointer;">2nd year B.Sc.</h2></summary>
 
 <p><b> HA8401H </b> - <b> Differential calculus & multivariable integration </b>(2nd year B.Sc.)<br>
 <i> Engineering school Polytech Montpellier</i> <br><br>
@@ -36,6 +36,8 @@ Access courses materials for my students.
 <i> Topics. </i> Differential calculus, multivariable integration, topology of $\mathbb{R}^n$, bilinear algebra. <br><br>
 
 [<a href="https://sachacardonna.github.io/teaching/HA8401H">Course page</a>]</p>
+
+***
 
 <p><b> XADES4 </b> - <b> Supervised mathematical assignments </b>(2nd year B.Sc.)<br>
 <i> Engineering school Polytech Montpellier</i> <br><br>
@@ -48,7 +50,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 </details>
 
 <details>
-<summary><h3 style="display:inline-block; cursor:pointer;">3rd year B.Sc.</h3></summary>
+<summary><h2 style="display:inline-block; cursor:pointer;">3rd year B.Sc.</h2></summary>
 
 <p><b> HAX604X </b> - <b> Numerical analysis of ordinary and partial differential equations </b>(3rd year B.Sc.)<br>
 <i> Montpellier Faculty of Sciences </i> <br><br>
@@ -58,6 +60,8 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <i> Topics. </i> Numerical schemes (Euler, Runge-Kutta, Finite Difference, ...), ordinary and partial differential equations. <br><br>
 
 [<a href="https://sachacardonna.github.io/teaching/HAX604X">Course page</a>]</p>
+
+***
 
 <p><b> HAX606X </b> - <b> Convex optimization </b>(3rd year B.Sc.)<br>
 <i> Montpellier Faculty of Sciences </i> <br><br>
