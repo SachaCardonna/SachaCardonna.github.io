@@ -13,8 +13,11 @@ Access courses materials for my students.
 
 ***
 
-<details open>
-<summary><h3 style="display:inline">1st year B.Sc.</h3></summary>
+<section style="margin-bottom:2em">
+<details>
+<summary><h3 style="display:inline; cursor:pointer">1st year B.Sc.</h3></summary>
+
+<br>
 
 <b> HAS101X </b> - <b> Mathematical tools for sciences and engineering </b>(1st year B.Sc.) <br>
 <i> Montpellier Faculty of Sciences </i> 
@@ -26,11 +29,15 @@ Access courses materials for my students.
 [[Course page](https://sachacardonna.github.io/teaching/HAS101X)]
 
 </details>
+</section>
 
 ***
 
+<section style="margin-bottom:2em">
 <details>
-<summary><h3 style="display:inline">2nd year B.Sc. / Engineering prep</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer">2nd year B.Sc. / Engineering prep</h3></summary>
+
+<br>
 
 <b> HA8401H </b> - <b> Differential calculus & multivariable integration </b>(2nd year B.Sc.) <br>
 <i> Engineering school Polytech Montpellier</i> 
@@ -41,22 +48,26 @@ Access courses materials for my students.
 
 [[Course page](https://sachacardonna.github.io/teaching/HA8401H)]
 
-***
+<br><br>
 
 <b> XADES4 </b> - <b> Supervised mathematical assignments </b>(2nd year B.Sc.) <br>
 <i> Engineering school Polytech Montpellier</i> 
 
-<i> Description. </i> Supervised assignments is a specific system for students following the preparatory cycle in Polytech Montpellier, allowing them to assimilate the educational content provided by developing their autonomy and their capacity for self-assessment. 
+<i> Description. </i> Supervised assignments is a specific system for students following the preparatory cycle in Polytech Montpellier, allowing them to assimilate the educational content provided by developing their autonomy and their capacity for self-assessment.  
 Each week, students are placed in exam conditions with a subject to be covered in two hours. Teachers are there to guide them, help them overcome their difficulties and possibly become aware of their shortcomings. This course is directly related to HA8401H.
 
 [[Course page](https://sachacardonna.github.io/teaching/HA8401H)]
 
 </details>
+</section>
 
 ***
 
+<section style="margin-bottom:2em">
 <details>
-<summary><h3 style="display:inline">3rd year B.Sc.</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer">3rd year B.Sc.</h3></summary>
+
+<br>
 
 <b> HAX604X </b> - <b> Numerical analysis of ordinary and partial differential equations </b>(3rd year B.Sc.) <br>
 <i> Montpellier Faculty of Sciences </i> 
@@ -67,7 +78,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 
 [[Course page](https://sachacardonna.github.io/teaching/HAX604X)]
 
-***
+<br><br>
 
 <b> HAX606X </b> - <b> Convex optimization </b>(3rd year B.Sc.) <br>
 <i> Montpellier Faculty of Sciences </i> 
@@ -79,3 +90,4 @@ Each week, students are placed in exam conditions with a subject to be covered i
 [[Course page](https://sachacardonna.github.io/teaching/HAX606X)]
 
 </details>
+</section>
