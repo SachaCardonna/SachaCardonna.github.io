@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Access courses materials for my students.
+<hr>
 <details>
 <summary><h2 style="display:inline-block; cursor:pointer;">1st year B.Sc.</h2></summary>
 
