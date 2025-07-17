@@ -1,5 +1,5 @@
 ---
-title: "HAX703X - Numerical analysis of partial differential equations"
+title: "HAX703X - Numerical analysis of hyperbolic partial differential equations"
 collection: teaching
 type: "1st year M.Sc"
 permalink: /teaching/HAX703X
