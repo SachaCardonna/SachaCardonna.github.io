@@ -10,7 +10,6 @@ redirect_from:
 {% include base_path %}
 
 Access courses materials for my students.
-
 <details>
 <summary><h2 style="display:inline-block; cursor:pointer;">1st year B.Sc.</h2></summary>
 
@@ -37,7 +36,7 @@ Access courses materials for my students.
 
 [<a href="https://sachacardonna.github.io/teaching/HA8401H">Course page</a>]</p>
 
-***
+<hr>
 
 <p><b> XADES4 </b> - <b> Supervised mathematical assignments </b>(2nd year B.Sc.)<br>
 <i> Engineering school Polytech Montpellier</i> <br><br>
@@ -61,7 +60,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 
 [<a href="https://sachacardonna.github.io/teaching/HAX604X">Course page</a>]</p>
 
-***
+<hr>
 
 <p><b> HAX606X </b> - <b> Convex optimization </b>(3rd year B.Sc.)<br>
 <i> Montpellier Faculty of Sciences </i> <br><br>
