@@ -15,13 +15,13 @@ Access courses materials for my students.
 
 <h2 style="text-align:center;">1st year B.Sc.</h2>
 
-<p><b> HAS101X </b> - <b> Mathematical analysis for sciences and engineering </b><br>
+<p><b> HAS101X </b> - <b> Real analysis</b><br>
 <i> Montpellier Faculty of Sciences </i> <br>
 This course is intended for first-year students majoring in physics, chemistry, mechanics, and electronics. It provides an introduction to analysis, focusing on functions of a real variable. It requires high school mathematics curriculum and optionally advanced mathematics option. <br>
 [<a href="https://sachacardonna.github.io/teaching/HAS101X">Course page</a>]</p>
 
 
-<p><b> HAS202X </b> - <b> Linear algebra for sciences and engineering </b><br>
+<p><b> HAS202X </b> - <b> Linear algebra</b><br>
 <i> Montpellier Faculty of Sciences </i> <br>
 This course is intended for first-year students majoring in physics, chemistry, mechanics, and electronics. It provides an introduction to linear algebra and to the resolution of linear differential systems. Topics include matrix calculus, solving linear systems, eigenvalues and diagonalization, and solving linear differential systems. <br>
 [<a href="https://sachacardonna.github.io/teaching/HAS202X">Course page</a>]</p>
