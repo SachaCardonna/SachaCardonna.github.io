@@ -13,10 +13,8 @@ Uncover my academic achievements and qualifications.
 
 <b>Full resume</b>: [English]({{ site.url }}/files/cv/CV_ENG.pdf) & [French]({{ site.url }}/files/cv/CV_FR.pdf).
 
-***
+## Education
 
-Education
-======
 * <b>Faculty of Sciences</b>, Montpellier, FR
   * M.Sc. in Theoretical and Numerical Analysis of PDEs (<i>2021 - 2023</i>) 
   * M.Sc. in Fundamental Mathematics (<i>2020 - 2021</i>)
@@ -24,17 +22,13 @@ Education
   * B.Sc. in Pure & Applied Mathematics (<i>2019 - 2020</i>)
   * A.Sc. in Mathematics & Physics (<i>2017 - 2019</i>)
 
-***
+## Work experience
 
-Work experience
-======
 * Ph.D. candidate with teaching activities (<i>2023 - Present</i>)
 * Tutor in Sciences and Humanities (<i>2017 - 2023</i>)
 
-***
+## Computer skills
 
-Computer Skills
-======
 * <b>Programming</b>. C++, Python, notions of Fortran.  
 * <b>Mathematics softwares</b>. FreeFEM++, Matlab, Scilab, gnuplot, Maple, Mathematica.
 * <b>Markup languages</b>. HTML, CSS, PHP.
