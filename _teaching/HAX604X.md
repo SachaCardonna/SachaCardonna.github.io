@@ -9,17 +9,11 @@ date: 2025-01-01
 
 <b>Satisfaction survey</b>: opinions of students on my teachings ([Summary]({{ site.url }}/files/teaching/HAX604X/survey_HAX604X.pdf) & [All answers](https://docs.google.com/spreadsheets/d/1qpvNiTXrOnZMDtKGudk83oF0qZt7Sh9JKCIGzUL10OY/edit?usp=share_link)).
 
-***
-
-Documents
-======
+## Documents
 
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
-***
-
-Contents
-======
+## Contents
 
 1) Introduction to Cauchy problems for ordinary differential equations
 - Numerical methods for solving differential equations
