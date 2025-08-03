@@ -11,9 +11,8 @@ redirect_from:
 
 Explore my publications, the talks and conferences I participated in and my research interests.
 
-***
+## Publications
 
-<h1>Publications</h1>
 <ol reversed>
   <li>
     S. Cardonna, F. Marche & F. Vilar - <b>Local monolithic DG-FV subcell correction for 2D NSW on unstructured grids</b>, <i>in preparation</i>.
@@ -33,11 +32,7 @@ Explore my publications, the talks and conferences I participated in and my rese
   </li>
 </ol>
 
-
-***
-
-Talks & posters
-======
+## Talks & posters
 
 <b>ICOSAHOM - International Congress on Spectral and High Order Method</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
@@ -71,8 +66,7 @@ Talks & posters
 
 ***
 
-More about my Ph.D. 
-======
+## More about my Ph.D. 
 
 <i>Title</i>. Modeling and numerical study of free-border problem and wave-structure interaction.
 
@@ -94,8 +88,7 @@ Depending on the progress, some applications to the study of floating wave-energ
 
 ***
 
-Research Topics
-=====
+## Research Topics
 
 <b>Shallow-Water equations</b>
 
