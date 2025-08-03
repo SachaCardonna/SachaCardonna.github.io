@@ -9,10 +9,7 @@ date: 2024-01-01
 
 <b>Satisfaction survey</b>: opinions of students on my teachings ([Summary]({{ site.url }}/files/teaching/HAS101X/survey_HAS101X.pdf) & [All answers](https://docs.google.com/spreadsheets/d/1UU5OGT--I7ldRMqlI1r_oDjalXv2NSC5tjwU0AGuFIE/edit?usp=sharing)).
 
-***
-
-Documents
-======
+## Documents
 
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
@@ -30,10 +27,7 @@ Additional ressources:
 - Review course on functions, trigonometry, limits, derivatives, and integrations ([Notes]({{ site.url }}/files/teaching/HAS101X/revisions.pdf))
 - Usual functions and their properties ([Notes]({{ site.url }}/files/teaching/HAS101X/Fonctions Usuelles.pdf))
 
-***
-
-Contents
-======
+## Contents
 
 1) Basics of logical reasoning (connectives, quantifiers, proof by contradiction, etc.)
 
