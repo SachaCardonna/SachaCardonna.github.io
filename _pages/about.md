@@ -12,8 +12,7 @@ I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](h
 
 I'm also a teaching assistant for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
 
-Research interests
-======
+## Research interests
 
 During my thesis, I design and implement arbitrary-order methods for partial differential equations arising in the modeling of water waves and wave–structure interactions. For instance, one of the systems I have studied extensively is the nonlinear shallow water equations (NSW), which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
@@ -34,8 +33,8 @@ More generally, I am interested in modeling and numerical analysis of partial di
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing...
 - <b>Applications</b>. Fluid mechanics, nonlinear shallow water equations, Green-Naghdi equations, wave-structure interactions...
 
-News
-======
+## News
+
 - I talked about my thesis work at [ICOSAHOM 2025](https://icosahom2025.org) in Montréal, see the [slides]({{ site.url }}/files/talks/ICOSAHOM.pdf).
 - During [MIPS Week](https://www.umontpellier.fr/agenda/semaine-du-pole-mips), I talked about some aspects of modeling and scientific computing to non-experts scientists, see the [presentation]({{ site.url }}/files/talks/MIPS.pdf). 
 - Recently made a presentation at the [CIMAV 2025](https://cimav2025.sciencesconf.org) conference in May, held in Aussois, see the [beamer]({{ site.url }}/files/talks/CIMAV.pdf). 
