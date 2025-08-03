@@ -33,7 +33,7 @@ More generally, I am interested in modeling and numerical analysis of partial di
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing...
 - <b>Applications</b>. Fluid mechanics, nonlinear shallow water equations, Green-Naghdi equations, wave-structure interactions...
 
-## News
+## News & highlights
 
 - I talked about my thesis work at [ICOSAHOM 2025](https://icosahom2025.org) in Montréal, see the [slides]({{ site.url }}/files/talks/ICOSAHOM.pdf).
 - During [MIPS Week](https://www.umontpellier.fr/agenda/semaine-du-pole-mips), I talked about some aspects of modeling and scientific computing to non-experts scientists, see the [presentation]({{ site.url }}/files/talks/MIPS.pdf). 
