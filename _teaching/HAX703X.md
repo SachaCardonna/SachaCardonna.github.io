@@ -7,15 +7,11 @@ venue: "Montpellier Faculty of Sciences"
 date: 2025-01-01
 ---
 
-Documents
-======
+## Documents
 
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
-***
-
-Contents
-======
+## Contents
 
 1) Introduction to Partial Differential Equations (PDEs)  
 - Definition of PDEs  
