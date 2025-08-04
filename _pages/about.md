@@ -12,14 +12,16 @@ I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](h
 
 I'm also a teaching assistant for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
 
+![WaveBox]({{ site.baseurl }}/images/tsunami2d.png)
+
 ## Research interests
 
 During my thesis, I design and implement arbitrary-order methods for partial differential equations arising in the modeling of water waves and wave–structure interactions. For instance, one of the systems I have studied extensively is the nonlinear shallow water equations (NSW), which represent a nonlinear hyperbolic system with source term: 
 <div style="text-align: center;">
 $$
 \begin{cases}
-      \partial_t \eta + \nabla_{\!\mathbf{x}} \cdot \mathbf{q} = 0, \\
-      \partial_t \mathbf{q} + \nabla_{\!\mathbf{x}} \cdot \left( \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = \mathbf{S}[b](\mathbf{v}),
+      \partial_t \eta + \nabla_{\mathbf{x}} \cdot \mathbf{q} = 0, \\
+      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left( \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = \mathbf{S}[b](\mathbf{v}),
 \end{cases} \nonumber
 $$
 </div>
