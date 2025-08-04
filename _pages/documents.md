@@ -13,6 +13,7 @@ Find a diverse range of documents, including essays, presentations, and reports 
 
 ## Internships
 
+
 <b> Local monolithic DG/FV subcells convex property preserving scheme on nonlinear shallow water equations</b>.
 
 <i>Abstract</i>. Building and implementing a new strategy for stabilizing discontinuous Galerkin numerical methods using a Finite-Volume subcells type approach for the Nonlinear Shallow-Water equations. We consider here an a priori approach, more precisely a monolithic subcell dG/FV convex property preserving scheme. 
@@ -52,6 +53,7 @@ Advised by Sylvain Brochard.
 [[Report]({{ site.url }}/files/projects/Progression arithmetique.pdf) / [Slides]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf)]
 
 ## Projects
+
 
 <b>Hybrid High-Order method on Leray-Lions operators</b>: studying a new non-conform finite-element method and its main discrete functional analysis results on Leray-Lions operators.<br>
 [[Report]({{ site.url }}/files/projects/HHO pour Leray-Lions.pdf)]
