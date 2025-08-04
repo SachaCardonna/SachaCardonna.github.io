@@ -23,7 +23,7 @@ $$
 \end{cases} \nonumber
 $$
 </div>
-with $\mathbf{v} = (\eta,\mathbf{q})^t$, where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^t$ is the horizontal discharge, and $\mathbf{S}[b](\mathbf{v}) = \mathbf{B}[b](\mathbf{v}) +  \mathbf{R}[b](\mathbf{v})$ is a topography and friction source term. 
+with $\mathbf{v} = (\eta,\mathbf{q})^t$, where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^t$ is the horizontal discharge, and $\mathbf{S}\[b\](\mathbf{v}) = \mathbf{B}\[b\](\mathbf{v}) +  \mathbf{R}\[b\](\mathbf{v})$ is a topography and friction source term. 
 Visitors can find some numerical results and simulation in [Softwares](https://sachacardonna.github.io/codes).
 
 More generally, I am interested in modeling and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
