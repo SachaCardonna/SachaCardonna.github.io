@@ -12,7 +12,7 @@ redirect_from:
 Find a diverse range of documents, including essays, presentations, and reports I made as a student. 
 
 ## Internships
-<hr style="margin-top: -0.5em; margin-bottom: 1em;">
+<hr style="margin-top: -0.25em; margin-bottom: 1em;">
 Here are most of my internship reports. Please note that these documents may contain typos or be incomplete. They are shared mainly to illustrate the work I carried out as a student.
 
 <b> Local monolithic DG/FV subcells convex property preserving scheme on nonlinear shallow water equations</b>.
