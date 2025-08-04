@@ -12,7 +12,7 @@ redirect_from:
 Find a diverse range of documents, including essays, presentations, and reports I made as a student. 
 
 ## Internships
-<hr style="margin-top: -0.25em; margin-bottom: 1em;">
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
 Here are most of my internship reports. Please note that these documents may contain typos or be incomplete. They are shared mainly to illustrate the work I carried out as a student.
 
 <b> Local monolithic DG/FV subcells convex property preserving scheme on nonlinear shallow water equations</b>.
@@ -54,7 +54,7 @@ Advised by Sylvain Brochard.
 [[Report]({{ site.url }}/files/projects/Progression arithmetique.pdf) / [Slides]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf)]
 
 ## Projects
-
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
 Here are some course-related projects I completed during my studies. These shorter assignments were often done alone or in small teams and aimed to apply concepts learned in class to concrete problems.
 
 <b>Hybrid High-Order method on Leray-Lions operators</b>: studying a new non-conform finite-element method and its main discrete functional analysis results on Leray-Lions operators.<br>
