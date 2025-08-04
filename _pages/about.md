@@ -19,11 +19,11 @@ During my thesis, I design and implement arbitrary-order methods for partial dif
 $$
 \begin{cases}
       \partial_t \eta + \nabla_{\mathbf{x}} \cdot \mathbf{q} = 0, \\
-      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left( \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = -g\eta \nabla_{\mathbf{x}} b,
+      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left( \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = \mathbf{S}[b](\mathbf{v}),
 \end{cases} \nonumber
 $$
 </div>
-where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^t$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla_{\mathbf{x}} b)^t$ the topography source term. 
+with $\mathbf{v} = (\eta,\mathbf{q})^t$, where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^t$ is the horizontal discharge, and $\mathbf{S}[b](\mathbf{v}) = \mathbf{B}[b](\mathbf{v}) +  \mathbf{R}[b](\mathbf{v})$ is a topography and friction source term. 
 Visitors can find some numerical results and simulation in [Softwares](https://sachacardonna.github.io/codes).
 
 More generally, I am interested in modeling and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
