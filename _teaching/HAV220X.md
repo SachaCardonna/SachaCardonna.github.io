@@ -7,8 +7,11 @@ venue: "Montpellier Faculty of Sciences"
 date: 2025-01-01
 ---
 
-Contents
-======
+## Documents
+
+Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
+
+## Contents
 
 1) Basic set theory and logic  
 - Sets and set operations  

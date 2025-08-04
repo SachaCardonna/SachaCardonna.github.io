@@ -9,17 +9,11 @@ date: 2025-01-01
 
 <b>Satisfaction survey</b>: opinions of students on my teachings ([Summary]({{ site.url }}/files/teaching/HAX606X/survey_HAX606X.pdf) & [All answers](https://docs.google.com/spreadsheets/d/1DyxQ35Q87XlJb4_tCRzvcL3QfUoOaHuBOW0VeYgIrRY/edit?usp=sharing)).
 
-***
-
-Documents
-======
+## Documents
 
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
-***
-
-Contents
-======
+## Contents
 
 1) Unconstrained extrema
 - Notion of convexity

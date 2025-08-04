@@ -26,7 +26,7 @@ Access courses materials for my students.
 <p><b> HAS202X </b> - <b> Linear algebra</b><br>
 <i> Montpellier Faculty of Sciences</i> <br><br>
 
-<i> Description. </i> This course is intended for first-year students majoring in physics, chemistry, mechanics, and electronics.. It provides an introduction to linear algebra and to the resolution of linear differential systems. Topics include matrix calculus, solving linear systems, eigenvalues and diagonalization, and solving linear differential systems. <br><br>
+<i> Description. </i> This course is intended for first-year students majoring in physics, chemistry, mechanics, and electronics. It provides an introduction to linear algebra and to the resolution of linear differential systems. Topics include matrix calculus, solving linear systems, eigenvalues and diagonalization, and solving linear differential systems. <br><br>
 
 [<a href="https://sachacardonna.github.io/teaching/HAS202X">Course page</a>]</p>
 

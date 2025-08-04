@@ -11,10 +11,8 @@ redirect_from:
 
 Find a diverse range of documents, including essays, presentations, and reports I made as a student. 
 
+## Internships
 ***
-
-Internships
-======
 
 <b> Local monolithic DG/FV subcells convex property preserving scheme on nonlinear shallow water equations</b>.
 
@@ -54,10 +52,8 @@ Advised by Sylvain Brochard.
 
 [[Report]({{ site.url }}/files/projects/Progression arithmetique.pdf) / [Slides]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf)]
 
-***
+## Projects
 
-Projects
-======
 
 <b>Hybrid High-Order method on Leray-Lions operators</b>: studying a new non-conform finite-element method and its main discrete functional analysis results on Leray-Lions operators.<br>
 [[Report]({{ site.url }}/files/projects/HHO pour Leray-Lions.pdf)]
