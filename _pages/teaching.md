@@ -11,7 +11,7 @@ redirect_from:
 
 Access courses materials for my students.
 <details>
-<summary><h2 style="display:inline-block; cursor:pointer;">1st year B.Sc. (L1 PCSI/SVSE/PACES)</h2></summary>
+<summary><h2 style="display:inline-block; cursor:pointer;">1st year B.Sc. (L1 PCSI/SVSE/PACES)</h2>1st year B.Sc. (L1 PCSI/SVSE/PACES)</summary>
 
 <p><b> HAS101X </b> - <b>Real analysis </b><br>
 <i> Montpellier Faculty of Sciences </i> <br><br>
