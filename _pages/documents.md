@@ -12,7 +12,7 @@ redirect_from:
 Find a diverse range of documents, including essays, presentations, and reports I made as a student. 
 
 ## Internships
-
+***
 
 <b> Local monolithic DG/FV subcells convex property preserving scheme on nonlinear shallow water equations</b>.
 
