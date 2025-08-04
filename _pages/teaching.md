@@ -11,7 +11,12 @@ redirect_from:
 
 Access courses materials for my students.
 <details>
-<summary><h2 style="display:inline-block; cursor:pointer;">1st year B.Sc. (L1 PCSI/SVSE/PACES)</h2>1st year B.Sc. (L1 PCSI/SVSE/PACES)</summary>
+<summary>
+  <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
+    1st year B.Sc.
+    <span style="font-weight:normal;"> (L1 PCSI/SVSE/PACES)</span>
+  </h2>
+</summary>
 
 <p><b> HAS101X </b> - <b>Real analysis </b><br>
 <i> Montpellier Faculty of Sciences </i> <br><br>
@@ -50,7 +55,12 @@ Access courses materials for my students.
 </details>
 
 <details>
-<summary><h2 style="display:inline-block; cursor:pointer;">2nd year B.Sc. (L2 PeiP)</h2></summary>
+<summary>
+  <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
+    2nd year B.Sc.
+    <span style="font-weight:normal;"> (L2 PeiP)</span>
+  </h2>
+</summary>
 
 <p><b> HA8401H </b> - <b> Differential calculus & multivariable integration </b><br>
 <i> Engineering school Polytech Montpellier</i> <br><br>
@@ -72,7 +82,12 @@ Each week, students are placed in exam conditions with a subject to be covered i
 </details>
 
 <details>
-<summary><h2 style="display:inline-block; cursor:pointer;">3rd year B.Sc. (L3 Mathématiques)</h2></summary>
+<summary>
+  <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
+    3rd year B.Sc.
+    <span style="font-weight:normal;"> (L3 Mathématiques)</span>
+  </h2>
+</summary>
 
 <p><b> HAX604X </b> - <b> Numerical analysis of ordinary and partial differential equations </b><br>
 <i> Montpellier Faculty of Sciences </i> <br><br>
@@ -93,7 +108,12 @@ Each week, students are placed in exam conditions with a subject to be covered i
 </details>
 
 <details>
-<summary><h2 style="display:inline-block; cursor:pointer;">1st year M.Sc. (M1 Modélisation et Analyse numérique)</h2></summary>
+<summary>
+  <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
+    1st year M.Sc.
+    <span style="font-weight:normal;"> (M1 Modélisation et Analyse Numérique)</span>
+  </h2>
+</summary>
 
 <p><b> HAX703X </b> - <b> Numerical analysis of hyperbolic partial differential equations </b><br>
 <i> Montpellier Faculty of Sciences </i> <br><br>
