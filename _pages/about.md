@@ -11,7 +11,7 @@ redirect_from:
 I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG - UMR 5149).
 I'm also a teaching assistant for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
 
-![WaveBox]({{ site.baseurl }}/images/tsunami2d.png)
+![WaveBox]({{ site.baseurl }}/images/tsunami2d_accueil.png)
 
 ## Research interests
 
