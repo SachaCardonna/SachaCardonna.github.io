@@ -23,7 +23,7 @@ $$
 \end{cases} \nonumber
 $$
 </div>
-with $\mathbf{v} = (\eta,\mathbf{q})^t$, where $\eta$ is water total elevation, $\mathbf{q}$ is the horizontal discharge, and $\mathbf{S}\[b\](\mathbf{v})$ is a generic source term that may contains topography, friction or Coriolis effects.
+with $\mathbf{v} = (\eta,\mathbf{q})^t$, where $\eta$ is water total elevation, $\mathbf{q}$ is the horizontal discharge, and $\mathbf{S}\[b\](\mathbf{v})$ is a generic source term that may contains topography, friction and/or Coriolis effects.
 Visitors can find some numerical results and simulation in [Softwares](https://sachacardonna.github.io/codes).
 
 More generally, I am interested in modeling and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
