@@ -55,6 +55,8 @@ Access courses materials for my students.
 
 </details>
 
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
+  
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
@@ -82,6 +84,8 @@ Each week, students are placed in exam conditions with a subject to be covered i
 
 </details>
 
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
+
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
@@ -107,6 +111,8 @@ Each week, students are placed in exam conditions with a subject to be covered i
 [<a href="https://sachacardonna.github.io/teaching/HAX606X">Course page</a>]</p>
 
 </details>
+
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 <details>
 <summary>
