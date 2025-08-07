@@ -54,9 +54,9 @@ Access courses materials for my students.
 [<a href="https://sachacardonna.github.io/teaching/HA5202X">Course page</a>]</p>
 
 </details>
-<hr>
+<br>
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<hr>
+<br>
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
@@ -83,9 +83,9 @@ Each week, students are placed in exam conditions with a subject to be covered i
 [<a href="https://sachacardonna.github.io/teaching/HA8401H">Course page</a>]</p>
 
 </details>
-<hr>
+<br>
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<hr>
+<br>
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
@@ -111,9 +111,9 @@ Each week, students are placed in exam conditions with a subject to be covered i
 [<a href="https://sachacardonna.github.io/teaching/HAX606X">Course page</a>]</p>
 
 </details>
-<hr>
+<br>
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<hr>
+<br>
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
