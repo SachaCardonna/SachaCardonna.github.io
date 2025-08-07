@@ -15,7 +15,7 @@ Access courses materials for my students.
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     1st year B.Sc.
-    <span style="font-weight:normal;"> (L1 PCSI/SVSE/PACES)</span>
+    <span style="font-weight:normal;"> (L1 PCSI-SVSE-PASS)</span>
   </h2>
 </summary>
 
@@ -112,7 +112,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     1st year M.Sc.
-    <span style="font-weight:normal;"> (M1 MANU/MF)</span>
+    <span style="font-weight:normal;"> (M1 MANU-MF)</span>
   </h2>
 </summary>
 
