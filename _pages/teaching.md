@@ -126,14 +126,15 @@ Each week, students are placed in exam conditions with a subject to be covered i
 </details>
 
 
-## Online ressources
+## Useful open ressources
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-Some useful and diverse content for students, encompassing mathematics, physics and more.
+Some useful and diverse open-access material for students, encompassing mathematics, physics and more.
 
 <b>Learn and practice mathematics</b>:
 - The well-known forum [Les Mathématiques](https://les-mathematiques.net), interesting for any needs you may have during your studies.
 - Gilles Bailly Maitre's [Maths Adultes](https://www.youtube.com/channel/UC9Vaxx3-gWuBxt38pao4XCQ), amazing for learning advanced maths (very useful for studying at the last minute).
 - The channel of [Fares Maalouf](https://www.youtube.com/@FaresMaalouf) for courses and exercises up to master's degree.
+- My brilliant student Benjamin B. recommended the channel [Mathematics Academy](https://www.youtube.com/@MathematicsAcademy_MA), held by Joël Chaskalovic, for master's degree courses.
 - [Bibm@th](https://www.bibmath.net) &  [Exo7](http://exo7.emath.fr),  useful websites with loads of corrected exercises and some lesson sheets.
 - A must for calculus: [BlackPenRedPen](https://www.youtube.com/@blackpenredpen).
 - YouTube channel of [Axel Arno](https://www.youtube.com/@Axel_Arno), promoting maths and its history.
