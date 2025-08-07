@@ -86,7 +86,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     3rd year B.Sc.
-    <span style="font-weight:normal;"> (L3 Maths)</span>
+    <span style="font-weight:normal;"> (L3 MG)</span>
   </h2>
 </summary>
 
@@ -112,7 +112,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     1st year M.Sc.
-    <span style="font-weight:normal;"> (M1 Maths Applis)</span>
+    <span style="font-weight:normal;"> (M1 MANU/MF)</span>
   </h2>
 </summary>
 
@@ -126,7 +126,8 @@ Each week, students are placed in exam conditions with a subject to be covered i
 </details>
 
 
-## Online ressources for students
+## Online ressources
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
 Some useful and diverse content for students, encompassing mathematics, physics and more.
 
 <b>Learn and practice mathematics</b>:
