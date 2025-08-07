@@ -167,6 +167,3 @@ Some useful and diverse open-access material for students, encompassing mathemat
 - For PDFs conversions and more, use [iLovePDF](https://www.ilovepdf.com/fr).
 - Encrypted codes to break ? Or just curious ? Go to [dCode](https://www.dcode.fr/fr). 
 - If you're interested in steganography, go to [Pelock](https://www.pelock.com/products/steganography-online-codec).
-
-
-<i>Note to students and colleagues</i>. If you're looking for maths or physics books in PDF, don't hesitate to ask me, I may share some with you if you promise you won't report me to the police.
