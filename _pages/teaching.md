@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Access courses materials for my students.
+
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
@@ -85,7 +86,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     3rd year B.Sc.
-    <span style="font-weight:normal;"> (L3 Mathématiques)</span>
+    <span style="font-weight:normal;"> (L3 Maths)</span>
   </h2>
 </summary>
 
@@ -111,7 +112,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     1st year M.Sc.
-    <span style="font-weight:normal;"> (M1 Modélisation et Analyse Numérique)</span>
+    <span style="font-weight:normal;"> (M1 Maths Applis)</span>
   </h2>
 </summary>
 
