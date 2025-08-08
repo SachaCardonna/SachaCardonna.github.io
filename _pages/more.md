@@ -9,44 +9,20 @@ redirect_from:
 
 {% include base_path %}
 
-Discover diverse content encompassing mathematics, physics and more.
 
-<b>Learn and practice mathematics</b>:
-- The well-known forum [Les Mathématiques](https://les-mathematiques.net), interesting for any needs you may have during your studies.
-- Gilles Bailly Maitre's [Maths Adultes](https://www.youtube.com/channel/UC9Vaxx3-gWuBxt38pao4XCQ), amazing for learning advanced maths (very useful for studying at the last minute).
-- The channel of [Fares Maalouf](https://www.youtube.com/@FaresMaalouf) for courses and exercises up to master's degree.
-- [Bibm@th](https://www.bibmath.net) &  [Exo7](http://exo7.emath.fr),  useful websites with loads of corrected exercises and some lesson sheets.
-- A must for calculus: [BlackPenRedPen](https://www.youtube.com/@blackpenredpen).
-- YouTube channel of [Axel Arno](https://www.youtube.com/@Axel_Arno), promoting maths and its history.
-- [Flammable Maths](https://www.youtube.com/@PapaFlammy69) for serious and less serious maths videos.
-- If you want to get advices and be successful in your maths studies, check [Lucas Willems](https://www.youtube.com/@lcswillems) channel.
+## Personal and professional commitments
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
+I strongly believe in fair access to education and in the role that scientists can play in breaking down social barriers.
 
+- **Access to education**: I am committed to helping bridge the gap in access to higher education, particularly for students from underrepresented or disadvantaged backgrounds. Since 2024, I have for example supervised several *MathC2+* workshops, national programs in France aimed at high school students from under-resourced schools (*zones d'éducation prioritaire*) and often with a strong focus on encouraging young women to pursue scientific studies. These internships not only introduce participants to advanced mathematics in an accessible and engaging way, but also aim to foster self-confidence and ambition.
 
-<b>Learn and practice physics</b>:
-- [E-Learning Physique](https://www.youtube.com/@e-learningphysique4910), the best videos to learn physics for bachelor's degree and engineering schools competition, created by the amazing Benoît Hébert (he tragically left us in February 2020).
-- A very pedagogic yet challenging channel: [Scientia Egregia](https://www.youtube.com/@antoinebrgt), to learn more about advanced theoretical physics.
-- Cartoonistic and playful physics concepts in [Minute Physics](https://www.youtube.com/@MinutePhysics).
-- University courses from the brilliant [Richard Taillet](https://www.youtube.com/@richardtaillet).
+I have also participated in multiple high school outreach events where I presented my work and the broader world of applied mathematics in concrete and relatable terms. In my own teaching at the university, I make it a priority to build strong, individualized connections with students. I meet with many of them one-on-one to ensure they feel supported (especially those who may lack familiarity with the expectations and codes of academic environments, as I did by the past).
 
-<b>Visualizing fluid mechanics</b>:
-- Some old yet amazing videos from [National Committee for Fluid Mechanics Films](https://web.mit.edu/hml/ncfmf.html);
-- An entire website dedicated to fluid mechanics: [eFluids](http://www.efluids.com).
+I am deeply convinced that social class remains the most structural and persistent form of inequality in access to academic and scientific careers. I intend to continue working closely with highly motivated students whose families are not traditionally connected to the world of higher education or research. Beyond outreach, I aim to develop my own accessible teaching resources; in particular, content designed to demystify mathematics and scientific studies for students who may lack early exposure or institutional support. My long-term goal is to help make our field more welcoming and comprehensible to those who are often kept at its margins. But as I am still a student, this can wait. <span style=\"font-family: monospace; font-weight: normal;\">☺</span>
+  
+- **Volunteering**: For several years, I regularly organized activities and animations for children in the pediatric ward of the hospital in my hometown. I also gave free tutoring sessions to classmates or younger students who needed academic support, and I volunteered at the local community center (MJC) in my hometown. I have always believed in giving back to society, in return for the many opportunities and support it has offered me. 
 
-<b>Learn and practice programming</b>:
-- Dominique Liar's [Koor](https://www.youtube.com/@DominiqueLiard06) to learn pretty much any programming language you want (notions are always presented with code examples).
-- A more specialized website with free lessons: [Learn C++](https://www.learncpp.com).
+- **Scientific integrity**: My PhD advisors have instilled in me the importance of rigorous and meaningful research. I aim to ensure that each paper I co-author brings genuine new contributions. I distance myself from overpublishing and value quality over quantity.
 
-<b>Scientific vulgarization</b>:
-- Channel of [Aurélien Barreau](https://www.youtube.com/@aurelien_barrau) for amazing talks about physics, maths, sciences and ecology.
-- Physics and maths entertaining videos with [Tibees](https://www.youtube.com/@tibees).
-- [Blog](https://scienceetonnante.com) and [YouTube](https://www.youtube.com/channel/UCaNlbnghtwlsGF-KzAFThqA) channel of David Louapre, for physics, maths, informatics...
-- [Micmaths](https://www.youtube.com/@Micmaths) from Mickaël Launay proposing videos on playful aspects of maths.
+- **Blood and plasma donation**: I’m a regular donor and advocate for blood and plasma donation, especially crucial for those with rare blood types. 
 
-<b> Useful tools</b>:
-- To start using Latex, the best way is probably to use [Overleaf](https://fr.overleaf.com/login?), that allows to write online, and provides a lot of cool templates to start with. Use this [document](https://texlive.mycozy.space/info/symbols/comprehensive/symbols-a4.pdf) to get all the notations you may need.
-- For PDFs conversions and more, use [iLovePDF](https://www.ilovepdf.com/fr).
-- Encrypted codes to break ? Or just curious ? Go to [dCode](https://www.dcode.fr/fr). 
-- If you're interested in steganography, go to [Pelock](https://www.pelock.com/products/steganography-online-codec).
-
-
-<i>Note to students and colleagues</i>. If you're looking for maths or physics books in PDF, don't hesitate to ask me, I may share some with you if you promise you won't report me to the police.
