@@ -40,7 +40,7 @@ I have always believed in giving back to society, in return for the many opportu
 <summary><strong>Scientific integrity</strong></summary>
 As a PhD student just beginning my career, I don’t have all the answers, but one thing I care deeply about is the integrity of the work I contribute to.  
 
-From the very start of my thesis, my advisors have emphasized the importance of rigorous, meaningful, and honest research. I try to uphold that standard by asking myself, with each things I tries, whether what I'm doing really brings something new.  
+From the very start of my thesis, my advisors have emphasized the importance of rigorous, meaningful, and honest research. I try to uphold that standard by asking myself whether what I'm doing really brings something new.  
 
 I’m well aware that the pressure to publish is real, but I don’t want to fall into the habit of producing papers just to build up a list. I'd rather take my time, collaborate thoughtfully, and produce results I can stand by, even if that means fewer publications for now.
 
@@ -50,6 +50,6 @@ I’m well aware that the pressure to publish is real, but I don’t want to fal
 
 <details>
 <summary><strong>Blood and plasma donation</strong></summary>
-I am a regular blood and plasma donor. I started donating at a young age and continue to do so whenever possible. I am particularly aware of the importance of donations for people with rare blood types. I encourage anyone who is eligible to donate and help address ongoing shortages. You can easily take an appointment at the [EFS](https://dondesang.efs.sante.fr).
+I am a regular blood and plasma donor. I started donating at a young age and continue to do so whenever possible. I am particularly aware of the importance of donations for people with rare blood types. I encourage anyone who is eligible to donate and help address ongoing shortages. You can easily make an appointment through the <a href="https://dondesang.efs.sante.fr" target="_blank" rel="noopener noreferrer">EFS</a> website.
 
 </details>
