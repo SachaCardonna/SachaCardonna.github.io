@@ -91,66 +91,77 @@ I have always been passionate about literature, cinema, and music. These arts ha
 }
 </style>
 
-### 🎬 Films
-Here is a selection of four of my favorite films, which I recommend depending on the mood you are in.
+### Films
+Here is a selection of four of my favorite movies, which I recommend depending on the mood you are in. These four films are quite sad, but they all share the same thing: a message of hope.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
-    <img src="/images/films/lost.jpg" alt="Lost in Translation (2003)">
+    <img src="/images/films/lost.jpg" alt="Lost in Translation - Sofia Coppola (2003)">
     <div class="film-overlay">
-      <strong>Lost in Translation (2003)</strong><br>
+      <strong>Lost in Translation (2003)</strong><br> 
+      <it>by Sofia Coppola</it><br>
      When you feel lost.
     </div>
   </div>
   <div class="film-card">
-    <img src="/images/films/rockysepia.jpg" alt="Rocky (1976)">
+    <img src="/images/films/rockysepia.jpg" alt="Rocky - John G. Avildsen(1976)">
     <div class="film-overlay">
-      <strong>Rocky (1976)</strong><br>
+      <strong>Rocky - John G. Avildsen(1976)</strong><br>
      When you feel you're not enough.
     </div>
   </div>
   <div class="film-card">
-    <img src="/images/films/itineraire.jpg" alt="Itinéraire d'un enfant gâté (1988)">
+    <img src="/images/films/itineraire.jpg" alt="Itinéraire d'un enfant gâté - Claude Lelouch (1988)">
     <div class="film-overlay">
-      <strong>Itinéraire d'un enfant gâté (1988)</strong><br>
+      <strong>Itinéraire d'un enfant gâté - Claude Lelouch (1988)</strong><br>
      When you feel to quit.
     </div>
   </div>
   <div class="film-card">
-    <img src="/images/films/once.jpg" alt="Once Upon a Time in America (1984)">
+    <img src="/images/films/once.jpg" alt="Once Upon a Time in America - Sergio Leone (1984)">
     <div class="film-overlay">
-      <strong>Once Upon a Time in America (1984)</strong><br>
+      <strong>Once Upon a Time in America - Sergio Leone (1984)</strong><br>
       When you feel nostalgic.
     </div>
   </div>
 </div>
 
-<!-- ---
-
 ### Music
-A selection of albums and tracks that I have been listening to a lot lately.
+I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me: I chose here four albums, each  in a different musical style.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/music1.jpg" alt="Music 1" style="width:100%; border-radius: 8px;">
-    <p style="margin-top: 0.5em;">Energetic and uplifting melodies.</p>
+  <div class="film-card">
+    <img src="/images/music/heaven_or_las_vegas.jpg" alt="Heaven or Las Vegas - Cocteau Twins (1990)">
+    <div class="film-overlay">
+      <strong>Heaven or Las Vegas - Cocteau Twins (1990)</strong><br>
+     When you feel lost.
+    </div>
   </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/music2.jpg" alt="Music 2" style="width:100%; border-radius: 8px;">
-    <p style="margin-top: 0.5em;">Calm and atmospheric soundscapes.</p>
+  <div class="film-card">
+    <img src="/images/music/lost_in_the_dream.jpg" alt="Lost in the Dream - The War on Drugs (2014)">
+    <div class="film-overlay">
+      <strong>Lost in the Dream - The War on Drugs (2014)</strong><br>
+     When you feel you're not enough.
+    </div>
   </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/music3.jpg" alt="Music 3" style="width:100%; border-radius: 8px;">
-    <p style="margin-top: 0.5em;">A timeless piece I keep coming back to.</p>
+  <div class="film-card">
+    <img src="/images/music/supreme.jpg" alt="Suprême NTM - NTM (1998)">
+    <div class="film-overlay">
+      <strong>Suprême NTM - NTM (1998)</strong><br>
+     When you feel to quit.
+    </div>
   </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/music4.jpg" alt="Music 4" style="width:100%; border-radius: 8px;">
-    <p style="margin-top: 0.5em;">Raw emotion captured in sound.</p>
+  <div class="film-card">
+    <img src="/images/music/the_crane_wife.jpg" alt="The Crane Wife - The Decemberists (2004)">
+    <div class="film-overlay">
+      <strong>The Crane Wife - The Decemberists (2004)</strong><br>
+      When you feel nostalgic.
+    </div>
   </div>
 </div>
-
+<!-- 
 ---
-
+<!-- 
 ### Books
 Four books that left a mark on me, whether for their ideas, their storytelling, or their style.
 
@@ -171,4 +182,4 @@ Four books that left a mark on me, whether for their ideas, their storytelling, 
     <img src="/assets/images/book4.jpg" alt="Book 4" style="width:100%; border-radius: 8px;">
     <p style="margin-top: 0.5em;">An inspiring read that stayed with me.</p>
   </div>
-</div> -->
+</div> --> --> -->
