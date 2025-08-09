@@ -71,8 +71,8 @@ I have always been passionate about literature, cinema, and music. These arts ha
 <style>
 .film-card {
   position: relative;
-  flex: 1;
-  min-width: 200px;
+  flex: 0 1 calc(20% - 1em); /* 5 par ligne */
+  min-width: 150px;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -225,7 +225,7 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <img src="/images/books/candide.jpg" alt="Voltaire">
     <div class="film-overlay">
       <strong>Candide ou l'Optimisme (1759)</strong><br>
-      <i>Stendhal</i><br>
+      <i>Voltaire</i><br>
       Candide cultivate his garden.
     </div>
   </div>
