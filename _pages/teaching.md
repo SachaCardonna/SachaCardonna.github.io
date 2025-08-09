@@ -10,7 +10,22 @@ redirect_from:
 {% include base_path %}
 
 Access courses materials for my students.
+<style>
+  details {
+    background-color: rgba(0, 0, 0, 0.03); /* léger gris clair */
+    border-radius: 6px;
+    padding: 0.5em;
+  }
 
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  details[open] {
+    background-color: rgba(0, 0, 0, 0.05); /* un peu plus foncé quand ouvert */
+  }
+</style>
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
