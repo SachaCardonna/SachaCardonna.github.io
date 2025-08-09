@@ -101,28 +101,28 @@ Here is a selection of four of my favorite films, which I recommend depending on
     <img src="/images/films/lost.jpg" alt="Lost in Translation (2003)">
     <div class="film-overlay">
       <strong>Lost in Translation (2003)</strong><br>
-      A gripping story with stunning visuals.
+     When you feel lost.
     </div>
   </div>
   <div class="film-card">
     <img src="/images/films/rocky.jpg" alt="Rocky (1976)">
     <div class="film-overlay">
       <strong>Rocky (1976)</strong><br>
-      A classic that never loses its charm.
+     When you feel you're not enough.
     </div>
   </div>
   <div class="film-card">
     <img src="/images/films/itineraire.jpg" alt="Itinéraire d'un enfant gâté (1988)">
     <div class="film-overlay">
       <strong>Itinéraire d'un enfant gâté (1988)</strong><br>
-      A powerful reflection on human nature.
+     When you feel to quit.
     </div>
   </div>
   <div class="film-card">
     <img src="/images/films/once.jpg" alt="Once Upon a Time in America (1984)">
     <div class="film-overlay">
       <strong>Once Upon a Time in America (1984)</strong><br>
-      An inspiring journey full of emotion.
+      When you feel nostalgic.
     </div>
   </div>
 </div>
