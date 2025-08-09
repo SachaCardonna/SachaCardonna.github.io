@@ -56,9 +56,7 @@ I am a regular blood and plasma donor. I started donating at a young age and con
 
 ## Some recommendations about films, music, and books
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-
 I have always been passionate about literature, cinema, and music. These arts have had a significant impact on my life and have shaped the way I see and think about the world.
----
 
 <style>
 .film-card {
@@ -105,7 +103,7 @@ Here is a selection of four of my favorite films, which I recommend depending on
     </div>
   </div>
   <div class="film-card">
-    <img src="/images/films/rocky.jpg" alt="Rocky (1976)">
+    <img src="/images/films/rockysepia.jpg" alt="Rocky (1976)">
     <div class="film-overlay">
       <strong>Rocky (1976)</strong><br>
      When you feel you're not enough.
