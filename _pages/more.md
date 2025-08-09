@@ -99,28 +99,31 @@ Here is a selection of four of my favorite movies, which I recommend depending o
     <img src="/images/films/lost.jpg" alt="Lost in Translation - Sofia Coppola (2003)">
     <div class="film-overlay">
       <strong>Lost in Translation (2003)</strong><br> 
-      <it>by Sofia Coppola</it><br>
+      <i>Sofia Coppola</i><br>
      When you feel lost.
     </div>
   </div>
   <div class="film-card">
     <img src="/images/films/rockysepia.jpg" alt="Rocky - John G. Avildsen(1976)">
     <div class="film-overlay">
-      <strong>Rocky - John G. Avildsen(1976)</strong><br>
+      <strong>Rocky (1976)</strong><br>
+       <i>John G. Avildsen</i><br>
      When you feel you're not enough.
     </div>
   </div>
   <div class="film-card">
     <img src="/images/films/itineraire.jpg" alt="Itinéraire d'un enfant gâté - Claude Lelouch (1988)">
     <div class="film-overlay">
-      <strong>Itinéraire d'un enfant gâté - Claude Lelouch (1988)</strong><br>
+      <strong>Itinéraire d'un enfant gâté (1988)</strong><br>
+       <i>Claude Lelouch</i><br>
      When you feel to quit.
     </div>
   </div>
   <div class="film-card">
     <img src="/images/films/once.jpg" alt="Once Upon a Time in America - Sergio Leone (1984)">
     <div class="film-overlay">
-      <strong>Once Upon a Time in America - Sergio Leone (1984)</strong><br>
+      <strong>Once Upon a Time in America (1984)</strong><br>
+      <i>Sergio Leone</i><br>
       When you feel nostalgic.
     </div>
   </div>
@@ -133,29 +136,33 @@ I spend most of my days with music playing in the background. Since my music tas
   <div class="film-card">
     <img src="/images/music/heaven_or_las_vegas.jpg" alt="Heaven or Las Vegas - Cocteau Twins (1990)">
     <div class="film-overlay">
-      <strong>Heaven or Las Vegas - Cocteau Twins (1990)</strong><br>
-     When you feel lost.
+      <strong>Heaven or Las Vegas (1990)</strong><br>
+      <i>Cocteau Twins</i><br>
+      Dream pop & Ethereal wave
     </div>
   </div>
   <div class="film-card">
     <img src="/images/music/lost_in_the_dream.jpg" alt="Lost in the Dream - The War on Drugs (2014)">
     <div class="film-overlay">
-      <strong>Lost in the Dream - The War on Drugs (2014)</strong><br>
-     When you feel you're not enough.
+      <strong>Lost in the Dream (2014)</strong><br>
+      <i>The War on Drugs</i><br>
+      Indie rock & Psychedelic rock
     </div>
   </div>
   <div class="film-card">
     <img src="/images/music/supreme.jpg" alt="Suprême NTM - NTM (1998)">
     <div class="film-overlay">
-      <strong>Suprême NTM - NTM (1998)</strong><br>
-     When you feel to quit.
+      <strong>Suprême NTM (1998)</strong><br>
+      <i>NTM</i><br>
+      Rap & Hip-hop
     </div>
   </div>
   <div class="film-card">
     <img src="/images/music/the_crane_wife.jpg" alt="The Crane Wife - The Decemberists (2004)">
     <div class="film-overlay">
-      <strong>The Crane Wife - The Decemberists (2004)</strong><br>
-      When you feel nostalgic.
+      <strong>The Crane Wife (2004)</strong><br>
+      <i>The Decemberists</i><br>
+      Folk & Americana
     </div>
   </div>
 </div>
