@@ -31,9 +31,9 @@ Outside of my academic work, I try to stay engaged in causes I consider importan
 </style>
 <details>
 <summary><strong>Access to education</strong></summary>
-I am committed to helping bridge the gap in access to higher education, particularly for students from underrepresented or disadvantaged backgrounds. Since 2024, I have for example supervised several MathC2 workshops, national programs in France aimed at high school students from under-resourced schools and often with a strong focus on encouraging young women to pursue scientific studies.  
-I have also participated in multiple high school outreach events where I presented my work and the broader world of applied mathematics in concrete and relatable terms. In my own teaching at the university, I make it a priority to build strong, individualized connections with students. I meet with many of them one-on-one to ensure they feel supported, especially those who may lack familiarity with the expectations and codes of academic environments, as I did in the past.   
-I am deeply convinced that social class remains the most structural and persistent form of inequality in access to academic and scientific careers. I intend to continue working closely with highly motivated students whose families are not traditionally connected to the world of higher education or research.  
+I am committed to helping bridge the gap in access to higher education, particularly for students from underrepresented or disadvantaged backgrounds. I have for example supervised several MathC2 workshops, national programs in France aimed at high school students from under-resourced schools and often with a strong focus on encouraging young women to pursue scientific studies.  
+I have also participated in multiple outreach events where I presented my work and the broader world of applied mathematics. In my own teaching at the university, I make it a priority to build strong, individualized connections with students, ensure they feel supported, especially those who may lack familiarity with the expectations and codes of academic environments, as I did in the past.   
+I am deeply convinced that social class remains the most structural and persistent form of inequality in access to academic and scientific careers.  
 Beyond outreach, I aim to develop my own accessible teaching resources; in particular, content designed to demystify mathematics and scientific studies for students who may lack early exposure or institutional support. My long-term goal is to help make our field more welcoming and comprehensible to those who are often kept at its margins. But as I am still a student, this can wait...
 
 </details>
@@ -50,7 +50,7 @@ I have always believed in giving back to society, in return for the many opportu
 
 <details>
 <summary><strong>Scientific integrity</strong></summary>
-As a PhD student just beginning my career, I don’t have all the answers, but one thing I care deeply about is the integrity of the work I contribute to.  
+As a PhD student just beginning my career, one thing I care deeply about is the integrity of the work I contribute to.  
 From the very start of my thesis, my advisors have emphasized the importance of rigorous, meaningful, and honest research. I try to uphold that standard by asking myself whether what I'm doing really brings something new.  
 I’m well aware that the pressure to publish is real, but I don’t want to fall into the habit of producing papers just to build up a list. I'd rather take my time, collaborate thoughtfully, and produce results I can stand by, even if that means fewer publications in my career.
 
@@ -148,7 +148,7 @@ I have been a movie lover since I was young, and I enjoy recommending films that
 </div>
 
 ### Music
-I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me: I chose here five albums, each in a different musical style.
+I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me; I chose here five albums, each in a different musical style.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
