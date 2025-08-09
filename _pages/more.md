@@ -59,6 +59,16 @@ I’m well aware that the pressure to publish is real, but I don’t want to fal
 <div style="margin-bottom: 1em;"></div>
 
 <details>
+<summary><strong>Local craftsmanship and agriculture</strong></summary>
+I believe the quality of what we use and enjoy is closely connected to the people who create it. Whenever possible, I choose to support local artisans, small producers, and independent businesses.  
+That can mean buying food directly from nearby farms, choosing handmade objects from craftspeople I know, while recommending their work to friends and colleagues.  
+It is not about rejecting mass production altogether, but more about helping keep alive the skills, creativity, and human connections that often disappear in industrial processes.
+
+</details>
+
+<div style="margin-bottom: 1em;"></div>
+
+<details>
 <summary><strong>Blood and plasma donation</strong></summary>
 I am a regular blood and plasma donor. I started donating at a young age and continue to do so whenever possible. I am particularly aware of the importance of donations for people with rare blood types. I encourage anyone who is eligible to donate and help address ongoing shortages. You can easily make an appointment through the <a href="https://dondesang.efs.sante.fr" target="_blank" rel="noopener noreferrer">EFS</a> website.
 
