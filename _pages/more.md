@@ -31,13 +31,10 @@ Outside of my academic work, I try to stay engaged in causes I consider importan
 </style>
 <details>
 <summary><strong>Access to education</strong></summary>
-I am committed to helping bridge the gap in access to higher education, particularly for students from underrepresented or disadvantaged backgrounds. Since 2024, I have for example supervised several MathC2 workshops, national programs in France aimed at high school students from under-resourced schools and often with a strong focus on encouraging young women to pursue scientific studies. 
-
-I have also participated in multiple high school outreach events where I presented my work and the broader world of applied mathematics in concrete and relatable terms. In my own teaching at the university, I make it a priority to build strong, individualized connections with students. I meet with many of them one-on-one to ensure they feel supported, especially those who may lack familiarity with the expectations and codes of academic environments, as I did in the past.  
-
+I am committed to helping bridge the gap in access to higher education, particularly for students from underrepresented or disadvantaged backgrounds. Since 2024, I have for example supervised several MathC2 workshops, national programs in France aimed at high school students from under-resourced schools and often with a strong focus on encouraging young women to pursue scientific studies.  
+I have also participated in multiple high school outreach events where I presented my work and the broader world of applied mathematics in concrete and relatable terms. In my own teaching at the university, I make it a priority to build strong, individualized connections with students. I meet with many of them one-on-one to ensure they feel supported, especially those who may lack familiarity with the expectations and codes of academic environments, as I did in the past.   
 I am deeply convinced that social class remains the most structural and persistent form of inequality in access to academic and scientific careers. I intend to continue working closely with highly motivated students whose families are not traditionally connected to the world of higher education or research.  
-
-Beyond outreach, I aim to develop my own accessible teaching resources; in particular, content designed to demystify mathematics and scientific studies for students who may lack early exposure or institutional support. My long-term goal is to help make our field more welcoming and comprehensible to those who are often kept at its margins. But as I am still a student, this can wait. ☺
+Beyond outreach, I aim to develop my own accessible teaching resources; in particular, content designed to demystify mathematics and scientific studies for students who may lack early exposure or institutional support. My long-term goal is to help make our field more welcoming and comprehensible to those who are often kept at its margins. But as I am still a student, this can wait...
 
 </details>
 
@@ -54,10 +51,8 @@ I have always believed in giving back to society, in return for the many opportu
 <details>
 <summary><strong>Scientific integrity</strong></summary>
 As a PhD student just beginning my career, I don’t have all the answers, but one thing I care deeply about is the integrity of the work I contribute to.  
-
 From the very start of my thesis, my advisors have emphasized the importance of rigorous, meaningful, and honest research. I try to uphold that standard by asking myself whether what I'm doing really brings something new.  
-
-I’m well aware that the pressure to publish is real, but I don’t want to fall into the habit of producing papers just to build up a list. I'd rather take my time, collaborate thoughtfully, and produce results I can stand by, even if that means fewer publications for now.
+I’m well aware that the pressure to publish is real, but I don’t want to fall into the habit of producing papers just to build up a list. I'd rather take my time, collaborate thoughtfully, and produce results I can stand by, even if that means fewer publications in my career.
 
 </details>
 
@@ -181,27 +176,41 @@ I spend most of my days with music playing in the background. Since my music tas
     </div>
   </div>
 </div>
-<!-- 
----
-<!-- 
-### Books
-Four books that left a mark on me, whether for their ideas, their storytelling, or their style.
+
+### Literature
+When I was younger, I used to read a lot. With my PhD, I do not have as much time for it anymore, and I miss it... Still, I have a strong passion for literature, and I have selected four works that have had a significant impact on my life.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/book1.jpg" alt="Book 1" style="width:100%; border-radius: 8px;">
-    <p style="margin-top: 0.5em;">A thought-provoking exploration of ideas.</p>
+  <div class="film-card">
+    <img src="/images/books/temps.jpg" alt="Proust">
+    <div class="film-overlay">
+      <strong>À la recherche du temps perdu (1913-1927)</strong><br>
+      <i>Marcel Proust</i><br>
+      Marcel remembers.
+    </div>
   </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/book2.jpg" alt="Book 2" style="width:100%; border-radius: 8px;">
-    <p style="margin-top: 0.5em;">A moving story with unforgettable characters.</p>
+  <div class="film-card">
+    <img src="/images/books/antigone.jpg" alt="Anouilh">
+    <div class="film-overlay">
+      <strong>Antigone (1944)</strong><br>
+      <i>Jean Anouilh</i><br>
+      Antigone wants to bury her brother.
+    </div>
   </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/book3.jpg" alt="Book 3" style="width:100%; border-radius: 8px;">
-    <p style="margin-top: 0.5em;">Challenging and rewarding in equal measure.</p>
+  <div class="film-card">
+    <img src="/images/books/rouge.jpg" alt="Stendhal">
+    <div class="film-overlay">
+      <strong>Le Rouge et le Noir (1831)</strong><br>
+      <i>Stendhal</i><br>
+      Julien wants to be the best.
+    </div>
   </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/book4.jpg" alt="Book 4" style="width:100%; border-radius: 8px;">
-    <p style="margin-top: 0.5em;">An inspiring read that stayed with me.</p>
+  <div class="film-card">
+    <img src="/images/books/godot.jpg" alt="Beckett">
+    <div class="film-overlay">
+      <strong>En attendant Godot (1952)</strong><br>
+      <i>Samuel Beckett</i><br>
+      Vladimir and Estragon wait for Godot.
+    </div>
   </div>
-</div> --> --> -->
+</div>
