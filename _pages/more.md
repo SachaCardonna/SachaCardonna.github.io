@@ -102,7 +102,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
 </style>
 
 ### Films
-Here is a selection of four of my favorite movies, which I recommend depending on the mood you are in. These four films are quite sad, but they all share the same thing: a message of hope.
+I have been a movie lover since I was young, and I enjoy recommending films that have stayed with me over the years. Here is a selection of four of my favorite works; while they are all on the melancholic side, each carries, in its own way, some hope.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -140,7 +140,7 @@ Here is a selection of four of my favorite movies, which I recommend depending o
 </div>
 
 ### Music
-I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me: I chose here four albums, each  in a different musical style.
+I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me: I chose here four albums, each in a different musical style.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
