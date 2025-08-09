@@ -13,7 +13,22 @@ redirect_from:
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 Outside of my academic work, I try to stay engaged in causes I consider important, both within and beyond the university. These include access to education, social volunteering, scientific integrity... This section outlines a few personal principles and activities that have shaped how I approach research, teaching, and everyday life.
+<style>
+  details {
+    background-color: rgba(0, 0, 0, 0.03); /* léger gris clair */
+    border-radius: 6px;
+    padding: 0.5em;
+  }
 
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  details[open] {
+    background-color: rgba(0, 0, 0, 0.05); /* un peu plus foncé quand ouvert */
+  }
+</style>
 <details>
 <summary><strong>Access to education</strong></summary>
 I am committed to helping bridge the gap in access to higher education, particularly for students from underrepresented or disadvantaged backgrounds. Since 2024, I have for example supervised several MathC2 workshops, national programs in France aimed at high school students from under-resourced schools and often with a strong focus on encouraging young women to pursue scientific studies. 
