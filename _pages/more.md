@@ -64,7 +64,7 @@ I am a regular blood and plasma donor. I started donating at a young age and con
 
 </details>
 
-## Some recommendations about films, music, and books
+## Some film, music, and book picks
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 I have always been passionate about literature, cinema, and music. These arts have had a significant impact on my life and have shaped the way I see and think about the world.
 
