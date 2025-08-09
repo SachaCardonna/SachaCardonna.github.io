@@ -152,19 +152,19 @@ I spend most of my days with music playing in the background. Since my music tas
     </div>
   </div>
   <div class="film-card">
-    <img src="/images/music/lost_in_the_dream.jpg" alt="Lost in the Dream - The War on Drugs (2014)">
-    <div class="film-overlay">
-      <strong>Lost in the Dream (2014)</strong><br>
-      <i>The War on Drugs</i><br>
-      Indie rock & Psychedelic rock
-    </div>
-  </div>
-  <div class="film-card">
     <img src="/images/music/supreme.jpg" alt="Suprême NTM - NTM (1998)">
     <div class="film-overlay">
       <strong>Suprême NTM (1998)</strong><br>
       <i>NTM</i><br>
       Rap & Hip-hop
+    </div>
+  </div>
+    <div class="film-card">
+    <img src="/images/music/lost_in_the_dream.jpg" alt="Lost in the Dream - The War on Drugs (2014)">
+    <div class="film-overlay">
+      <strong>Lost in the Dream (2014)</strong><br>
+      <i>The War on Drugs</i><br>
+      Indie rock & Psychedelic rock
     </div>
   </div>
   <div class="film-card">
