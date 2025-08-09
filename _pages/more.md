@@ -102,7 +102,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
 </style>
 
 ### Films
-I have been a movie lover since I was young, and I enjoy recommending films that have stayed with me over the years. Here is a selection of four of my favorite works; while they are all on the melancholic side, each carries, in its own way, some hope.
+I have been a movie lover since I was young, and I enjoy recommending films that have stayed with me over the years. Here is a selection of five of my favorite works; while they are all on the melancholic side, each carries, in its own way, some hope.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -113,7 +113,15 @@ I have been a movie lover since I was young, and I enjoy recommending films that
      When you feel lost.
     </div>
   </div>
-  <div class="film-card">
+    <div class="film-card">
+    <img src="/images/films/trainspotting.jpg" alt="Trainspotting">
+    <div class="film-overlay">
+      <strong>Trainspotting (1999)</strong><br>
+       <i>Danny Boyle</i><br>
+     When you feel you're different.
+    </div>
+  </div>
+    <div class="film-card">
     <img src="/images/films/rockysepia.jpg" alt="Rocky - John G. Avildsen(1976)">
     <div class="film-overlay">
       <strong>Rocky (1976)</strong><br>
@@ -140,7 +148,7 @@ I have been a movie lover since I was young, and I enjoy recommending films that
 </div>
 
 ### Music
-I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me: I chose here four albums, each in a different musical style.
+I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me: I chose here five albums, each in a different musical style.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -164,7 +172,15 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>Lost in the Dream (2014)</strong><br>
       <i>The War on Drugs</i><br>
-      Indie rock & Psychedelic rock
+      Indie & Psychedelic rock
+    </div>
+  </div>
+    <div class="film-card">
+    <img src="/images/music/chansons_pour_les_pieds.jpg" alt="Chansons pour les pieds">
+    <div class="film-overlay">
+      <strong>Chansons pour les pieds (2002)</strong><br>
+      <i>Jean-Jacques Goldman</i><br>
+      Pop & ballad
     </div>
   </div>
   <div class="film-card">
@@ -178,7 +194,7 @@ I spend most of my days with music playing in the background. Since my music tas
 </div>
 
 ### Literature
-When I was younger, I used to read a lot. With my PhD, I do not have as much time for it anymore, and I miss it... Still, I have a strong passion for literature, and I have selected four works that have had a significant impact on my life.
+When I was younger, I used to read a lot. With my PhD, I do not have as much time for it anymore, and I miss it... Still, I have a strong passion for literature, and I have selected five works that have had a significant impact on my life.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -194,7 +210,7 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <div class="film-overlay">
       <strong>Antigone (1944)</strong><br>
       <i>Jean Anouilh</i><br>
-      Antigone wants to bury her brother.
+      Antigone buries her brother.
     </div>
   </div>
   <div class="film-card">
@@ -203,6 +219,14 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
       <strong>Le Rouge et le Noir (1831)</strong><br>
       <i>Stendhal</i><br>
       Julien wants to be the best.
+    </div>
+  </div>
+    <div class="film-card">
+    <img src="/images/books/candide.jpg" alt="Voltaire">
+    <div class="film-overlay">
+      <strong>Candide ou l'Optimisme (1759)</strong><br>
+      <i>Stendhal</i><br>
+      Candide cultivate his garden.
     </div>
   </div>
   <div class="film-card">
