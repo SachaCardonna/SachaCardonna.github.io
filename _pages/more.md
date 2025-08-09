@@ -53,3 +53,124 @@ I’m well aware that the pressure to publish is real, but I don’t want to fal
 I am a regular blood and plasma donor. I started donating at a young age and continue to do so whenever possible. I am particularly aware of the importance of donations for people with rare blood types. I encourage anyone who is eligible to donate and help address ongoing shortages. You can easily make an appointment through the <a href="https://dondesang.efs.sante.fr" target="_blank" rel="noopener noreferrer">EFS</a> website.
 
 </details>
+
+## Some recommendations about films, music, and books
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
+
+I have always been passionate about literature, cinema, and music. These arts have had a significant impact on my life and have shaped the way I see and think about the world.
+---
+
+<style>
+.film-card {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.film-card img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.film-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 0.5em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 0.9em;
+}
+
+.film-card:hover .film-overlay {
+  opacity: 1;
+}
+</style>
+
+### 🎬 Films
+Here is a selection of four of my favorite films, which I recommend depending on the mood you are in.
+
+<div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
+  <div class="film-card">
+    <img src="/images/films/lost.jpg" alt="Lost in Translation (2003)">
+    <div class="film-overlay">
+      <strong>Lost in Translation (2003)</strong><br>
+      A gripping story with stunning visuals.
+    </div>
+  </div>
+  <div class="film-card">
+    <img src="/images/films/rocky.jpg" alt="Rocky (1976)">
+    <div class="film-overlay">
+      <strong>Rocky (1976)</strong><br>
+      A classic that never loses its charm.
+    </div>
+  </div>
+  <div class="film-card">
+    <img src="/images/films/itineraire.jpg" alt="Itinéraire d'un enfant gâté (1988)">
+    <div class="film-overlay">
+      <strong>Itinéraire d'un enfant gâté (1988)</strong><br>
+      A powerful reflection on human nature.
+    </div>
+  </div>
+  <div class="film-card">
+    <img src="/images/films/once.jpg" alt="Once Upon a Time in America (1984)">
+    <div class="film-overlay">
+      <strong>Once Upon a Time in America (1984)</strong><br>
+      An inspiring journey full of emotion.
+    </div>
+  </div>
+</div>
+
+<!-- ---
+
+### Music
+A selection of albums and tracks that I have been listening to a lot lately.
+
+<div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/images/music1.jpg" alt="Music 1" style="width:100%; border-radius: 8px;">
+    <p style="margin-top: 0.5em;">Energetic and uplifting melodies.</p>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/images/music2.jpg" alt="Music 2" style="width:100%; border-radius: 8px;">
+    <p style="margin-top: 0.5em;">Calm and atmospheric soundscapes.</p>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/images/music3.jpg" alt="Music 3" style="width:100%; border-radius: 8px;">
+    <p style="margin-top: 0.5em;">A timeless piece I keep coming back to.</p>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/images/music4.jpg" alt="Music 4" style="width:100%; border-radius: 8px;">
+    <p style="margin-top: 0.5em;">Raw emotion captured in sound.</p>
+  </div>
+</div>
+
+---
+
+### Books
+Four books that left a mark on me, whether for their ideas, their storytelling, or their style.
+
+<div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/images/book1.jpg" alt="Book 1" style="width:100%; border-radius: 8px;">
+    <p style="margin-top: 0.5em;">A thought-provoking exploration of ideas.</p>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/images/book2.jpg" alt="Book 2" style="width:100%; border-radius: 8px;">
+    <p style="margin-top: 0.5em;">A moving story with unforgettable characters.</p>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/images/book3.jpg" alt="Book 3" style="width:100%; border-radius: 8px;">
+    <p style="margin-top: 0.5em;">Challenging and rewarding in equal measure.</p>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/images/book4.jpg" alt="Book 4" style="width:100%; border-radius: 8px;">
+    <p style="margin-top: 0.5em;">An inspiring read that stayed with me.</p>
+  </div>
+</div> -->
