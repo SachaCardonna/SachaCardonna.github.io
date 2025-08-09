@@ -93,7 +93,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
   padding: 0.5em;
   opacity: 0;
   transition: opacity 0.3s ease;
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 
 .film-card:hover .film-overlay {
