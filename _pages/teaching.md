@@ -29,7 +29,7 @@ Access courses materials for my students.
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
-    1st year B.Sc.
+    1<sup>st</sup>  year B.Sc.
     <span style="font-weight:normal;"> (L1 PCSI-SVSE-PASS)</span>
   </h2>
 </summary>
@@ -65,7 +65,7 @@ Access courses materials for my students.
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
-    2nd year B.Sc.
+    2<sup>nd</sup>  year B.Sc.
     <span style="font-weight:normal;"> (L2 PeiP)</span>
   </h2>
 </summary>
@@ -88,7 +88,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
-    3rd year B.Sc.
+    3<sup>rd</sup>  year B.Sc.
     <span style="font-weight:normal;"> (L3 MG)</span>
   </h2>
 </summary>
@@ -110,7 +110,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
-    1st year M.Sc.
+    1<sup>st</sup>  year M.Sc.
     <span style="font-weight:normal;"> (M1 MANU-MF)</span>
   </h2>
 </summary>
