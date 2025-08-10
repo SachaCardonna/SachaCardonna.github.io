@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-Personal interests and values beyond my academic work.
+Personal interests and values within and beyond my academic work.
 
 ## Personal and professional commitments
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
