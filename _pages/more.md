@@ -41,7 +41,7 @@ Beyond outreach, I aim to develop my own accessible teaching resources; in parti
 <div style="margin-bottom: 1em;"></div>
 
 <details>
-<summary><strong>Volunteering</strong></summary>
+<summary><strong>Volunteering missions</strong></summary>
 I have always believed in giving back to society, in return for the many opportunities and support it has offered me. For several years, I regularly organized activities and animations for children in the pediatric ward of the hospital in my hometown. I also gave free tutoring sessions to classmates or younger students who needed academic support, and when I was younger I volunteered at the local community center (MJC) of my hometown. In addition, I have occasionally acted as a foster home for pets in need (I love animals).
 
 </details>
@@ -60,7 +60,7 @@ I’m well aware that the pressure to publish is real, but I don’t want to fal
 
 <details>
 <summary><strong>Blood and plasma donation</strong></summary>
-I am a regular blood and plasma donor. I started donating at a young age and continue to do so whenever possible. I am particularly aware of the importance of donations for people with rare blood types. I encourage anyone who is eligible to donate and help address ongoing shortages. You can easily make an appointment through the <a href="https://dondesang.efs.sante.fr" target="_blank" rel="noopener noreferrer">EFS</a> website.
+I am a regular blood and plasma donor. I started donating at 18 and continue to do so whenever possible. I am particularly aware of the importance of donations for people with rare blood types. I encourage anyone who is eligible to donate and help address ongoing shortages. You can easily make an appointment through the <a href="https://dondesang.efs.sante.fr" target="_blank" rel="noopener noreferrer">EFS</a> website.
 
 </details>
 
@@ -180,7 +180,7 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>Chansons pour les pieds (2002)</strong><br>
       <i>Jean-Jacques Goldman</i><br>
-      Pop & ballad
+      Pop & Ballad
     </div>
   </div>
   <div class="film-card">
