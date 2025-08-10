@@ -8,11 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
+Personal interests and values within and beyond my academic work.
 
 ## Personal and professional commitments
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-Outside of my academic work, I try to stay engaged in causes I consider important, both within and beyond the university. These include access to education, social volunteering, scientific integrity... This section outlines a few personal principles and activities that have shaped how I approach research, teaching, and everyday life.
+Outside of my academic work, I try to stay engaged in causes I consider important, both within and beyond the university. These include access to education, social volunteering, scientific integrity... I do not share them to give lessons or to present myself as a model. Actually it's quite the opposite, I see them more as areas where I still have a lot to learn. I am always open to discussion, constructive criticism, and new perspectives that can help me improve.
 <style>
   details {
     background-color: rgba(0, 0, 0, 0.03); /* léger gris clair */
@@ -53,6 +54,16 @@ I have always believed in giving back to society, in return for the many opportu
 As a PhD student just beginning my career, one thing I care deeply about is the integrity of the work I contribute to.  
 From the very start of my thesis, my advisors have emphasized the importance of rigorous, meaningful, and honest research. I try to uphold that standard by asking myself whether what I'm doing really brings something new.  
 I’m well aware that the pressure to publish is real, but I don’t want to fall into the habit of producing papers just to build up a list. I'd rather take my time, collaborate thoughtfully, and produce results I can stand by, even if that means fewer publications in my career.
+
+</details>
+
+<div style="margin-bottom: 1em;"></div>
+
+<details>
+<summary><strong>Local craftsmanship and agriculture</strong></summary>
+I believe the quality of what we use and enjoy is closely connected to the people who create it. Whenever possible, I choose to support local artisans, small producers, and independent businesses.  
+That can mean buying food directly from nearby farms, choosing handmade objects from craftspeople I know, while recommending their work to friends and colleagues.  
+It is not about rejecting mass production altogether, but more about helping keep alive the skills, creativity, and human connections that often disappear in industrial processes.
 
 </details>
 
