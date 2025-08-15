@@ -37,7 +37,7 @@ Some numerical simulations:
 - $\mathbb{P}^3$ motion-prescribed floating object interactions ([GIF]({{ site.baseurl }}/images/1d_boat.gif))
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
-      <img src="{{ site.baseurl }}/images/tsunami_1d.png" alt="WaveBox Image 2" style="width: 23%; height: auto;">
+      <img src="{{ site.baseurl }}/images/1d_boat.gif" alt="WaveBox Image 2" style="width: 23%; height: auto;">
       <img src="{{ site.baseurl }}/images/tsunami2d.png" alt="WaveBox Image 1" style="width: 50%; height: auto;">
       <img src="{{ site.baseurl }}/images/rock_wave_1d.png" alt="WaveBox Image 3" style="width: 23%; height: auto;">
 </div>
