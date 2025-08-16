@@ -15,6 +15,8 @@ Find a diverse range of documents, including essays, presentations, and reports 
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 Here are most of my internship reports. Please note that these documents may contain typos or be incomplete. They are shared mainly to illustrate the work I carried out as a student.
 
+***
+
 <b> Local monolithic DG/FV subcells convex property preserving scheme on nonlinear shallow water equations</b>.
 
 <i>Abstract</i>. Building and implementing a new strategy for stabilizing discontinuous Galerkin numerical methods using a Finite-Volume subcells type approach for the Nonlinear Shallow-Water equations. We consider here an a priori approach, more precisely a monolithic subcell dG/FV convex property preserving scheme. 
