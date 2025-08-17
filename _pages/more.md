@@ -237,7 +237,7 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <div class="film-overlay">
       <strong>Candide ou l'Optimisme (1759)</strong><br>
       <i>Voltaire</i><br>
-      Candide cultivate his garden.
+      Candide cultivates his garden.
     </div>
   </div>
   <div class="film-card">
