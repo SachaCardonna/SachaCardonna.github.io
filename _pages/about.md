@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Hello there! <span style=\"font-family: monospace; font-weight: normal;\">☺</span>"
-excerpt: "Hello there! <span style=\"font-family: monospace; font-weight: normal;\">☺</span>"
+title: "Hello there! <span style=\"font-family: monospace; font-weight: 600;\">☺</span>"
+excerpt: "Hello there! <span style=\"font-family: monospace; font-weight: 600;\">☺</span>"
 author_profile: true
 redirect_from: 
   - /about/
