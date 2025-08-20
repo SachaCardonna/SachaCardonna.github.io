@@ -33,6 +33,11 @@ More generally, I am interested in modeling and numerical analysis of partial di
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing...
 - <b>Applications</b>. Fluid mechanics, nonlinear shallow water equations, Green-Naghdi equations, wave-structure interactions...
 
+<div style="display: flex; justify-content: space-between; gap: 7px;">
+      <img src="{{ site.baseurl }}/images/wet_dam_break_P4.gif" alt="WaveBox Image 2" style="width: 48%; height: auto;">
+      <img src="{{ site.baseurl }}/images/tidal_P2.gif" alt="WaveBox Image 1" style="width: 48%; height: auto;">
+</div>
+
 ## News & highlights
 
 - I talked about my thesis work at [ICOSAHOM 2025](https://icosahom2025.org) in Montréal, see the [slides]({{ site.url }}/files/talks/ICOSAHOM.pdf).
