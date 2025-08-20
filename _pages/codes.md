@@ -38,7 +38,7 @@ Some numerical simulations:
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
       <img src="{{ site.baseurl }}/images/1d_boat.gif" alt="WaveBox Image 2" style="width: 23%; height: auto;">
-      <img src="{{ site.baseurl }}/images/tsunami2d.png" alt="WaveBox Image 1" style="width: 50%; height: auto;">
+      <img src="{{ site.baseurl }}/images/tsunami2d.png" alt="WaveBox Image 1" style="width: 48%; height: auto;">
       <img src="{{ site.baseurl }}/images/GN_dispersive.gif" alt="WaveBox Image 3" style="width: 23%; height: auto;">
 </div>
 
