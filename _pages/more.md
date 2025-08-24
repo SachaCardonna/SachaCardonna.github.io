@@ -311,6 +311,12 @@ If what you are questioning yourself about for is not in the list below, feel fr
   transform: translateY(-1px);
   transition: box-shadow .2s ease, transform .2s ease;
 }
+/* Sur mobile (largeur <= 768px), forcer 3 colonnes */
+@media (max-width: 768px) {
+  .advice-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 </style>
 
 <div class="advice-grid">
@@ -344,9 +350,17 @@ If what you are questioning yourself about for is not in the list below, feel fr
     </div>
   </div>
 
+  <div class="advice-card" tabindex="0">
+  <div class="advice-title">Choosing your own path</div>
+  <div class="advice-overlay">
+    <div>
+      Do not feel forced to follow the road your parents, teachers, or society expect from you. The so-called "royal paths" are often not the ones that bring happiness. Try, make mistakes, and start again if needed. The real goal is to find a job that makes you want to wake up in the morning with energy and good mood.  
+    </div>
+  </div>
+</div>
 
   <div class="advice-card" tabindex="0">
-    <div class="advice-title">Working while studying</div>
+    <div class="advice-title">Protecting your studies</div>
     <div class="advice-overlay">
       <div>
         I know from experience how difficult it can be to study while also working on the side. I had to do it myself, and it often felt exhausting. Sometimes there is no other choice and it is important to acknowledge it. Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Try to protect your studies as much as possible.
