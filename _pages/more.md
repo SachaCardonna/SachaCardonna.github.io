@@ -263,8 +263,16 @@ At university and in research, it is easy to feel pressure to prove yourself. I 
 <div style="margin-bottom: 1em;"></div>
 
 <details>
-<summary><strong>Work regularly</strong></summary>
+<summary><strong>Study regularly</strong></summary>
 I believe that regular work is much more effective than last-minute efforts. Even small but consistent study sessions add up over time. It also reduces stress before exams and helps you build long-term understanding instead of short-term memorization. I have to admit that the few times I tried last-minute cramming as a student, the results were never very satisfying...
+</details>
+
+<div style="margin-bottom: 1em;"></div>
+
+<details>
+<summary><strong>Working while studying</strong></summary>
+I know from experience how difficult it can be to study while also working on the side. I had to do it myself, and it often felt exhausting. Sometimes there is no other choice, and it is important to acknowledge how demanding it is.  
+Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Even if progress feels slower, every step counts. Try to protect your studies as much as possible, because they are an investment in your future.  
 </details>
 
 <div style="margin-bottom: 1em;"></div>
