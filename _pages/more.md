@@ -297,7 +297,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   line-height: 1.2;
 }
 
