@@ -256,11 +256,10 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
 If what you are questioning yourself about for is not in the list below, feel free to reach out to me. I am not a reference in anything, but I can share what I learned from my experience as a student, a worker, and someone who tries to stay healthy.
 <style>
 
-.advice-grid{
+.advice-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr); /* 4 colonnes par défaut */
   gap: 1em;
-  margin-top: 1em;
 }
 
 .advice-card{
