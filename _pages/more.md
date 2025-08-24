@@ -311,10 +311,18 @@ If what you are questioning yourself about for is not in the list below, feel fr
   transform: translateY(-1px);
   transition: box-shadow .2s ease, transform .2s ease;
 }
-/* Sur mobile (largeur <= 768px), forcer 3 colonnes */
-@media (max-width: 768px) {
+
+/* Tablettes : 3 cartes par ligne */
+@media (max-width: 1024px) {
   .advice-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobiles : 2 cartes par ligne */
+@media (max-width: 768px) {
+  .advice-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 </style>
