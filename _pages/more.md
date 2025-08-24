@@ -350,7 +350,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Working while studying</div>
     <div class="advice-overlay">
       <div>
-        I know from experience how difficult it can be to study while also working on the side. I had to do it myself, and it often felt exhausting. Sometimes there is no other choice, and it is important to acknowledge how demanding it is. Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Even if progress feels slower, every step counts. Try to protect your studies as much as possible, because they are an investment in your future.
+        I know from experience how difficult it can be to study while also working on the side. I had to do it myself, and it often felt exhausting. Sometimes there is no other choice and it is important to acknowledge it. Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Try to protect your studies as much as possible.
       </div>
     </div>
   </div>
@@ -380,7 +380,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Finding a good diet</div>
   <div class="advice-overlay">
     <div>
-      I have practiced intermittent fasting, often with one meal per day. It works for me, but it is not a universal solution. I recommend finding an eating pattern that feels sustainable, supports your energy and training, and fits your daily life. If a diet creates anxiety around food, rigid rules, or loss of control, that is a warning sign. Do not hesitate to speak with a qualified professional if needed. The goal is to feel well and to avoid drifting into disordered eating.
+      I have practiced intermittent fasting, often with one meal per day. It works for me, but it is not a universal solution. I recommend finding an eating pattern that feels sustainable, supports your energy and training, and fits your daily life. If a diet creates anxiety around food, rigid rules, or loss of control, that is a warning sign. Do not hesitate to speak with a qualified professional if needed. 
     </div>
   </div>
 </div>
