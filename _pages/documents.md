@@ -9,12 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-Find a diverse range of documents, including essays, presentations, and reports I made as a student. 
+Find a diverse range of documents, including essays, presentations, and reports I made as a student.  
+<b>N.B.</b>: Please note that these documents may contain typos or be incomplete. They are shared mainly to illustrate the work I carried out as a student.
 
 ## Internships
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<b>N.B.</b>: Please note that these documents may contain typos or be incomplete. They are shared mainly to illustrate the work I carried out as a student.
-
 
 <b> Local monolithic DG/FV subcells convex property preserving scheme on nonlinear shallow water equations</b>.
 
