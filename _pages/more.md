@@ -282,7 +282,6 @@ If what you are questioning yourself about for is not in the list below, feel fr
   padding: 0 10px;
   text-align: center;
   font-weight: 700;
-  color: #222;
 }
 
 .advice-overlay{
