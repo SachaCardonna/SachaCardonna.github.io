@@ -255,52 +255,79 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
 
 If what you are questioning yourself about for is not in the list below, feel free to reach out to me. I am not a reference in anything, but I can share what I learned from my experience as a student, a worker, and someone who tries to stay healthy.
 
-<details>
-<summary><strong>Stay humble</strong></summary>
-At university and in research, it is easy to feel pressure to prove yourself. I learned that staying humble helps you progress more steadily. There will always be people who know more than you, and that is normal. Asking questions and accepting mistakes is not a weakness, it is how you grow.  
-</details>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  margin-top: 1em;
+}
 
-<div style="margin-bottom: 1em;"></div>
+.advice-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.03);
+  overflow: hidden;
+}
 
-<details>
-<summary><strong>Study regularly</strong></summary>
-I believe that regular work is much more effective than last-minute efforts. Even small but consistent study sessions add up over time. It also reduces stress before exams and helps you build long-term understanding instead of short-term memorization. I have to admit that the few times I tried last-minute cramming as a student, the results were never very satisfying...
-</details>
+.advice-card summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.8em;
+  background: rgba(0,0,0,0.05);
+  margin: 0;
+}
 
-<div style="margin-bottom: 1em;"></div>
+.advice-card[open] summary {
+  background: rgba(0,0,0,0.1);
+}
 
-<details>
-<summary><strong>Working while studying</strong></summary>
-I know from experience how difficult it can be to study while also working on the side. I had to do it myself, and it often felt exhausting. Sometimes there is no other choice, and it is important to acknowledge how demanding it is.  
-Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Even if progress feels slower, every step counts. Try to protect your studies as much as possible, because they are an investment in your future.  
-</details>
+.advice-card p {
+  padding: 0.8em;
+  margin: 0;
+}
+</style>
 
-<div style="margin-bottom: 1em;"></div>
+<div class="grid-container">
 
-<details>
-<summary><strong>Take care of balance</strong></summary>
-One of my PhD advisors recently reminded me of this: studying hard is important, but so is rest and hobbies. I noticed that when I keep time for sport, reading, or seeing friends, I come back to work with more energy and focus. Academic success is easier to sustain when life feels balanced.  
-</details>
+  <details class="advice-card">
+    <summary>Being healthy</summary>
+    <p>Having a healthy body is one of the greatest gifts we can receive in life. It is easy to forget it when everything seems fine, but good health is something to be valued and enjoyed every day.</p>
+  </details>
 
-<div style="margin-bottom: 1em;"></div>
+  <details class="advice-card">
+    <summary>Stay humble</summary>
+    <p>At university and in research, it is easy to feel pressure to prove yourself. I learned that staying humble helps you progress more steadily. There will always be people who know more than you, and that is normal. Asking questions and accepting mistakes is not a weakness, it is how you grow.</p>
+  </details>
 
-<details>
-<summary><strong>Heavy lifting</strong></summary>
-Powerlifting and very heavy weight training taught me discipline, but also humility. At one point, I injured my back with a herniated disc because I pushed too far. Strength training can be great, but progress should not come at the cost of health. Good technique, patience, and listening to your body are essential.  
-</details>
+  <details class="advice-card">
+    <summary>Study regularly</summary>
+    <p>I believe that regular work is much more effective than last-minute efforts. Even small but consistent study sessions add up over time. It also reduces stress before exams and helps you build long-term understanding instead of short-term memorization. I have to admit that the few times I tried last-minute cramming as a student, the results were never very satisfying...</p>
+  </details>
 
-<div style="margin-bottom: 1em;"></div>
+  <details class="advice-card">
+    <summary>Working while studying</summary>
+    <p>I know from experience how difficult it can be to study while also working on the side. I had to do it myself, and it often felt exhausting. Sometimes there is no other choice, and it is important to acknowledge how demanding it is. Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Even if progress feels slower, every step counts. Try to protect your studies as much as possible, because they are an investment in your future.</p>
+  </details>
 
-<details>
-<summary><strong>Intermittent fasting</strong></summary>
-I feel more focused and stable with one meal a day, but fasting is not suitable for everyone. Some people may experience low energy, dizziness, or difficulty maintaining muscle if they train hard. Work schedules, social life, and certain health conditions can also make it difficult. Each body reacts differently, so what works for me may not be ideal for someone else.  
-</details>
+  <details class="advice-card">
+    <summary>Keeping balance</summary>
+    <p>One of my PhD advisors recently reminded me of this: studying hard is important, but so is rest and hobbies. I noticed that when I keep time for sport, reading, or seeing friends, I come back to work with more energy and focus. Academic success is easier to sustain when life feels balanced.</p>
+  </details>
 
-<div style="margin-bottom: 1em;"></div>
+  <details class="advice-card">
+    <summary>Heavy lifting</summary>
+    <p>Powerlifting and very heavy weight training taught me discipline, but also humility. At one point, I injured my back with a herniated disc because I pushed too far. Strength training can be great, but progress should not come at the cost of health. Good technique, patience, and listening to your body are essential.</p>
+  </details>
 
-<details>
-<summary><strong>Walking 10k steps daily</strong></summary>
-If you cannot or do not want to practice a sport, walking every day already brings real benefits. It helps cardiovascular health, mood, sleep, and mental clarity. It is simple, accessible, and effective, and for many people it is the most sustainable way to stay active.  
-</details>
+  <details class="advice-card">
+    <summary>Intermittent fasting</summary>
+    <p>I feel more focused and stable with one meal a day, but fasting is not suitable for everyone. Some people may experience low energy, dizziness, or difficulty maintaining muscle if they train hard. Work schedules, social life, and certain health conditions can also make it difficult. Each body reacts differently, so what works for me may not be ideal for someone else.</p>
+  </details>
 
+  <details class="advice-card">
+    <summary>Walking everyday</summary>
+    <p>If you cannot or do not want to practice a sport, walking every day already brings real benefits. It helps for cardiovascular health, mood, sleep, and you can breath real air. It is simple, accessible, and effective, and for many people it is the most sustainable way to stay active.</p>
+  </details>
 
+</div>
