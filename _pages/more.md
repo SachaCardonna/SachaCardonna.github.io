@@ -250,10 +250,31 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
   </div>
 </div>
 
-## Some advices 
+## A few things I learned
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-If what you are looking for is not in the list below, feel free to reach out to me. I am not a reference in anything, but I can share what I learned from my experience as a student, a worker, and someone who tries to stay healthy.
+If what you are questioning yourself about for is not in the list below, feel free to reach out to me. I am not a reference in anything, but I can share what I learned from my experience as a student, a worker, and someone who tries to stay healthy.
+
+<details>
+<summary><strong>Stay humble</strong></summary>
+At university and in research, it is easy to feel pressure to prove yourself. I learned that staying humble helps you progress more steadily. There will always be people who know more than you, and that is normal. Asking questions and accepting mistakes is not a weakness, it is how you grow.  
+</details>
+
+<div style="margin-bottom: 1em;"></div>
+
+<details>
+<summary><strong>Work regularly</strong></summary>
+I believe that regular work is much more effective than last-minute efforts. Even small but consistent study sessions add up over time. It also reduces stress before exams and helps you build long-term understanding instead of short-term memorization. I have to admit that the few times I tried last-minute cramming as a student, the results were never very satisfying...
+</details>
+
+<div style="margin-bottom: 1em;"></div>
+
+<details>
+<summary><strong>Take care of balance</strong></summary>
+One of my PhD advisors recently reminded me of this: studying hard is important, but so is rest and hobbies. I noticed that when I keep time for sport, reading, or seeing friends, I come back to work with more energy and focus. Academic success is easier to sustain when life feels balanced.  
+</details>
+
+<div style="margin-bottom: 1em;"></div>
 
 <details>
 <summary><strong>Heavy lifting</strong></summary>
@@ -270,14 +291,8 @@ I feel more focused and stable with one meal a day, but fasting is not suitable 
 <div style="margin-bottom: 1em;"></div>
 
 <details>
-<summary><strong>Walking 10,000 steps daily</strong></summary>
+<summary><strong>Walking 10k steps daily</strong></summary>
 If you cannot or do not want to practice a sport, walking every day already brings real benefits. It helps cardiovascular health, mood, sleep, and mental clarity. It is simple, accessible, and effective, and for many people it is the most sustainable way to stay active.  
 </details>
 
-<div style="margin-bottom: 1em;"></div>
-
-<details>
-<summary><strong>Any sport is better than none</strong></summary>
-I am convinced that physical activity in any form has a positive impact on health and mental balance. Whether it is running, swimming, lifting weights, or team sports, what matters most is to find something you enjoy and can keep doing over time.  
-</details>
 
