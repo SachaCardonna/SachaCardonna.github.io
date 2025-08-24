@@ -327,7 +327,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
 
 
   <div class="advice-card" tabindex="0">
-    <div class="advice-title">Stay humble</div>
+    <div class="advice-title">Staying humble</div>
     <div class="advice-overlay">
       <div>
         At university and in research, it is easy to feel pressure to prove yourself. I learned that staying humble helps you progress more steadily. There will always be people who know more than you, and that is normal. Asking questions and accepting mistakes is not a weakness, it is how you grow.
@@ -337,7 +337,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
 
 
   <div class="advice-card" tabindex="0">
-    <div class="advice-title">Study regularly</div>
+    <div class="advice-title">Studying regularly</div>
     <div class="advice-overlay">
       <div>
         I believe that regular work is much more effective than last-minute efforts. Even small but consistent study sessions add up over time. It also reduces stress before exams and helps you build long-term understanding instead of short-term memorization. I have to admit that the few times I tried last-minute cramming as a student, the results were never very satisfying...
@@ -367,7 +367,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
 
 
   <div class="advice-card" tabindex="0">
-    <div class="advice-title">Heavy lifting</div>
+    <div class="advice-title">Being cautious with heavy lifting</div>
     <div class="advice-overlay">
       <div>
         Powerlifting and very heavy weight training taught me discipline, but also humility. At one point, I injured my back with a herniated disc because I pushed too far. Strength training can be great, but progress should not come at the cost of health. Good technique, patience, and listening to your body are essential.
@@ -376,14 +376,14 @@ If what you are questioning yourself about for is not in the list below, feel fr
   </div>
 
 
-  <div class="advice-card" tabindex="0">
-    <div class="advice-title">Intermittent fasting</div>
-    <div class="advice-overlay">
-      <div>
-        I feel more focused and stable with one meal a day, but fasting is not suitable for everyone. Some people may experience low energy, dizziness, or difficulty maintaining muscle if they train hard. Work schedules, social life, and certain health conditions can also make it difficult. Each body reacts differently, so what works for me may not be ideal for someone else.
-      </div>
+<div class="advice-card" tabindex="0">
+  <div class="advice-title">Finding a good diet</div>
+  <div class="advice-overlay">
+    <div>
+      I have practiced intermittent fasting, often with one meal per day. It works for me, but it is not a universal solution. I recommend finding an eating pattern that feels sustainable, supports your energy and training, and fits your daily life. If a diet creates anxiety around food, rigid rules, or loss of control, that is a warning sign. Do not hesitate to speak with a qualified professional if needed. The goal is to feel well and to avoid drifting into disordered eating.
     </div>
   </div>
+</div>
 
 
   <div class="advice-card" tabindex="0">
