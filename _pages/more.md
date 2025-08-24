@@ -250,49 +250,34 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
   </div>
 </div>
 
-<style>
-  .tips-box {
-    background: rgba(0,0,0,0.03);
-    border-left: 4px solid #888;
-    padding: 1em 1.2em;
-    border-radius: 6px;
-    margin: 1em 0;
-  }
-  .tips-box h4 {
-    margin: 0 0 0.6em 0;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.4em;
-  }
-  .tips-box ul {
-    margin: 0;
-    padding-left: 1.2em;
-  }
-  .tips-box li {
-    margin-bottom: 0.8em;
-    line-height: 1.5;
-  }
-  .tips-box li b {
-    display: block;
-    margin-bottom: 0.15em;
-  }
-</style>
+## Some advices 
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-<div class="tips-box">
-  <h4>A few things I learned</h4>
-  <ul>
-    <li>
-      <b>Heavy lifting</b>
-      Powerlifting and very heavy weight training taught me discipline, but also humility. I injured my back (herniated disc) because I pushed too far. Strength training can be great, but progress should not come at the cost of health. Good technique, patience, and listening to your body are essential.
-    </li>
-    <li>
-      <b>Intermittent fasting</b>
-      I feel more focused and stable with one meal a day. Some people may experience low energy, dizziness, or difficulty keeping muscle if they train hard. Work schedules and social life can also make it hard to follow. Each body reacts differently, so what works for me may not be ideal for someone else.
-    </li>
-    <li>
-      <b>Walking 10,000 steps daily</b>
-      If you cannot or do not want to practice a sport, walking every day already brings real benefits. It helps cardiovascular health, mood, sleep, and mental clarity. It is simple, accessible, and effective.
-    </li>
-  </ul>
-</div>
+If what you are looking for is not in the list below, feel free to reach out to me. I am not a reference in anything, but I can share what I learned from my experience as a student, a worker, and someone who tries to stay healthy.
+
+<details>
+<summary><strong>Heavy lifting</strong></summary>
+Powerlifting and very heavy weight training taught me discipline, but also humility. At one point, I injured my back with a herniated disc because I pushed too far. Strength training can be great, but progress should not come at the cost of health. Good technique, patience, and listening to your body are essential.  
+</details>
+
+<div style="margin-bottom: 1em;"></div>
+
+<details>
+<summary><strong>Intermittent fasting</strong></summary>
+I feel more focused and stable with one meal a day, but fasting is not suitable for everyone. Some people may experience low energy, dizziness, or difficulty maintaining muscle if they train hard. Work schedules, social life, and certain health conditions can also make it difficult. Each body reacts differently, so what works for me may not be ideal for someone else.  
+</details>
+
+<div style="margin-bottom: 1em;"></div>
+
+<details>
+<summary><strong>Walking 10,000 steps daily</strong></summary>
+If you cannot or do not want to practice a sport, walking every day already brings real benefits. It helps cardiovascular health, mood, sleep, and mental clarity. It is simple, accessible, and effective, and for many people it is the most sustainable way to stay active.  
+</details>
+
+<div style="margin-bottom: 1em;"></div>
+
+<details>
+<summary><strong>Any sport is better than none</strong></summary>
+I am convinced that physical activity in any form has a positive impact on health and mental balance. Whether it is running, swimming, lifting weights, or team sports, what matters most is to find something you enjoy and can keep doing over time.  
+</details>
+
