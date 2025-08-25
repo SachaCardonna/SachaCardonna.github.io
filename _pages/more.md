@@ -82,7 +82,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
 <style>
 .film-card {
   position: relative;
-  flex: 0 1 calc(16% - 1em); /* 5 par ligne */
+  flex: 0 1 calc(14% - 1em); /* 5 par ligne */
   min-width: 150px;
   overflow: hidden;
   border-radius: 8px;
@@ -138,6 +138,14 @@ I have been a movie lover since I was young, and I enjoy recommending films that
      When you think you're different.
     </div>
   </div>
+      <div class="film-card">
+    <img src="/images/films/before.jpg" alt="before">
+    <div class="film-overlay">
+      <strong>Before Sunset (2005)</strong><br>
+       <i>Richard Linklater</i><br>
+     When you missed an opportunity.
+    </div>
+  </div>
     <div class="film-card">
     <img src="/images/films/rockysepia.jpg" alt="Rocky - John G. Avildsen(1976)">
     <div class="film-overlay">
@@ -152,14 +160,6 @@ I have been a movie lover since I was young, and I enjoy recommending films that
       <strong>Itinéraire d'un enfant gâté (1988)</strong><br>
        <i>Claude Lelouch</i><br>
      When you want to quit.
-    </div>
-  </div>
-    <div class="film-card">
-    <img src="/images/films/before.jpg" alt="before">
-    <div class="film-overlay">
-      <strong>Before Sunset (2005)</strong><br>
-       <i>Richard Linklater</i><br>
-     When you miss an opportunity.
     </div>
   </div>
   <div class="film-card">
