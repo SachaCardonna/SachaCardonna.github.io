@@ -82,7 +82,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
 <style>
 .film-card {
   position: relative;
-  flex: 0 1 calc(13% - 1em); 
+  flex: 0 1 calc(12% - 1em); 
   min-width: 150px;
   overflow: hidden;
   border-radius: 8px;
@@ -147,7 +147,7 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     </div>
   </div>
     <div class="film-card">
-    <img src="/images/films/rockysepia.jpg" alt="Rocky - John G. Avildsen(1976)">
+    <img src="/images/films/rocky.jpg" alt="Rocky - John G. Avildsen(1976)">
     <div class="film-overlay">
       <strong>Rocky (1976)</strong><br>
        <i>John G. Avildsen</i><br>
