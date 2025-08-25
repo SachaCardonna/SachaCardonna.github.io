@@ -82,7 +82,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
 <style>
 .film-card {
   position: relative;
-  flex: 0 1 calc(12% - 1em); 
+  flex: 0 1 calc(14% - 0.5em); 
   min-width: 150px;
   overflow: hidden;
   border-radius: 8px;
