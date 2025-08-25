@@ -110,6 +110,12 @@ I have always been passionate about literature, cinema, and music. These arts ha
 .film-card:hover .film-overlay {
   opacity: 1;
 }
+@media (max-width: 768px) {
+  .film-card {
+    flex: 0 1 calc(20% - 0.5em); 
+    min-width: auto; 
+  }
+}
 </style>
 
 ### Films
