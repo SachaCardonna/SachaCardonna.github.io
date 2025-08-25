@@ -119,7 +119,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
 </style>
 
 ### Films
-I have been a movie lover since I was young, and I enjoy recommending films that have stayed with me over the years. Here is a selection of five of my favorite works; while they are all on the melancholic side, each carries, in its own way, some hope.
+I have been a movie lover since I was young, and I enjoy recommending films that have stayed with me over the years. Here is a selection of six of my favorite works; while they are all on the melancholic side, each carries, in its own way, some hope.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -173,7 +173,7 @@ I have been a movie lover since I was young, and I enjoy recommending films that
 </div>
 
 ### Music
-I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me; I chose here five albums, each in a different musical style.
+I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me; I picked here six albums, each in a different musical style.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -221,13 +221,13 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>Hurry Up, We're Dreaming (2011)</strong><br>
       <i>M83</i><br>
-      Electronica & New wave
+      Electronic & New wave
     </div>
   </div>
 </div>
 
 ### Literature
-When I was younger, I used to read a lot. With my PhD, I do not have as much time for it anymore, and I miss it... Still, I have a strong passion for literature, and I have selected five works that have had a significant impact on my life.
+When I was younger, I used to read a lot. With my PhD, I do not have as much time for it anymore, and I miss it... Still, I have a strong passion for literature, and I have selected six works that have had a significant impact on my life.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
