@@ -82,7 +82,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
 <style>
 .film-card {
   position: relative;
-  flex: 0 1 calc(20% - 1em); /* 5 par ligne */
+  flex: 0 1 calc(16% - 1em); /* 5 par ligne */
   min-width: 150px;
   overflow: hidden;
   border-radius: 8px;
@@ -112,8 +112,8 @@ I have always been passionate about literature, cinema, and music. These arts ha
 }
 @media (max-width: 768px) {
   .film-card {
-    flex: 0 1 calc(32% - 0.5em); /* toujours 5 par ligne */
-    min-width: auto; /* annule la min-width de 150px */
+    flex: 0 1 calc(32% - 0.5em); 
+    min-width: auto;
   }
 }
 </style>
@@ -127,7 +127,7 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Lost in Translation (2003)</strong><br> 
       <i>Sofia Coppola</i><br>
-     When you feel lost.
+     When you are lost.
     </div>
   </div>
     <div class="film-card">
@@ -135,7 +135,7 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Trainspotting (1999)</strong><br>
        <i>Danny Boyle</i><br>
-     When you feel you're different.
+     When you think you're different.
     </div>
   </div>
     <div class="film-card">
@@ -151,7 +151,15 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Itinéraire d'un enfant gâté (1988)</strong><br>
        <i>Claude Lelouch</i><br>
-     When you feel to quit.
+     When you want to quit.
+    </div>
+  </div>
+    <div class="film-card">
+    <img src="/images/films/before.jpg" alt="before">
+    <div class="film-overlay">
+      <strong>Before Sunset (2005)</strong><br>
+       <i>Richard Linklater</i><br>
+     When you miss an opportunity.
     </div>
   </div>
   <div class="film-card">
@@ -159,7 +167,7 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Once Upon a Time in America (1984)</strong><br>
       <i>Sergio Leone</i><br>
-      When you feel the time flew away.
+      When the time flew away.
     </div>
   </div>
 </div>
@@ -208,6 +216,14 @@ I spend most of my days with music playing in the background. Since my music tas
       Folk & Americana
     </div>
   </div>
+    <div class="film-card">
+    <img src="/images/music/hurry_up.jpg" alt="Hurry Up, We're Dreaming">
+    <div class="film-overlay">
+      <strong>Hurry Up, We're Dreaming (2011)</strong><br>
+      <i>M83</i><br>
+      Electronica & New wave
+    </div>
+  </div>
 </div>
 
 ### Literature
@@ -244,6 +260,14 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
       <strong>Candide ou l'Optimisme (1759)</strong><br>
       <i>Voltaire</i><br>
       Candide cultivates his garden.
+    </div>
+  </div>
+   <div class="film-card">
+    <img src="/images/books/biographie.jpg" alt="Nothomb">
+    <div class="film-overlay">
+      <strong>Biographie de la faim (2004)</strong><br>
+      <i>Amélie Nothomb</i><br>
+      Amélie travels.
     </div>
   </div>
   <div class="film-card">
