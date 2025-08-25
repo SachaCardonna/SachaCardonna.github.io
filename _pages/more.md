@@ -112,8 +112,8 @@ I have always been passionate about literature, cinema, and music. These arts ha
 }
 @media (max-width: 768px) {
   .film-card {
-    flex: 0 1 calc(20% - 0.5em); 
-    min-width: auto; 
+    flex: 0 1 calc(32% - 0.5em); /* toujours 5 par ligne */
+    min-width: auto; /* annule la min-width de 150px */
   }
 }
 </style>
