@@ -373,7 +373,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Staying humble</div>
     <div class="advice-overlay">
       <div>
-        At university and in research, it is easy to feel pressure to prove yourself. I learned that staying humble helps you progress more steadily. There will always be people who know more than you, and that is normal. Asking questions and accepting mistakes is not a weakness, it is how you grow.
+        At university and in research, it is easy to feel pressure to prove yourself. I learned that staying humble helps you progress more steadily. There will always be people who know more than you, and that is normal. Asking questions and accepting mistakes is not a weakness, it is how you grow. I wish first-year PhD Sacha had known this better!
       </div>
     </div>
   </div>
@@ -392,7 +392,16 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Choosing your own path</div>
   <div class="advice-overlay">
     <div>
-      Do not feel forced to follow the road your parents, teachers, or society expect from you. The so-called "royal paths" are often not the ones that bring happiness. Try, make mistakes, and start again if needed. The real goal is to find a job that makes you want to wake up in the morning with energy and good mood.  
+      Do not feel forced to follow the road your parents, teachers, or society expect from you. There is so-called "royal paths". Try, make mistakes, and start again if needed. The real goal is to find a job that makes you want to wake up in the morning with energy and good mood.  
+    </div>
+  </div>
+</div>
+
+<div class="advice-card" tabindex="0">
+  <div class="advice-title">Trusting the process</div>
+  <div class="advice-overlay">
+    <div>
+      Progress is often slow and invisible day by day. It is frustrating as hell, but consistency always pays off. What looks like small steps now will add up over months and years. Trust the process, even when results are not immediate.
     </div>
   </div>
 </div>
