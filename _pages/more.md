@@ -420,7 +420,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Starting simple</div>
   <div class="advice-overlay">
     <div>
-      When I work on a new idea, whether it is a model, a proof, or a code, I always try to start simple. A small working version is much easier to test, to understand, and to correct; once the basics are solid, I gradually add complexity step by step. I also learned that theory and numerics go hand in hand: writing a short script often shows where the equations are not as clear as I thought, while the blackboard helps explain what the computer output cannot. 
+      When I work on something new, I always try to start simple. A small working version of a model or a code is much easier to test, to understand, and to correct; once the basics are solid, I gradually add complexity step by step. I also learned that theory and numerics go hand in hand: writing a short script often shows where the equations are not as clear as I thought, while the blackboard helps explain what the computer output cannot. 
     </div>
   </div>
 </div>
