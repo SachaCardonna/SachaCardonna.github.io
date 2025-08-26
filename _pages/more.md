@@ -416,6 +416,24 @@ If what you are questioning yourself about for is not in the list below, feel fr
     </div>
   </div>
 
+  <div class="advice-card" tabindex="0">
+  <div class="advice-title">Starting simple</div>
+  <div class="advice-overlay">
+    <div>
+      When I work on a new idea, whether it is a model, a proof, or a piece of code, I always try to start simple. A small working version is much easier to test, to understand, and to correct. Once the basics are solid, I gradually add complexity step by step, instead of trying to get everything right at once.  
+      At the same time, I learned that theory and numerics go hand in hand: writing a short script often shows where the equations are not as clear as I thought, while the blackboard helps explain what the computer output cannot. 
+    </div>
+  </div>
+</div>
+
+<div class="advice-card" tabindex="0">
+  <div class="advice-title">Learning and practicing</div>
+  <div class="advice-overlay">
+    <div>
+      In maths especially, nothing replaces knowing your course well. Definitions, theorems, and key ideas are the tools you need for every problem. But theory alone is not enough: you have to practice. Solving exercises again and again is what makes the concepts stick and gives you the reflexes to apply them. When both come together, progress feels much smoother. Also, avoid relying too much on exercises with full solutions. The temptation to look at the answer too soon is strong, and you will learn less.
+    </div>
+  </div>
+</div>
 
   <div class="advice-card" tabindex="0">
     <div class="advice-title">Being cautious with heavy lifting</div>
