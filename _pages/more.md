@@ -410,7 +410,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Protecting your studies</div>
     <div class="advice-overlay">
       <div>
-        I know from experience how difficult it can be to study while also working on the side. I had to do it myself, and it often felt exhausting. Sometimes there is no other choice and it is important to acknowledge it. Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Try to protect your studies as much as possible.
+        I know from experience how difficult it can be to study while also working on the side, but sometimes there is no other choice and it is important to acknowledge it. Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Try to protect your studies as much as possible.
       </div>
     </div>
   </div>
@@ -429,7 +429,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Starting simple</div>
   <div class="advice-overlay">
     <div>
-      When I work on something new, I always try to start simple. A small working version of a model or a code is much easier to test, to understand, and to correct; once the basics are solid, I gradually add complexity step by step. I also learned that theory and numerics go hand in hand: writing a short script often shows where the equations are not as clear as I thought, while the blackboard helps explain what the computer output cannot. 
+      When I work on something new, I always try to start simple. A small working version of a model or a code is much easier to test, to understand, and to correct; once the basics are solid, I gradually add complexity step by step. Also, writing a short script often shows where the equations are not as clear as I thought, while the blackboard helps explain what the computer output cannot. 
     </div>
   </div>
 </div>
@@ -447,7 +447,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Being cautious with heavy lifting</div>
     <div class="advice-overlay">
       <div>
-        Powerlifting and very heavy weight training taught me discipline, but also humility. At one point, I injured my back with a herniated disc because I pushed too far. Strength training can be great, but progress should not come at the cost of health. Good technique, patience, and listening to your body are essential.
+        Powerlifting and very heavy weight training taught me discipline, but also humility. At one point, I injured my back because I pushed too far. Strength training can be great, but progress should not come at the cost of health. Good technique, patience, and listening to your body are essential.
       </div>
     </div>
   </div>
