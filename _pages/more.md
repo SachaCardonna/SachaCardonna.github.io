@@ -486,27 +486,31 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
 </p>
 
 <style>
-  .game-section {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 2em;
-    align-items: flex-start;
-  }
-  .game-section img {
-    max-width: 350px;
-    width: 100%;
-    border-radius: 8px;
-    margin: 0.5em;
-  }
-  .game-text {
-    flex: 1;
-    min-width: 250px;
-    padding: 0.5em;
-  }
+.game-section {
+  margin: 2em 0;
+  overflow: auto; /* pour que le float soit bien contenu */
+}
+
+.game-section img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 1em 1em 0; /* espace entre texte et image */
+}
+
+.game-section.right img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.game-section.left img {
+  float: left;
+  margin: 0 1em 1em 0;
+}
 </style>
 
 <!-- Metal Gear Solid -->
-<div class="game-section">
+<div class="game-section right">
   <div class="game-text">
     <h3>Metal Gear Solid (1998–2015)</h3>
     <p>
@@ -523,7 +527,7 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
 </div>
 
 <!-- Outer Wilds -->
-<div class="game-section">
+<div class="game-section left">
   <img src="/images/games/outerwilds.jpg" alt="Outer Wilds">
   <div class="game-text">
     <h3>Outer Wilds (2019)</h3>
