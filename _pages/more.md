@@ -511,7 +511,7 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
 
 <div class="game-section">
   <img class="game-img right" src="/images/games/mgs.jpg" alt="Metal Gear Solid">
-  <h3>Metal Gear Solid (1998–2015) - Konami</h3>
+  <h3>Metal Gear Solid - Konami (1998–2015)</h3>
   <p>
     At first glance, <em>Metal Gear Solid</em> looks like a series of stealth and war games. But at its core, it is a profoundly anti-militarist (even anarchist) saga.
     It questions the meaning of war, the consequences of blind technological progress, and the rise of artificial intelligence long before these debate became mainstream.
@@ -529,7 +529,7 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
 
 <div class="game-section">
   <img class="game-img left" src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
-  <h3>Outer Wilds (2019) - Möbius Interactive</h3>
+  <h3>Outer Wilds - Möbius Interactive (2019)</h3>
   <p>
     <em>Outer Wilds</em> is completely different. No combat, no scores, no missions to follow. It is a pure exploration game: a solar system to discover, secrets to uncover, and a clock that resets after every loop.
     What struck me is its atmosphere: both melancholic and luminous. The game teaches you to accept that everything has an end, that not all goals will be reached, and that curiosity itself can be enough to give meaning to experience.
