@@ -473,13 +473,16 @@ If what you are questioning yourself about for is not in the list below, feel fr
   </div>
 </div>
 
-## Video games
+## Reflections on video games
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 <p>
-Video games are often criticized as mindless distractions, but I see them as a form of art.  
-They combine storytelling, design, sound, and interactivity in ways that books, films, or music cannot.  
-Two works in particular have deeply influenced me: the <em>Metal Gear Solid</em> saga and <em>Outer Wilds</em>.
+Video games are often criticized as mindless distractions, sometimes even accused of making people violent or having a bad influence on players.  
+I think this view is unfair. Any form of fiction — whether it is a film, a book, or a song — can inspire negative behavior if taken the wrong way, but that does not define the value of the medium itself.  
+For me, video games represent a true art form, and one of the most complete ones we have today. They combine the narrative depth of literature, the visual power of cinema, and the emotional reach of music, while adding something unique: interactivity.  
+As players, we do not just watch a story, we take part in it, and that makes the experience deeply personal.  
+In fact, I often feel that the industry now gathers some of the most talented storytellers of our time, sometimes more daring and creative than what we see in mainstream cinema.  
+Two works in particular have had a strong impact on me: the <em>Metal Gear Solid</em> saga and <em>Outer Wilds</em>. 
 </p>
 
 <style>
@@ -507,11 +510,13 @@ Two works in particular have deeply influenced me: the <em>Metal Gear Solid</em>
   <div class="game-text">
     <h3>Metal Gear Solid (1998–2015)</h3>
     <p>
-    Kojima’s saga mixes politics, philosophy, and personal drama. It questions the role of the player, the meaning of war, and the consequences of technology.  
-    What struck me the most was its ambition: games can tell complex stories, break the fourth wall, and make you reflect on real-world issues.  
+    At first glance, <em>Metal Gear Solid</em> looks like a series of stealth and war games. But at its core, it is a profoundly anti-militarist saga.  
+    It questions the meaning of war, the consequences of blind technological progress, and the rise of artificial intelligence long before these debates became mainstream.  
     </p>
     <p>
-    For me, <em>Metal Gear Solid</em> showed that video games could be more than entertainment: they can challenge you, disturb you, and leave you thinking long after you put down the controller.
+    Beyond the themes, what makes it unique is its cinematic quality and its ability to break the fourth wall. The player is often directly addressed, involved not only as a character but as a participant in the story itself.  
+    These games can be confusing, even messy at times, but that is also what makes them so rich: they refuse to be "just entertainment". They stay with you because they ask questions that remain relevant today.  
+    For me, <em>Metal Gear Solid</em> was proof that video games could be complex works of art with a strong philosophical and political dimension.  
     </p>
   </div>
   <img src="/images/games/mgs.jpg" alt="Metal Gear Solid">
@@ -519,15 +524,18 @@ Two works in particular have deeply influenced me: the <em>Metal Gear Solid</em>
 
 <!-- Outer Wilds -->
 <div class="game-section">
-  <img src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
+  <img src="/images/games/outerwilds.jpg" alt="Outer Wilds">
   <div class="game-text">
     <h3>Outer Wilds (2019)</h3>
     <p>
-    <em>Outer Wilds</em> is a unique meditation on curiosity, time, and impermanence. You play an explorer in a small solar system, where each planet hides secrets that unfold with every loop.  
-    The game has no combat, no scores — only discovery. It makes you feel small in the universe, but also responsible for your place in it.  
+    <em>Outer Wilds</em> is completely different. No combat, no scores, no missions to follow. It is a pure exploration game: a solar system to discover, secrets to uncover, and a clock that resets after every loop.  
     </p>
     <p>
-    It left me with a sense of wonder I usually associate with literature or philosophy: a reminder that learning, exploring, and accepting limits can be beautiful in themselves.
+    What struck me is its atmosphere: both melancholic and luminous. The game teaches you to accept that everything has an end, that not all goals will be reached, and that curiosity itself can be enough to give meaning to experience.  
+    There are no tutorials, no guides — you learn by trying, failing, and trying again. It is a celebration of curiosity, of learning by yourself, and of wonder in front of the unknown.  
+    </p>
+    <p>
+    <em>Outer Wilds</em> is not always easy: it can feel overwhelming, even sad at times. But it is also one of the rare games that left me with a true philosophical impression, close to what a novel or a play can give. It is an invitation to think about time, knowledge, and our place in the universe.  
     </p>
   </div>
 </div>
