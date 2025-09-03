@@ -360,7 +360,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
 <div class="advice-grid">
 
   <div class="advice-card" tabindex="0">
-    <div class="advice-title">Being healthy</div>
+    <div class="advice-title">Enjoying being healthy</div>
     <div class="advice-overlay">
       <div>
         Having a healthy body is one of the greatest gifts we can receive in life. It is easy to forget it when everything seems fine, but good health is something to be valued and enjoyed every day.
@@ -470,5 +470,64 @@ If what you are questioning yourself about for is not in the list below, feel fr
         If you cannot or do not want to practice a sport, walking every day already brings real benefits. It helps cardiovascular health, mood, sleep, and mental clarity. It is simple, accessible, and effective, and for many people it is the most sustainable way to stay active.
       </div>
     </div>
+  </div>
+</div>
+
+## Video games
+<hr style="margin-top: -0.1em; margin-bottom: 1em;">
+
+<p>
+Video games are often criticized as mindless distractions, but I see them as a form of art.  
+They combine storytelling, design, sound, and interactivity in ways that books, films, or music cannot.  
+Two works in particular have deeply influenced me: the <em>Metal Gear Solid</em> saga and <em>Outer Wilds</em>.
+</p>
+
+<style>
+  .game-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    align-items: flex-start;
+  }
+  .game-section img {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 0.5em;
+  }
+  .game-text {
+    flex: 1;
+    min-width: 250px;
+    padding: 0.5em;
+  }
+</style>
+
+<!-- Metal Gear Solid -->
+<div class="game-section">
+  <div class="game-text">
+    <h3>Metal Gear Solid (1998–2015)</h3>
+    <p>
+    Kojima’s saga mixes politics, philosophy, and personal drama. It questions the role of the player, the meaning of war, and the consequences of technology.  
+    What struck me the most was its ambition: games can tell complex stories, break the fourth wall, and make you reflect on real-world issues.  
+    </p>
+    <p>
+    For me, <em>Metal Gear Solid</em> showed that video games could be more than entertainment: they can challenge you, disturb you, and leave you thinking long after you put down the controller.
+    </p>
+  </div>
+  <img src="/images/games/mgs.jpg" alt="Metal Gear Solid">
+</div>
+
+<!-- Outer Wilds -->
+<div class="game-section">
+  <img src="/images/games/outerwilds.jpg" alt="Outer Wilds">
+  <div class="game-text">
+    <h3>Outer Wilds (2019)</h3>
+    <p>
+    <em>Outer Wilds</em> is a unique meditation on curiosity, time, and impermanence. You play an explorer in a small solar system, where each planet hides secrets that unfold with every loop.  
+    The game has no combat, no scores — only discovery. It makes you feel small in the universe, but also responsible for your place in it.  
+    </p>
+    <p>
+    It left me with a sense of wonder I usually associate with literature or philosophy: a reminder that learning, exploring, and accepting limits can be beautiful in themselves.
+    </p>
   </div>
 </div>
