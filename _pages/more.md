@@ -508,6 +508,16 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
   }
 </style>
 
+<style>
+.game-section p {
+  margin-bottom: 0.6em; 
+}
+.quote-block {
+  text-align: center;
+  font-style: italic;
+  margin: 0.6em 0; 
+}
+</style>
 
 <div class="game-section">
   <img class="game-img right" src="/images/games/mgs.jpg" alt="Metal Gear Solid">
@@ -521,7 +531,7 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
   </p>
 </div>
 
-<div style="text-align: center; font-style: italic; margin: 0.8em 0;">
+<div class="quote-block">
   “Life isn't just about passing on your genes. We can leave behind much more than just DNA. Through speech, music, literature and movies... what we've seen, heard, felt... anger, joy and sorrow... these are the things I will pass on. That's what I live for. We need to pass the torch, and let our children read our messy and sad history by its light. We have all the magic of the digital age to do that with. The human race will probably come to an end some time, and new species may rule over this planet. Earth may not be forever, but we still have the responsibility to leave what traces of life we can. Building the future and keeping the past alive are one in the same thing.”<br>
   — Solid Snake, in front of Federal Hall, <em>Metal Gear Solid 2</em>
 </div>
@@ -539,7 +549,7 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
   </p>
 </div>
 
-<div style="text-align: center; font-style: italic; margin: 0.8em 0;">
+<div class="quote-block">
   “Oh, hello... Come, sit with me, my fellow traveler. Let’s sit together and watch the stars die… We only get so much time, don’t we? Ah, there was still more I wanted to do... How unlucky to have been born at the end of the universe.”<br>
   — Chert, 90 seconds before the end of the world, <em>Outer Wilds</em>
 </div>
