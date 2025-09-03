@@ -508,16 +508,6 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
   }
 </style>
 
-<style>
-.game-section p {
-  margin-bottom: 0.6em; 
-}
-.quote-block {
-  text-align: center;
-  font-style: italic;
-  margin: 0.6em 0; 
-}
-</style>
 
 <div class="game-section">
   <img class="game-img right" src="/images/games/mgs.jpg" alt="Metal Gear Solid">
@@ -527,15 +517,13 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
     It questions the meaning of war, the consequences of blind technological progress, and the rise of artificial intelligence long before these debate became mainstream.
     Beyond the themes, what makes it unique is its cinematic quality and its ability to break the fourth wall. The player is often directly addressed, involved not only as a character but as a participant in the story itself.
     These games can be confusing, even messy at times, but that is also what makes them so rich: they refuse to be "just entertainment". They stay with you because they ask questions that remain relevant today.
-    For me, <em>Metal Gear Solid</em> was proof that video games could be complex works of art with a strong philosophical and political dimension.
+    For me, <em>Metal Gear Solid</em> was a proof that video games could be complex works of art with a strong philosophical and political dimension.
   </p>
+  <blockquote style="font-style: italic; text-align: center; margin-top: 0.8em;">
+      “Life isn't just about passing on your genes. We can leave behind much more than just DNA. Through speech, music, literature and movies... what we've seen, heard, felt... anger, joy and sorrow... these are the things I will pass on. That's what I live for. We need to pass the torch, and let our children read our messy and sad history by its light. We have all the magic of the digital age to do that with. The human race will probably come to an end some time, and new species may rule over this planet. Earth may not be forever, but we still have the responsibility to leave what traces of life we can. Building the future and keeping the past alive are one in the same thing.”<br>
+      — Solid Snake, in front of Federal Hall, <em>Metal Gear Solid 2</em>
+    </blockquote>
 </div>
-
-<div class="quote-block">
-  “Life isn't just about passing on your genes. We can leave behind much more than just DNA. Through speech, music, literature and movies... what we've seen, heard, felt... anger, joy and sorrow... these are the things I will pass on. That's what I live for. We need to pass the torch, and let our children read our messy and sad history by its light. We have all the magic of the digital age to do that with. The human race will probably come to an end some time, and new species may rule over this planet. Earth may not be forever, but we still have the responsibility to leave what traces of life we can. Building the future and keeping the past alive are one in the same thing.”<br>
-  — Solid Snake, in front of Federal Hall, <em>Metal Gear Solid 2</em>
-</div>
-
 
 <div class="game-section">
   <img class="game-img left" src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
@@ -547,9 +535,8 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
     <em>Outer Wilds</em> is not always easy: it can feel overwhelming, even sad at times. But it is also one of the rare games that left me with a true philosophical impression, close to what a novel or a play can give.
     It is an invitation to think about time, knowledge, and our place in the universe.
   </p>
-</div>
-
-<div class="quote-block">
-  “Oh, hello... Come, sit with me, my fellow traveler. Let’s sit together and watch the stars die… We only get so much time, don’t we? Ah, there was still more I wanted to do... How unlucky to have been born at the end of the universe.”<br>
-  — Chert, 90 seconds before the end of the world, <em>Outer Wilds</em>
+      <blockquote style="font-style: italic; text-align: center; margin-top: 0.8em;">
+      “Oh, hello... Come, sit with me, my fellow traveler. Let’s sit together and watch the stars die… We only get so much time, don’t we? Ah, there was still more I wanted to do... How unlucky to have been born at the end of the universe.”<br>
+      — Chert, 90 seconds before the end of the world, <em>Outer Wilds</em>
+    </blockquote>
 </div>
