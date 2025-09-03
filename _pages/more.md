@@ -519,7 +519,7 @@ Two works in particular have deeply influenced me: the <em>Metal Gear Solid</em>
 
 <!-- Outer Wilds -->
 <div class="game-section">
-  <img src="/images/games/outerwilds.jpg" alt="Outer Wilds">
+  <img src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
   <div class="game-text">
     <h3>Outer Wilds (2019)</h3>
     <p>
