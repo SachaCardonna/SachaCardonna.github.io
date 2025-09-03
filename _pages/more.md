@@ -477,69 +477,65 @@ If what you are questioning yourself about for is not in the list below, feel fr
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 <p>
-Video games are often criticized as mindless distractions, sometimes even accused of making people violent or having a bad influence on players.  
-I think this view is unfair. Any form of fiction — whether it is a film, a book, or a song — can inspire negative behavior if taken the wrong way, but that does not define the value of the medium itself.  
-For me, video games represent a true art form, and one of the most complete ones we have today. They combine the narrative depth of literature, the visual power of cinema, and the emotional reach of music, while adding something unique: interactivity.  
-As players, we do not just watch a story, we take part in it, and that makes the experience deeply personal.  
-In fact, I often feel that the industry now gathers some of the most talented storytellers of our time, sometimes more daring and creative than what we see in mainstream cinema.  
-Two works in particular have had a strong impact on me: the <em>Metal Gear Solid</em> saga and <em>Outer Wilds</em>. 
+Video games are often criticized as mindless distractions, sometimes even accused of making people violent or having a bad influence on players. I think this view is unfair.
+Any form of fiction, whether it is a film, a book, or a song, can inspire negative behavior if taken the wrong way, but that does not define the value of the medium itself.
+</p>
+
+<p>
+For me, video games are a true art form, and one of the most complete ones we have today. They combine the narrative depth of literature, the visual power of cinema, and the emotional reach of music, while adding something unique: interactivity.
+As players, we do not just watch a story, we take part in it, and that makes the experience deeply personal.
+I often feel that the industry now gathers some of the most talented storytellers of our time, sometimes more daring and creative than what we see in mainstream cinema.
+Two works in particular have had a strong impact on me: the <em>Metal Gear Solid</em> saga and <em>Outer Wilds</em>.
 </p>
 
 <style>
-.game-section {
-  margin: 2em 0;
-  overflow: auto; /* pour que le float soit bien contenu */
-}
+  .game-section { margin: 2em 0; }
+  /* clearfix pour contenir les floats */
+  .game-section::after { content: ""; display: table; clear: both; }
 
-.game-section img {
-  max-width: 300px;
-  height: auto;
-  border-radius: 8px;
-  margin: 0 1em 1em 0; /* espace entre texte et image */
-}
+  .game-img {
+    max-width: 320px;        /* ajuste 280–380px selon ton goût */
+    width: 38%;              /* proportion par rapport au texte */
+    height: auto;
+    border-radius: 8px;
+  }
+  .game-img.right { float: right; margin: 0 0 1em 1em; }
+  .game-img.left  { float: left;  margin: 0 1em 1em 0; }
 
-.game-section.right img {
-  float: right;
-  margin: 0 0 1em 1em;
-}
-
-.game-section.left img {
-  float: left;
-  margin: 0 1em 1em 0;
-}
+  /* Mobile: image pleine largeur au-dessus du texte */
+  @media (max-width: 700px){
+    .game-img { float: none !important; width: 100%; max-width: 100%; margin: 0 0 0.75em 0; }
+  }
 </style>
 
-<!-- Metal Gear Solid -->
-<div class="game-section right">
-  <div class="game-text">
-    <h3>Metal Gear Solid (1998–2015)</h3>
-    <p>
-    At first glance, <em>Metal Gear Solid</em> looks like a series of stealth and war games. But at its core, it is a profoundly anti-militarist saga.  
-    It questions the meaning of war, the consequences of blind technological progress, and the rise of artificial intelligence long before these debates became mainstream.  
-    </p>
-    <p>
-    Beyond the themes, what makes it unique is its cinematic quality and its ability to break the fourth wall. The player is often directly addressed, involved not only as a character but as a participant in the story itself.  
-    These games can be confusing, even messy at times, but that is also what makes them so rich: they refuse to be "just entertainment". They stay with you because they ask questions that remain relevant today.  
-    For me, <em>Metal Gear Solid</em> was proof that video games could be complex works of art with a strong philosophical and political dimension.  
-    </p>
-  </div>
-  <img src="/images/games/mgs.jpg" alt="Metal Gear Solid">
+<!-- Metal Gear Solid (image à droite, texte qui s’enroule puis continue dessous) -->
+<div class="game-section">
+  <img class="game-img right" src="/images/games/mgs.jpg" alt="Metal Gear Solid">
+  <h3>Metal Gear Solid (1998–2015)</h3>
+  <p>
+    At first glance, <em>Metal Gear Solid</em> looks like a series of stealth and war games. But at its core, it is a profoundly anti-militarist saga.
+    It questions the meaning of war, the consequences of blind technological progress, and the rise of artificial intelligence long before these debates became mainstream.
+  </p>
+  <p>
+    Beyond the themes, what makes it unique is its cinematic quality and its ability to break the fourth wall. The player is often directly addressed, involved not only as a character but as a participant in the story itself.
+    These games can be confusing, even messy at times, but that is also what makes them so rich: they refuse to be "just entertainment". They stay with you because they ask questions that remain relevant today.
+    For me, <em>Metal Gear Solid</em> was proof that video games could be complex works of art with a strong philosophical and political dimension.
+  </p>
 </div>
 
-<!-- Outer Wilds -->
-<div class="game-section left">
-  <img src="/images/games/outerwilds.jpg" alt="Outer Wilds">
-  <div class="game-text">
-    <h3>Outer Wilds (2019)</h3>
-    <p>
-    <em>Outer Wilds</em> is completely different. No combat, no scores, no missions to follow. It is a pure exploration game: a solar system to discover, secrets to uncover, and a clock that resets after every loop.  
-    </p>
-    <p>
-    What struck me is its atmosphere: both melancholic and luminous. The game teaches you to accept that everything has an end, that not all goals will be reached, and that curiosity itself can be enough to give meaning to experience.  
-    There are no tutorials, no guides — you learn by trying, failing, and trying again. It is a celebration of curiosity, of learning by yourself, and of wonder in front of the unknown.  
-    </p>
-    <p>
-    <em>Outer Wilds</em> is not always easy: it can feel overwhelming, even sad at times. But it is also one of the rare games that left me with a true philosophical impression, close to what a novel or a play can give. It is an invitation to think about time, knowledge, and our place in the universe.  
-    </p>
-  </div>
+<!-- Outer Wilds (image à gauche, texte qui s’enroule puis continue dessous) -->
+<div class="game-section">
+  <img class="game-img left" src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
+  <h3>Outer Wilds (2019)</h3>
+  <p>
+    <em>Outer Wilds</em> is completely different. No combat, no scores, no missions to follow. It is a pure exploration game: a solar system to discover, secrets to uncover, and a clock that resets after every loop.
+  </p>
+  <p>
+    What struck me is its atmosphere: both melancholic and luminous. The game teaches you to accept that everything has an end, that not all goals will be reached, and that curiosity itself can be enough to give meaning to experience.
+    There are no tutorials, no guides; you learn by trying, failing, and trying again. It is a celebration of curiosity, of learning by yourself, and of wonder in front of the unknown.
+  </p>
+  <p>
+    <em>Outer Wilds</em> is not always easy: it can feel overwhelming, even sad at times. But it is also one of the rare games that left me with a true philosophical impression, close to what a novel or a play can give.
+    It is an invitation to think about time, knowledge, and our place in the universe.
+  </p>
 </div>
