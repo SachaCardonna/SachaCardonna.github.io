@@ -429,7 +429,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Starting simple</div>
   <div class="advice-overlay">
     <div>
-      When I work on something new, I always try to start simple. A small working version of a model or a code is much easier to test, to understand, and to correct; once the basics are solid, I gradually add complexity step by step. Also, writing a short script often shows where the equations are not as clear as I thought, while the blackboard helps explain what the computer output cannot. 
+      When I work on something new, I always try to start simple. A small working version of a model or a code is much easier to test, to understand, and to correct; once the basics are solid, I gradually add complexity step by step. Also, writing a short script often shows where the equations are not as clear as I thought, while the maths helps explain what the computer output cannot. 
     </div>
   </div>
 </div>
@@ -457,7 +457,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Finding a good diet</div>
   <div class="advice-overlay">
     <div>
-      I have practiced intermittent fasting, often with one meal per day. It works for me, but it is not a universal solution. I recommend finding an eating pattern that feels sustainable, supports your energy and training, and fits your daily life. If a diet creates anxiety around food, rigid rules, or loss of control, that is a warning sign. Do not hesitate to speak with a qualified professional if needed. 
+      I recommend finding an eating pattern that feels sustainable, supports your energy and training, and fits your daily life (because "we are what we eat", right?). For example, I have practiced intermittent fasting for few years. It worked for me, but it is not a universal solution. If a diet creates anxiety around food, rigid rules, or loss of control, that is a warning sign. Do not hesitate to speak with a qualified professional if needed. 
     </div>
   </div>
 </div>
@@ -493,12 +493,12 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
 
   .game-section::after { content: ""; display: table; clear: both; }
 
-  .game-img {
-    max-width: 320px;       
-    width: 38%;             
-    height: auto;
-    border-radius: 8px;
-  }
+.game-img {
+  max-width: 480px;   
+  width: 48%;        
+  height: auto;
+  border-radius: 8px;
+}
   .game-img.right { float: right; margin: 0 0 1em 1em; }
   .game-img.left  { float: left;  margin: 0 1em 1em 0; }
 
@@ -521,7 +521,7 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
   </p>
   <blockquote style="font-style: italic; text-align: center; margin-top: 0.8em;">
       “Life isn't just about passing on your genes. We can leave behind much more than just DNA. Through speech, music, literature and movies... what we've seen, heard, felt... anger, joy and sorrow... these are the things I will pass on. That's what I live for. We need to pass the torch, and let our children read our messy and sad history by its light. We have all the magic of the digital age to do that with. The human race will probably come to an end some time, and new species may rule over this planet. Earth may not be forever, but we still have the responsibility to leave what traces of life we can. Building the future and keeping the past alive are one in the same thing.”<br>
-      — Solid Snake, in front of Federal Hall, <em>Metal Gear Solid 2</em>
+      — Solid Snake, in front of Federal Hall
     </blockquote>
 </div>
 
@@ -529,14 +529,14 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
   <img class="game-img left" src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
   <h3>Outer Wilds - Möbius Interactive (2019)</h3>
   <p>
-    <em>Outer Wilds</em> is completely different. No combat, no scores, no missions to follow. It is a pure exploration game: a solar system to discover, secrets to uncover, and a clock that resets after every loop.
-    What struck me is its atmosphere: both melancholic and luminous. The game teaches you to accept that everything has an end, that not all goals will be reached, and that curiosity itself can be enough to give meaning to experience.
-    There are no tutorials, no guides; you learn by trying, failing, and trying again. It is a celebration of curiosity, of learning by yourself, and of wonder in front of the unknown.
-    <em>Outer Wilds</em> is not always easy: it can feel overwhelming, even sad at times. But it is also one of the rare games that left me with a true philosophical impression, close to what a novel or a play can give.
+    <em>Outer Wilds</em> is completely different. No combat, no scores, no missions to follow. It is a pure exploration game: a solar system to discover, secrets to uncover,  and a limited time to do it before everything rises again.
+    What struck me was its atmosphere: both melancholic and luminous. The game teaches you to accept that everything has an end, that not all goals will be reached, and that curiosity itself can be enough to give meaning to experience.
+    There are no tutorials, no guides; you learn by trying, failing, and trying again. It is all about curiosity, learning by yourself, and of the wonder that comes with discovery.
+    <em>Outer Wilds</em> is not always easy: it can feel overwhelming, even sad at times. But it is also one of the few games that really left me with questions and a strange feeling, close to what a novel or a play can give.
     It is an invitation to think about time, knowledge, and our place in the universe.
   </p>
       <blockquote style="font-style: italic; text-align: center; margin-top: 0.8em;">
       “Oh, hello... Come, sit with me, my fellow traveler. Let’s sit together and watch the stars die… We only get so much time, don’t we? Ah, there was still more I wanted to do... How unlucky to have been born at the end of the universe.”<br>
-      — Chert, 90 seconds before the end of the world, <em>Outer Wilds</em>
+      — Chert, 90 seconds before the end of the world
     </blockquote>
 </div>
