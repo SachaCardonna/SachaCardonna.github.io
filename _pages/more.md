@@ -504,12 +504,15 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
 
 
 @media (max-width: 700px){
-  .game-img { 
-    float: none !important; 
-    width: 100%; 
-    max-width: 100%; 
-    margin: 0 auto 0.75em auto; 
-    display: block;           
+  .game-img,
+  .game-img.right,
+  .game-img.left {
+    float: none !important;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0.75em auto !important; 
+  }
 }
 </style>
 
