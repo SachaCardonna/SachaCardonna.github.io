@@ -46,7 +46,7 @@ Explore my publications, the talks and conferences I participated in and my rese
 <i>Date</i>. 02/06/25.<br> 
 [[Slides]({{ site.url }}/files/talks/MIPS.pdf)]
 
-<b>CIMAV - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b>, <i>Aussois, France </i> <br>
+<b>CIMAV - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b><br>
 <i>Title</i>. An high-order robust DG/FV scheme for nonlinear shallow water equations with source terms on unstructured grids. <br>
 <i>Location</i>. Aussois, France. <br>
 <i>Date</i>. 13/05/25.<br> 
