@@ -9,6 +9,9 @@ date: 2025-01-01
 
 ## Documents
 
+Practical works in C++: 
+ - TP 1 - Approximations of derivatives with finite differences ([ZIP]({{ site.url }}/files/teaching/HAX703X/TP1_C++.zip))
+
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
 ## Contents

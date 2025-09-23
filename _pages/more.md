@@ -119,7 +119,7 @@ I have always been passionate about literature, cinema, and music. These arts ha
 </style>
 
 ### Films
-I have been a movie lover since I was young, and I enjoy recommending films that have stayed with me over the years. Here is a selection of six of my favorite works; while they are all on the melancholic side, each carries, in its own way, some hope.
+I have been a movie lover since I was young, and I enjoy recommending films that have stayed with me over the years. Here is a selection of six of my favorite works; while they are all kinda melancholic, each carries, in its own way, some hope.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -173,7 +173,7 @@ I have been a movie lover since I was young, and I enjoy recommending films that
 </div>
 
 ### Music
-I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me; I picked here six albums, each in a different musical style.
+I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me; I tried to pick here six albums, each in a different musical style.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -227,7 +227,7 @@ I spend most of my days with music playing in the background. Since my music tas
 </div>
 
 ### Literature
-When I was younger, I used to read a lot. With my PhD, I do not have as much time for it anymore, and I miss it... Still, I have a strong passion for literature, and I have selected six works that have had a significant impact on my life.
+When I was younger, I used to read a lot. With my PhD, I do not have as much time for it anymore, and I miss it... Still, I have a strong passion for literature, and here's six works that have had a significant impact on my life.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
@@ -477,15 +477,12 @@ If what you are questioning yourself about for is not in the list below, feel fr
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 <p>
-Video games are often criticized as mindless distractions, sometimes even accused of making people violent or having a bad influence on players. I think this view is unfair.
-Any form of fiction, whether it is a film, a book, or a song, can inspire negative behavior if taken the wrong way, but that does not define the value of the medium itself.
+Video games often get a bad reputation. People say they are just a waste of time, or even that they make players violent. I do not agree. Any form of fiction can have a bad influence if it is taken the wrong way, whether it is a movie, a book, or a song. But that does not mean the whole medium should be judged like that.
 </p>
 
 <p>
-For me, video games are a true art form, and one of the most complete ones we have today. They combine the narrative depth of literature, the visual power of cinema, and the emotional reach of music, while adding something unique: interactivity.
-As players, we do not just watch a story, we take part in it, and that makes the experience deeply personal.
-I often feel that the industry now gathers some of the most talented storytellers of our time, sometimes more daring and creative than what we see in mainstream cinema.
-Two works in particular have had a strong impact on me: the <em>Metal Gear Solid</em> saga and <em>Outer Wilds</em>.
+For me, video games are a real form of art. They bring together story, images, music, and something more: interactivity. You do not just watch a story, you play it, you take part in it. That makes the experience very personal. I also feel that many games today show more creativity and courage in their writing than what you often see in mainstream cinema.  
+Two games in particular have stayed with me: the <em>Metal Gear Solid</em> saga and <em>Outer Wilds</em>.
 </p>
 
 <style>
@@ -520,13 +517,13 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
 <div class="game-section">
   <img class="game-img right" src="/images/games/mgs.jpg" alt="Metal Gear Solid">
   <h3>Metal Gear Solid - Konami (1998–2015)</h3>
-  <p>
-    At first glance, <em>Metal Gear Solid</em> looks like a series of stealth and war games. But at its core, it is a profoundly anti-militarist (even anarchist) saga.
-    It questions the meaning of war, the consequences of blind technological progress, and the rise of artificial intelligence long before these debate became mainstream.
-    Beyond the themes, what makes it unique is its cinematic quality and its ability to break the fourth wall. The player is often directly addressed, involved not only as a character but as a participant in the story itself.
-    These games can be confusing, even messy at times, but that is also what makes them so rich: they refuse to be "just entertainment". They stay with you because they ask questions that remain relevant today.
-    For me, <em>Metal Gear Solid</em> was a proof that video games could be complex works of art with a strong philosophical and political dimension.
-  </p>
+<p>
+At first sight, <em>Metal Gear Solid</em> looks like a series of stealth or war games. But deep down, it is an anti-militarist (even anarchist) story.  
+It makes you think about the meaning of war, about where technology can lead when it goes too far, and even about artificial intelligence, years before it became a common topic.  
+What makes it special for me is its mix of cinematic quality and the way it often breaks the fourth wall. The game speaks directly to you, not just to your character.  
+Sometimes the story feels confusing or too much, but that is also what makes it strong. It does not try to be simple entertainment. It stays in your head because it asks questions that still matter today.  
+For me, <em>Metal Gear Solid</em> was clear proof that video games can be real works of art, with strong philosophical and political ideas.
+</p>
   <blockquote style="font-style: italic; text-align: center; margin-top: 0.8em;">
       “Life isn't just about passing on your genes. We can leave behind much more than just DNA. Through speech, music, literature and movies... what we've seen, heard, felt... anger, joy and sorrow... these are the things I will pass on. That's what I live for. We need to pass the torch, and let our children read our messy and sad history by its light. We have all the magic of the digital age to do that with. The human race will probably come to an end some time, and new species may rule over this planet. Earth may not be forever, but we still have the responsibility to leave what traces of life we can. Building the future and keeping the past alive are one in the same thing.”<br>
       — Solid Snake, in front of Federal Hall
@@ -536,13 +533,13 @@ Two works in particular have had a strong impact on me: the <em>Metal Gear Solid
 <div class="game-section">
   <img class="game-img left" src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
   <h3>Outer Wilds - Möbius Interactive (2019)</h3>
-  <p>
-    <em>Outer Wilds</em> is completely different. No combat, no scores, no missions to follow. It is a pure exploration game: a solar system to discover, secrets to uncover,  and a limited time to do it before everything rises again.
-    What struck me was its atmosphere: both melancholic and luminous. The game teaches you to accept that everything has an end, that not all goals will be reached, and that curiosity itself can be enough to give meaning to experience.
-    There are no tutorials, no guides; you learn by trying, failing, and trying again. It is all about curiosity, learning by yourself, and of the wonder that comes with discovery.
-    <em>Outer Wilds</em> is not always easy: it can feel overwhelming, even sad at times. But it is also one of the few games that really left me with questions and a strange feeling, close to what a novel or a play can give.
-    It is an invitation to think about time, knowledge, and our place in the universe.
-  </p>
+<p>
+<em>Outer Wilds</em> is very different. There is no combat, no scores, no missions to follow. It is only exploration: a small solar system to visit, secrets to find, and a limited time to do it before everything starts again.  
+What touched me the most was the atmosphere: sad and bright at the same time. The game makes you face the idea that everything ends, that you cannot reach every goal, and that curiosity itself gives value to the journey.  
+There are no tutorials, no guides. You just try, fail, and try again. It is about curiosity, learning on your own, and the small wonder of each discovery.  
+<em>Outer Wilds</em> is not always easy. Sometimes it feels heavy, even a bit depressing. But it is also one of the rare games that left me with real questions and a strange feeling, close to what I get with a novel or a play.  
+It makes you think about time, knowledge, and mostly our place in the universe.
+</p>
       <blockquote style="font-style: italic; text-align: center; margin-top: 0.8em;">
       “Oh, hello... Come, sit with me, my fellow traveler. Let’s sit together and watch the stars die… We only get so much time, don’t we? Ah, there was still more I wanted to do... How unlucky to have been born at the end of the universe.”<br>
       — Chert, 90 seconds before the end of the world
