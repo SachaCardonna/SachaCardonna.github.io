@@ -13,7 +13,7 @@ Personal interests and values within and beyond my academic work.
 ## Personal and professional commitments
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-Outside of my academic work, I try to stay engaged in causes I consider important, both within and beyond the university. These include access to education, social volunteering, scientific integrity... I do not share them to give lessons or to present myself as a model. Actually it's quite the opposite, I see them more as areas where I still have a lot to learn. I am always open to discussion, constructive criticism, and new perspectives that can help me improve.
+Outside of my academic work, I try to stay engaged in causes I consider important, both within and beyond the university.
 <style>
   details {
     background-color: rgba(0, 0, 0, 0.03); /* léger gris clair */
