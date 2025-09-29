@@ -484,64 +484,130 @@ Video games often get a bad reputation. People say they are just a waste of time
 For me, video games are a real form of art. They bring together story, images, music, and something more: interactivity. You do not just watch a story, you play it, you take part in it. That makes the experience very personal. I also feel that many games today show more creativity and courage in their writing than what you often see in mainstream cinema.  
 Two games in particular have stayed with me: the <em>Metal Gear Solid</em> saga and <em>Outer Wilds</em>.
 </p>
-
 <style>
-  .game-section { margin: 2em 0; }
+  /* Accordion container */
+  .game-accordion {
+    margin: 1.25em 0;
+  }
 
-  .game-section::after { content: ""; display: table; clear: both; }
+  .game-item {
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 8px;
+    margin-bottom: 0.8em;
+    background: rgba(0,0,0,0.02);
+    overflow: hidden; /* keeps floats inside when open */
+  }
 
-.game-img {
-  max-width: 480px;   
-  width: 48%;        
-  height: auto;
-  border-radius: 8px;
-}
+  /* Clickable title */
+  .game-item > summary {
+    list-style: none;      /* remove default triangle */
+    cursor: pointer;
+    padding: 0.75em 1em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+  }
+  .game-item > summary:focus { outline: 2px solid rgba(0,0,0,0.2); outline-offset: 2px; }
+
+  /* Custom chevron */
+  .game-item > summary .chevron {
+    transition: transform 0.2s ease;
+    font-size: 0.9em;
+    opacity: 0.7;
+    margin-left: 0.5em;
+  }
+  .game-item[open] > summary .chevron { transform: rotate(90deg); }
+
+  /* Body */
+  .game-body { padding: 0.5em 1em 1em 1em; }
+
+  /* Float image + wrap text like your section above */
+  .game-body::after { content: ""; display: table; clear: both; }
+
+  .game-img {
+    max-width: 480px;
+    width: 48%;
+    height: auto;
+    border-radius: 8px;
+  }
   .game-img.right { float: right; margin: 0 0 1em 1em; }
   .game-img.left  { float: left;  margin: 0 1em 1em 0; }
 
+  /* Paragraph spacing tighter so quotes sit closer */
+  .game-body p { margin-bottom: 0.6em; }
 
-@media (max-width: 700px){
-  .game-img,
-  .game-img.right,
-  .game-img.left {
-    float: none !important;
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    margin: 0.75em auto !important; 
+  /* Quote style */
+  .game-quote {
+    text-align: center;
+    font-style: italic;
+    margin: 0.6em 0;
+    line-height: 1.35;
   }
-}
+
+  /* Mobile: image full width, centered, no float */
+  @media (max-width: 700px){
+    .game-img,
+    .game-img.right,
+    .game-img.left {
+      float: none !important;
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      margin: 0.75em auto !important;
+    }
+  }
 </style>
 
+<div class="game-accordion">
 
-<div class="game-section">
-  <img class="game-img right" src="/images/games/mgs.jpg" alt="Metal Gear Solid">
-  <h3>Metal Gear Solid - Konami (1998–2015)</h3>
-<p>
-At first sight, <em>Metal Gear Solid</em> looks like a series of stealth or war games. But deep down, it is an anti-militarist (even anarchist) story.  
-It makes you think about the meaning of war, about where technology can lead when it goes too far, and even about artificial intelligence, years before it became a common topic.  
-What makes it special for me is its mix of cinematic quality and the way it often breaks the fourth wall. The game speaks directly to you, not just to your character.  
-Sometimes the story feels confusing or too much, but that is also what makes it strong. It does not try to be simple entertainment. It stays in your head because it asks questions that still matter today.  
-For me, <em>Metal Gear Solid</em> was clear proof that video games can be real works of art, with strong philosophical and political ideas.
-</p>
-  <blockquote style="font-style: italic; text-align: center; margin-top: 0.8em;">
-      “Life isn't just about passing on your genes. We can leave behind much more than just DNA. Through speech, music, literature and movies... what we've seen, heard, felt... anger, joy and sorrow... these are the things I will pass on. That's what I live for. We need to pass the torch, and let our children read our messy and sad history by its light. We have all the magic of the digital age to do that with. The human race will probably come to an end some time, and new species may rule over this planet. Earth may not be forever, but we still have the responsibility to leave what traces of life we can. Building the future and keeping the past alive are one in the same thing.”<br>
-      — Solid Snake, in front of Federal Hall
-    </blockquote>
-</div>
+  <!-- MGS: title clickable, image right, text left -->
+  <details class="game-item" open>
+    <summary>
+      Metal Gear Solid — Konami (1998–2015)
+      <span class="chevron">›</span>
+    </summary>
+    <div class="game-body">
+      <img class="game-img right" src="/images/games/mgs.jpg" alt="Metal Gear Solid">
+      <p>
+        At first sight, <em>Metal Gear Solid</em> looks like a series of stealth or war games. But deep down, it is an anti-militarist (even anarchist) story.
+        It makes you think about the meaning of war, about where technology can lead when it goes too far, and even about artificial intelligence, years before it became a common topic.
+      </p>
+      <p>
+        What makes it special for me is its mix of cinematic quality and the way it often breaks the fourth wall. The game speaks directly to you, not just to your character.
+        Sometimes the story feels confusing or too much, but that is also what makes it strong. It does not try to be simple entertainment. It stays in your head because it asks questions that still matter today.
+        For me, <em>Metal Gear Solid</em> was clear proof that video games can be real works of art, with strong philosophical and political ideas.
+      </p>
+      <div class="game-quote">
+        “Life isn't just about passing on your genes. We can leave behind much more than just DNA. Through speech, music, literature and movies... what we've seen, heard, felt... anger, joy and sorrow... these are the things I will pass on. That's what I live for. We need to pass the torch, and let our children read our messy and sad history by its light. We have all the magic of the digital age to do that with. The human race will probably come to an end some time, and new species may rule over this planet. Earth may not be forever, but we still have the responsibility to leave what traces of life we can. Building the future and keeping the past alive are one in the same thing.”<br>
+        — Solid Snake, in front of Federal Hall
+      </div>
+    </div>
+  </details>
 
-<div class="game-section">
-  <img class="game-img left" src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
-  <h3>Outer Wilds - Möbius Interactive (2019)</h3>
-<p>
-<em>Outer Wilds</em> is very different. There is no combat, no scores, no missions to follow. It is only exploration: a small solar system to visit, secrets to find, and a limited time to do it before everything starts again.  
-What touched me the most was the atmosphere: sad and bright at the same time. The game makes you face the idea that everything ends, that you cannot reach every goal, and that curiosity itself gives value to the journey.  
-There are no tutorials, no guides. You just try, fail, and try again. It is about curiosity, learning on your own, and the small wonder of each discovery.  
-<em>Outer Wilds</em> is not always easy. Sometimes it feels heavy, even a bit depressing. But it is also one of the rare games that left me with real questions and a strange feeling, close to what I get with a novel or a play.  
-It makes you think about time, knowledge, and mostly our place in the universe.
-</p>
-      <blockquote style="font-style: italic; text-align: center; margin-top: 0.8em;">
-      “Oh, hello... Come, sit with me, my fellow traveler. Let’s sit together and watch the stars die… We only get so much time, don’t we? Ah, there was still more I wanted to do... How unlucky to have been born at the end of the universe.”<br>
-      — Chert, 90 seconds before the end of the world
-    </blockquote>
+  <!-- Outer Wilds: title clickable, image left, text right -->
+  <details class="game-item">
+    <summary>
+      Outer Wilds — Möbius Interactive (2019)
+      <span class="chevron">›</span>
+    </summary>
+    <div class="game-body">
+      <img class="game-img left" src="/images/games/outerwilds.jpeg" alt="Outer Wilds">
+      <p>
+        <em>Outer Wilds</em> is very different. There is no combat, no scores, no missions to follow. It is only exploration: a small solar system to visit, secrets to find, and a limited time to do it before everything starts again.
+        What touched me the most was the atmosphere: sad and bright at the same time. The game makes you face the idea that everything ends, that you cannot reach every goal, and that curiosity itself gives value to the journey.
+      </p>
+      <p>
+        There are no tutorials, no guides. You just try, fail, and try again. It is about curiosity, learning on your own, and the small wonder of each discovery.
+        <em>Outer Wilds</em> is not always easy. Sometimes it feels heavy, even a bit depressing. But it is also one of the rare games that left me with real questions and a strange feeling, close to what I get with a novel or a play.
+        It makes you think about time, knowledge, and our place in the universe.
+      </p>
+      <div class="game-quote">
+        “Oh, hello... Come, sit with me, my fellow traveler. Let’s sit together and watch the stars die… We only get so much time, don’t we? Ah, there was still more I wanted to do... How unlucky to have been born at the end of the universe.”<br>
+        — Chert, 90 seconds before the end of the world
+      </div>
+    </div>
+  </details>
+
 </div>
