@@ -562,8 +562,8 @@ Two games in particular have stayed with me: the <em>Metal Gear Solid</em> saga 
 
 <div class="game-accordion">
 
-  <!-- MGS: title clickable, image right, text left -->
-  <details class="game-item" open>
+
+  <details class="game-item">
     <summary>
       Metal Gear Solid — Konami (1998–2015)
       <span class="chevron">›</span>
@@ -586,7 +586,7 @@ Two games in particular have stayed with me: the <em>Metal Gear Solid</em> saga 
     </div>
   </details>
 
-  <!-- Outer Wilds: title clickable, image left, text right -->
+
   <details class="game-item">
     <summary>
       Outer Wilds — Möbius Interactive (2019)
