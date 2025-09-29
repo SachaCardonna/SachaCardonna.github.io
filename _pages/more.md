@@ -578,7 +578,7 @@ Two games in particular have stayed with me: the <em>Metal Gear Solid</em> saga 
         What makes it special for me is its mix of cinematic quality and the way it often breaks the fourth wall. The game speaks directly to you, not just to your character.
         Sometimes the story feels confusing or too much, but that is also what makes it strong. It does not try to be simple entertainment. It stays in your head because it asks questions that still matter today.
         For me, <em>Metal Gear Solid</em> was clear proof that video games can be real works of art, with strong philosophical and political ideas.
-      </p>
+      </p> <br>
       <div class="game-quote">
         “Life isn't just about passing on your genes. We can leave behind much more than just DNA. Through speech, music, literature and movies... what we've seen, heard, felt... anger, joy and sorrow... these are the things I will pass on. That's what I live for. We need to pass the torch, and let our children read our messy and sad history by its light. We have all the magic of the digital age to do that with. The human race will probably come to an end some time, and new species may rule over this planet. Earth may not be forever, but we still have the responsibility to leave what traces of life we can. Building the future and keeping the past alive are one in the same thing.”<br>
         — Solid Snake, in front of Federal Hall
@@ -602,7 +602,7 @@ Two games in particular have stayed with me: the <em>Metal Gear Solid</em> saga 
         There are no tutorials, no guides. You just try, fail, and try again. It is about curiosity, learning on your own, and the small wonder of each discovery.
         <em>Outer Wilds</em> is not always easy. Sometimes it feels heavy, even a bit depressing. But it is also one of the rare games that left me with real questions and a strange feeling, close to what I get with a novel or a play.
         It makes you think about time, knowledge, and our place in the universe.
-      </p>
+      </p> <br>
       <div class="game-quote">
         “Oh, hello... Come, sit with me, my fellow traveler. Let’s sit together and watch the stars die… We only get so much time, don’t we? Ah, there was still more I wanted to do... How unlucky to have been born at the end of the universe.”<br>
         — Chert, 90 seconds before the end of the world
