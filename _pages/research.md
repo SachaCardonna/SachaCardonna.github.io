@@ -75,31 +75,9 @@ $$
 </div>
 where $\mathbf{U}$ represents the vector of conserved variables (our unknowns), $\mathbb{F}$ the flux function that can be nonlinear, and $\mathbf{S}$ possible source terms arising from geometry, external forces, or coupling effects. The mathematical challenge is that even smooth initial data can generate discontinuities in finite time, which makes the analytical study of such systems extremely delicate. Because of the lack of regularity of weak solutions, only partial theoretical results are available, and the numerical approximation of these phenomena must often combine high-order accuracy with stability and robustness.
 
-Among the many examples of such systems, the nonlinear shallow-water equations (NSW) play a central role in the water wave community; they provide an asymptotic model derived from the incompressible Euler equations under the assumption of small aspect ratio (the depth of the fluid is much smaller than the horizontal scale). In two horizontal dimensions, given a smooth parameterization $b$ of the bathymetry variation, denoting the free surface elevation by $\eta$, the water discharge by $\mathbf{q} = (q_x,q_y)^\top$, $\mathbf{u} = (u_x,u_y)^\top$ as the depth-averaged water velocity, and $g$ as the gravitational constant, the 2D NSW equations can be written as follows 
-<div style="text-align: center;">
-$$
-    \partial_t \mathbf{v} + \nabla_{\!\mathbf{x}}\cdot \mathbb{F}(\mathbf{v}, b) = \mathbf{S}[b](\mathbf{v}) \quad \Leftrightarrow \quad
-	\begin{cases}
-	\partial_t \eta + \nabla_{\!\mathbf{x}}\cdot \mathbf{q} = 0, \\ 
-	\partial_t \mathbf{q} + \nabla_{\!\mathbf{x}}\cdot \left( \mathbf{u} \otimes \mathbf{q} +\frac{g\eta}{2}(\eta-2b) \mathbb{I}_2 \right) = -g\eta\nabla_{\!\mathbf{x}} b,
-	\end{cases}
-$$
-</div>
-supplemented with some initial-data $\mathbf{v}(\cdot,0):= \mathbf{v}^0$ and where:
+Among the many examples of such systems, the nonlinear shallow-water equations (NSW) play a central role in the water wave community; they provide an asymptotic model derived from the incompressible Euler equations under the assumption of small aspect ratio (the depth of the fluid is much smaller than the horizontal scale). Despite their asymptotic nature, the shallow water equations remain extremely valuable in practice. They provide an accurate description of the main physical mechanisms governing free-surface flows, while avoiding the prohibitive computational cost associated with solving the fully three-dimensional Euler or Navier–Stokes equations. They thus offer an effective compromise between physical realism and numerical efficiency. Even though they do not account for dispersive effects (captured in more refined models such as the Boussinesq or Green–Naghdi systems), they remain one of the most widely used and robust approximations for practical flow simulations. 
 
-- $\mathbb{R}^2\times\mathbb{R}_+ \ni (\mathbf{x},t) \mapsto \mathbf{v}(\mathbf{x},t) := (\eta,q_x,q_y)(\mathbf{x},t) \in \mathcal{H}_b^+$ gathers the chosen flow description variables, with  
-  $\mathcal{H}_b^+ = \{ (\eta,q_x,q_y)\in\mathbb{R}^3 \mid H := \eta - b \ge 0 \}$,  
-  ensuring the well-posedness of the model by restricting $\mathbf{v}$ to the admissible set $\mathcal{H}_b^+$ where the water height $H$ remains non-negative.
-
-- $\mathcal{H}_b^+\times\mathbb{R} \ni (\mathbf{v}, b) \mapsto \mathbb{F}(\mathbf{v}, b) := \left( \mathbf{q}, \, \mathbf{u}\otimes\mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2 \right)^\top \in \mathcal{M}_{3\times 2}(\mathbb{R})$  
-  is the (nonlinear) flux function.
-
-- $\mathcal{H}_b^+ \ni \mathbf{v} \mapsto \mathbf{S}[b](\mathbf{v}) := (0,\,-g\eta\,\partial_x b,\,-g\eta\,\partial_y b)^\top \in \mathbb{R}^3$  
-  stands for the bathymetry source term.
-  
-Despite their asymptotic nature, the shallow water equations remain extremely valuable in practice. They provide an accurate description of the main physical mechanisms governing free-surface flows, while avoiding the prohibitive computational cost associated with solving the fully three-dimensional Euler or Navier–Stokes equations. They thus offer an effective compromise between physical realism and numerical efficiency. Even though they do not account for dispersive effects (captured in more refined models such as the Boussinesq or Green–Naghdi systems), they remain one of the most widely used and robust approximations for practical flow simulations. 
-
-From a numerical viewpoint, however, their discretization poses several challenges. Capturing both smooth solutions and discontinuities requires schemes that are stable in the presence of shocks, preserve the positivity of the water height ($i.e.$ ensuring at the discrete level that $H\geq0$, s.t. $\mathbf{v}\in\mathcal{H}_b^+$), and maintain steady states such as the so-called “lake-at-rest” equilibrium. Moreover, in many realistic configurations, the flow interacts with complex geometries, obstacles, or moving boundaries, which demands robust and flexible numerical frameworks.
+From a numerical viewpoint, however, their discretization poses several challenges. Capturing both smooth solutions and discontinuities requires schemes that are stable in the presence of shocks, preserve the positivity of the water height ($i.e.$ ensuring at the discrete level that $H\geq0$), and maintain steady states such as the so-called “lake-at-rest” equilibrium. Moreover, in many realistic configurations, the flow interacts with complex geometries, obstacles, or moving boundaries, which demands robust and flexible numerical frameworks.
 
 ### New high-order numerical frameworks for shallow water asymptotics
 In the numerical analysis of nonlinear shallow water models, two main families of methods coexist. On one hand, classical finite volume (FV) schemes are extremely robust: they are able to handle naturally shocks, dry areas, and abrupt variations of topography without breaking down. However, they usually provide initially low-order accuracy and tend to be too diffusive. On the other hand, finite element methods, in particular discontinuous Galerkin (DG) formulations, can reach arbitrarily high orders of precision and are well-suited for complex geometries, but they are much more sensitive to numerical instabilities and require additional stabilization mechanisms to ensure robustness.
