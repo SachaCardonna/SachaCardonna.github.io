@@ -87,7 +87,7 @@ $$
 </div>
 supplemented with some initial-data $\mathbf{v}(\cdot,0):= \mathbf{v}^0$ and where:
 
-- $\mathbb{R}^2\times\mathbb{R}_+ \ni (\mathbf{x},t) \mapsto \mathbf{v}(\mathbf{x},t):= (\eta, q_x,q_y)(\mathbf{x},t)\in \mathcal{H}_b^+$ gathers the chosen flow description variables, with $\mathcal{H}_b^+ =\left{(\eta,q_x,q_y)\in\mathbb{R}^3 \mid H:=\eta-b\geq0\right},$
+- $\mathbb{R}^2\times\mathbb{R}_+ \ni (\mathbf{x},t) \mapsto \mathbf{v}(\mathbf{x},t):= (\eta, q_x,q_y)(\mathbf{x},t)\in \mathcal{H}_b^+$ gathers the chosen flow description variables, with $\mathcal{H}_b^+ =\left\{(\eta,q_x,q_y)\in\mathbb{R}^3 \mid H:=\eta-b\geq0\right\},$
 ensuring the well-posedness of the model by restricting $\mathbf{v}$ to the admissible set $\mathcal{H}_b^+$ where the water height $H$ remains non-negative,
 - $\mathcal{H}_b^+\times\mathbb{R} \ni (\mathbf{v}, b)\mapsto \mathbb{F} (\mathbf{v}, b):= \left( \mathbf{q} , \, \mathbf{u} \otimes \mathbf{q} +\frac{g\eta}{2}(\eta-2b) \mathbb{I}_2\right)^\top \in \mathcal{M}_{3\times 2}(\mathbb{R})$ is the (nonlinear) flux function,
 - $\mathcal{H}_b^+\ni \mathbf{v} \mapsto \mathbf{S}[b](\mathbf{v}):= (0, -g\eta\partial_x b, -g\eta\partial_y b)^\top \in \mathbb{R}^3$ stands for the bathymetry source term.
