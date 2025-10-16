@@ -64,7 +64,6 @@ Explore my publications, the talks and conferences I participated in and my rese
 <i>Date</i>. 25/10/23.<br>
 [[Slides]({{ site.url }}/files/talks/SEMDOC.pdf)]
 
-***
 
 ## Research statement
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
