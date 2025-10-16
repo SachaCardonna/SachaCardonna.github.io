@@ -66,65 +66,55 @@ Explore my publications, the talks and conferences I participated in and my rese
 
 ***
 
-## More about my Ph.D. 
+## Research statement
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<i>Title</i>. Modeling and numerical study of free-border problem and wave-structure interaction.
-
-<i>Field</i>. Applied Mathematics, Mathematical Physics.
-
-<i>Keywords</i>. Discontinuous Galerkin, Finite-Volume subcell, Shallow-Water, wave-structure interactions, ALE approaches.
-
-<i>Abstract</i>. The general modeling of water waves in an incompressible and irrotational fluid can be ideally obtained with the Euler equations with a free surface boundary condition. For the particular case of shallow water regime, it is often needed to work with simplified asymptotic models allowing to simplify the analysis and work at the required physical scales. Several depth-integrated asymptotic models, allowing to reduce the dimension of the problem, have been recently introduced , analyzed, numerically approximated and experimentally validated. Such models are nowadays used to solve coastal engineering problems related to wave propagation and transformations.
-
-In these asymptotic models, the study of free-boundary problems and the introduction of floating structures has not received much attention and remains a challenge. On the theoretical side, a recent work allows to rigorously analyze a nonlinear formulation accounting for the wave–body problem relying on the  shallow-water equations,  through the decomposition of the physical domain of interest between a free-surface domain and a floating structure domain, and introducing coupling conditions between these two sub-domains. On the numerical side, very few dedicated studies may be found in the literature.
-In a very recent Ph.D thesis and submitted papers, a new numerical strategy is introduced in the d = 1 configuration, relying on a DG-ALE method which is further stabilized by an a posteriori Finite-Volume sub-cell correction.
-
-During the proposed Ph.D., in order to further study this modeling problem, we aim at:
-1. Invest some new stabilization methods for the NSW equations relying on an a priori paradigm, in the one and  two-dimensional cases, which is of paramount importance in such equations with singularities,
-2. Extend the previous strategy to the two dimensional case, both from the modeling and the numerical viewpoints.
-
-Besides this, the original feature of the chosen approach lies in the use of Arbitrary Eulerian Lagrangian method (ALE) to handle the mesh displacement and deformation. In the frame of continuous mechanics, two points of view are generally used, namely the Eulerian and Lagrangian formalisms. In the Eulerian framework, the conservation laws governing the physical phenomenon under consideration are developed on a fixed referential, while in the Lagrangian formalism the referential is attached to the material. Thus, in the case of hydrodynamic problem, the mesh should thus move and get deformed as the fluid flows. The ALE methods lies in between. 
-Depending on the progress, some applications to the study of floating wave-energy converters may be investigated too.
-
-***
-
-## Research Topics
-<hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<b>Shallow-Water equations</b>
-
-Let us remind the nonlinear Shallow-Water equations: 
+ My research lies at the intersection of mathematical modeling, numerical analysis, and the study of partial differential equations (PDEs) describing fluid flows. In particular, during my PhD, I focused on nonlinear systems of hyperbolic balance laws, which are used to model the evolution of quantities that are transported and conserved in time. These systems take the general form
 <div style="text-align: center;">
 $$
-\begin{cases}
-      \partial_t \eta + \nabla_{\mathbf{x}} \cdot \mathbf{q} = 0, \\
-      \partial_t \mathbf{q} + \nabla_{\mathbf{x}} \cdot \left( \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = -g\eta \nabla_{\mathbf{x}} b,
-\end{cases} \nonumber
+\partial_t \mathbf{U}(\mathbf{x},t) + \nabla_{\!\mathbf{x}} \cdot \mathbb{F}(\mathbf{U}) = \bfS(\mathbf{U}, \mathbf{x},t),
 $$
 </div>
-where $\eta$ is water total elevation, $\mathbf{q}=(q_x,q_y)^T$ is the horizontal discharge, and $\mathbf{B} = (0, -g\eta \nabla_{\mathbf{x}} b)^T$ the topography source term.
+where $\mathbf{U}$ represents the vector of conserved variables (our unknowns), $\mathbb{F}$ the flux function that can be nonlinear, and $\bfS$ possible source terms arising from geometry, external forces, or coupling effects. The mathematical challenge is that even smooth initial data can generate discontinuities in finite time, which makes the analytical study of such systems extremely delicate. Because of the lack of regularity of weak solutions, only partial theoretical results are available, and the numerical approximation of these phenomena must often combine high-order accuracy with stability and robustness.
 
-The Shallow-Water equations are a collection of partial differential equations that describe the behavior of fluids in shallow areas such as rivers, lakes, and coastal areas. Mathematicians, engineers, and scientists are all interested to them because they provide a fundamental framework for understanding fluid dynamics in a wide range of practical applications. SW equations were developed in the mid-nineteenth century by mathematicians and physicists who wanted to understand the behavior of water waves, obtained by  deriving the full Navier-Stokes equations, which describe fluid motion in general. The fluid was simplified by assuming that it is incompressible and inviscid, and that its depth is much smaller than its horizontal extent. The main advantage of this model is its computation cost, allowing scientists to perform big-scale simulations in real time.
+Among the many examples of such systems, the nonlinear shallow-water equations (NSW) play a central role in the water wave community; they provide an asymptotic model derived from the incompressible Euler equations under the assumption of small aspect ratio (the depth of the fluid is much smaller than the horizontal scale). In two horizontal dimensions, given a smooth parameterization $b$ of the bathymetry variation, denoting the free surface elevation by $\eta$, the water discharge by $\mathbf{q} = (q_x,q_y)^\top$, $\mathbf{u} = (u_x,u_y)^\top$ as the depth-averaged water velocity, and $g$ as the gravitational constant, the 2D NSW equations can be written as follows 
+<div style="text-align: center;">
+$$
+    \partial_t \mathbf{v} + \nabla_{\!\mathbf{x}}\cdot \dsF(\mathbf{v}, b) = \mathbf{S}[b](\mathbf{v}) \quad \Leftrightarrow \quad
+	\begin{cases}
+	\partial_t \eta + \nabla_{\!\mathbf{x}}\cdot \mathbf{q} = 0, \\ 
+	\partial_t \mathbf{q} + \nabla_{\!\mathbf{x}}\cdot \left( \mathbf{u} \otimes \mathbf{q} +\frac{g\eta}{2}(\eta-2b) \II_2 \right) = -g\eta\nabla_{\!\mathbf{x}} b,
+	\end{cases}
+$$
+</div>
+supplemented with some initial-data $\mathbf{v}(\cdot,0)\coloneqq \mathbf{v}^0$ and where:
+- $\mathbb{R}^2\times\mathbb{R}_+ \ni (\mathbf{x},t) \mapsto \mathbf{v}(\mathbf{x},t)\coloneqq (\eta, q_x,q_y)(\mathbf{x},t)\in \mathcal{H}_b^+$ gathers the chosen flow description variables, with
+<div style="text-align: center;">
+$$
+	\mathcal{H}_b^+ =\{(\eta,q_x,q_y)\in\mathbb{R}^3 \mid H:=\eta-b\geq0\},
+$$
+</div>
+ensuring the well-posedness of the model by restricting $\mathbf{v}$ to the admissible set $\mathcal{H}_b^+$ where the water height $H$ remains non-negative,
+- $\mathcal{H}_b^+\times\RR \ni (\mathbf{v}, b)\mapsto \dsF (\mathbf{v}, b)\coloneqq \left( \mathbf{q} , \, \mathbf{u} \otimes \mathbf{q} +\frac{g\eta}{2}(\eta-2b) \II_2\right)^\top \in \M_{3\times 2}(\RR)$ is the (nonlinear) flux function,
+- $\mathcal{H}_b^+\ni \mathbf{v} \mapsto \mathbf{S}[b](\mathbf{v})\coloneqq (0, -g\eta\partial_x b, -g\eta\partial_y b)^\top \in \RR^3$ stands for the bathymetry source term.
 
-<b>High-order discontinuous Galerkin schemes</b>
+Despite their asymptotic nature, the shallow water equations remain extremely valuable in practice. They provide an accurate description of the main physical mechanisms governing free-surface flows, while avoiding the prohibitive computational cost associated with solving the fully three-dimensional Euler or Navier–Stokes equations. They thus offer an effective compromise between physical realism and numerical efficiency. Even though they do not account for dispersive effects (captured in more refined models such as the Boussinesq or Green–Naghdi systems), they remain one of the most widely used and robust approximations for practical flow simulations. 
 
-The discontinuous Galerkin (DG) method is a numerical scheme for solving partial differential equations. It was first introduced by Reed and Hill in 1973, and has since become a popular method for solving a wide range of problems, from fluid dynamics to electromagnetics. The DG method is based on the Galerkin method, which involves approximating a solution to a PDE as a linear combination of basis functions. However, unlike the continuous Galerkin method, which uses continuous basis functions, the dG method uses discontinuous basis functions. This allows for a more flexible and accurate approximation of the solution, particularly in areas with high gradients or shocks.
+From a numerical viewpoint, however, their discretization poses several challenges. Capturing both smooth solutions and discontinuities requires schemes that are stable in the presence of shocks, preserve the positivity of the water height ($i.e.$ ensuring at the discrete level that $H\geq0$, s.t. $\mathbf{v}\in\mathcal{H}_b^+$), and maintain steady states such as the so-called “lake-at-rest” equilibrium. Moreover, in many realistic configurations, the flow interacts with complex geometries, obstacles, or moving boundaries, which demands robust and flexible numerical frameworks.
 
-One of the main interests of the DG method is its ability to handle complex geometries and domains with irregular boundaries. This is because the method is naturally suited to handling non-uniform meshes and allows for the use of unstructured grids. The dG method is also well-suited to handle problems with multiple scales, such as those found in fluid dynamics or electromagnetism.
-Compared to other numerical methods, such as finite difference and finite element methods, the DG method has several advantages. For one, the DG method is more accurate and robust than other methods in areas with strong discontinuities or singularities. 
-This is because it can accurately capture the solution in these areas, whereas other methods may require finer mesh resolutions or more complex formulations.
+### New high-order numerical frameworks for shallow water asymptotics
+In the numerical analysis of nonlinear shallow water models, two main families of methods coexist. On one hand, classical finite volume (FV) schemes are extremely robust: they are able to handle naturally shocks, dry areas, and abrupt variations of topography without breaking down. However, they usually provide initially low-order accuracy and tend to be too diffusive. On the other hand, finite element methods, in particular discontinuous Galerkin (DG) formulations, can reach arbitrarily high orders of precision and are well-suited for complex geometries, but they are much more sensitive to numerical instabilities and require additional stabilization mechanisms to ensure robustness.
 
-Another advantage of this method is its ability to handle conservation laws. The dG method naturally conserves mass, momentum, and energy, which is important for many applications, such as fluid dynamics and electromagnetism. In contrast, other methods may require additional stabilization techniques to enforce conservation.
-  
-<b>Finite-Volume subcell corrections</b>
+The numerical strategy I have developed aims at combining the best of both worlds within a single and consistent framework. Building on a method initially introduced by my advisor François Vilar, we reformulated the computational domain by subdividing each mesh element into subcells and allowing both FV and DG representations to coexist locally, making it possible to merge two normally incompatible paradigms within a unified structure. Through a convex blending between the finite volume contributions (responsible for robustness) and the high-order DG ones (responsible for accuracy), the method dynamically adapts to the local regularity of the solution. It ensures that the scheme remains positivity-preserving, stable around steady states, and accurate in smooth regions.
 
-While the DG method has several advantages over other numerical methods, such as the Finite-Volume (FV) method, it also has some drawbacks that make it less robust in certain scenarios. One of the main disadvantages of the dG method is its difficulty in handling strong shocks and discontinuities. This is because the method relies on discontinuous basis functions, which can lead to numerical oscillations and instability in the presence of too strong gradients. In contrast, the FV method uses piecewise constant reconstructions, which are better suited to capturing shocks and discontinuities.
+This framework was first developed and analyzed in the one-dimensional setting, in a work focusing on the construction of the method and on the preservation of some key theoretical properties. 
+In this first article, we also proposed a natural extension of the approach to the Green–Naghdi equations, which form a dispersive correction to the NSW system.
+Indeed, in that setting, the dispersive effects are reformulated as an auxiliary elliptic problem that introduces an additional source term in the NSW equations. One of the main strengths of the proposed framework lies precisely in the treatment of such source terms: the method handles them in a consistent and unified way, without the need for additional numerical artifacts. The elliptic part is solved using a SWIP-DG (Symmetric Weighted Interior Penalty Discontinuous Galerkin) method, ensuring stability and precision. This coupling strategy yields a high-order dispersive model capable of capturing Green–Naghdi-type solutions with excellent accuracy and stability, while preserving the simplicity and robustness of the shallow water solver.
 
-Another drawback of the DG method is its computational expense. The dG method can be computationally expensive, particularly for high-order methods or complex geometries, due to the need for a large number of degrees of freedom and the cost of computing numerical fluxes at the element interfaces. In contrast, the FV method is generally more computationally efficient, particularly for lower-order methods and simpler geometries.
-Additionally, the dG method requires careful treatment of numerical fluxes at the interfaces between elements to ensure accuracy and stability. This can be particularly challenging in complex geometries or in the presence of strong shocks or discontinuities. In contrast, the FV method typically relies on simple numerical fluxes that are easy to implement and more robust in these scenarios. 
+More recently, this monolithic approach has been extended to two-dimensional unstructured meshes. The extension of the framework to two-dimensional configurations represents a major step forward, both technically and theoretically. The proposed formulation successfully addresses these difficulties and exhibits excellent numerical properties: it achieves high-order accuracy even on coarse and highly irregular meshes, while maintaining robustness in the presence of complex bathymetries, dry fronts and challenging benchmarks. These results confirm the versatility and efficiency of the approach, making it a promising tool for large-scale realistic simulations of shallow water flows.
 
-Another challenging problem, focusing on the NSW equations, is the preservation of the set of admissible states at the discrete level, which is closely related to the issue of the occurrence and propagation of wet/dry fronts that may occur in dam-breaks, flood-waves, or run-up over coastal shores. As a result, while maintaining the water-height positivity at the discrete level is a minimal nonlinear stability requirement, this is clearly a difficult task when high-order polynomials are used within mesh elements and standard (non-stabilized) DG methods may produce negative values for the water-height H in the vicinity of dry areas. 
-In general, robustness issues may be among the most significant remaining challenges for the use of high-order methods in realistic problems in many domains of application, and in recent years, several approaches have been proposed to stabilize high-order approximations. 
+### Floating structures in shallow water regimes
+The increasing demand for renewable marine energy has motivated the study of floating devices capable of converting wave motion into electricity. From a mathematical viewpoint, these systems involve complex fluid–structure interactions, where the dynamics of a floating body must be coupled with the free-surface flow. In collaboration with David Lannes, we are developing a unified theoretical and numerical framework to describe such interactions within an asymptotic shallow-water regime, aiming for both mathematical consistency and computational efficiency.
 
-In my Master's Thesis & Ph.D., we focus on Finite-Volume subcell correction, introduced by François Vilar. The primary aim of this correction method is to maintain the high accuracy and precise subcell resolution of dG schemes. Therefore, an a posteriori correction will be used only when necessary at the subcell scale, while ensuring the conservation of the scheme. To achieve this, the DG scheme will be reformulated as a subcell FV scheme using the correct numerical flux, resulting in the dG reconstructed flux. This forms the basis of the limiter framework.
+The resulting model combines three complementary components: a hyperbolic system governing the exterior flow (the nonlinear shallow-water equations), a set of ordinary differential equations, and an elliptic problem describing the internal pressure distribution. Building a stable and accurate solver for this coupled system requires treating these components within a single, coherent formulation that preserves the main physical and mathematical invariants.
 
-At each time step, a candidate solution is computed, and if it meets certain criteria (such as being positive and non-oscillating), the solution is accepted and the computation continues. If the solution is not admissible, the previous time step is returned to, and a local correction is made at the subcell scale. This is called a posteriori limitation. Each cell is divided into subcells, and if a subcell's solution is detected as problematic, a robust first-order or second-order TVD numerical flux is used on the subcell boundaries. If the subcell solution is admissible, the high-order reconstructed flux is used, retaining the dG scheme's accurate resolution and conservation properties. Only the solution inside troubled subcells and its first neighbors are recomputed, while the rest of the solution remains unchanged.
+To achieve this, we rely on the DG/FV framework introduced in the previous section for the hyperbolic part, and on advanced discretizations for the elliptic component based on Hybrid High-Order (HHO) methods, which are finite-element-like schemes combining cell and face unknowns to achieve high-order accuracy while retaining local conservation, computational efficiency and flexibility on very general meshes. This ongoing work constitutes the third main contribution of my thesis. It provides a mathematically well-posed and numerically efficient framework for the simulation of wave–structure interactions in shallow-water regimes, with potential applications to the study and optimization of wave energy converters and other floating systems relevant to renewable marine technologies.
