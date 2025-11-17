@@ -36,7 +36,7 @@ More generally, I am interested in modeling and numerical analysis of partial di
 ## News & highlights
 
 - I will be visiting the [RAPSODI](https://www.inria.fr/fr/rapsodi) team in Lille in December, kindly invited by my friend [Marien Hanot](https://marienhanot.fr).
-- I talked about my thesis work at [ICOSAHOM 2025](https://icosahom2025.org) in Montréal, see the [slides]({{ site.url }}/files/talks/ICOSAHOM.pdf).
+- I talked about high-order monolithic methods at [ICOSAHOM 2025](https://icosahom2025.org) in Montréal, see the [slides]({{ site.url }}/files/talks/ICOSAHOM.pdf).
 - During [MIPS Week](https://www.umontpellier.fr/agenda/semaine-du-pole-mips), I talked about some aspects of modeling and scientific computing to non-experts scientists, see the [presentation]({{ site.url }}/files/talks/MIPS.pdf). 
 - Recently made a presentation at the [CIMAV 2025](https://cimav2025.sciencesconf.org) conference in May, held in Aussois, see the [beamer]({{ site.url }}/files/talks/CIMAV.pdf). 
 - Started writing my first articles, in collaboration with A. Haidar and my thesis directors, see [Research](https://sachacardonna.github.io/research) for more details. 
