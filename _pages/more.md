@@ -42,7 +42,7 @@ Beyond outreach, I aim to develop my own accessible teaching resources; in parti
 <div style="margin-bottom: 1em;"></div>
 
 <details>
-<summary><strong>Volunteering missions</strong></summary>
+<summary><strong>Volunteering</strong></summary>
 I have always believed in giving back to society, in return for the many opportunities and support it has offered me. For several years, I regularly organized activities and animations for children in the pediatric ward of the hospital in my hometown. I also gave free tutoring sessions to classmates or younger students who needed academic support, and when I was younger I volunteered at the local community center (MJC) of my hometown. In addition, I have occasionally acted as a foster home for pets in need (I love animals).
 
 </details>
