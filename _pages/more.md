@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Extras"
-permalink: /more/
+permalink: /extras/
 author_profile: true
 redirect_from:
   - /more
