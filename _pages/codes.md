@@ -29,8 +29,9 @@ During my Ph.D., I developped a whole new section dedicated to high-order monoli
 
 Some numerical simulations: 
 - $\mathbb{P}^6$ interaction between a collapsing wave and a rock ([MP4]({{ site.baseurl }}/images/rock_wave_P6.mp4))
-- $\mathbb{P}^2$ interaction between a tidal wave and a rock ([AVI]({{ site.baseurl }}/images/tidal_P2.avi))
+- $\mathbb{P}^2$ interaction between a tidal wave and a rock ([AVI_1]({{ site.baseurl }}/images/tidal_P2.avi) & [AVI_2]({{ site.baseurl }}/images/tidal_P2_2.avi))
 - $\mathbb{P}^4$ dam-break on a wet bed ([AVI]({{ site.baseurl }}/images/wet_dam_break_P4.avi))
+- $\mathbb{P}^3$ circular dam-break on a wet bed ([AVI]({{ site.baseurl }}/images/circ_dam_P3.avi))
 <!-- - $\mathbb{P}^2$ Carrier-Greenspan periodic solution ([AVI]({{ site.baseurl }}/images/cg_periodic_P2.avi)) -->
 - $\mathbb{P}^2$ tsunami on three conical islands ([MP4]({{ site.baseurl }}/images/tsunami_P2.mp4))
 - $\mathbb{P}^3$ Green-Naghdi 1D dam-break with dispersive shock ([GIF]({{ site.baseurl }}/images/GN_dispersive.gif))
