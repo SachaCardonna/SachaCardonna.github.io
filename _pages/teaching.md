@@ -30,7 +30,7 @@ Access courses materials for my students.
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     1<sup>st</sup>  year B.Sc.
-    <span style="font-weight:normal;"> (L1 PCSI-SVSE-PASS)</span>
+    <span style="font-weight:normal;"> (L1 PCSI-SVSE)</span>
   </h2>
 </summary>
 
@@ -53,20 +53,13 @@ Access courses materials for my students.
 
 [<a href="https://sachacardonna.github.io/teaching/HAV220X">Course page</a>]</p>
 
-<hr>
-
-<p><b> HA5202X </b> - <b> Mathematics for medical students </b><br>
-<i> Description. </i> This course provides first-year students with essential mathematical tools needed in the early stages of scientific and medical studies. It combines elements from algebra, function analysis, geometry, and differential equations. Students are introduced to symbolic computation techniques, classical functions, and vector geometry in two and three dimensions. The course also includes an introduction to solving basic first- and second-order differential equations through concrete applications. <br>
-
-[<a href="https://sachacardonna.github.io/teaching/HA5202X">Course page</a>]</p>
-
 </details>
 <div style="margin-bottom: 1em;"></div>
 <details>
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     2<sup>nd</sup>  year B.Sc.
-    <span style="font-weight:normal;"> (L2 PeiP)</span>
+    <span style="font-weight:normal;"> (L2 Polytech)</span>
   </h2>
 </summary>
 
@@ -89,7 +82,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     3<sup>rd</sup>  year B.Sc.
-    <span style="font-weight:normal;"> (L3 MG)</span>
+    <span style="font-weight:normal;"> (L3 Mathématiques)</span>
   </h2>
 </summary>
 
@@ -111,7 +104,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     1<sup>st</sup>  year M.Sc.
-    <span style="font-weight:normal;"> (M1 MANU-MF)</span>
+    <span style="font-weight:normal;"> (M1 Mathématiques)</span>
   </h2>
 </summary>
 
