@@ -144,7 +144,7 @@ details[open] .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">Local monolithic DG-FV subcell correction for 2D NSW on unstructured grids</span>
+      <span class="pub-title">Local monolithic DG-FV subcell scheme for 2D NSW on unstructured grids</span>
       <span class="pub-tail"><i>Submitted</i></span>
     </div>
   </summary>

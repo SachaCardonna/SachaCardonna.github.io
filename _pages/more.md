@@ -29,41 +29,6 @@ Outside of my academic work, I try to stay engaged in causes I consider importan
   details[open] {
     background-color: rgba(0, 0, 0, 0.05); /* un peu plus foncé quand ouvert */
   }
-  summary {
-  position: relative;
-  padding-left: 1.2em;
-}
-
-summary::before {
-  content: "›";
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-weight: normal;
-  transition: transform 0.25s ease;
-}
-
-details[open] > summary::before {
-  transform: rotate(90deg);
-}
-
-summary::marker {
-  content: "";
-}
-summary {
-  list-style: none;
-}
-
-/* Chrome / Safari */
-summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Firefox */
-summary::marker {
-  content: "";
-}
-
 </style>
 <details>
 <summary><strong>Access to education</strong></summary>
