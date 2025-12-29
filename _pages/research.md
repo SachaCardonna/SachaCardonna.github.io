@@ -13,6 +13,7 @@ Explore my publications, the talks and conferences I participated in and my rese
 
 ## Publications
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
+
 <style>
   details.pub {
     background-color: rgba(0, 0, 0, 0.03);
@@ -24,29 +25,20 @@ Explore my publications, the talks and conferences I participated in and my rese
 
   summary.pub-summary {
     cursor: pointer;
-    font-weight: normal; /* keep the whole summary not-bold by default */
+    font-weight: normal;
     list-style: none;
   }
   summary.pub-summary::-webkit-details-marker { display: none; }
 
   .pub-line {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.35em 0.6em;
-    align-items: baseline;
+    flex-direction: column;
+    gap: 0.1em;
   }
 
-  /* Authors: NOT bold */
   .pub-authors { font-weight: 400; }
-
-  /* Title: bold */
   .pub-title { font-weight: 700; }
-
-  /* Trailing info: journal or status */
-  .pub-tail { font-weight: 400; opacity: 0.9; }
-
-  /* Separator " | " */
-  .pub-sep { opacity: 0.55; }
+  .pub-tail  { font-weight: 400; opacity: 0.9; }
 
   .pub-links {
     margin-top: 0.45em;
@@ -84,14 +76,11 @@ Explore my publications, the talks and conferences I participated in and my rese
   }
 </style>
 
-
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-sep">|</span>
       <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle</span>
-      <span class="pub-sep">|</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
   </summary>
@@ -106,16 +95,11 @@ Explore my publications, the talks and conferences I participated in and my rese
   </div>
 </details>
 
-<!-- ________________________________ -->
-
-
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
-      <span class="pub-sep">|</span>
       <span class="pub-title">Local monolithic DG-FV subcell correction for 2D NSW on unstructured grids</span>
-      <span class="pub-sep">|</span>
       <span class="pub-tail">Submitted</span>
     </div>
   </summary>
@@ -135,21 +119,21 @@ Explore my publications, the talks and conferences I participated in and my rese
   </div>
 </details>
 
-<!-- ________________________________ -->
-
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
-      <span class="pub-sep">|</span>
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
-      <span class="pub-sep">|</span>
       <span class="pub-tail">Submitted</span>
     </div>
   </summary>
 
   <div class="pub-abstract">
-    Work in progress on a 2D wave–structure interaction model and its numerical resolution.
+    We introduce a high-order local subcell monolithic DG/FV discretization method for the approximation of nonlinear free-surface shallow-water equations with source terms.
+    This encompasses both nonlinear hyperbolic shallow-water equations and weakly-dispersive fully-nonlinear equations.
+    The method is grounded on a Discontinuous Galerkin formulation written as a Finite Volume discretization on a sub-partition.
+    We investigate the discretization of bathymetry and dispersive source terms through a priori blended fluxes enforcing convex properties such as water-height positivity
+    and well-balanced preservation of steady states. Extensive numerical experiments demonstrate convergence, robustness and stability.
   </div>
 
   <div class="pub-links">
@@ -163,6 +147,7 @@ Explore my publications, the talks and conferences I participated in and my rese
     <img src="{{ site.baseurl }}/images/1d_3.png" alt="1D result figure 2">
   </div>
 </details>
+
 
 <!-- ________________________________ -->
 
