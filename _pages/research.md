@@ -200,19 +200,19 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<b>ICOSAHOM - International Congress on Spectral and High Order Method</b> <br>
+<b>[ICOSAHOM](https://icosahom2025.org/index.html) - International Congress on Spectral and High Order Method</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
 <i>Location</i>. Montréal, Canada. <br>
 <i>Date</i>. 14/07/25.<br> 
 [[Slides]({{ site.url }}/files/talks/ICOSAHOM.pdf)]
 
-<b>MIPS Colloquia - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
+<b>[MIPS Colloquia](https://www.umontpellier.fr/agenda/semaine-du-pole-mips) - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
 <i>Title</i>. Designing numerical methods for free-surface flows towards reliable wave-structure interactions. <br>
 <i>Location</i>. Montpellier, France. <br>
 <i>Date</i>. 02/06/25.<br> 
 [[Slides]({{ site.url }}/files/talks/MIPS.pdf)]
 
-<b>CIMAV - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b><br>
+<b>[CIMAV](https://cimav2025.sciencesconf.org) - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b><br>
 <i>Title</i>. An high-order robust DG/FV scheme for nonlinear shallow water equations with source terms on unstructured grids. <br>
 <i>Location</i>. Aussois, France. <br>
 <i>Date</i>. 13/05/25.<br> 
