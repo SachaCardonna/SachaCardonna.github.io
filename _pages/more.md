@@ -46,6 +46,13 @@ summary::before {
 details[open] > summary::before {
   transform: rotate(90deg);
 }
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::marker {
+  content: "";
+}
 
 </style>
 <details>
