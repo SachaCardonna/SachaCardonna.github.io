@@ -16,12 +16,25 @@ Explore my publications, the talks and conferences I participated in and my rese
 
 <style>
   details.pub {
+    position: relative;
     background-color: rgba(0, 0, 0, 0.03);
     border-radius: 6px;
-    padding: 0.6em 0.8em;
+    padding: 0.6em 0.8em 0.6em 3.1em;
     margin-bottom: 0.9em;
   }
   details.pub[open] { background-color: rgba(0, 0, 0, 0.05); }
+
+  .pub-badge {
+    position: absolute;
+    top: 0.65em;
+    left: 0.6em;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.1;
+    opacity: 0.7;
+  }
+  .pub-badge .num { font-weight: 700; }
+  .pub-badge .year { font-size: 0.9em; }
 
   summary.pub-summary {
     cursor: pointer;
@@ -77,6 +90,11 @@ Explore my publications, the talks and conferences I participated in and my rese
 </style>
 
 <details class="pub">
+  <div class="pub-badge">
+    <div class="num">3</div>
+    <div class="year">2026</div>
+  </div>
+
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
@@ -90,12 +108,17 @@ Explore my publications, the talks and conferences I participated in and my rese
   </div>
 
   <div class="pub-links">
-    <a href="#" target="_blank" rel="noopener noreferrer">PDF</a>
-    <a href="#" target="_blank" rel="noopener noreferrer">HAL</a>
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
   </div>
 </details>
 
 <details class="pub">
+  <div class="pub-badge">
+    <div class="num">2</div>
+    <div class="year">2025</div>
+  </div>
+
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
@@ -105,21 +128,27 @@ Explore my publications, the talks and conferences I participated in and my rese
   </summary>
 
   <div class="pub-abstract">
-    Work in progress on a 2D wave–structure interaction model and its numerical resolution.
+    In the following section, we introduce Monolithic DG-FV subcell convex property preserving schemes for the two-dimensional nonlinear shallow water equations. This method is grounded in a Discontinuous Galerkin (DG) formalism with an arbitrary order of accuracy and interprets the DG scheme as a Finite-Volume (FV)-like approach on a sub-partition, characterized by reconstructed high-order interface fluxes. A significant advancement of this method is the incorporation of blended fluxes, which are convex combinations of the reconstructed and first-order FV fluxes. The blending coefficients are meticulously computed for each time step and each subcell interface to ensure adherence to several critical convex properties, including the discrete maximum principle, water-height positivity, and entropy preservation.<br>
+Moreover, our approach maintains compatibility with the preservation of motionless steady states at the subcell level, contingent upon the precise reconstruction of local mean-values of the solution on the sub-partition, drawing on the methodologies suggested in previous studies. We undertake a thorough assessment of these new Monolithic DG-FV convex property preserving schemes to ascertain their effectiveness in mitigating nonphysical instabilities near discontinuities, maintaining positive mean water height values on the sub-partition.
   </div>
 
   <div class="pub-links">
-    <a href="#" target="_blank" rel="noopener noreferrer">PDF</a>
-    <a href="#" target="_blank" rel="noopener noreferrer">HAL</a>
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
   </div>
 
   <div class="pub-grid-2">
-    <img src="{{ site.baseurl }}/images/tsunami2d_2.png" alt="2D tsunami snapshot">
-    <img src="{{ site.baseurl }}/images/tsunami2d_theta.png" alt="Theta / limiter visualization">
+    <img src="{{ site.baseurl }}/images/tsunami2d_2.png">
+    <img src="{{ site.baseurl }}/images/tsunami2d_theta.png">
   </div>
 </details>
 
 <details class="pub">
+  <div class="pub-badge">
+    <div class="num">1</div>
+    <div class="year">2025</div>
+  </div>
+
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
@@ -129,22 +158,18 @@ Explore my publications, the talks and conferences I participated in and my rese
   </summary>
 
   <div class="pub-abstract">
-    We introduce a high-order local subcell monolithic DG/FV discretization method for the approximation of nonlinear free-surface shallow-water equations with source terms.
-    This encompasses both nonlinear hyperbolic shallow-water equations and weakly-dispersive fully-nonlinear equations.
-    The method is grounded on a Discontinuous Galerkin formulation written as a Finite Volume discretization on a sub-partition.
-    We investigate the discretization of bathymetry and dispersive source terms through a priori blended fluxes enforcing convex properties such as water-height positivity
-    and well-balanced preservation of steady states. Extensive numerical experiments demonstrate convergence, robustness and stability.
+ We introduce a high-order local subcell monolithic DG/FV discretization method for the approximation of nonlinear free-surface shallow-water equations with source terms. This encompasses both nonlinear hyperbolic shallow-water equations (also known as Saint-Venant equations) and weakly-dispersive fully-nonlinear equations (known as Green-Naghdi equations), approximating the general free-surface water-wave equations in the shallow-water flow regime. <br> The method is grounded on a classical Discontinuous Galerkin (DG) formulation, written as a particular Finite Volume (FV) discretization on a sub-partition, involving reconstructed high-order interface numerical fluxes. In the present work, we investigate the important issue of source terms discretization in the framework of such local subcell monolithic DG/FV strategies, focusing on the bathymetry source terms, and also higher-order differential source terms coming from dispersive corrections for higher-order asymptotic models. <br> The originality of the method is the introduction of a priori blended fluxes, which are convex combinations of the so-called high-order reconstructed fluxes and low-order FV fluxes. The blending coefficients are adaptively computed for each subcell interface to enforce relevant convex properties at the discrete level, including water-height positivity. Starting from the DG piecewise polynomial approximation, the bathymetry source term is also discretized at the subcell level, and we prove that a suitable well-balanced property, ensuring the preservation of motionless steady-states, can be achieved at the subcell-scale relying on some finely tuned combinations of various hydrostatic-like reconstructed states at lower/higher accuracy levels, simultaneously occurring at local and global scales. <br> We also introduce an original and efficient combination of this new well-balanced local subcell monolithic DG/FV with a high-order Internal Penalty discontinuous-Galerkin method, in order to approximate the higher-order contributions appearing in the Green-Naghdi equations in a consistent and accurate way. <br> We then conduct extensive evaluations of the resulting numerical methods, providing insights about the observed numerical convergence and the overall robustness, including the ability to preserve steady-states, to prevent nonphysical oscillations near discontinuities and to ensure the positivity of the water-height at the discrete level.
   </div>
 
   <div class="pub-links">
-    <a href="#" target="_blank" rel="noopener noreferrer">PDF</a>
-    <a href="#" target="_blank" rel="noopener noreferrer">HAL</a>
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
   </div>
 
   <div class="pub-grid-3">
-    <img src="{{ site.baseurl }}/images/1d_2.png" alt="1D result figure">
-    <img src="{{ site.baseurl }}/images/dispersive.png" alt="Dispersive regime figure">
-    <img src="{{ site.baseurl }}/images/1d_3.png" alt="1D result figure 2">
+    <img src="{{ site.baseurl }}/images/1d_2.png">
+    <img src="{{ site.baseurl }}/images/dispersive.png">
+    <img src="{{ site.baseurl }}/images/1d_3.png">
   </div>
 </details>
 
