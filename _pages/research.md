@@ -13,8 +13,9 @@ Explore my publications, the talks and conferences I participated in and my rese
 
 ## Publications
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-
-{% bibliography -f papers -q @preprint %}
+<div class="publications">
+    {% bibliography -f papers -q @preprint %}
+</div>
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
