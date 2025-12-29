@@ -13,9 +13,6 @@ Explore my publications, the talks and conferences I participated in and my rese
 
 ## Publications
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-## Publications
-<hr style="margin-top: -0.1em; margin-bottom: 1em;">
-
 <style>
   details.pub {
     background-color: rgba(0, 0, 0, 0.03);
@@ -27,7 +24,7 @@ Explore my publications, the talks and conferences I participated in and my rese
 
   summary.pub-summary {
     cursor: pointer;
-    font-weight: bold;
+    font-weight: normal; /* keep the whole summary not-bold by default */
     list-style: none;
   }
   summary.pub-summary::-webkit-details-marker { display: none; }
@@ -35,22 +32,24 @@ Explore my publications, the talks and conferences I participated in and my rese
   .pub-line {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.4em 0.7em;
+    gap: 0.35em 0.6em;
     align-items: baseline;
   }
-  .pub-authors { font-weight: 600; }
+
+  /* Authors: NOT bold */
+  .pub-authors { font-weight: 400; }
+
+  /* Title: bold */
   .pub-title { font-weight: 700; }
-  .pub-status {
-    font-weight: 600;
-    font-size: 0.95em;
-    padding: 0.08em 0.45em;
-    border-radius: 999px;
-    background: rgba(0,0,0,0.08);
-  }
-  .pub-meta { font-style: italic; opacity: 0.9; }
+
+  /* Trailing info: journal or status */
+  .pub-tail { font-weight: 400; opacity: 0.9; }
+
+  /* Separator " | " */
+  .pub-sep { opacity: 0.55; }
 
   .pub-links {
-    margin-top: 0.4em;
+    margin-top: 0.45em;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5em 0.7em;
@@ -85,54 +84,44 @@ Explore my publications, the talks and conferences I participated in and my rese
   }
 </style>
 
-<!-- 1) In preparation -->
+
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span>–</span>
+      <span class="pub-sep">|</span>
       <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle</span>
-      <span class="pub-status">in preparation</span>
+      <span class="pub-sep">|</span>
+      <span class="pub-tail"><i>In preparation</i></span>
     </div>
   </summary>
 
   <div class="pub-abstract">
-    <!-- Optionnel: 2–4 lignes max -->
-    Work in progress on a 2D wave–structure interaction model and its numerical resolution (DG–FV subcell / elliptic coupling).
+    Work in progress on a 2D wave–structure interaction model and its numerical resolution.
   </div>
 
   <div class="pub-links">
-    <!-- Remplace # par tes liens -->
-    <a href="#" target="_blank" rel="noopener noreferrer">Project page</a>
-    <a href="#" target="_blank" rel="noopener noreferrer">Draft (PDF)</a>
-    <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
+    <a href="#" target="_blank" rel="noopener noreferrer">PDF</a>
+    <a href="#" target="_blank" rel="noopener noreferrer">HAL</a>
   </div>
-
-  <!-- Si tu veux des figures, décommente et adapte -->
-  <!--
-  <div class="pub-grid-2">
-    <img src="{{ site.baseurl }}/images/..." alt="...">
-    <img src="{{ site.baseurl }}/images/..." alt="...">
-  </div>
-  -->
 </details>
 
-<!-- 2) Submitted with 2 images -->
+<!-- ________________________________ -->
+
+
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
-      <span>–</span>
+      <span class="pub-sep">|</span>
       <span class="pub-title">Local monolithic DG-FV subcell correction for 2D NSW on unstructured grids</span>
-      <span class="pub-status">submitted</span>
-      <!-- Optionnel: venue -->
-      <!-- <span class="pub-meta">, Journal/Conference</span> -->
+      <span class="pub-sep">|</span>
+      <span class="pub-tail">Submitted</span>
     </div>
   </summary>
 
   <div class="pub-abstract">
-    <!-- Optionnel -->
-    High-order monolithic DG–FV subcell correction with convex property preserving strategy on unstructured meshes for 2D nonlinear shallow-water equations.
+    Work in progress on a 2D wave–structure interaction model and its numerical resolution.
   </div>
 
   <div class="pub-links">
@@ -146,31 +135,21 @@ Explore my publications, the talks and conferences I participated in and my rese
   </div>
 </details>
 
-<!-- 3) Submitted with 3 images -->
+<!-- ________________________________ -->
+
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
-      <span>–</span>
-      <span class="pub-title">Monolithic DG-FV subcell schemes for nonlinear hyperbolic system with source terms. Applications to shallow water asymptotics</span>
-      <span class="pub-status">submitted</span>
+      <span class="pub-sep">|</span>
+      <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
+      <span class="pub-sep">|</span>
+      <span class="pub-tail">Submitted</span>
     </div>
   </summary>
 
   <div class="pub-abstract">
-    This paper contains several new contributions to the numerical approximation of shallow-water equations. 
-We introduce a high-order \emph{local subcell monolithic DG/FV} discretization method for the approximation of nonlinear free-surface shallow-water equations with source terms. 
-This encompasses both nonlinear hyperbolic shallow-water equations (also known as Saint-Venant equations) and weakly-dispersive fully-nonlinear equations (known as Green-Naghdi equations), approximating 
-the general free-surface water-wave equations in the shallow-water flow regime. 
-The method is grounded on a classical Discontinuous Galerkin (DG) formulation, written as a particular Finite Volume (FV) discretization on a sub-partition, involving reconstructed high-order interface numerical fluxes. In the present work, we investigate the important issue of source terms discretization in the framework of such local subcell monolithic DG/FV strategies, 
-focusing on the bathymetry source terms, and also higher-order differential source terms coming from dispersive corrections for higher-order asymptotic models. 
-The originality of the method is the introduction of a priori blended fluxes, which are convex combinations of the so-called high-order reconstructed fluxes and low-order FV fluxes. 
-The blending coefficients are adaptively computed for each subcell interface to enforce relevant convex properties at the discrete level, including water-height positivity. 
-Starting from the DG piecewise polynomial approximation, the bathymetry source term is also discretized at the subcell level,
-and we prove that a suitable well-balanced property, ensuring the preservation of motionless steady-states, can be achieved at the subcell-scale relying on some finely tuned combinations of various hydrostatic-like reconstructed states at lower/higher accuracy levels, simultaneously occurring at local and global scales. 
-We also introduce an original and efficient combination of this new well-balanced local subcell monolithic DG/FV with a high-order Internal Penalty discontinuous-Galerkin method, in order to 
-approximate the higher-order contributions appearing in the Green-Naghdi equations in a consistent and accurate way. 
-We then conduct extensive evaluations of the resulting numerical methods, providing insights about the observed numerical convergence and the overall robustness, including the ability to preserve steady-states, to prevent nonphysical oscillations near discontinuities and to ensure the positivity of the water-height at the discrete level.
+    Work in progress on a 2D wave–structure interaction model and its numerical resolution.
   </div>
 
   <div class="pub-links">
@@ -185,6 +164,7 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
   </div>
 </details>
 
+<!-- ________________________________ -->
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
