@@ -90,12 +90,11 @@ Explore my publications, the talks and conferences I participated in and my rese
 </style>
 
 <details class="pub">
-  <div class="pub-badge">
+  <summary class="pub-summary">
+    <div class="pub-badge">
     <div class="num">3</div>
     <div class="year">2026</div>
   </div>
-
-  <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle</span>
@@ -114,16 +113,15 @@ Explore my publications, the talks and conferences I participated in and my rese
 </details>
 
 <details class="pub">
-  <div class="pub-badge">
+  <summary class="pub-summary">
+    <div class="pub-badge">
     <div class="num">2</div>
     <div class="year">2025</div>
   </div>
-
-  <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Local monolithic DG-FV subcell correction for 2D NSW on unstructured grids</span>
-      <span class="pub-tail">Submitted</span>
+      <span class="pub-tail"><i>Submitted</i></span>
     </div>
   </summary>
 
@@ -144,16 +142,16 @@ Moreover, our approach maintains compatibility with the preservation of motionle
 </details>
 
 <details class="pub">
-  <div class="pub-badge">
+
+  <summary class="pub-summary">
+    <div class="pub-badge">
     <div class="num">1</div>
     <div class="year">2025</div>
   </div>
-
-  <summary class="pub-summary">
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
-      <span class="pub-tail">Submitted</span>
+      <span class="pub-tail"><i>Submitted</i></span>
     </div>
   </summary>
 
