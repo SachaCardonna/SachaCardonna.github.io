@@ -27,8 +27,8 @@ Explore my publications, the talks and conferences I participated in and my rese
   <li>
     S. Cardonna, A. Haidar, F. Marche & F. Vilar - <b>Monolithic DG-FV subcell schemes for nonlinear hyperbolic system with source terms. Applications to shallow water asymptotics</b>, <i>submitted</i>.
     <div style="display: flex; justify-content: space-between; gap: 10px;">
-      <img src="{{ site.baseurl }}/images/1d_2.png" alt="WaveBox Image 1" style="width: 23%; height: auto;">
-      <img src="{{ site.baseurl }}/images/1d_3.png" alt="WaveBox Image 2" style="width: 23%; height: auto;">
+      <img src="{{ site.baseurl }}/images/1d_2.png" alt="WaveBox Image 1" style="width: 28%; height: auto;">
+      <img src="{{ site.baseurl }}/images/1d_3.png" alt="WaveBox Image 2" style="width: 28%; height: auto;">
       <img src="{{ site.baseurl }}/images/dispersive.png" alt="WaveBox Image 3" style="width: 40%; height: auto;">
     </div>
   </li>
