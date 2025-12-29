@@ -219,7 +219,7 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 [[Slides]({{ site.url }}/files/talks/CIMAV.pdf)]
 
 <b>Ph.D. Day - Séminaire des Doctorants</b> <br>
-<i>Title</i>. Monolithic DG/FV schemes on 1D Nonlinear Shallow-Water <br>
+<i>Title</i>. Monolithic DG/FV schemes on 1D nonlinear shallow water equations. <br>
 <i>Location</i>. Montpellier, France. <br>
 <i>Date</i>. 15/03/24.<br>
 [[Poster]({{ site.url }}/files/talks/poster_phd_day24.pdf)]
