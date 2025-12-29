@@ -69,7 +69,11 @@ details[open] .pub-badge .arrow {
   opacity: 0.9;
 }
   .pub-title { font-weight: 700; }
-  .pub-tail  { font-weight: 400; opacity: 0.9; }
+  .pub-authors {
+  font-weight: 400;
+  font-size: 0.9em;
+  opacity: 0.9;
+}
 
   .pub-links {
     margin-top: 0.45em;
