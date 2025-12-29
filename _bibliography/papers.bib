@@ -4,7 +4,20 @@
   year        = {2025},
   note        = {Submitted},
   figs        = {{{ site.baseurl }}/images/1d_1.png, {{ site.baseurl }}/images/1d_2.png, {{ site.baseurl }}/images/1d_3.png, {{ site.baseurl }}/images/1d_4.png},
-  bibtex_show = {false}
+  bibtex_show = {false},
+  abstract = {This paper contains several new contributions to the numerical approximation of shallow-water equations. 
+We introduce a high-order local subcell monolithic DG/FV discretization method for the approximation of nonlinear free-surface shallow-water equations with source terms. 
+This encompasses both nonlinear hyperbolic shallow-water equations (also known as Saint-Venant equations) and weakly-dispersive fully-nonlinear equations (known as Green-Naghdi equations), approximating 
+the general free-surface water-wave equations in the shallow-water flow regime. 
+The method is grounded on a classical Discontinuous Galerkin (DG) formulation, written as a particular Finite Volume (FV) discretization on a sub-partition, involving reconstructed high-order interface numerical fluxes. In the present work, we investigate the important issue of source terms discretization in the framework of such local subcell monolithic DG/FV strategies, 
+focusing on the bathymetry source terms, and also higher-order differential source terms coming from dispersive corrections for higher-order asymptotic models. 
+The originality of the method is the introduction of a priori blended fluxes, which are convex combinations of the so-called high-order reconstructed fluxes and low-order FV fluxes. 
+The blending coefficients are adaptively computed for each subcell interface to enforce relevant convex properties at the discrete level, including water-height positivity. 
+Starting from the DG piecewise polynomial approximation, the bathymetry source term is also discretized at the subcell level,
+and we prove that a suitable well-balanced property, ensuring the preservation of motionless steady-states, can be achieved at the subcell-scale relying on some finely tuned combinations of various hydrostatic-like reconstructed states at lower/higher accuracy levels, simultaneously occurring at local and global scales. 
+We also introduce an original and efficient combination of this new well-balanced local subcell monolithic DG/FV with a high-order Internal Penalty discontinuous-Galerkin method, in order to 
+approximate the higher-order contributions appearing in the Green-Naghdi equations in a consistent and accurate way. 
+We then conduct extensive evaluations of the resulting numerical methods, providing insights about the observed numerical convergence and the overall robustness, including the ability to preserve steady-states, to prevent nonphysical oscillations near discontinuities and to ensure the positivity of the water-height at the discrete level.}
 }
 
 @preprint{Cardonna2025b,
