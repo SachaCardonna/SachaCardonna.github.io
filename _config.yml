@@ -300,13 +300,20 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
+  - jekyll-archives
+  - jekyll-diagrams
+  - jekyll-email-protect
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-redirect-from
-  - jemoji
+  - jekyll-imagemagick
+  - jekyll-minifier
+  - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-link-attributes
+  - jekyll-twitter-plugin
+  - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
