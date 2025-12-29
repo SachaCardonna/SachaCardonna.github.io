@@ -46,10 +46,20 @@ summary::before {
 details[open] > summary::before {
   transform: rotate(90deg);
 }
+
+summary::marker {
+  content: "";
+}
+summary {
+  list-style: none;
+}
+
+/* Chrome / Safari */
 summary::-webkit-details-marker {
   display: none;
 }
 
+/* Firefox */
 summary::marker {
   content: "";
 }
