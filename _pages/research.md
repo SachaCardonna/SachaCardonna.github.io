@@ -62,6 +62,9 @@ details[open] .pub-badge .arrow {
     flex-direction: column;
     gap: 0.1em;
   }
+  summary.pub-summary {
+  padding: 0.6em 0.8em 0.6em 3.1em;
+}
 
   .pub-authors {
   font-weight: 400;
