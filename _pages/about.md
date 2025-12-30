@@ -35,7 +35,7 @@ More generally, I am interested in modeling and numerical analysis of partial di
 
 ## News & highlights
 - I have been invited to give a talk at [CJC-MA26](https://cjcma2026.sciencesconf.org) during the special session "Ocean", funded by the [RTTE](https://rtte.math.cnrs.fr/).
-- I will attend [SHARK-FV26](https://shark-fv.eu/home-shark/) in May near Porto, Portugal.
+- I will attend and present at [SHARK-FV26](https://shark-fv.eu/home-shark/) in May near Porto, Portugal.
 - I visited the [RAPSODI](https://www.inria.fr/fr/rapsodi) team in Lille in December, kindly invited by my friend [Marien Hanot](https://marienhanot.fr).
 - I talked about high-order monolithic methods at [ICOSAHOM 2025](https://icosahom2025.org) in Montréal, see the [slides]({{ site.url }}/files/talks/ICOSAHOM.pdf).
 - During [MIPS Week](https://www.umontpellier.fr/agenda/semaine-du-pole-mips), I talked about some aspects of modeling and scientific computing to non-experts scientists, see the [presentation]({{ site.url }}/files/talks/MIPS.pdf). 
