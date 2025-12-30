@@ -26,9 +26,8 @@ Explore my publications, the talks and conferences I participated in and my rese
 
 .pub-badge {
   position: absolute;
-  top: 50%;                       /* modifié */
+  top: 0.65em;
   left: 0.6em;
-  transform: translateY(-50%);    /* ajouté */
   text-align: center;
   font-size: 0.8em;
   line-height: 1.1;
@@ -51,15 +50,12 @@ details[open] .pub-badge .arrow {
   transform: rotate(90deg);
 }
 
-summary.pub-summary {
-  position: relative;      /* ajouté */
-  cursor: pointer;
-  font-weight: normal;
-  list-style: none;
-}
-summary.pub-summary::-webkit-details-marker { display: none; }
-summary.pub-summary::marker { content: ""; } /* Firefox */
-
+  summary.pub-summary {
+    cursor: pointer;
+    font-weight: normal;
+    list-style: none;
+  }
+  summary.pub-summary::-webkit-details-marker { display: none; }
 
   .pub-line {
     display: flex;
