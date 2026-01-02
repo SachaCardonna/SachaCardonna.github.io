@@ -129,10 +129,10 @@ details[open] .pub-badge .arrow {
     Work in progress on a 2D wave–structure interaction model and its numerical resolution.
   </div>
 
-  <div class="pub-links">
+  <!-- <div class="pub-links">
     <a href="#">PDF</a>
     <a href="#">HAL</a>
-  </div>
+  </div> -->
 </details>
 
 <details class="pub">
@@ -158,10 +158,10 @@ We introduce monolithic DG–FV subcell convex property preserving schemes for t
     <img src="{{ site.baseurl }}/images/tsunami2d_theta.png">
   </div>
 
-  <div class="pub-links">
+  <!-- <div class="pub-links">
     <a href="#">PDF</a>
     <a href="#">HAL</a>
-  </div>
+  </div> -->
 
 </details>
 
