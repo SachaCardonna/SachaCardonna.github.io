@@ -157,12 +157,13 @@ We introduce monolithic DG–FV subcell convex property preserving schemes for t
     <img src="{{ site.baseurl }}/images/tsunami2d_2.png">
     <img src="{{ site.baseurl }}/images/tsunami2d_theta.png">
   </div>
-</details>
 
   <div class="pub-links">
     <a href="#">PDF</a>
     <a href="#">HAL</a>
   </div>
+
+</details>
 
 <details class="pub">
 
@@ -182,7 +183,7 @@ We introduce monolithic DG–FV subcell convex property preserving schemes for t
   <div class="pub-abstract">
 We propose a high-order local subcell monolithic DG–FV method for nonlinear shallow-water equations with source terms, covering both Saint-Venant and Green–Naghdi models. The approach relies on a DG formulation interpreted as a FV scheme on a sub-partition with reconstructed high-order interface fluxes. Source terms, including bathymetry and dispersive corrections, are discretized at the subcell level using a priori blended fluxes that enforce convex properties such as water-height positivity. A well-balanced property preserving motionless steady states is proved at the subcell scale. The method is coupled with a high-order interior-penalty DG scheme for the dispersive terms and is validated through extensive numerical tests demonstrating convergence, robustness, positivity preservation and suppression of nonphysical oscillations.
   </div>
-  
+
   <div class="pub-grid-3">
     <img src="{{ site.baseurl }}/images/1d_2.png">
     <img src="{{ site.baseurl }}/images/dispersive.png">
