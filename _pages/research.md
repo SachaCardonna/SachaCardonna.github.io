@@ -150,7 +150,7 @@ details[open] .pub-badge .arrow {
   </summary>
 
   <div class="pub-abstract">
-We introduce monolithic DG–FV subcell convex property preserving schemes for the 2D nonlinear shallow-water equations. The method is based on a high-order DG formulation interpreted as a FV-like scheme on a sub-partition with reconstructed interface fluxes. Blended fluxes are used at each time step and subcell interface to enforce key convex properties, including a discrete maximum principle and water-height positivity. The scheme is well-balanced at the subcell level for motionless steady states, provided suitable reconstructions of local mean values. Numerical experiments confirm the ability of the method to control nonphysical oscillations, preserve positive mean water height and satisfy cell and subcell entropy inequalities.
+We introduce monolithic DG–FV subcell convex property preserving schemes for the 2D nonlinear shallow-water equations. The method is based on a high-order DG formulation interpreted as a FV-like scheme on a sub-partition with reconstructed interface fluxes. Blended fluxes are used at each time step and subcell interface to enforce key convex properties, including a discrete maximum principle and water-height positivity. The scheme is well-balanced at the subcell level for motionless steady states, provided suitable reconstructions of local mean values. Numerical experiments confirm the ability of the method to control nonphysical oscillation and preserve positive mean water height.
   </div>
 
   <div class="pub-grid-2">
