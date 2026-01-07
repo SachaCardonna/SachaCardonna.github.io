@@ -193,7 +193,7 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 
   <div class="pub-links">
     <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_GN.pdf">PDF</a>
-    <a href="#">HAL</a>
+    <a href="https://hal.science/hal-05434014">HAL</a>
   </div>
 
 </details>
