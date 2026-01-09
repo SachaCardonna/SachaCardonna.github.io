@@ -285,7 +285,7 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
   <div class="film-card">
-    <img src="/images/games/budokai.jpg" alt="Budokai">
+    <img src="/images/games/dbz.jpg" alt="Budokai">
     <div class="film-overlay">
       <strong>Dragon Ball Z: Budokai 3</strong><br>
       <i>Bandai Namco</i><br>
