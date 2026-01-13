@@ -82,7 +82,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     3<sup>rd</sup>  year B.Sc.
-    <span style="font-weight:normal;"> (L3 Mathématiques)</span>
+    <span style="font-weight:normal;"> (L3 Maths)</span>
   </h2>
 </summary>
 
@@ -104,7 +104,7 @@ Each week, students are placed in exam conditions with a subject to be covered i
 <summary>
   <h2 style="display:inline-block; cursor:pointer; font-weight:bold; margin: 0;">
     1<sup>st</sup>  year M.Sc.
-    <span style="font-weight:normal;"> (M1 Mathématiques)</span>
+    <span style="font-weight:normal;"> (M1 Maths)</span>
   </h2>
 </summary>
 
