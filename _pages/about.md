@@ -33,12 +33,40 @@ More generally, I am interested in modeling and numerical analysis of partial di
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing...
 - <b>Applications</b>. Fluid mechanics, nonlinear shallow water equations, Green-Naghdi equations, wave-structure interactions...
 
-## News & highlights
-- I have been invited to give a talk at [CJC-MA26](https://cjcma2026.sciencesconf.org) during the special session "Ocean", funded by the [RTTE](https://rtte.math.cnrs.fr/).
-- I will attend and present at [SHARK-FV26](https://shark-fv.eu/home-shark/) in May near Porto, Portugal.
-- I visited the [RAPSODI](https://www.inria.fr/fr/rapsodi) team in Lille in December, kindly invited by my friend [Marien Hanot](https://marienhanot.fr).
-- I talked about high-order monolithic methods at [ICOSAHOM 2025](https://icosahom2025.org) in Montréal, see the [slides]({{ site.url }}/files/talks/ICOSAHOM.pdf).
-- During [MIPS Week](https://www.umontpellier.fr/agenda/semaine-du-pole-mips), I talked about some aspects of modeling and scientific computing to non-experts scientists, see the [presentation]({{ site.url }}/files/talks/MIPS.pdf). 
-- Made a presentation at the [CIMAV 2025](https://cimav2025.sciencesconf.org) conference in May, held in Aussois, see the [beamer]({{ site.url }}/files/talks/CIMAV.pdf). 
+<style>
+details { margin-bottom: 0.3em; }
+summary {
+  padding-left: 2em;
+  text-indent: -2em;
+  list-style: none;  /* Removes any bullet/dot */
+  cursor: pointer;
+  font-weight: 500;
+}
+details[open] summary { list-style-image: none; }
+</style>
 
+## News & highlights
+<details markdown="1">
+  <summary>Jan 2026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have been invited to give a talk at [CJC-MA26](https://cjcma2026.sciencesconf.org) during the special session "Ocean", funded by the [RTTE](https://rtte.math.cnrs.fr/).</summary>
+</details>
+
+<details markdown="1">
+  <summary>May 2026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will attend and present at [SHARK-FV26](https://shark-fv.eu/home-shark/) in May near Porto, Portugal.</summary>
+</details>
+
+<details markdown="1">
+  <summary>Dec 2025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I visited the [RAPSODI](https://www.inria.fr/fr/rapsodi) team in Lille in December, kindly invited by my friend [Marien Hanot](https://marienhanot.fr).</summary>
+</details>
+
+<details markdown="1">
+  <summary>2025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I talked about high-order monolithic methods at [ICOSAHOM 2025](https://icosahom2025.org) in Montréal, see the [slides]({{ site.url }}/files/talks/ICOSAHOM.pdf).</summary>
+</details>
+
+<details markdown="1">
+  <summary>2025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During [MIPS Week](https://www.umontpellier.fr/agenda/semaine-du-pole-mips), I talked about some aspects of modeling and scientific computing to non-experts scientists, see the [presentation]({{ site.url }}/files/talks/MIPS.pdf).</summary>
+</details>
+
+<details markdown="1">
+  <summary>May 2025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made a presentation at the [CIMAV 2025](https://cimav2025.sciencesconf.org) conference in May, held in Aussois, see the [beamer]({{ site.url }}/files/talks/CIMAV.pdf).</summary>
+</details>
 
