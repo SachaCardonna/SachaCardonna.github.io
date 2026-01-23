@@ -119,6 +119,15 @@ details[open] summary { list-style-image: none; }
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
+.news-scroll table {
+  border: none;
+  border-collapse: collapse;
+}
+.news-scroll td {
+  border: none;
+  padding: 8px 0;
+  border-bottom: none !important;
+}
 .news td[scope="row"] {
   white-space: nowrap;
   padding-right: 1.2rem;
