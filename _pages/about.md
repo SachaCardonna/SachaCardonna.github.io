@@ -118,7 +118,7 @@ I will give a talk to undergraduate and master’s students about what it’s li
             <tr>
         <td scope="row">Jan. 2025</td>
         <td style="width:85%">
-         I attended the <a href="https://cimav2025.sciencesconf.org" rel="external nofollow noopener" target="_blank">CEA-SMAI/GAMNI25</a> at Institut Henri Poincaré, Paris.
+         I attended the <a href="http://smai.emath.fr/spip.php?article932" rel="external nofollow noopener" target="_blank">CEA-SMAI/GAMNI25</a> at Institut Henri Poincaré, Paris.
         </td>
       </tr>
     </table>
