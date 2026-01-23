@@ -33,6 +33,18 @@ More generally, I am interested in modeling and numerical analysis of partial di
 - <b>Scientific computing</b>. Object oriented and generic programming, parallel computing...
 - <b>Applications</b>. Fluid mechanics, nonlinear shallow water equations, Green-Naghdi equations, wave-structure interactions...
 
+<style>
+details { margin-bottom: 0.3em; }
+summary {
+  padding-left: 2em;
+  text-indent: -2em;
+  list-style: none;  /* Removes any bullet/dot */
+  cursor: pointer;
+  font-weight: 500;
+}
+details[open] summary { list-style-image: none; }
+</style>
+
 ## News & highlights
 <div class="news">
   <div class="table-responsive news-scroll">
@@ -46,7 +58,6 @@ More generally, I am interested in modeling and numerical analysis of partial di
           <a href="https://rtte.math.cnrs.fr/" rel="external nofollow noopener" target="_blank">RTTE</a>.
         </td>
       </tr>
-
       <tr>
         <td scope="row">May 2026</td>
         <td style="width:85%">
@@ -55,7 +66,6 @@ More generally, I am interested in modeling and numerical analysis of partial di
           in May near Porto, Portugal.
         </td>
       </tr>
-
       <tr>
         <td scope="row">Dec 2025</td>
         <td style="width:85%">
@@ -65,7 +75,6 @@ More generally, I am interested in modeling and numerical analysis of partial di
           <a href="https://marienhanot.fr" rel="external nofollow noopener" target="_blank">Marien Hanot</a>.
         </td>
       </tr>
-
       <tr>
         <td scope="row">Jul 2025</td>
         <td style="width:85%">
@@ -75,7 +84,6 @@ More generally, I am interested in modeling and numerical analysis of partial di
           <a href="{{ site.url }}/files/talks/ICOSAHOM.pdf">slides</a>.
         </td>
       </tr>
-
       <tr>
         <td scope="row">2025</td>
         <td style="width:85%">
@@ -85,7 +93,6 @@ More generally, I am interested in modeling and numerical analysis of partial di
           <a href="{{ site.url }}/files/talks/MIPS.pdf">presentation</a>.
         </td>
       </tr>
-
       <tr>
         <td scope="row">May 2025</td>
         <td style="width:85%">
@@ -100,15 +107,12 @@ More generally, I am interested in modeling and numerical analysis of partial di
 </div>
 
 <style>
-/* Vertical scroll (like your example area) */
-.news-scroll{
+.news-scroll {
   max-height: 60vw;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
-
-/* Optional: keep the date column from wrapping */
-.news td[scope="row"]{
+.news td[scope="row"] {
   white-space: nowrap;
   padding-right: 1.2rem;
 }
