@@ -92,7 +92,7 @@ details[open] summary { list-style-image: none; }
         </td>
       </tr>
       <tr>
-        <td scope="row">Jun. 2025</td>
+        <td scope="row">June 2025</td>
         <td style="width:85%">
           During
           <a href="https://www.umontpellier.fr/agenda/semaine-du-pole-mips" rel="external nofollow noopener" target="_blank">MIPS Week</a>,
