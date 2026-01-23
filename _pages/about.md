@@ -49,8 +49,23 @@ details[open] summary { list-style-image: none; }
 <div class="news">
   <div class="table-responsive news-scroll">
     <table class="table table-sm table-borderless">
+              <tr>
+        <td scope="row">June 2026</td>
+        <td style="width:85%">
+          I will participate at the
+          <a href="https://elenagaburro.it/sunhype2026.html" rel="external nofollow noopener" target="_blank">SUNHYPE 2026</a>
+          in the city of Chania, in Greece.
+        </td>
+      </tr>
+          <tr>
+        <td scope="row">May 2026</td>
+        <td style="width:85%">
+          I will attend and present at
+          <a href="https://shark-fv.eu/home-shark/" rel="external nofollow noopener" target="_blank">SHARK-FV26</a> near Porto, Portugal.
+        </td>
+      </tr>
       <tr>
-        <td scope="row">Jan 2026</td>
+        <td scope="row">Mar. 2026</td>
         <td style="width:85%">
           I have been invited to give a talk at
           <a href="https://cjcma2026.sciencesconf.org" rel="external nofollow noopener" target="_blank">CJC-MA26</a>
@@ -59,24 +74,16 @@ details[open] summary { list-style-image: none; }
         </td>
       </tr>
       <tr>
-        <td scope="row">May 2026</td>
-        <td style="width:85%">
-          I will attend and present at
-          <a href="https://shark-fv.eu/home-shark/" rel="external nofollow noopener" target="_blank">SHARK-FV26</a>
-          in May near Porto, Portugal.
-        </td>
-      </tr>
-      <tr>
-        <td scope="row">Dec 2025</td>
+        <td scope="row">Dec. 2025</td>
         <td style="width:85%">
           I visited the
           <a href="https://www.inria.fr/fr/rapsodi" rel="external nofollow noopener" target="_blank">RAPSODI</a>
-          team in Lille in December, kindly invited by my friend
+          team in Lille, kindly invited by my friend
           <a href="https://marienhanot.fr" rel="external nofollow noopener" target="_blank">Marien Hanot</a>.
         </td>
       </tr>
       <tr>
-        <td scope="row">Jul 2025</td>
+        <td scope="row">July 2025</td>
         <td style="width:85%">
           I talked about high-order monolithic methods at
           <a href="https://icosahom2025.org" rel="external nofollow noopener" target="_blank">ICOSAHOM 2025</a>
@@ -85,7 +92,7 @@ details[open] summary { list-style-image: none; }
         </td>
       </tr>
       <tr>
-        <td scope="row">2025</td>
+        <td scope="row">Jun. 2025</td>
         <td style="width:85%">
           During
           <a href="https://www.umontpellier.fr/agenda/semaine-du-pole-mips" rel="external nofollow noopener" target="_blank">MIPS Week</a>,
@@ -98,7 +105,7 @@ details[open] summary { list-style-image: none; }
         <td style="width:85%">
           Made a presentation at the
           <a href="https://cimav2025.sciencesconf.org" rel="external nofollow noopener" target="_blank">CIMAV 2025</a>
-          conference in May, held in Aussois, see the
+          conference held in Aussois, see the
           <a href="{{ site.url }}/files/talks/CIMAV.pdf">beamer</a>.
         </td>
       </tr>
