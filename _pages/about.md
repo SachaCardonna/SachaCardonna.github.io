@@ -73,6 +73,12 @@ details[open] summary { list-style-image: none; }
           <a href="https://rtte.math.cnrs.fr/" rel="external nofollow noopener" target="_blank">RTTE</a>.
         </td>
       </tr>
+            <tr>
+        <td scope="row">Feb. 2026</td>
+        <td style="width:85%">
+I will give a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics.
+        </td>
+      </tr>
       <tr>
         <td scope="row">Dec. 2025</td>
         <td style="width:85%">
@@ -107,6 +113,12 @@ details[open] summary { list-style-image: none; }
           <a href="https://cimav2025.sciencesconf.org" rel="external nofollow noopener" target="_blank">CIMAV 2025</a>
           conference held in Aussois, see the
           <a href="{{ site.url }}/files/talks/CIMAV.pdf">beamer</a>.
+        </td>
+      </tr>
+            <tr>
+        <td scope="row">Jan. 2025</td>
+        <td style="width:85%">
+         I attended the <a href="https://cimav2025.sciencesconf.org" rel="external nofollow noopener" target="_blank">CEA-SMAI/GAMNI25</a> at Institut Henri Poincaré, Paris.
         </td>
       </tr>
     </table>
