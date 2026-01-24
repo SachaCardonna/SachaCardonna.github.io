@@ -35,7 +35,9 @@ Some numerical simulations:
 <!-- - $\mathbb{P}^2$ Carrier-Greenspan periodic solution ([AVI]({{ site.baseurl }}/images/cg_periodic_P2.avi)) -->
 - $\mathbb{P}^2$ tsunami on three conical islands ([MP4]({{ site.baseurl }}/images/tsunami_P2.mp4))
 - $\mathbb{P}^3$ Green-Naghdi 1D dam-break with dispersive shock ([GIF]({{ site.baseurl }}/images/GN_dispersive.gif))
-- $\mathbb{P}^3$ motion-prescribed floating object interactions ([GIF]({{ site.baseurl }}/images/1d_boat.gif))
+- $\mathbb{P}^3$ 1D motion-prescribed floating object interactions ([GIF]({{ site.baseurl }}/images/1d_boat.gif))
+- $\mathbb{P}^2$ single wave on a partly immersed stationnary pontoon obstacle ([AVI]({{ site.baseurl }}/images/single_wave_stationnary.avi))
+- $\mathbb{P}^2$ 2D motion-prescribed floating pontoon interactions ([AVI]({{ site.baseurl }}/images/prescribed_motion_object.avi))
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
       <img src="{{ site.baseurl }}/images/1d_boat.gif" alt="WaveBox Image 2" style="width: 23%; height: auto;">
