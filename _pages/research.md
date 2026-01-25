@@ -203,6 +203,11 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
+<b>Métiers des mathématiques - Conference given to bachelor's and master’s students<br>
+<i>Location</i>. Montpellier, France. <br>
+<i>Date</i>. 19/02/26.<br> 
+[[Slides]({{ site.url }}/files/talks/ICOSAHOM.pdf)]
+
 <b>[ICOSAHOM](https://icosahom2025.org/index.html) - International Congress on Spectral and High Order Method</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
 <i>Location</i>. Montréal, Canada. <br>
