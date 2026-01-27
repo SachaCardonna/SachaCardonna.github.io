@@ -92,18 +92,23 @@ details[open] .pub-badge .arrow {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
-  .pub-grid-3 {
-    margin-top: 0.7em;
-    display: grid;
-    grid-template-columns: 1fr 1.35fr 1fr;
-    gap: 10px;
-  }
-  .pub-grid-2 img, .pub-grid-3 img {
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-    display: block;
-  }
+.pub-grid-3 {
+  margin-top: 0.7em;
+  display: grid;
+  grid-template-columns: 1fr 1.35fr 1fr;
+  grid-template-rows: 200px;  /* ← AJOUT : hauteur fixe pour la ligne */
+  gap: 10px;
+}
+
+.pub-grid-2 img, .pub-grid-3 img {
+  width: 100%;
+  height: 100%;           /* ← CHANGÉ : de 'auto' à '100%' */
+  object-fit: cover;      /* ← AJOUT : crop sans déformation */
+  object-position: center;/* ← AJOUT : centre le crop */
+  border-radius: 6px;
+  display: block;
+}
+
 
   .pub-abstract {
     margin-top: 0.55em;
@@ -203,7 +208,7 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<b>Métiers des mathématiques - Conference given to bachelor's and master’s students<br>
+<b>Métiers des mathématiques - Conference given to bachelor's and master’s students</b><br>
 <i>Location</i>. Montpellier, France. <br>
 <i>Date</i>. 19/02/26.<br> 
 [[Slides]({{ site.url }}/files/talks/ICOSAHOM.pdf)]
