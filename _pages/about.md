@@ -65,7 +65,7 @@ details[open] summary { list-style-image: none; }
         </td>
       </tr>
       <tr>
-        <td scope="row">Mar. 2026</td>
+        <td scope="row">March 2026</td>
         <td style="width:85%">
           I have been invited to give a talk at
           <a href="https://cjcma2026.sciencesconf.org" rel="external nofollow noopener" target="_blank">CJC-MA26</a>
@@ -74,13 +74,13 @@ details[open] summary { list-style-image: none; }
         </td>
       </tr>
             <tr>
-        <td scope="row">Feb. 2026</td>
+        <td scope="row">February 2026</td>
         <td style="width:85%">
 I will give a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics.
         </td>
       </tr>
       <tr>
-        <td scope="row">Dec. 2025</td>
+        <td scope="row">December 2025</td>
         <td style="width:85%">
           I visited the
           <a href="https://www.inria.fr/fr/rapsodi" rel="external nofollow noopener" target="_blank">RAPSODI</a>
@@ -116,7 +116,7 @@ I will give a talk to undergraduate and master’s students about what it’s li
         </td>
       </tr>
             <tr>
-        <td scope="row">Jan. 2025</td>
+        <td scope="row">January 2025</td>
         <td style="width:85%">
          I attended the <a href="http://smai.emath.fr/spip.php?article932" rel="external nofollow noopener" target="_blank">CEA-SMAI/GAMNI25</a> at Institut Henri Poincaré, Paris.
         </td>
