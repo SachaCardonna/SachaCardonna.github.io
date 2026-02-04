@@ -9,6 +9,9 @@ date: 2025-01-01
 
 ## Documents
 
+Tutorial classes: 
+ - TD1 - Matrices ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD1_corrigé.pdf))
+
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
 ## Contents
