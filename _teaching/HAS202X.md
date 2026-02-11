@@ -12,6 +12,9 @@ date: 2025-01-01
 Tutorial classes: 
  - TD1 - Matrices ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD1_corrigé.pdf))
 
+Flash exams:
+- CF1 - Matrices ([Exam]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_corrigé.pdf))
+
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
 ## Contents
