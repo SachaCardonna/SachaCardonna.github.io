@@ -212,7 +212,7 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 <i>Title</i>. Modèles et méthodes numériques pour les interactions entre vagues et structures flottantes. <br>
 <i>Location</i>. Montpellier, France. <br>
 <i>Date</i>. 19/02/26.<br> 
-[[Slides]({{ site.url }}/files/talks/metiers_des_maths.pdf)]
+[[Slides]({{ site.url }}/files/talks/metier_des_maths.pdf)]
 
 <b>[ICOSAHOM](https://icosahom2025.org/index.html) - International Congress on Spectral and High Order Method</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
