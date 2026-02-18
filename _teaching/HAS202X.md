@@ -11,7 +11,7 @@ date: 2025-01-01
 
 Tutorial classes: 
 - TD1 - Matrices ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD1_corrigé.pdf))
-- TD2 - $\mathbb{R}^n$ vectorial space([Solutions]({{ site.url }}/files/teaching/HAS202X/TD2_corrigé.pdf))
+- TD2 - $\mathbb{R}^n$ space ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD2_corrigé.pdf))
 
 Flash exams:
 - CF1 - Matrices ([Exam]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_corrigé.pdf))
