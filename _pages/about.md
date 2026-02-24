@@ -76,7 +76,7 @@ details[open] summary { list-style-image: none; }
             <tr>
         <td scope="row">February 2026</td>
         <td style="width:85%">
-I will give a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics.
+I gave a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics.
         </td>
       </tr>
       <tr>

@@ -208,6 +208,12 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
+<b>[CJC-MA](https://cjcma2026.sciencesconf.org) - Congrès des Jeunes Chercheur.e.s en Mathématiques Appliquées</b> <br>
+<i>Title</i>. Modeling and numerical simulation of floating structures in shallow-water flows. <br>
+<i>Location</i>. ENPC, Champs-sur-Marne, France <br>
+<i>Date</i>. 02/03/26.<br> 
+[[Slides]({{ site.url }}/files/talks/cjcma.pdf)]
+
 <b>Métiers des mathématiques - Conference given to bachelor's and master’s students</b><br>
 <i>Title</i>. Modèles et méthodes numériques pour les interactions entre vagues et structures flottantes. <br>
 <i>Location</i>. Montpellier, France. <br>
@@ -216,7 +222,7 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 
 <b>[ICOSAHOM](https://icosahom2025.org/index.html) - International Congress on Spectral and High Order Method</b> <br>
 <i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
-<i>Location</i>. Montréal, Canada. <br>
+<i>Location</i>. McGill University, Montréal, Canada. <br>
 <i>Date</i>. 14/07/25.<br> 
 [[Slides]({{ site.url }}/files/talks/ICOSAHOM.pdf)]
 
