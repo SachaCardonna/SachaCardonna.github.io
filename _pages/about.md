@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG - UMR 5149).
+I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~Marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG - UMR 5149).
 
 I'm also a teaching assistant for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
 
@@ -38,7 +38,7 @@ details { margin-bottom: 0.3em; }
 summary {
   padding-left: 2em;
   text-indent: -2em;
-  list-style: none;  /* Removes any bullet/dot */
+  list-style: none;  
   cursor: pointer;
   font-weight: 500;
 }
@@ -50,7 +50,7 @@ details[open] summary { list-style-image: none; }
   <div class="table-responsive news-scroll">
     <table class="table table-sm table-borderless">
               <tr>
-        <td scope="row">June 2026</td>
+        <td scope="row">Jun 2026</td>
         <td style="width:85%">
           I will participate at the
           <a href="https://elenagaburro.it/sunhype2026.html" rel="external nofollow noopener" target="_blank">SUNHYPE 2026</a>
@@ -64,8 +64,18 @@ details[open] summary { list-style-image: none; }
           <a href="https://shark-fv.eu/home-shark/" rel="external nofollow noopener" target="_blank">SHARK-FV26</a> near Porto, Portugal.
         </td>
       </tr>
+            <tr>
+        <td scope="row">Mar 2026</td>
+        <td style="width:85%">
+          I am invited to present at the
+          <a href="https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium" rel="external nofollow noopener" target="_blank">Applied Maths Colloquium</a>
+          by
+          <a href="https://uwaterloo.ca/scholar/ddelreyf" rel="external nofollow noopener" target="_blank">David Del Rey Fernández</a> at
+          <a href="https://uwaterloo.ca" rel="external nofollow noopener" target="_blank">University of Waterloo</a>, Canada.
+        </td>
+      </tr>
       <tr>
-        <td scope="row">March 2026</td>
+        <td scope="row">Mar 2026</td>
         <td style="width:85%">
           I have been invited to give a talk at
           <a href="https://cjcma2026.sciencesconf.org" rel="external nofollow noopener" target="_blank">CJC-MA26</a>
@@ -74,13 +84,13 @@ details[open] summary { list-style-image: none; }
         </td>
       </tr>
             <tr>
-        <td scope="row">February 2026</td>
+        <td scope="row">Feb 2026</td>
         <td style="width:85%">
 I gave a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics.
         </td>
       </tr>
       <tr>
-        <td scope="row">December 2025</td>
+        <td scope="row">Dec 2025</td>
         <td style="width:85%">
           I visited the
           <a href="https://www.inria.fr/fr/rapsodi" rel="external nofollow noopener" target="_blank">RAPSODI</a>
@@ -89,7 +99,7 @@ I gave a talk to undergraduate and master’s students about what it’s like to
         </td>
       </tr>
       <tr>
-        <td scope="row">July 2025</td>
+        <td scope="row">Jul 2025</td>
         <td style="width:85%">
           I talked about high-order monolithic methods at
           <a href="https://icosahom2025.org" rel="external nofollow noopener" target="_blank">ICOSAHOM 2025</a>
@@ -98,7 +108,7 @@ I gave a talk to undergraduate and master’s students about what it’s like to
         </td>
       </tr>
       <tr>
-        <td scope="row">June 2025</td>
+        <td scope="row">Jun 2025</td>
         <td style="width:85%">
           During
           <a href="https://www.umontpellier.fr/agenda/semaine-du-pole-mips" rel="external nofollow noopener" target="_blank">MIPS Week</a>,
@@ -116,7 +126,7 @@ I gave a talk to undergraduate and master’s students about what it’s like to
         </td>
       </tr>
             <tr>
-        <td scope="row">January 2025</td>
+        <td scope="row">Jan 2025</td>
         <td style="width:85%">
          I attended the <a href="http://smai.emath.fr/spip.php?article932" rel="external nofollow noopener" target="_blank">CEA-SMAI/GAMNI25</a> at Institut Henri Poincaré, Paris.
         </td>
