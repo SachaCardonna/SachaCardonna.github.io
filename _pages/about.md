@@ -87,7 +87,7 @@ details[open] summary { list-style-image: none; }
             <tr>
         <td scope="row">Feb 2026</td>
         <td style="width:85%">
-I gave a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics.
+I gave a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics (<a href="{{ site.url }}/files/talks/metier_des_maths.pdf">slides</a> here).
         </td>
       </tr>
       <tr>
