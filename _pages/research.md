@@ -208,7 +208,7 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<b>[Applied Maths Colloquium](https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium) - Seminar of the Applied Mathematics group  </b> <br>
+<b>[Applied Maths Colloquium](https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium) - Seminar of the Applied Mathematics group at UW</b> <br>
 <i>Title</i>. A high-order DG/FV convex property preserving scheme for hyperbolic systems with applications to shallow water flows and fluid-structure interaction. <br>
 <i>Location</i>. University of Waterloo, Waterloo, Canada <br>
 <i>Date</i>. 19/03/26.<br> 
