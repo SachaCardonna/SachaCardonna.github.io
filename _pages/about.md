@@ -81,7 +81,7 @@ details[open] summary { list-style-image: none; }
           I have been invited to give a talk at
           <a href="https://cjcma2026.sciencesconf.org" rel="external nofollow noopener" target="_blank">CJC-MA26</a>
           during the special session "Ocean", funded by the
-          <a href="https://rtte.math.cnrs.fr/" rel="external nofollow noopener" target="_blank">RTTE</a>.
+          <a href="https://rtte.math.cnrs.fr/" rel="external nofollow noopener" target="_blank">RTTE</a>, see the <a href="{{ site.url }}/files/talks/CJCMA.pdf">beamer</a>.
         </td>
       </tr>
             <tr>
