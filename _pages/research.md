@@ -134,6 +134,11 @@ details[open] .pub-badge .arrow {
     Work in progress on a 2D wave–structure interaction model and its numerical resolution.
   </div>
 
+    <div class="pub-grid-2">
+    <img src="{{ site.baseurl }}/images/wave_inter_1.png">
+    <img src="{{ site.baseurl }}/images/wave_inter_2.png">
+  </div>
+
   <!-- <div class="pub-links">
     <a href="#">PDF</a>
     <a href="#">HAL</a>
@@ -163,10 +168,10 @@ We introduce monolithic DG–FV subcell convex property preserving schemes for t
     <img src="{{ site.baseurl }}/images/tsunami2d_theta.png">
   </div>
 
-  <!-- <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">HAL</a>
-  </div> -->
+  <div class="pub-links">
+    <a href="{{ site.url }}/files/publications/monolithicc_DGFV_subcell_NSW_GN.pdf">PDF</a>
+    <a href="https://hal.science/hal-054340144">HAL</a>
+  </div>
 
 </details>
 
