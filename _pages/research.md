@@ -134,7 +134,7 @@ details[open] .pub-badge .arrow {
     Work in progress on a 2D wave–structure interaction model and its numerical resolution.
   </div>
 
-    <div class="pub-grid-2">
+  <div class="pub-grid-2">
     <img src="{{ site.baseurl }}/images/wave_inter_1.png">
     <img src="{{ site.baseurl }}/images/wave_inter_2.png">
   </div>
@@ -217,7 +217,7 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 <i>Title</i>. A high-order DG/FV convex property preserving scheme for hyperbolic systems with applications to shallow water flows and fluid-structure interaction. <br>
 <i>Location</i>. University of Waterloo, Waterloo, Canada <br>
 <i>Date</i>. 19/03/26.<br> 
-[[Slides]({{ site.url }}/files/talks/waterloo_colloquium.pdf)]
+[[Slides]({{ site.url }}/files/talks/uw_colloquium.pdf)]
 
 <b>[CJC-MA](https://cjcma2026.sciencesconf.org) - Congrès des Jeunes Chercheur.e.s en Mathématiques Appliquées</b> <br>
 <i>Title</i>. Modeling and numerical simulation of floating structures in shallow-water flows. <br>
