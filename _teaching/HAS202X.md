@@ -12,9 +12,11 @@ date: 2025-01-01
 Tutorial classes: 
 - TD1 - Matrices ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD1_corrigé.pdf))
 - TD2 - $\mathbb{R}^n$ space ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD2_corrigé.pdf))
+- TD3 - Linear systems ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD3_corrigé.pdf))
 
 Flash exams:
 - CF1 - Matrices ([Exam]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_corrigé.pdf))
+- CF2 - Gaussian elimination and invertibility ([Exam]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC2_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC2_corrigé.pdf))
 
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 

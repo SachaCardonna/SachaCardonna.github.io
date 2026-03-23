@@ -67,12 +67,12 @@ details[open] summary { list-style-image: none; }
             <tr>
         <td scope="row">Mar 2026</td>
         <td style="width:85%">
-          I am invited by
+          I was invited by
           <a href="https://uwaterloo.ca/scholar/ddelreyf" rel="external nofollow noopener" target="_blank">David Del Rey Fernández</a>  
           to present at the
           <a href="https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium" rel="external nofollow noopener" target="_blank">Applied Maths Colloquium</a>
           at
-          <a href="https://uwaterloo.ca" rel="external nofollow noopener" target="_blank">University of Waterloo</a>, Canada.
+          <a href="https://uwaterloo.ca" rel="external nofollow noopener" target="_blank">University of Waterloo</a>, Canada, see the <a href="{{ site.url }}/files/talks/uw_colloquium.pdf">presentation</a>.
         </td>
       </tr>
       <tr>
