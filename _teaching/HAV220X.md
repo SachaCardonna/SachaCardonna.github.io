@@ -9,6 +9,11 @@ date: 2025-01-01
 
 ## Documents
 
+<b>Satisfaction survey</b>: opinions of students on my teachings ([Link](https://docs.google.com/forms/d/e/1FAIpQLSfS25yD0NL8q3MYnYkiI9Ojos7GX_dBW0rGdaS85KTCgoq3fw/viewform?usp=sharing&ouid=103297205406206905550)).
+
+Kahoots: 
+- Vocabulary ([Link](https://create.kahoot.it/share/hav202x-vocabulaire-probabiliste/fab2faac-13ad-4433-9255-2848c4b6b68c))
+
 Link to all ressources on [Moodle](https://moodle.umontpellier.fr).
 
 ## Contents
