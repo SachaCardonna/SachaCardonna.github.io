@@ -12,7 +12,7 @@ I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](h
 
 I also give classes as a teaching assistant for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
 
-I'm French and hold Canadian permanent residency.
+I’m French 🇫🇷 and a Canadian permanent resident 🇨🇦.
 
 ## Research interests
 
