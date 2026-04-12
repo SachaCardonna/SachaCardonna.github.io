@@ -11,11 +11,14 @@ date: 2025-01-01
 
 <b>Satisfaction survey</b>: opinions of students on my teachings ([Link](https://docs.google.com/forms/d/e/1FAIpQLSd-vESDkrA3aapUzDCc6PbtyEmvi780ccfzv1nBIzE0ZZAlEw/viewform?usp=sharing&ouid=103297205406206905550)).
 
+A full recap of the course: ([PDF]({{ site.url }}/files/teaching/HAS202X/HAS202SX_RECAP))
+
 Tutorial classes: 
 - TD1 - Matrices ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD1_corrigé.pdf))
 - TD2 - $\mathbb{R}^n$ space ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD2_corrigé.pdf))
 - TD3 - Linear systems ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD3_corrigé.pdf))
 - TD4 - Determinants & inversibility ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD4_corrigé.pdf))
+- TD5 - Basis ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD5_corrigé.pdf))
 
 Flash exams:
 - CF1 - Matrices ([Exam]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_corrigé.pdf))
