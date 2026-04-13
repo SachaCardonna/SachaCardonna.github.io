@@ -11,7 +11,7 @@ redirect_from:
 I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG - UMR 5149).<br>
 I also give classes as a teaching assistant for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
 
-I’m French 🇫🇷 and a Canadian permanent resident 🇨🇦. Outside of work, you’ll usually find me walking to the gym, at the movies, or driving around with very loud music.
+I’m French and a Canadian permanent resident. Outside of work, you’ll usually find me walking to the gym, at the movies, or driving around with very loud music.
 
 ## Research interests
 
