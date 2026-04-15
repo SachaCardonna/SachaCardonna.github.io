@@ -19,6 +19,7 @@ Tutorial classes:
 - TD3 - Linear systems ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD3_corrigé.pdf))
 - TD4 - Determinants & inversibility ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD4_corrigé.pdf))
 - TD5 - Bases ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD5_corrigé.pdf))
+- TD6 - Linear maps ([Solutions]({{ site.url }}/files/teaching/HAS202X/TD6_corrigé.pdf))
 
 Flash exams:
 - CF1 - Matrices ([Exam]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_sujet.pdf) & [Solutions]({{ site.url }}/files/teaching/HAS202X/HAS202X_CC1_corrigé.pdf))
