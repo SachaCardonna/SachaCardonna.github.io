@@ -88,7 +88,7 @@ details[open] summary { list-style-image: none; }
             <tr>
         <td scope="row">Feb 2026</td>
         <td style="width:85%">
-I gave a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics (<a href="{{ site.url }}/files/talks/metier_des_maths.pdf">slides</a> here).
+I gave a talk to undergraduate and master’s students about what it’s like to pursue a Ph.D. in mathematics, as part of a special conference on careers in mathematics (<a href="{{ site.url }}/files/talks/metier_des_maths.pdf">slides</a>).
         </td>
       </tr>
       <tr>
@@ -121,7 +121,7 @@ I gave a talk to undergraduate and master’s students about what it’s like to
         <td style="width:85%">
           Made a presentation at the
           <a href="https://cimav2025.sciencesconf.org" rel="external nofollow noopener" target="_blank">CIMAV 2025</a>
-          conference held in Aussois (<a href="{{ site.url }}/files/talks/CIMAV.pdf">beamer</a>).
+          conference held in Aussois (<a href="{{ site.url }}/files/talks/CIMAV.pdf">slides</a>).
         </td>
       </tr>
             <tr>
