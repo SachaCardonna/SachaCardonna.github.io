@@ -73,7 +73,7 @@ details[open] summary { list-style-image: none; }
           to present at the
           <a href="https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium" rel="external nofollow noopener" target="_blank">Applied Maths Colloquium</a>
           at
-          <a href="https://uwaterloo.ca" rel="external nofollow noopener" target="_blank">University of Waterloo</a>, Canada, see the <a href="{{ site.url }}/files/talks/uw_colloquium.pdf">presentation</a>.
+          <a href="https://uwaterloo.ca" rel="external nofollow noopener" target="_blank">University of Waterloo</a>, Canada (<a href="{{ site.url }}/files/talks/uw_colloquium.pdf">slides</a>).
         </td>
       </tr>
       <tr>
@@ -82,7 +82,7 @@ details[open] summary { list-style-image: none; }
           I have been invited to give a talk at
           <a href="https://cjcma2026.sciencesconf.org" rel="external nofollow noopener" target="_blank">CJC-MA26</a>
           during the special session "Ocean", funded by the
-          <a href="https://rtte.math.cnrs.fr/" rel="external nofollow noopener" target="_blank">RTTE</a>, see the <a href="{{ site.url }}/files/talks/CJCMA.pdf">beamer</a>.
+          <a href="https://rtte.math.cnrs.fr/" rel="external nofollow noopener" target="_blank">RTTE</a> (<a href="{{ site.url }}/files/talks/CJCMA.pdf">slides</a>).
         </td>
       </tr>
             <tr>
@@ -105,8 +105,7 @@ I gave a talk to undergraduate and master’s students about what it’s like to
         <td style="width:85%">
           I talked about high-order monolithic methods at
           <a href="https://icosahom2025.org" rel="external nofollow noopener" target="_blank">ICOSAHOM 2025</a>
-          in Montréal, see the
-          <a href="{{ site.url }}/files/talks/ICOSAHOM.pdf">slides</a>.
+          in Montréal (<a href="{{ site.url }}/files/talks/ICOSAHOM.pdf">slides</a>).
         </td>
       </tr>
       <tr>
@@ -114,8 +113,7 @@ I gave a talk to undergraduate and master’s students about what it’s like to
         <td style="width:85%">
           During
           <a href="https://www.umontpellier.fr/agenda/semaine-du-pole-mips" rel="external nofollow noopener" target="_blank">MIPS Week</a>,
-          I talked about some aspects of modeling and scientific computing to non-experts scientists, see the
-          <a href="{{ site.url }}/files/talks/MIPS.pdf">presentation</a>.
+          I talked about some aspects of modeling and scientific computing to non-experts scientists (<a href="{{ site.url }}/files/talks/MIPS.pdf">slides</a>).
         </td>
       </tr>
       <tr>
@@ -123,8 +121,7 @@ I gave a talk to undergraduate and master’s students about what it’s like to
         <td style="width:85%">
           Made a presentation at the
           <a href="https://cimav2025.sciencesconf.org" rel="external nofollow noopener" target="_blank">CIMAV 2025</a>
-          conference held in Aussois, see the
-          <a href="{{ site.url }}/files/talks/CIMAV.pdf">beamer</a>.
+          conference held in Aussois (<a href="{{ site.url }}/files/talks/CIMAV.pdf">beamer</a>).
         </td>
       </tr>
             <tr>
