@@ -41,6 +41,7 @@ Some numerical simulations:
 - $\mathbb{P}^2$ single wave on a freely moving pontoon obstacle ([AVI]({{ site.baseurl }}/images/single_wave_newton.avi))
 - $\mathbb{P}^2$ single wave on a partly immersed stationnary cylinder obstacle ([AVI]({{ site.baseurl }}/images/single_wave_stationnary_cylinder.avi))
 - $\mathbb{P}^2$ ALE mesh motion around an oscillating cylinder: Laplacian smoothing ([GIF]({{ site.baseurl }}/images/mesh_ale_evolution_laplacian.gif)) and pseudo-elasticity ([GIF]({{ site.baseurl }}/images/mesh_ale_evolution_elasticity.gif))
+- $\mathbb{P}^1$ translating and oscillating cylinder in a shallow-water flow ([AVI]({{ site.baseurl }}/images/ale_dual.avi))
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
       <img src="{{ site.baseurl }}/images/1d_boat.gif" alt="WaveBox Image 2" style="width: 23%; height: auto;">
