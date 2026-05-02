@@ -213,52 +213,58 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
+<b>[SHARK-FV26](https://shark-fv.eu/home-shark/) - Sharing Higher order Advanced Research Known-how on Finite Volume</b> <br>
+<i>Title</i>. Subcell monolithic DG/FV–HHO–SSP-RK scheme for a new wave-structure interaction model <br>
+<i>Location</i>. Minho, Portugal<br>
+<i>Date</i>. 19/03/26<br> 
+[[Slides]({{ site.url }}/files/talks/SHARK_FV26.pdf)]
+
 <b>[Applied Maths Colloquium](https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium) - Seminar of the Applied Mathematics group at UW</b> <br>
-<i>Title</i>. A high-order DG/FV convex property preserving scheme for hyperbolic systems with applications to shallow water flows and fluid-structure interaction. <br>
+<i>Title</i>. A high-order DG/FV convex property preserving scheme for hyperbolic systems with applications to shallow water flows and fluid-structure interaction <br>
 <i>Location</i>. University of Waterloo, Waterloo, Canada <br>
-<i>Date</i>. 19/03/26.<br> 
+<i>Date</i>. 19/03/26<br> 
 [[Slides]({{ site.url }}/files/talks/uw_colloquium.pdf)]
 
 <b>[CJC-MA](https://cjcma2026.sciencesconf.org) - Congrès des Jeunes Chercheur.e.s en Mathématiques Appliquées</b> <br>
-<i>Title</i>. Modeling and numerical simulation of floating structures in shallow-water flows. <br>
+<i>Title</i>. Modeling and numerical simulation of floating structures in shallow-water flows <br>
 <i>Location</i>. ENPC, Champs-sur-Marne, France <br>
-<i>Date</i>. 02/03/26.<br> 
+<i>Date</i>. 02/03/26<br> 
 [[Slides]({{ site.url }}/files/talks/CJCMA.pdf)]
 
 <b>Métiers des mathématiques - Conference given to bachelor's and master’s students</b><br>
-<i>Title</i>. Modèles et méthodes numériques pour les interactions entre vagues et structures flottantes. <br>
-<i>Location</i>. Montpellier, France. <br>
-<i>Date</i>. 19/02/26.<br> 
+<i>Title</i>. Modèles et méthodes numériques pour les interactions entre vagues et structures flottantes <br>
+<i>Location</i>. Montpellier, France <br>
+<i>Date</i>. 19/02/26<br> 
 [[Slides]({{ site.url }}/files/talks/metier_des_maths.pdf)]
 
 <b>[ICOSAHOM](https://icosahom2025.org/index.html) - International Congress on Spectral and High Order Method</b> <br>
-<i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids. <br>
-<i>Location</i>. McGill University, Montréal, Canada. <br>
-<i>Date</i>. 14/07/25.<br> 
+<i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids <br>
+<i>Location</i>. McGill University, Montréal, Canada <br>
+<i>Date</i>. 14/07/25<br> 
 [[Slides]({{ site.url }}/files/talks/ICOSAHOM.pdf)]
 
 <b>[MIPS Colloquia](https://www.umontpellier.fr/agenda/semaine-du-pole-mips) - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
-<i>Title</i>. Designing numerical methods for free-surface flows towards reliable wave-structure interactions. <br>
-<i>Location</i>. Montpellier, France. <br>
-<i>Date</i>. 02/06/25.<br> 
+<i>Title</i>. Designing numerical methods for free-surface flows towards reliable wave-structure interactions <br>
+<i>Location</i>. Montpellier, France <br>
+<i>Date</i>. 02/06/25<br> 
 [[Slides]({{ site.url }}/files/talks/MIPS.pdf)]
 
 <b>[CIMAV](https://cimav2025.sciencesconf.org) - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b><br>
-<i>Title</i>. A high-order robust DG/FV scheme for nonlinear shallow water equations with source terms on unstructured grids. <br>
-<i>Location</i>. Aussois, France. <br>
-<i>Date</i>. 13/05/25.<br> 
+<i>Title</i>. A high-order robust DG/FV scheme for nonlinear shallow water equations with source terms on unstructured grids <br>
+<i>Location</i>. Aussois, France <br>
+<i>Date</i>. 13/05/25<br> 
 [[Slides]({{ site.url }}/files/talks/CIMAV.pdf)]
 
 <b>Ph.D. Day - Séminaire des Doctorants</b> <br>
-<i>Title</i>. Monolithic DG/FV schemes on 1D nonlinear shallow water equations. <br>
-<i>Location</i>. Montpellier, France. <br>
-<i>Date</i>. 15/03/24.<br>
+<i>Title</i>. Monolithic DG/FV schemes on 1D nonlinear shallow water equations <br>
+<i>Location</i>. Montpellier, France <br>
+<i>Date</i>. 15/03/24<br>
 [[Poster]({{ site.url }}/files/talks/poster_phd_day24.pdf)]
 
 <b>Introduction to newcomers - Séminaire des Doctorants</b> <br>
-<i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions. <br>
-<i>Location</i>. Montpellier, France. <br>
-<i>Date</i>. 25/10/23.<br>
+<i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions <br>
+<i>Location</i>. Montpellier, France <br>
+<i>Date</i>. 25/10/23<br>
 [[Slides]({{ site.url }}/files/talks/SEMDOC.pdf)]
 
 
