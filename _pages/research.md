@@ -216,8 +216,8 @@ We propose a high-order local subcell monolithic DG–FV method for nonlinear sh
 <b>[SHARK-FV26](https://shark-fv.eu/home-shark/) - Sharing Higher order Advanced Research Known-how on Finite Volume</b> <br>
 <i>Title</i>. Subcell monolithic DG/FV–HHO–SSP-RK scheme for a new wave-structure interaction model <br>
 <i>Location</i>. Minho, Portugal<br>
-<i>Date</i>. 19/03/26<br> 
-[[Slides]({{ site.url }}/files/talks/SHARK_FV26.pdf)]
+<i>Date</i>. 04/05/26<br> 
+[[Slides]({{ site.url }}/files/talks/SHARK_FV266.pdf)]
 
 <b>[Applied Maths Colloquium](https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium) - Seminar of the Applied Mathematics group at UW</b> <br>
 <i>Title</i>. A high-order DG/FV convex property preserving scheme for hyperbolic systems with applications to shallow water flows and fluid-structure interaction <br>
