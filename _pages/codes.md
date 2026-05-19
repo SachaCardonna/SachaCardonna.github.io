@@ -25,7 +25,7 @@ WaveBox is a multi-models numerical platform created by Fabien Marche, dedicated
 - Unstructured meshes & mesh subdivision;
 - Wave breaking treatment with dynamic switching strategy.
 
-During my Ph.D., I developped a whole new section dedicated to high-order monolithic DG-FV schemes, with grid subdivisions and a priori stabilization methods, in 1D & 2D. I also developped several vizualization tools on Python. One of the main goals of our future work is to implement monolithic schemes on NSW coupled with a floating object.
+During my Ph.D., I developed a new high-order monolithic DG-FV framework, based on grid subdivisions, for one- and two-dimensional multi-physics numerical models for the simulation of nonlinear wave-structure interactions. These models also involve advanced discretizations for elliptic problems, such as SWIP-DG and HHO methods. I also developed several Python visualization tools.
 
 Some numerical simulations: 
 - $\mathbb{P}^6$ interaction between a collapsing wave and a rock ([MP4]({{ site.baseurl }}/images/rock_wave_P6.mp4))
