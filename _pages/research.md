@@ -169,8 +169,8 @@ We introduce monolithic DG–FV subcell convex property preserving schemes for t
   </div>
 
   <div class="pub-links">
-    <a href="{{ site.url }}/files/publications/monolithicc_DGFV_subcell_NSW_GN.pdf">PDF</a>
-    <a href="https://hal.science/hal-054340144">HAL</a>
+    <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_2d.pdf">PDF</a>
+    <a href="https://hal.science/hal-05630914">HAL</a>
   </div>
 
 </details>
