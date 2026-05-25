@@ -154,7 +154,7 @@ details[open] .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">An high-order robust scheme for 2D nonlinear shallow water equations with topography and friction effects on unstructured grids</span>
+      <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
       <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
     </div>
   </summary>
