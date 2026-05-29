@@ -35,7 +35,7 @@ Some numerical simulations:
 - $\mathbb{P}^2$ 2D interaction between a tidal wave and a rock ([AVI_1]({{ site.baseurl }}/images/tidal_P2.avi) & [AVI_2]({{ site.baseurl }}/images/tidal_P2_2.avi))
 - $\mathbb{P}^4$ 2D dam-break on a wet bed ([AVI]({{ site.baseurl }}/images/wet_dam_break_P4.avi))
 - $\mathbb{P}^3$ 2D circular dam-break on a wet bed ([AVI]({{ site.baseurl }}/images/circ_dam_P3.avi))
-<!-- - $\mathbb{P}^2$ Carrier-Greenspan periodic solution ([AVI]({{ site.baseurl }}/images/cg_periodic_P2.avi)) -->
+- $\mathbb{P}^2$ 2D Carrier-Greenspan periodic solution ([AVI]({{ site.baseurl }}/images/cg_periodic_P2.mp4))
 - $\mathbb{P}^2$ 2D tsunami on three conical islands ([MP4]({{ site.baseurl }}/images/tsunami_P2.mp4))
 - $\mathbb{P}^2$ 2D single wave on a partly immersed stationnary pontoon obstacle ([AVI]({{ site.baseurl }}/images/single_wave_stationnary.mov))
 - $\mathbb{P}^2$ 2D wave generator ([AVI]({{ site.baseurl }}/images/prescribed_motion_object.avi))
