@@ -155,7 +155,7 @@ details[open] .pub-badge .arrow {
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
-      <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
+      <span class="pub-tail"><i>Submitted to href="https://www.sciencedirect.com/journal/journal-of-computational-physics">Journal of Computational Physics</i></span>
     </div>
   </summary>
 
@@ -186,7 +186,7 @@ We introduce monolithic DG–FV subcell convex property preserving schemes for t
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
-      <span class="pub-tail"><i>Submitted to International Journal for Numerical Methods in Fluids</i></span>
+      <span class="pub-tail"><i>Submitted to href="https://onlinelibrary.wiley.com/journal/10970363">International Journal for Numerical Methods in Fluids</i></span>
     </div>
   </summary>
 
