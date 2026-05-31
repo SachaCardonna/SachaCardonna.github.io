@@ -53,7 +53,7 @@ details[open] summary { list-style-image: none; }
               <tr>
         <td scope="row">Jun 2026</td>
         <td style="width:85%">
-          I will participate at the
+          I will work with <a href="https://www.lama.univ-savoie.fr/members/default/boscheriw" rel="external nofollow noopener" target="_blank">Walter Boscheri</a> at the
           <a href="https://elenagaburro.it/sunhype2026.html" rel="external nofollow noopener" target="_blank">SUNHYPE 2026</a>
           in the city of Chania, in Greece.
         </td>
