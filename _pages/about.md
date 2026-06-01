@@ -69,7 +69,7 @@ details[open] summary { list-style-image: none; }
         <td scope="row">Mar 2026</td>
         <td style="width:85%">
           I was invited by
-          <a href="https://uwaterloo.ca/scholar/ddelreyf" rel="external nofollow noopener" target="_blank">David Del Rey Fernández</a>  
+          <a href="https://uwaterloo.ca/applied-mathematics/profiles/david-del-rey-fernandez" rel="external nofollow noopener" target="_blank">David Del Rey Fernández</a>  
           to present at the
           <a href="https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium" rel="external nofollow noopener" target="_blank">Applied Maths Colloquium</a>
           in
