@@ -119,7 +119,7 @@ details[open] .pub-badge .arrow {
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-badge">
-    <div class="num">3</div>
+    <div class="num">4</div>
     <div class="year">2026</div>
       <div class="arrow">›</div>
   </div>
