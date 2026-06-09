@@ -125,13 +125,42 @@ details[open] .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle</span>
+      <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle (Part II)</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
   </summary>
 
   <div class="pub-abstract">
     Work in progress on a 2D wave–structure interaction model and its numerical resolution.
+  </div>
+
+  <div class="pub-grid-2">
+    <img src="{{ site.baseurl }}/images/wave_inter_1.png">
+    <img src="{{ site.baseurl }}/images/wave_inter_2.png">
+  </div>
+
+  <!-- <div class="pub-links">
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
+  </div> -->
+</details>
+
+<details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">3</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
+      <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle (Part I)</span>
+      <span class="pub-tail"><i>In preparation</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-abstract">
+    Work in progress on a 2D wave–structure interaction model and its numerical resolution. 
   </div>
 
   <div class="pub-grid-2">
