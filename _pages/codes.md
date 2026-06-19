@@ -39,6 +39,7 @@ Some numerical simulations:
 - $\mathbb{P}^2$ 2D tsunami on three conical islands ([MP4]({{ site.baseurl }}/images/tsunami_P2.mp4))
 - $\mathbb{P}^2$ 2D single wave on a partly immersed stationnary pontoon obstacle ([AVI]({{ site.baseurl }}/images/single_wave_stationnary.mp4))
 - $\mathbb{P}^2$ 2D wave generator ([AVI]({{ site.baseurl }}/images/prescribed_motion_object.avi))
+- $\mathbb{P}^2$ 2D pontoon obstacle returning to equilibrium ([AVI]({{ site.baseurl }}/images/pontoon_equilibrium.avi))
 - $\mathbb{P}^5$ 2D single wave on a freely moving pontoon obstacle ([AVI]({{ site.baseurl }}/images/single_wave_newton.avi))
 - $\mathbb{P}^2$ 2D shock-wave on a freely moving pontoon obstacle ([AVI]({{ site.baseurl }}/images/shock_wave_newton.avi))
 - $\mathbb{P}^2$ 2D single wave on a partly immersed stationnary cylinder obstacle ([AVI]({{ site.baseurl }}/images/single_wave_stationnary_cylinder.avi))
