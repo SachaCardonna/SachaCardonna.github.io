@@ -53,7 +53,7 @@ details[open] summary { list-style-image: none; }
               <tr>
         <td scope="row">Jun 2026</td>
         <td style="width:85%">
-          I will work with <a href="https://www.lama.univ-savoie.fr/members/default/boscheriw" rel="external nofollow noopener" target="_blank">Walter Boscheri</a> at the
+          We initiated a new project with <a href="https://www.lama.univ-savoie.fr/members/default/boscheriw" rel="external nofollow noopener" target="_blank">Walter Boscheri</a>, <a href="https://www.di.univr.it/?ent=persona&id=89983&lang=en" rel="external nofollow noopener" target="_blank">Elena Bernardelli</a>, <a href="https://www.linkedin.com/in/lidia-gude-vila-340426328/" rel="external nofollow noopener" target="_blank">Lidia Gude Vila</a> & <a href="https://www.linkedin.com/in/mattia-lupi/" rel="external nofollow noopener" target="_blank">Mattia Luppi</a> at
           <a href="https://elenagaburro.it/sunhype2026.html" rel="external nofollow noopener" target="_blank">SUNHYPE 2026</a>
           in the city of Chania, in Greece.
         </td>
