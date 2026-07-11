@@ -184,12 +184,15 @@ details[open] .pub-badge .arrow {
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
-      <span class="pub-tail"><i>Submitted to <a href="https://www.sciencedirect.com/journal/journal-of-computational-physics">Journal of Computational Physics</a></i></span>
+      <span class="pub-tail"><i>Submitted</i></span>
     </div>
   </summary>
 
   <div class="pub-abstract">
-We introduce monolithic DG–FV subcell convex property preserving schemes for the 2D nonlinear shallow-water equations. The method is based on a high-order DG formulation interpreted as a FV-like scheme on a sub-partition with reconstructed interface fluxes. Blended fluxes are used at each time step and subcell interface to enforce key convex properties, including a discrete maximum principle and water-height positivity. The scheme is well-balanced at the subcell level for motionless steady states, provided suitable reconstructions of local mean values. Numerical experiments confirm the ability of the method to control nonphysical oscillation and preserve positive mean water height.
+In this work, we propose a new high-order numerical method for the two-dimensional nonlinear shallow-water (NSW) equations on unstructured meshes. The approach is based on the subcell monolithic DG/FV method, recently introduced in [Vilar:2025], in which higher-order Discontinuous Galerkin (DG) schemes are blended, at the subcell scale, with lowest-order robust Finite Volume (FV) methods. This is made possible through the reformulation of high-order DG schemes as a FV-like schemes defined on a subgrid, through the introduction of some particular fluxes referred to as reconstructed fluxes.
+The strategy then relies on the introduction of blended numerical fluxes, defined as convex combinations of reconstructed high-order DG fluxes and robust first-order FV ones. The blending coefficients are locally computed at each subcell interface in order to enforce unavoidable nonlinear stability properties. This allows the scheme to remain stable in the presence of strong gradients, shocks, and wet-dry fronts, while still keeping high-order accuracy in smooth regions.
+A particular attention is paid to the discrete formulation associated with the bathymetry source term. The scheme is designed to be well-balanced for motionless steady-states, thanks to some fine tuning of local hydrostatic-like reconstructions, respectively applied at two different scales and on two different kinds of approximations: i) at the level of DG fluxes between elements, focusing on suitable reconstructions of high-order polynomial traces, ii) at the level of FV fluxes between subcells, focusing on the reconstruction of subcell piecewise-constant values. This innovative two-levels reconstruction ensures that motionless steady states are not only exactly preserved on fully unstructured meshes, but also down to the subcell scale. 
+This new numerical method relies on a fully a priori treatment, and does not require any a posteriori re-computing and adapting steps, while remaining conservative by construction. Several numerical experiments illustrate its ability to accurately capture multidimensional wet-dry interfaces, to control spurious oscillations near classical discontinuities, and accurately resolve localized flow-features inside relatively large mesh elements.
   </div>
 
   <div class="pub-grid-2">
@@ -215,12 +218,24 @@ We introduce monolithic DG–FV subcell convex property preserving schemes for t
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
-      <span class="pub-tail"><i>Submitted to <a href="https://onlinelibrary.wiley.com/journal/10970363">International Journal for Numerical Methods in Fluids</a></i></span>
+      <span class="pub-tail"><i>Submitted</i></span>
     </div>
   </summary>
 
   <div class="pub-abstract">
-We propose a high-order local subcell monolithic DG–FV method for nonlinear shallow-water equations with source terms, covering both Saint-Venant and Green–Naghdi models. The approach relies on a DG formulation interpreted as a FV scheme on a sub-partition with reconstructed high-order interface fluxes. Source terms, including bathymetry and dispersive corrections, are discretized at the subcell level using a priori blended fluxes that enforce convex properties such as water-height positivity. A well-balanced property preserving motionless steady states is proved at the subcell scale. The method is coupled with a high-order interior-penalty DG scheme for the dispersive terms and is validated through extensive numerical tests demonstrating convergence, robustness, positivity preservation and suppression of nonphysical oscillations.
+This paper contains several new contributions to the numerical approximation of shallow-water equations. 
+We introduce a high-order local subcell monolithic DG/FV discretization method for the approximation of nonlinear free-surface shallow-water equations with source terms. 
+This encompasses both nonlinear hyperbolic shallow-water equations (also known as Saint-Venant equations) and weakly-dispersive fully-nonlinear equations (known as Green-Naghdi equations), approximating 
+the general free-surface water-wave equations in the shallow-water flow regime. 
+The method is grounded on a classical Discontinuous Galerkin (DG) formulation, written as a particular Finite Volume (FV) discretization on a sub-partition, involving reconstructed high-order interface numerical fluxes. In the present work, we investigate the important issue of source terms discretization in the framework of such local subcell monolithic DG/FV strategies, 
+focusing on the bathymetry source terms, and also higher-order differential source terms coming from dispersive corrections for higher-order asymptotic models. 
+The originality of the method is the introduction of a priori blended fluxes, which are convex combinations of the so-called high-order reconstructed fluxes and low-order FV fluxes. 
+The blending coefficients are adaptively computed for each subcell interface to enforce relevant convex properties at the discrete level, including water-height positivity. 
+Starting from the DG piecewise polynomial approximation, the bathymetry source term is also discretized at the subcell level,
+and we prove that a suitable well-balanced property, ensuring the preservation of motionless steady-states, can be achieved at the subcell-scale relying on some finely tuned combinations of various hydrostatic-like reconstructed states at lower/higher accuracy levels, simultaneously occurring at local and global scales. 
+We also introduce an original and efficient combination of this new well-balanced local subcell monolithic DG/FV with a high-order Internal Penalty discontinuous-Galerkin method, in order to 
+approximate the higher-order contributions appearing in the Green-Naghdi equations in a consistent and accurate way. 
+We then conduct extensive evaluations of the resulting numerical methods, providing insights about the observed numerical convergence and the overall robustness, including the ability to preserve steady-states, to prevent nonphysical oscillations near discontinuities and to ensure the positivity of the water-height at the discrete level.
   </div>
 
   <div class="pub-grid-3">
