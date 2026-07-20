@@ -16,8 +16,11 @@ Read more about the scientific computing codes I made or participated in.
 <b> WaveBox - Multi-models C++ numerical platform for water-waves equations </b>  <br>
 <i> Keywords. </i> DG, HDG, Saint-Venant, Boussinesq, Green-Naghdi, Finite-Volume subcells methods. <br>
 <i> Language. </i> C++, Python (visualization).
+<i> Developers. </i> Fabien Marche (main), Sacha Cardonna, Arnaud Duran, Matthieu Rigal...
 
-WaveBox is a multi-models numerical platform created by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG-FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). Main features are: 
+WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG-FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). 
+
+Main features are: 
 - Sub-models CPU-GPU co-processing;
 - Arbitrary order of accuracy (h and p-adaptivity);
 - Robust treatment of the run-up and flooding processes (strict maximum-principle enforcement);
@@ -57,9 +60,58 @@ Some numerical simulations:
 
 ***
 
+<b> Bfree — Structure-preserving finite-volume solver for ideal magnetohydrodynamics </b> <br>
+<i> Keywords. </i> Magnetohydrodynamics, Divergence-free schemes, Finite Volumes, Semi-implicit methods, ALE mesh motion. <br>
+<i> Language. </i> Fortran, Python (visualization). <br>
+<i> Developers. </i> Walter Boscheri (main), Mattia Lupi, Elena Bernardelli, Lidia Gude Vila & Sacha Cardonna.
+
+Bfree is a research-oriented numerical platform for the simulation of two-dimensional ideal magnetohydrodynamics and Euler–Heat flows. Its main purpose is to design structure-preserving finite-volume methods that maintain fundamental differential constraints at the discrete level: the divergence-free condition of the magnetic field for ideal MHD and the curl-free condition of the thermal impulse for the Euler–Heat model.
+
+Main features are:
+- Divergence-free discretizations for the magnetic field in ideal MHD;
+- Curl-free discretizations for the thermal impulse in the Euler–Heat system;
+- Explicit Arbitrary Lagrangian–Eulerian (ALE) finite-volume schemes on moving meshes;
+- Semi-implicit finite-volume schemes for low Mach and low Alfvén number regimes;
+- Structure-preserving evolution of the discrete differential constraints;
+- First- and second-order accurate spatial discretizations;
+- Conservative monitoring of mass and total energy.
+
+<div style="display: flex; justify-content: space-between; gap: 7px;">
+      <img src="{{ site.baseurl }}/images/bfree1.png" alt="bfree Image 2" style="width: 23%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree1.png" alt="bfree Image 1" style="width: 23%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree1.png" alt="bfree Image 3" style="width: 23%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree3.png" alt="bfree Image 4" style="width: 23%; height: auto;">
+</div>
+
+***
+
+<b> ShoreVPINN - Variational physics-informed neural solver for shallow-water flows </b>  <br>
+<i> Keywords. </i> Variational Physics-Informed Neural Networks, Saint-Venant equations, wet-dry interfaces, wave run-up, machine learning. <br>
+<i> Language. </i> Python (PyTorch). <br>
+<i> Developers. </i> Ali Haidar & Sacha Cardonna.
+
+ShoreVPINN is a research-oriented Python code exploring Variational Physics-Informed Neural Networks (VPINNs) for the approximation of the one-dimensional nonlinear shallow-water, or Saint-Venant, equations. Instead of relying exclusively on pointwise evaluations of the governing equations, the physical residuals are integrated against local test functions over a spatial mesh. This weak formulation is particularly well suited to flows involving variable topography and moving wet-dry interfaces.
+
+Main features are:
+- Variational enforcement of the mass and momentum equations using local finite-element test functions;
+- Exact preservation of the initial condition through a hard-constrained neural ansatz;
+- Positivity-preserving treatment of the water depth;
+- Robust formulation of the momentum flux near wet-dry interfaces;
+- Non-uniform spatial meshes with optional local refinement in the run-up region;
+- Gauss-Legendre quadrature and stochastic batching over time slices;
+- Automatic execution on CPU, CUDA GPUs and Apple Silicon GPUs.
+
+<div style="display: flex; justify-content: space-between; gap: 7px;">
+      <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 48%; height: auto;">
+      <img src="{{ site.baseurl }}/images/shorevpinn2.gif" alt="WaveBox Image 1" style="width: 48%; height: auto;">
+</div>
+
+***
+
 <b> DG4SCL - Compact and student friendly code for DG methods on 1D SCL </b>  <br>
 <i> Keywords. </i> Discontinuous Galerkin, Scalar Conservation Laws. <br>
-<i> Language. </i> C++. 
+<i> Language. </i> C++, Python (visualization).
+<i> Developers. </i> Sacha Cardonna.
 
 During the early stages of my internship with F. Vilar and F. Marche, I embarked on the development of a compact C++ code focused on addressing Discontinuous Galerkin (DG) schemes for 1D conservation laws. 
 This code is a work in progress, far from being complete or flawless. Its creation was driven by my commitment to simplicity and understandability. I strived to ensure that the code's structure and implementation were as straightforward as possible, enabling users to grasp the underlying concepts with ease.
