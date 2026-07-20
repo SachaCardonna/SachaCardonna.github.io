@@ -18,7 +18,7 @@ Read more about the scientific computing codes I made or participated in.
 <i> Language. </i> C++, Python (visualization).
 <i> Developers. </i> Fabien Marche (main), Sacha Cardonna, Arnaud Duran, Matthieu Rigal...
 
-WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG-FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). 
+WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG/FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). 
 
 Main features are: 
 - Sub-models CPU-GPU co-processing;
@@ -28,7 +28,7 @@ Main features are:
 - Unstructured meshes & mesh subdivision;
 - Wave breaking treatment with dynamic switching strategy.
 
-During my Ph.D., I developed a new high-order monolithic DG-FV framework, based on grid subdivisions, for one- and two-dimensional multi-physics numerical models for the simulation of nonlinear wave-structure interactions. These models also involve advanced discretizations for elliptic problems, such as SWIP-DG and HHO methods. I also developed several Python visualization tools.
+During my Ph.D., I developed a new high-order monolithic DG/FV framework, based on grid subdivisions, for one and two-dimensional multi-physics numerical models for the simulation of nonlinear wave-structure interactions. These models also involve advanced discretizations for elliptic problems, such as SWIP-DG and HHO methods. I also developed a new direct Arbitrary Lagrangian–Eulerian (ALE) high-order method and several Python visualization tools.
 
 Some numerical simulations: 
 - $\mathbb{P}^3$ 1D Green-Naghdi dam-break with dispersive shock ([GIF]({{ site.baseurl }}/images/GN_dispersive.gif))
@@ -77,9 +77,9 @@ Main features are:
 - Conservative monitoring of mass and total energy.
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
-      <img src="{{ site.baseurl }}/images/bfree1.png" alt="bfree Image 2" style="width: 21%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree2.png" alt="bfree Image 1" style="width: 21%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree3.png" alt="bfree Image 3" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 2" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 1" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree3.gif" alt="bfree Image 3" style="width: 21%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree4.png" alt="bfree Image 4" style="width: 21%; height: auto;">
 </div>
 
