@@ -77,10 +77,10 @@ Main features are:
 - Conservative monitoring of mass and total energy.
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
-      <img src="{{ site.baseurl }}/images/bfree1.png" alt="bfree Image 2" style="width: 23%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree1.png" alt="bfree Image 1" style="width: 23%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree1.png" alt="bfree Image 3" style="width: 23%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree3.png" alt="bfree Image 4" style="width: 23%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree1.png" alt="bfree Image 2" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree2.png" alt="bfree Image 1" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree3.png" alt="bfree Image 3" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree4.png" alt="bfree Image 4" style="width: 21%; height: auto;">
 </div>
 
 ***
