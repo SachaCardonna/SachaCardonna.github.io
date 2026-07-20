@@ -15,7 +15,7 @@ Read more about the scientific computing codes I made or participated in.
 
 <b> WaveBox - Multi-models C++ numerical platform for water-waves equations </b>  <br>
 <i> Keywords. </i> DG, HDG, Saint-Venant, Boussinesq, Green-Naghdi, Finite-Volume subcells methods. <br>
-<i> Language. </i> C++, Python (visualization).
+<i> Language. </i> C++, Python (visualization).<br>
 <i> Developers. </i> Fabien Marche (main), Sacha Cardonna, Arnaud Duran, Matthieu Rigal...
 
 WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG/FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). 
@@ -80,7 +80,7 @@ Main features are:
       <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 2" style="width: 21%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 1" style="width: 21%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree3.gif" alt="bfree Image 3" style="width: 21%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree4.png" alt="bfree Image 4" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree4.png" alt="bfree Image 4" style="width: 28%; height: auto;">
 </div>
 
 ***
@@ -110,7 +110,7 @@ Main features are:
 
 <b> DG4SCL - Compact and student friendly code for DG methods on 1D SCL </b>  <br>
 <i> Keywords. </i> Discontinuous Galerkin, Scalar Conservation Laws. <br>
-<i> Language. </i> C++, Python (visualization).
+<i> Language. </i> C++, Python (visualization).<br>
 <i> Developers. </i> Sacha Cardonna.
 
 During the early stages of my internship with F. Vilar and F. Marche, I embarked on the development of a compact C++ code focused on addressing Discontinuous Galerkin (DG) schemes for 1D conservation laws. 
