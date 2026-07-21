@@ -80,7 +80,7 @@ Main features are:
       <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 2" style="width: 21%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 1" style="width: 21%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree3.gif" alt="bfree Image 3" style="width: 21%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree4.png" alt="bfree Image 4" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree4.gif" alt="bfree Image 4" style="width: 21%; height: auto;">
 </div>
 
 ***
