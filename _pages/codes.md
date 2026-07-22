@@ -85,6 +85,26 @@ Main features are:
 
 ***
 
+<b> ManicoreFV - Discontinuous Galerkin code for conservation laws on surfaces </b>  <br>
+<i> Keywords. </i> Discontinuous Galerkin, Finite Volumes, Conservation Laws, Surface PDEs, Curved Meshes. <br>
+<i> Language. </i> C++, Python (visualization). <br>
+<i> Developers. </i> Marien Hanot & Sacha Cardonna.
+
+ManicoreFV is a C++ plaform for the numerical approximation of conservation laws on curved surfaces using Discontinuous Galerkin and finite-volume methods. It is a fork of [Manicore](https://mlhanot.github.io/Manicore/), the code developed by Marien Hanot for the implementation of numerical schemes on manifolds with general Riemannian metrics.
+
+Main features are:
+- Geometry-aware formulations based on the local charts, parametrizations and Riemannian metrics provided by the Manicore framework;
+- High-order Discontinuous Galerkin discretizations of scalar conservation laws on curved surfaces, from piecewise-constant to high-order polynomial approximations;
+- Explicit Runge--Kutta time integration with CFL-based time-step selection;
+- Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.
+
+<div style="display: flex; justify-content: space-between; gap: 7px;">
+      <img src="{{ site.baseurl }}/images/limDG.gif" alt="bfree Image 2" style="width: 48%; height: auto;">
+      <img src="{{ site.baseurl }}/images/slice_limDG.gif" alt="bfree Image 1" style="width: 48%; height: auto;">
+</div>
+
+***
+
 <b> ShoreVPINN - Variational physics-informed neural solver for shallow-water flows </b>  <br>
 <i> Keywords. </i> Variational Physics-Informed Neural Networks, Saint-Venant equations, wet-dry interfaces, wave run-up, machine learning. <br>
 <i> Language. </i> Python (PyTorch). <br>
