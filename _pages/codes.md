@@ -197,7 +197,7 @@ Main features are:
         <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_DG.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (crenel) - DG equatorial profile</option>
         <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_limDG.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (crenel) - Limited DG equatorial profile</option>
         <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_gaussian.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (gaussian) - DG equatorial profile</option>
-        <option value="{{ site.baseurl }}/images/code_manicore/shallow_water_equatorial_slice.gif" data-type="video" data-meta="P¹ · Surface view">Shallow-water (circular dam-break) - Limited DG equatorial profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/shallow_water_equatorial_slice.gif" data-type="image" data-meta="P¹ · Equatorial slice">Shallow-water (circular dam-break) - Limited DG equatorial profile</option>
         <option value="{{ site.baseurl }}/images/code_manicore/dg.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (crenel) - DG solution</option>
         <option value="{{ site.baseurl }}/images/code_manicore/limDG.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (crenel) - Limited DG solution</option>
         <option value="{{ site.baseurl }}/images/code_manicore/gaussian.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (gaussian) - DG solution</option>
