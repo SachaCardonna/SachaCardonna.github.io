@@ -73,13 +73,13 @@ Main features are:
   </div>
 
   <div class="wavebox-gallery__stage" id="wavebox-stage" aria-live="polite">
-    <img src="{{ site.baseurl }}/images/GN_dispersive.gif" alt="Green–Naghdi dam-break with dispersive shock simulation">
+    <img src="{{ site.baseurl }}/images/single_wave_newton.avi" alt="Single wave on a freely moving pontoon">
   </div>
 
   <div class="wavebox-gallery__footer">
     <div class="wavebox-gallery__caption">
-      <span id="wavebox-meta">P³ · 1D</span>
-      <strong id="wavebox-caption">Green–Naghdi dam-break with dispersive shock</strong>
+      <span id="wavebox-meta">P⁵ · 2D</span>
+      <strong id="wavebox-caption">Single wave on a freely moving pontoon</strong>
     </div>
     <div class="wavebox-gallery__nav" aria-label="Simulation navigation">
       <button type="button" id="wavebox-prev" aria-label="Previous simulation">←</button>
