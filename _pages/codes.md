@@ -177,10 +177,95 @@ Main features are:
 - Explicit Runge--Kutta time integration with CFL-based time-step selection;
 - Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.
 
-<div style="display: flex; justify-content: space-between; gap: 7px;">
-      <img src="{{ site.baseurl }}/images/limDG.gif" alt="manicore Image 2" style="width: 55%; height: auto;">
-      <img src="{{ site.baseurl }}/images/slice_limDG.gif" alt="manicore Image 1" style="width: 43%; height: auto;">
-</div>
+<details class="wavebox-disclosure manicore-disclosure">
+  <summary class="wavebox-disclosure__summary">
+    <span class="wavebox-disclosure__text">
+      <strong>Numerical simulations</strong>
+    </span>
+    <span class="wavebox-disclosure__icon" aria-hidden="true">•••</span>
+  </summary>
+
+  <section class="wavebox-gallery" aria-label="ManicoreFV numerical simulations">
+    <label class="wavebox-gallery__label" for="manicore-select">Choose a simulation</label>
+    <div class="wavebox-gallery__select-wrap">
+      <select id="manicore-select" class="wavebox-gallery__select">
+        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_DG.gif" data-type="image" data-meta="Equatorial slice · GIF">Discontinuous Galerkin square profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_limDG.gif" data-type="image" data-meta="Equatorial slice · GIF">Bound-preserving DG square profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_gaussian.gif" data-type="image" data-meta="Equatorial slice · GIF">Gaussian profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/dg.avi" data-type="video" data-meta="Surface view · AVI">Discontinuous Galerkin solution</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/limDG.avi" data-type="video" data-meta="Surface view · AVI">Bound-preserving DG solution</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/gaussian.avi" data-type="video" data-meta="Surface view · AVI">Gaussian profile evolution</option>
+      </select>
+    </div>
+
+    <div class="wavebox-gallery__stage" id="manicore-stage" aria-live="polite">
+      <img src="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_DG.gif" alt="Discontinuous Galerkin square profile simulation">
+    </div>
+
+    <div class="wavebox-gallery__footer">
+      <div class="wavebox-gallery__caption">
+        <span id="manicore-meta">Equatorial slice · GIF</span>
+        <strong id="manicore-caption">Discontinuous Galerkin square profile</strong>
+      </div>
+      <div class="wavebox-gallery__nav" aria-label="ManicoreFV simulation navigation">
+        <button type="button" id="manicore-prev" aria-label="Previous simulation">←</button>
+        <button type="button" id="manicore-next" aria-label="Next simulation">→</button>
+      </div>
+    </div>
+  </section>
+</details>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var select = document.getElementById('manicore-select');
+  if (!select) return;
+
+  var stage = document.getElementById('manicore-stage');
+  var caption = document.getElementById('manicore-caption');
+  var meta = document.getElementById('manicore-meta');
+  var disclosure = document.querySelector('.manicore-disclosure');
+  disclosure.open = false;
+
+  function showManicoreSimulation(index) {
+    select.selectedIndex = (index + select.options.length) % select.options.length;
+    var option = select.options[select.selectedIndex];
+    var media;
+
+    stage.replaceChildren();
+    if (option.dataset.type === 'video') {
+      media = document.createElement('video');
+      media.controls = true;
+      media.preload = 'metadata';
+      media.playsInline = true;
+    } else {
+      media = document.createElement('img');
+      media.alt = option.text + ' simulation';
+    }
+
+    media.src = option.value;
+    media.setAttribute('aria-label', option.text + ' simulation');
+    stage.appendChild(media);
+    caption.textContent = option.text;
+    meta.textContent = option.dataset.meta;
+  }
+
+  select.addEventListener('change', function () {
+    showManicoreSimulation(select.selectedIndex);
+  });
+  document.getElementById('manicore-prev').addEventListener('click', function () {
+    showManicoreSimulation(select.selectedIndex - 1);
+  });
+  document.getElementById('manicore-next').addEventListener('click', function () {
+    showManicoreSimulation(select.selectedIndex + 1);
+  });
+  disclosure.addEventListener('toggle', function () {
+    if (!disclosure.open) {
+      var video = stage.querySelector('video');
+      if (video) video.pause();
+    }
+  });
+});
+</script>
 
 ***
 
