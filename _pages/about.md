@@ -16,14 +16,12 @@ I’m French and a Canadian permanent resident. Outside of work, you’ll usuall
 ## Research interests
 
 My research lies at the intersection of the modeling and numerical analysis of partial differential equations, with a strong focus on physical problems arising in general fluid mechanics.
-I am particularly interested in the design of high-order numerical methods that are not only accurate and efficient, but also genuinely bulletproof when confronted with demanding nonlinear regimes, complex geometries and multiple physical constraints. I enjoy being involved from the very beginning to the very end of the process: from studying, selecting and/or deriving an appropriate model through its mathematical and numerical analysis, to the implementation of efficient, robust and operational simulation software.
+I am particularly interested in the design of high-order numerical methods that are not only accurate and efficient, but also genuinely bulletproof when confronted with demanding nonlinear regimes, complex geometries and multiple physical constraints. I enjoy being involved from the very beginning to the very end of the process: from studying, selecting and/or deriving an appropriate model through its mathematical and numerical analysis, to the implementation of efficient, robust and operational simulation software (click [here]({{ site.baseurl }}/codes/) for some simulations).
 
 - <b>Modeling</b>. Conservation laws, nonlinear hyperbolic systems, dispersive and elliptic equations, coupled and multiphysics models, free-surface flows, moving domains and fluid–structure coupling... 
 - <b>Numerical analysis</b>. High-order finite element and discontinuous Galerkin methods, monolithic DG/FV subcell discretizations, hybrid high-order schemes, well-balanced methods, entropy-preserving and structure-preserving schemes, Arbitrary Lagrangian–Eulerian approaches, methods on manifolds, variational physics-informed neural methods...
 - <b>Scientific computing</b>. Object-oriented and generic programming, CPU–GPU co-processing and parallel computing...
 - <b>Applications</b>. Fluid mechanics, water waves and wave–structure interactions, ideal magnetohydrodynamics and Euler–Heat flows, conservation laws on curved surfaces...
-
-Visitors can find numerical results and simulations in [Softwares]({{ site.baseurl }}/codes/).
 
 <style>
 details { margin-bottom: 0.3em; }
