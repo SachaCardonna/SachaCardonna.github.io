@@ -59,7 +59,7 @@ Main features are:
       <option value="{{ site.baseurl }}/images/cg_periodic_P2.mp4" data-type="video" data-degree="P² · 2D">Carrier–Greenspan periodic solution</option>
       <option value="{{ site.baseurl }}/images/tsunami_P2.mp4" data-type="video" data-degree="P² · 2D">Tsunami on three conical islands</option>
       <option value="{{ site.baseurl }}/images/single_wave_stationnary.mp4" data-type="video" data-degree="P² · 2D">Single wave on a partly immersed stationary pontoon</option>
-      <option value="{{ site.baseurl }}/images/prescribed_motion_object.avi" data-type="video" data-degree="P² · 2D">2D Wave generator</option>
+      <option value="{{ site.baseurl }}/images/prescribed_motion_object.avi" data-type="video" data-degree="P² · 2D">2D wave generator</option>
       <option value="{{ site.baseurl }}/images/pontoon_equilibrium_up.avi" data-type="video" data-degree="P² · 2D ">Pontoon returning to equilibrium (upward)</option>
       <option value="{{ site.baseurl }}/images/pontoon_equilibrium_down.avi" data-type="video" data-degree="P² · 2D">Pontoon returning to equilibrium (downward)</option>
       <option value="{{ site.baseurl }}/images/single_wave_newton.avi" data-type="video" data-degree="P⁵ · 2D">Single wave on a freely moving pontoon</option>
@@ -67,7 +67,7 @@ Main features are:
       <option value="{{ site.baseurl }}/images/single_wave_stationnary_cylinder.avi" data-type="video" data-degree="P² · 2D">Single wave on a partly immersed stationary cylinder</option>
       <option value="{{ site.baseurl }}/images/single_wave_cylinder_beach.avi" data-type="video" data-degree="P¹ · 2D">Single wave on a stationary cylinder and a beach</option>
       <option value="{{ site.baseurl }}/images/GN_dispersive.gif" data-type="image" data-degree="P³ · 1D">Green–Naghdi dam-break with dispersive shock</option>
-      <option value="{{ site.baseurl }}/images/1d_boat.gif" data-type="image" data-degree="P³ · 1D">1D Wave generator</option>
+      <option value="{{ site.baseurl }}/images/1d_boat.gif" data-type="image" data-degree="P³ · 1D">1D wave generator</option>
       <option value="{{ site.baseurl }}/images/fixed_obj_topo.gif" data-type="image" data-degree="P⁶ · 1D">Wave interacting with a fixed object and topography</option>
     </select>
   </div>
