@@ -16,7 +16,7 @@ Read more about the scientific computing codes I made or participated in.
 <b> WaveBox - Multi-models C++ numerical platform for water-waves equations </b>  <br>
 <i> Keywords. </i> DG, HDG, Saint-Venant, Boussinesq, Green-Naghdi, Finite-Volume subcells methods. <br>
 <i> Language. </i> C++, Python (visualization).<br>
-<i> Developers. </i> Fabien Marche (main), Sacha Cardonna, Arnaud Duran, Matthieu Rigal...
+<i> Developers. </i> Fabien Marche (lead), Sacha Cardonna, Arnaud Duran, Matthieu Rigal et al.
 
 WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG/FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). 
 
@@ -28,12 +28,18 @@ Main features are:
 - Unstructured meshes & mesh subdivision;
 - Wave breaking treatment with dynamic switching strategy.
 
+<details class="wavebox-disclosure">
+  <summary class="wavebox-disclosure__summary">
+    <span class="wavebox-disclosure__text">
+      <strong>Numerical simulations</strong>
+      <small>Explore 24 WaveBox animations</small>
+    </span>
+    <span class="wavebox-disclosure__icon" aria-hidden="true"></span>
+  </summary>
+
 <section class="wavebox-gallery" aria-labelledby="wavebox-gallery-title">
   <div class="wavebox-gallery__header">
-    <div>
-      <p class="wavebox-gallery__eyebrow">Numerical simulations</p>
-      <h3 id="wavebox-gallery-title">Explore WaveBox in motion</h3>
-    </div>
+    <h3 id="wavebox-gallery-title">Explore WaveBox in motion</h3>
     <span class="wavebox-gallery__count"><strong id="wavebox-current">01</strong> / <span id="wavebox-total">24</span></span>
   </div>
 
@@ -82,12 +88,25 @@ Main features are:
     </div>
   </div>
 </section>
+</details>
 
 <style>
-.wavebox-gallery { margin: 2rem 0 2.5rem; border: 1px solid rgba(127,127,127,.22); border-radius: 16px; overflow: hidden; background: rgba(127,127,127,.045); box-shadow: 0 14px 38px rgba(0,0,0,.07); }
+.wavebox-disclosure { margin: 2rem 0 2.5rem; border: 1px solid rgba(127,127,127,.24); border-radius: 16px; overflow: hidden; background: rgba(127,127,127,.045); box-shadow: 0 10px 30px rgba(0,0,0,.06); }
+.wavebox-disclosure__summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.15rem 1.35rem; cursor: pointer; list-style: none; user-select: none; transition: background .18s ease; }
+.wavebox-disclosure__summary::-webkit-details-marker { display: none; }
+.wavebox-disclosure__summary:hover { background: rgba(127,127,127,.07); }
+.wavebox-disclosure__text { display: grid; gap: .18rem; }
+.wavebox-disclosure__text strong { font-size: .95rem; letter-spacing: .01em; }
+.wavebox-disclosure__text small { color: #78838e; font-size: .7rem; font-weight: 500; }
+.wavebox-disclosure__icon { position: relative; width: 34px; height: 34px; flex: 0 0 auto; border: 1px solid rgba(127,127,127,.3); border-radius: 50%; }
+.wavebox-disclosure__icon::before, .wavebox-disclosure__icon::after { content: ""; position: absolute; top: 50%; left: 50%; width: 11px; height: 1.5px; border-radius: 2px; background: currentColor; transform: translate(-50%,-50%); transition: transform .2s ease; }
+.wavebox-disclosure__icon::after { transform: translate(-50%,-50%) rotate(90deg); }
+.wavebox-disclosure[open] .wavebox-disclosure__icon::after { transform: translate(-50%,-50%) rotate(0); }
+.wavebox-disclosure[open] .wavebox-disclosure__summary { border-bottom: 1px solid rgba(127,127,127,.22); }
+.wavebox-gallery { overflow: hidden; }
 .wavebox-gallery__header, .wavebox-gallery__footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.15rem 1.35rem; }
-.wavebox-gallery__header h3 { margin: .05rem 0 0; font-size: 1.1rem; }
-.wavebox-gallery__eyebrow, .wavebox-gallery__label { margin: 0; color: #65717d; font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.wavebox-gallery__header h3 { margin: 0; font-size: 1.05rem; }
+.wavebox-gallery__label { margin: 0; color: #65717d; font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .wavebox-gallery__count { color: #78838e; font-size: .72rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .wavebox-gallery__count strong { color: inherit; font-size: .95rem; }
 .wavebox-gallery__label { display: block; padding: .15rem 1.35rem .45rem; }
@@ -103,8 +122,8 @@ Main features are:
 .wavebox-gallery__nav { display: flex; gap: .45rem; flex: 0 0 auto; }
 .wavebox-gallery__nav button { width: 38px; height: 38px; border: 1px solid rgba(127,127,127,.3); border-radius: 50%; background: transparent; color: inherit; font-size: 1rem; cursor: pointer; transition: transform .18s ease, background .18s ease; }
 .wavebox-gallery__nav button:hover { transform: translateY(-1px); background: rgba(127,127,127,.1); }
-@media (max-width: 600px) { .wavebox-gallery__header, .wavebox-gallery__footer { padding: 1rem; } .wavebox-gallery__label { padding-left: 1rem; } .wavebox-gallery__select-wrap { margin: 0 1rem 1rem; } .wavebox-gallery__stage { min-height: 210px; } }
-@media (prefers-reduced-motion: reduce) { .wavebox-gallery__nav button { transition: none; } }
+@media (max-width: 600px) { .wavebox-disclosure__summary, .wavebox-gallery__header, .wavebox-gallery__footer { padding: 1rem; } .wavebox-gallery__label { padding-left: 1rem; } .wavebox-gallery__select-wrap { margin: 0 1rem 1rem; } .wavebox-gallery__stage { min-height: 210px; } }
+@media (prefers-reduced-motion: reduce) { .wavebox-disclosure__summary, .wavebox-disclosure__icon::after, .wavebox-gallery__nav button { transition: none; } }
 </style>
 
 <script>
@@ -115,6 +134,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var caption = document.getElementById('wavebox-caption');
   var meta = document.getElementById('wavebox-meta');
   var current = document.getElementById('wavebox-current');
+  var disclosure = document.querySelector('.wavebox-disclosure');
   document.getElementById('wavebox-total').textContent = select.options.length;
 
   function showSimulation(index) {
@@ -142,6 +162,12 @@ document.addEventListener('DOMContentLoaded', function () {
   select.addEventListener('change', function () { showSimulation(select.selectedIndex); });
   document.getElementById('wavebox-prev').addEventListener('click', function () { showSimulation(select.selectedIndex - 1); });
   document.getElementById('wavebox-next').addEventListener('click', function () { showSimulation(select.selectedIndex + 1); });
+  disclosure.addEventListener('toggle', function () {
+    if (!disclosure.open) {
+      var video = stage.querySelector('video');
+      if (video) video.pause();
+    }
+  });
 });
 </script>
 
@@ -150,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <b> Bfree — Structure-preserving finite-volume solver for ideal magnetohydrodynamics </b> <br>
 <i> Keywords. </i> Magnetohydrodynamics, Divergence-free schemes, Finite Volumes, Semi-implicit methods, ALE mesh motion. <br>
 <i> Language. </i> Fortran, Python (visualization). <br>
-<i> Developers. </i> Walter Boscheri (main), Mattia Lupi, Elena Bernardelli, Lidia Gude Vila & Sacha Cardonna.
+<i> Developers. </i> Walter Boscheri (lead), Mattia Lupi, Elena Bernardelli, Lidia Gude Vila & Sacha Cardonna.
 
 Bfree is a research-oriented numerical platform for the simulation of two-dimensional ideal magnetohydrodynamics and Euler–Heat flows. Its main purpose is to design structure-preserving finite-volume methods that maintain fundamental differential constraints at the discrete level: the divergence-free condition of the magnetic field for ideal MHD and the curl-free condition of the thermal impulse for the Euler–Heat model.
 
