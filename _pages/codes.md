@@ -177,6 +177,11 @@ Main features are:
 - Explicit Runge--Kutta time integration with CFL-based time-step selection;
 - Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.
 
+<div style="display: flex; justify-content: space-between; gap: 7px;">
+      <img src="{{ site.baseurl }}/images/limDG.gif" alt="manicore Image 2" style="width: 55%; height: auto;">
+      <img src="{{ site.baseurl }}/images/slice_limDG.gif" alt="manicore Image 1" style="width: 43%; height: auto;">
+</div>
+
 <details class="wavebox-disclosure manicore-disclosure">
   <summary class="wavebox-disclosure__summary">
     <span class="wavebox-disclosure__text">
