@@ -19,25 +19,6 @@ redirect_from:
     </div>
   </header>
 
-  <div class="cv-highlights" aria-label="Academic highlights">
-    <div class="cv-highlight">
-      <strong>2023–present</strong>
-      <span>Ph.D. candidate at IMAG</span>
-    </div>
-    <div class="cv-highlight">
-      <strong>Ranked 1st</strong>
-      <span>I2S doctoral scholarship competition</span>
-    </div>
-    <div class="cv-highlight">
-      <strong>Dual M.Sc.</strong>
-      <span>Applied and fundamental mathematics</span>
-    </div>
-    <div class="cv-highlight">
-      <strong>4 languages</strong>
-      <span>French, English, Spanish and Japanese</span>
-    </div>
-  </div>
-
   <section class="cv-section">
     <div class="cv-section__heading">
       <span>01</span>
