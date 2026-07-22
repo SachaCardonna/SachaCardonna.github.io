@@ -14,7 +14,23 @@ Personal interests and values within and beyond my academic work.
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 Outside of my academic work, I try to stay engaged in causes I consider important, both within and beyond the university.
-<details class="content-disclosure">
+<style>
+  details {
+    background-color: rgba(0, 0, 0, 0.03); /* léger gris clair */
+    border-radius: 6px;
+    padding: 0.5em;
+  }
+
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  details[open] {
+    background-color: rgba(0, 0, 0, 0.05); /* un peu plus foncé quand ouvert */
+  }
+</style>
+<details>
 <summary><strong>Access to education</strong></summary>
 I am committed to helping bridge the gap in access to higher education, particularly for students from underrepresented or disadvantaged backgrounds. I have for example supervised several MathC2 workshops, national programs in France aimed at high school students from under-resourced schools and often with a strong focus on encouraging young women to pursue scientific studies.  
 I have also participated in multiple outreach events where I presented my work and the broader world of applied mathematics. In my own teaching at the university, I make it a priority to build strong, individualized connections with students, ensure they feel supported, especially those who may lack familiarity with the expectations and codes of academic environments, as I did in the past.   
@@ -23,13 +39,17 @@ Beyond outreach, I aim to develop my own accessible teaching resources; in parti
 
 </details>
 
-<details class="content-disclosure">
+<div style="margin-bottom: 1em;"></div>
+
+<details>
 <summary><strong>Volunteering</strong></summary>
 I have always believed in giving back to society, in return for the many opportunities and support it has offered me. For several years, I regularly organized activities and animations for children in the pediatric ward of the hospital in my hometown. I also gave free tutoring sessions to classmates or younger students who needed academic support, and when I was younger I volunteered at the local community center (MJC) of my hometown. In addition, I have occasionally acted as a foster home for pets in need (I love animals).
 
 </details>
 
-<details class="content-disclosure">
+<div style="margin-bottom: 1em;"></div>
+
+<details>
 <summary><strong>Scientific integrity</strong></summary>
 As a PhD student just beginning my career, one thing I care deeply about is the integrity of the work I contribute to.  
 From the very start of my thesis, my advisors have emphasized the importance of rigorous, meaningful, and honest research. I try to uphold that standard by asking myself whether what I'm doing really brings something new.  
@@ -37,7 +57,9 @@ I’m well aware that the pressure to publish is real, but I don’t want to fal
 
 </details>
 
-<details class="content-disclosure">
+<div style="margin-bottom: 1em;"></div>
+
+<details>
 <summary><strong>Local craftsmanship and agriculture</strong></summary>
 I believe the quality of what we use and enjoy is closely connected to the people who create it. Whenever possible, I choose to support local artisans, small producers, and independent businesses.  
 That can mean buying food directly from nearby farms, choosing handmade objects from craftspeople I know, while recommending their work to friends and colleagues.  
@@ -45,7 +67,9 @@ It is not about rejecting mass production altogether, but more about helping kee
 
 </details>
 
-<details class="content-disclosure">
+<div style="margin-bottom: 1em;"></div>
+
+<details>
 <summary><strong>Blood and plasma donation</strong></summary>
 I am a regular blood and plasma donor. I started donating at 18 and continue to do so whenever possible. I am particularly aware of the importance of donations for people with rare blood types. I encourage anyone who is eligible to donate and help address ongoing shortages. You can easily make an appointment through the <a href="https://dondesang.efs.sante.fr" target="_blank" rel="noopener noreferrer">EFS</a> website.
 
