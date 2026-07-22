@@ -157,6 +157,53 @@ details.content-disclosure > :last-child { margin-bottom: 1rem; }
   gap: 0.8rem;
 }
 
+.research-timeline {
+  position: relative;
+  display: grid;
+  margin: 1.35rem 0 0 0.3rem;
+  padding-left: 1.45rem;
+}
+
+.research-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0.35rem;
+  bottom: 0.35rem;
+  left: 3px;
+  width: 1px;
+  background: var(--content-line);
+}
+
+.research-timeline article {
+  position: relative;
+  padding: 0 0 1.15rem 0.55rem;
+}
+
+.research-timeline article:last-child { padding-bottom: 0; }
+
+.research-timeline article::before {
+  content: "";
+  position: absolute;
+  top: 0.31rem;
+  left: -1.41rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #c30505;
+}
+
+.research-timeline h3 {
+  margin: 0 0 0.25rem;
+  font-size: 0.86rem;
+}
+
+.research-timeline p {
+  margin: 0;
+  color: var(--content-muted);
+  font-size: 0.74rem;
+  line-height: 1.55;
+}
+
 .media-strip {
   display: flex;
   align-items: stretch;
