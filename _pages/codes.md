@@ -32,9 +32,8 @@ Main features are:
   <summary class="wavebox-disclosure__summary">
     <span class="wavebox-disclosure__text">
       <strong>Numerical simulations</strong>
-      <small>Explore 24 WaveBox animations</small>
     </span>
-    <span class="wavebox-disclosure__icon" aria-hidden="true"></span>
+    <span class="wavebox-disclosure__icon" aria-hidden="true">•••</span>
   </summary>
 
 <section class="wavebox-gallery" aria-labelledby="wavebox-gallery-title">
@@ -91,19 +90,14 @@ Main features are:
 </details>
 
 <style>
-.wavebox-disclosure { margin: 2rem 0 2.5rem; border: 1px solid rgba(127,127,127,.24); border-radius: 16px; overflow: hidden; background: rgba(127,127,127,.045); box-shadow: 0 10px 30px rgba(0,0,0,.06); }
-.wavebox-disclosure__summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.15rem 1.35rem; cursor: pointer; list-style: none; user-select: none; transition: background .18s ease; }
+.wavebox-disclosure { margin: 1.4rem 0 2rem; }
+.wavebox-disclosure__summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 42px; padding: .45rem .2rem; border-top: 1px solid rgba(127,127,127,.2); border-bottom: 1px solid rgba(127,127,127,.2); color: var(--global-text-color-light); cursor: pointer; list-style: none; user-select: none; transition: color .18s ease, padding .18s ease; }
 .wavebox-disclosure__summary::-webkit-details-marker { display: none; }
-.wavebox-disclosure__summary:hover { background: rgba(127,127,127,.07); }
-.wavebox-disclosure__text { display: grid; gap: .18rem; }
-.wavebox-disclosure__text strong { font-size: .95rem; letter-spacing: .01em; }
-.wavebox-disclosure__text small { color: #78838e; font-size: .7rem; font-weight: 500; }
-.wavebox-disclosure__icon { position: relative; width: 34px; height: 34px; flex: 0 0 auto; border: 1px solid rgba(127,127,127,.3); border-radius: 50%; }
-.wavebox-disclosure__icon::before, .wavebox-disclosure__icon::after { content: ""; position: absolute; top: 50%; left: 50%; width: 11px; height: 1.5px; border-radius: 2px; background: currentColor; transform: translate(-50%,-50%); transition: transform .2s ease; }
-.wavebox-disclosure__icon::after { transform: translate(-50%,-50%) rotate(90deg); }
-.wavebox-disclosure[open] .wavebox-disclosure__icon::after { transform: translate(-50%,-50%) rotate(0); }
-.wavebox-disclosure[open] .wavebox-disclosure__summary { border-bottom: 1px solid rgba(127,127,127,.22); }
-.wavebox-gallery { overflow: hidden; }
+.wavebox-disclosure__summary:hover { padding-left: .4rem; color: var(--global-text-color); }
+.wavebox-disclosure__text strong { font-size: .8rem; font-weight: 600; letter-spacing: .035em; text-transform: uppercase; }
+.wavebox-disclosure__icon { flex: 0 0 auto; color: #899198; font-size: .78rem; letter-spacing: .16em; line-height: 1; transition: transform .2s ease; }
+.wavebox-disclosure[open] .wavebox-disclosure__icon { transform: rotate(90deg); }
+.wavebox-gallery { margin-top: .75rem; overflow: hidden; border: 1px solid rgba(127,127,127,.24); border-radius: 14px; background: rgba(127,127,127,.04); box-shadow: 0 12px 34px rgba(0,0,0,.07); }
 .wavebox-gallery__header, .wavebox-gallery__footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.15rem 1.35rem; }
 .wavebox-gallery__header h3 { margin: 0; font-size: 1.05rem; }
 .wavebox-gallery__label { margin: 0; color: #65717d; font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
@@ -122,8 +116,8 @@ Main features are:
 .wavebox-gallery__nav { display: flex; gap: .45rem; flex: 0 0 auto; }
 .wavebox-gallery__nav button { width: 38px; height: 38px; border: 1px solid rgba(127,127,127,.3); border-radius: 50%; background: transparent; color: inherit; font-size: 1rem; cursor: pointer; transition: transform .18s ease, background .18s ease; }
 .wavebox-gallery__nav button:hover { transform: translateY(-1px); background: rgba(127,127,127,.1); }
-@media (max-width: 600px) { .wavebox-disclosure__summary, .wavebox-gallery__header, .wavebox-gallery__footer { padding: 1rem; } .wavebox-gallery__label { padding-left: 1rem; } .wavebox-gallery__select-wrap { margin: 0 1rem 1rem; } .wavebox-gallery__stage { min-height: 210px; } }
-@media (prefers-reduced-motion: reduce) { .wavebox-disclosure__summary, .wavebox-disclosure__icon::after, .wavebox-gallery__nav button { transition: none; } }
+@media (max-width: 600px) { .wavebox-gallery__header, .wavebox-gallery__footer { padding: 1rem; } .wavebox-gallery__label { padding-left: 1rem; } .wavebox-gallery__select-wrap { margin: 0 1rem 1rem; } .wavebox-gallery__stage { min-height: 210px; } }
+@media (prefers-reduced-motion: reduce) { .wavebox-disclosure__summary, .wavebox-disclosure__icon, .wavebox-gallery__nav button { transition: none; } }
 </style>
 
 <script>
@@ -135,6 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var meta = document.getElementById('wavebox-meta');
   var current = document.getElementById('wavebox-current');
   var disclosure = document.querySelector('.wavebox-disclosure');
+  disclosure.open = false;
   document.getElementById('wavebox-total').textContent = select.options.length;
 
   function showSimulation(index) {
