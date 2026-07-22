@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Codes & Softwares"
+title: "Softwares"
 permalink: /codes/
 author_profile: true
 redirect_from:
@@ -190,10 +190,9 @@ Main features are:
 - Conservative monitoring of mass and total energy.
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
-      <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 2" style="width: 21%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 1" style="width: 21%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree3.gif" alt="bfree Image 3" style="width: 21%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree4.gif" alt="bfree Image 4" style="width: 21%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 2" style="width: 32%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 1" style="width: 32%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree4.gif" alt="bfree Image 4" style="width: 32%; height: auto;">
 </div>
 
 ***

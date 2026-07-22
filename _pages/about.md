@@ -15,24 +15,16 @@ I’m French and a Canadian permanent resident. Outside of work, you’ll usuall
 
 ## Research interests
 
-During my thesis, I design and implement arbitrary-order finite elements methods for partial differential equations arising in the modeling of water waves and wave–structure interactions. For instance, one of the systems I have studied extensively is the nonlinear shallow water equations (NSW), which represent a nonlinear hyperbolic system with source term: 
-<div style="text-align: center;">
-$$
-\begin{cases}
-      \partial_t\:\!\eta + \nabla_{\!\mathbf{x}} \cdot \mathbf{q} = \mathbf{S}_1[b](\mathbf{v}), \\
-      \partial_t \:\!\mathbf{q} + \nabla_{\!\mathbf{x}} \cdot \left( \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = \mathbf{S}_2[b](\mathbf{v}),
-\end{cases} \nonumber
-$$
-</div>
-with $\mathbf{v} = (\eta,\mathbf{q})^t$, where $\eta$ is water total elevation, $\mathbf{q}$ is the horizontal discharge, $b$ a smooth parametrization of topography and $\mathbf{S}\[b\](\mathbf{v})$ is a generic source term that may contains topography, friction and/or Coriolis effects.
-Visitors can find some numerical results and simulation in [Softwares](https://sachacardonna.github.io/codes).
+My research lies at the intersection of the modeling and numerical analysis of partial differential equations, with a strong focus on physical problems arising in general fluid mechanics.
 
-More generally, I am interested in modeling and numerical analysis of partial differential equations (PDEs), and their applications to physics problems, mainly fluid mechanics.
+I am particularly interested in the design of high-order numerical methods that are not only accurate and efficient, but also genuinely bulletproof when confronted with demanding nonlinear regimes, complex geometries and multiple physical constraints. I enjoy being involved from the very beginning to the very end of the process: from studying, selecting and/or deriving an appropriate model through its mathematical and numerical analysis, to the implementation of efficient, robust and operational simulation software.
 
-- <b>Modeling</b>. Conservation laws, non-linear hyperbolic systems, dispersive equations, elliptic equations, models coupling...
-- <b>Numerical analysis</b>. Finite elements & discontinuous Galerkin methods, finite volume schemes, monolithic DG-FV subcells & hybrid high-order methods, well-balancing, entropy-preserving schemes, ALE approaches...
-- <b>Scientific computing</b>. Object oriented and generic programming, parallel computing...
-- <b>Applications</b>. Fluid mechanics, nonlinear shallow water equations, Green-Naghdi equations, wave-structure interactions...
+- <b>Modeling</b>. Conservation laws, nonlinear hyperbolic systems, dispersive and elliptic equations, coupled and multiphysics models, free-surface flows, moving domains and fluid–structure coupling... 
+- <b>Numerical analysis</b>. High-order finite element, discontinuous Galerkin and finite volume methods, monolithic DG/FV subcell discretizations, hybrid high-order methods, well-balanced methods, entropy-preserving and structure-preserving schemes, Arbitrary Lagrangian–Eulerian approaches, methods on manifolds, variational physics-informed neural methods...
+- <b>Scientific computing</b>. Object-oriented and generic programming, CPU–GPU co-processing and parallel computing...
+- <b>Applications</b>. Fluid mechanics, water waves and wave–structure interactions, wetting, drying and wave run-up, ideal magnetohydrodynamics and Euler–Heat flows, conservation laws on curved surfaces...
+
+Visitors can find numerical results and simulations in [Softwares]({{ site.baseurl }}/codes/).
 
 <style>
 details { margin-bottom: 0.3em; }
