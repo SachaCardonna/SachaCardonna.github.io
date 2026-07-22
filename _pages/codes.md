@@ -25,7 +25,7 @@ Main features are:
 - Arbitrary order of accuracy (h and p-adaptivity);
 - Robust treatment of the run-up and flooding processes (strict maximum-principle enforcement);
 - Well-balancing for motionless steady states;
-- Unstructured meshes & mesh subdivision;
+- Unstructured meshes subdivision and ALE motion;
 - Wave breaking treatment with dynamic switching strategy.
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
