@@ -28,6 +28,11 @@ Main features are:
 - Unstructured meshes & mesh subdivision;
 - Wave breaking treatment with dynamic switching strategy.
 
+<div style="display: flex; justify-content: space-between; gap: 7px;">
+      <img src="{{ site.baseurl }}/images/cropped_2.gif" alt="WaveBox Image 2" style="width: 55%; height: auto;">
+      <img src="{{ site.baseurl }}/images/cropped_1.gif" alt="WaveBox Image 1" style="width: 43%; height: auto;">
+</div>
+
 <details class="wavebox-disclosure">
   <summary class="wavebox-disclosure__summary">
     <span class="wavebox-disclosure__text">
@@ -207,8 +212,8 @@ Main features are:
 - Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.
 
 <div style="display: flex; justify-content: space-between; gap: 7px;">
-      <img src="{{ site.baseurl }}/images/limDG.gif" alt="bfree Image 2" style="width: 48%; height: auto;">
-      <img src="{{ site.baseurl }}/images/slice_limDG.gif" alt="bfree Image 1" style="width: 48%; height: auto;">
+      <img src="{{ site.baseurl }}/images/limDG.gif" alt="manicore Image 2" style="width: 55%; height: auto;">
+      <img src="{{ site.baseurl }}/images/slice_limDG.gif" alt="manicore Image 1" style="width: 43%; height: auto;">
 </div>
 
 ***
