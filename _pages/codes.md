@@ -11,12 +11,12 @@ redirect_from:
 
 Read more about the scientific computing codes I made or participated in. 
 
-***
-
-<b> WaveBox - Multi-models C++ numerical platform for water-waves equations </b>  <br>
+<h2 class="software-entry__title">WaveBox - Multi-models C++ numerical platform for water-waves equations</h2>
+<div class="software-entry__meta">
 <i> Keywords. </i> DG, HDG, Saint-Venant, Boussinesq, Green-Naghdi, Finite-Volume subcells methods. <br>
 <i> Language. </i> C++, Python (visualization).<br>
 <i> Developers. </i> Fabien Marche (lead), Sacha Cardonna, Arnaud Duran, Matthieu Rigal et al.
+</div>
 
 WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG/FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). 
 
@@ -28,7 +28,7 @@ Main features are:
 - Unstructured meshes subdivision and ALE motion;
 - Wave breaking treatment with dynamic switching strategy.
 
-<div style="display: flex; justify-content: space-between; gap: 7px;">
+<div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/cropped_2.gif" alt="WaveBox Image 2" style="width: 55%; height: auto;">
       <img src="{{ site.baseurl }}/images/cropped_1.gif" alt="WaveBox Image 1" style="width: 43%; height: auto;">
 </div>
@@ -162,12 +162,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-***
-
-<b> ManicoreFV - Discontinuous Galerkin code for conservation laws on surfaces </b>  <br>
+<h2 class="software-entry__title">ManicoreFV - Discontinuous Galerkin code for conservation laws on surfaces</h2>
+<div class="software-entry__meta">
 <i> Keywords. </i> Discontinuous Galerkin, Finite Volumes, Conservation Laws, Surface PDEs, Curved Meshes. <br>
 <i> Language. </i> C++, Python (visualization). <br>
 <i> Developers. </i> Marien Hanot & Sacha Cardonna.
+</div>
 
 ManicoreFV is a C++ plaform for the numerical approximation of conservation laws on curved surfaces using Discontinuous Galerkin and finite-volume methods. It is a fork of [Manicore](https://mlhanot.github.io/Manicore/), the code developed by Marien Hanot for the implementation of numerical schemes on manifolds with general Riemannian metrics.
 
@@ -177,7 +177,7 @@ Main features are:
 - Explicit Runge--Kutta time integration with CFL-based time-step selection;
 - Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.
 
-<div style="display: flex; justify-content: space-between; gap: 7px;">
+<div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/limDG.gif" alt="manicore Image 2" style="width: 55%; height: auto;">
       <img src="{{ site.baseurl }}/images/slice_limDG.gif" alt="manicore Image 1" style="width: 43%; height: auto;">
 </div>
@@ -194,12 +194,14 @@ Main features are:
     <label class="wavebox-gallery__label" for="manicore-select">Choose a simulation</label>
     <div class="wavebox-gallery__select-wrap">
       <select id="manicore-select" class="wavebox-gallery__select">
-        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_DG.gif" data-type="image" data-meta="Equatorial slice · GIF">DG crenel advection profile</option>
-        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_limDG.gif" data-type="image" data-meta="Equatorial slice · GIF">Limited DG crenel advection profile</option>
-        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_gaussian.gif" data-type="image" data-meta="Equatorial slice · GIF">DG gaussian advection profile</option>
-        <option value="{{ site.baseurl }}/images/code_manicore/dg.avi" data-type="video" data-meta="Surface view · AVI">DG solution of crenel advection</option>
-        <option value="{{ site.baseurl }}/images/code_manicore/limDG.avi" data-type="video" data-meta="Surface view · AVI">Limited DG solution of crenel advection</option>
-        <option value="{{ site.baseurl }}/images/code_manicore/gaussian.avi" data-type="video" data-meta="Surface view · AVI">DG solution of gaussian advection</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_DG.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (crenel) - DG equatorial profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_limDG.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (crenel) - Limited DG equatorial profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_gaussian.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (gaussian) - DG equatorial profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/shallow_water_equatorial_slice.gif" data-type="video" data-meta="P¹ · Surface view">Shallow-water (circular dam-break) - Limited DG equatorial profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/dg.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (crenel) - DG solution</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/limDG.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (crenel) - Limited DG solution</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/gaussian.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (gaussian) - DG solution</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/dam_break_P1.avi" data-type="video" data-meta="P¹ · Surface view">Shallow-water (circular dam-break) - Limited DG solution</option>
       </select>
     </div>
 
@@ -272,12 +274,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-***
-
-<b> Bfree — Structure-preserving finite-volume solver for ideal magnetohydrodynamics </b> <br>
+<h2 class="software-entry__title">Bfree — Structure-preserving finite-volume solver for ideal magnetohydrodynamics</h2>
+<div class="software-entry__meta">
 <i> Keywords. </i> Magnetohydrodynamics, Divergence-free schemes, Finite Volumes, Semi-implicit methods, ALE mesh motion. <br>
 <i> Language. </i> Fortran, Python (visualization). <br>
 <i> Developers. </i> Walter Boscheri (lead), Mattia Lupi, Elena Bernardelli, Lidia Gude Vila & Sacha Cardonna.
+</div>
 
 Bfree is a research-oriented numerical platform for the simulation of two-dimensional ideal magnetohydrodynamics and Euler–Heat flows. Its main purpose is to design structure-preserving finite-volume methods that maintain fundamental differential constraints at the discrete level: the divergence-free condition of the magnetic field for ideal MHD and the curl-free condition of the thermal impulse for the Euler–Heat model.
 
@@ -290,18 +292,18 @@ Main features are:
 - First- and second-order accurate spatial discretizations;
 - Conservative monitoring of mass and total energy.
 
-<div style="display: flex; justify-content: space-between; gap: 7px;">
+<div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 2" style="width: 32%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 1" style="width: 32%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree4.gif" alt="bfree Image 4" style="width: 32%; height: auto;">
 </div>
 
-***
-
-<b> ShoreVPINN - Variational physics-informed neural solver for shallow-water flows </b>  <br>
+<h2 class="software-entry__title">ShoreVPINN - Variational physics-informed neural solver for shallow-water flows</h2>
+<div class="software-entry__meta">
 <i> Keywords. </i> Variational Physics-Informed Neural Networks, Saint-Venant equations, wet-dry interfaces, wave run-up, machine learning. <br>
 <i> Language. </i> Python (PyTorch). <br>
 <i> Developers. </i> Ali Haidar & Sacha Cardonna.
+</div>
 
 ShoreVPINN is a research-oriented Python code exploring Variational Physics-Informed Neural Networks (VPINNs) for the approximation of the one-dimensional nonlinear shallow-water, or Saint-Venant, equations. Instead of relying exclusively on pointwise evaluations of the governing equations, the physical residuals are integrated against local test functions over a spatial mesh. This weak formulation is particularly well suited to flows involving variable topography and moving wet-dry interfaces.
 
@@ -314,17 +316,17 @@ Main features are:
 - Gauss-Legendre quadrature and stochastic batching over time slices;
 - Automatic execution on CPU, CUDA GPUs and Apple Silicon GPUs.
 
-<div style="display: flex; justify-content: space-between; gap: 7px;">
+<div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 48%; height: auto;">
       <img src="{{ site.baseurl }}/images/shorevpinn2.gif" alt="WaveBox Image 1" style="width: 48%; height: auto;">
 </div>
 
-***
-
-<b> DG4SCL - Compact and student friendly code for DG methods on 1D SCL </b>  <br>
+<h2 class="software-entry__title">DG4SCL - Compact and student friendly code for DG methods on 1D SCL</h2>
+<div class="software-entry__meta">
 <i> Keywords. </i> Discontinuous Galerkin, Scalar Conservation Laws. <br>
 <i> Language. </i> C++, Python (visualization).<br>
 <i> Developers. </i> Sacha Cardonna.
+</div>
 
 During the early stages of my internship with F. Vilar and F. Marche, I embarked on the development of a compact C++ code focused on addressing Discontinuous Galerkin (DG) schemes for 1D conservation laws. 
 This code is a work in progress, far from being complete or flawless. Its creation was driven by my commitment to simplicity and understandability. I strived to ensure that the code's structure and implementation were as straightforward as possible, enabling users to grasp the underlying concepts with ease.
