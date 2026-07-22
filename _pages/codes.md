@@ -41,12 +41,7 @@ Main features are:
     <span class="wavebox-disclosure__icon" aria-hidden="true">•••</span>
   </summary>
 
-<section class="wavebox-gallery" aria-labelledby="wavebox-gallery-title">
-  <div class="wavebox-gallery__header">
-    <!-- <h3 id="wavebox-gallery-title">Explore WaveBox in motion</h3>
-    <span class="wavebox-gallery__count"><strong id="wavebox-current">01</strong> / <span id="wavebox-total">24</span></span> -->
-  </div>
-
+<section class="wavebox-gallery" aria-label="WaveBox numerical simulations">
   <label class="wavebox-gallery__label" for="wavebox-select">Choose a simulation</label>
   <div class="wavebox-gallery__select-wrap">
     <select id="wavebox-select" class="wavebox-gallery__select">
@@ -103,12 +98,11 @@ Main features are:
 .wavebox-disclosure__icon { flex: 0 0 auto; color: #899198; font-size: .78rem; letter-spacing: .16em; line-height: 1; transition: transform .2s ease; }
 .wavebox-disclosure[open] .wavebox-disclosure__icon { transform: rotate(90deg); }
 .wavebox-gallery { margin-top: .75rem; overflow: hidden; border: 1px solid rgba(127,127,127,.24); border-radius: 14px; background: rgba(127,127,127,.04); box-shadow: 0 12px 34px rgba(0,0,0,.07); }
-.wavebox-gallery__header, .wavebox-gallery__footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.15rem 1.35rem; }
-.wavebox-gallery__header h3 { margin: 0; font-size: 1.05rem; }
+.wavebox-gallery__footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.15rem 1.35rem; }
 .wavebox-gallery__label { margin: 0; color: #65717d; font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .wavebox-gallery__count { color: #78838e; font-size: .72rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .wavebox-gallery__count strong { color: inherit; font-size: .95rem; }
-.wavebox-gallery__label { display: block; padding: .15rem 1.35rem .45rem; }
+.wavebox-gallery__label { display: block; padding: 1rem 1.35rem .45rem; }
 .wavebox-gallery__select-wrap { position: relative; margin: 0 1.35rem 1rem; }
 .wavebox-gallery__select-wrap::after { content: "⌄"; position: absolute; top: 50%; right: 1rem; transform: translateY(-56%); pointer-events: none; font-size: 1.1rem; }
 .wavebox-gallery__select { width: 100%; min-height: 46px; padding: .65rem 2.7rem .65rem .85rem; border: 1px solid rgba(127,127,127,.32); border-radius: 9px; background: var(--global-bg-color, #fff); color: inherit; font: inherit; font-size: .84rem; appearance: none; cursor: pointer; }
@@ -121,7 +115,7 @@ Main features are:
 .wavebox-gallery__nav { display: flex; gap: .45rem; flex: 0 0 auto; }
 .wavebox-gallery__nav button { width: 38px; height: 38px; border: 1px solid rgba(127,127,127,.3); border-radius: 50%; background: transparent; color: inherit; font-size: 1rem; cursor: pointer; transition: transform .18s ease, background .18s ease; }
 .wavebox-gallery__nav button:hover { transform: translateY(-1px); background: rgba(127,127,127,.1); }
-@media (max-width: 600px) { .wavebox-gallery__header, .wavebox-gallery__footer { padding: 1rem; } .wavebox-gallery__label { padding-left: 1rem; } .wavebox-gallery__select-wrap { margin: 0 1rem 1rem; } .wavebox-gallery__stage { min-height: 210px; } }
+@media (max-width: 600px) { .wavebox-gallery__footer { padding: 1rem; } .wavebox-gallery__label { padding: .85rem 1rem .4rem; } .wavebox-gallery__select-wrap { margin: 0 1rem 1rem; } .wavebox-gallery__stage { min-height: 210px; } }
 @media (prefers-reduced-motion: reduce) { .wavebox-disclosure__summary, .wavebox-disclosure__icon, .wavebox-gallery__nav button { transition: none; } }
 </style>
 
@@ -132,10 +126,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var stage = document.getElementById('wavebox-stage');
   var caption = document.getElementById('wavebox-caption');
   var meta = document.getElementById('wavebox-meta');
-  var current = document.getElementById('wavebox-current');
   var disclosure = document.querySelector('.wavebox-disclosure');
   disclosure.open = false;
-  document.getElementById('wavebox-total').textContent = select.options.length;
 
   function showSimulation(index) {
     select.selectedIndex = (index + select.options.length) % select.options.length;
@@ -156,7 +148,6 @@ document.addEventListener('DOMContentLoaded', function () {
     stage.appendChild(media);
     caption.textContent = option.text;
     meta.textContent = option.dataset.degree;
-    current.textContent = String(select.selectedIndex + 1).padStart(2, '0');
   }
 
   select.addEventListener('change', function () { showSimulation(select.selectedIndex); });
@@ -170,6 +161,26 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+
+***
+
+<b> ManicoreFV - Discontinuous Galerkin code for conservation laws on surfaces </b>  <br>
+<i> Keywords. </i> Discontinuous Galerkin, Finite Volumes, Conservation Laws, Surface PDEs, Curved Meshes. <br>
+<i> Language. </i> C++, Python (visualization). <br>
+<i> Developers. </i> Marien Hanot & Sacha Cardonna.
+
+ManicoreFV is a C++ plaform for the numerical approximation of conservation laws on curved surfaces using Discontinuous Galerkin and finite-volume methods. It is a fork of [Manicore](https://mlhanot.github.io/Manicore/), the code developed by Marien Hanot for the implementation of numerical schemes on manifolds with general Riemannian metrics.
+
+Main features are:
+- Geometry-aware formulations based on the local charts, parametrizations and Riemannian metrics provided by the Manicore framework;
+- High-order Discontinuous Galerkin discretizations of scalar conservation laws on curved surfaces, from piecewise-constant to high-order polynomial approximations;
+- Explicit Runge--Kutta time integration with CFL-based time-step selection;
+- Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.
+
+<div style="display: flex; justify-content: space-between; gap: 7px;">
+      <img src="{{ site.baseurl }}/images/limDG.gif" alt="manicore Image 2" style="width: 55%; height: auto;">
+      <img src="{{ site.baseurl }}/images/slice_limDG.gif" alt="manicore Image 1" style="width: 43%; height: auto;">
+</div>
 
 ***
 
@@ -193,26 +204,6 @@ Main features are:
       <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 2" style="width: 32%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 1" style="width: 32%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree4.gif" alt="bfree Image 4" style="width: 32%; height: auto;">
-</div>
-
-***
-
-<b> ManicoreFV - Discontinuous Galerkin code for conservation laws on surfaces </b>  <br>
-<i> Keywords. </i> Discontinuous Galerkin, Finite Volumes, Conservation Laws, Surface PDEs, Curved Meshes. <br>
-<i> Language. </i> C++, Python (visualization). <br>
-<i> Developers. </i> Marien Hanot & Sacha Cardonna.
-
-ManicoreFV is a C++ plaform for the numerical approximation of conservation laws on curved surfaces using Discontinuous Galerkin and finite-volume methods. It is a fork of [Manicore](https://mlhanot.github.io/Manicore/), the code developed by Marien Hanot for the implementation of numerical schemes on manifolds with general Riemannian metrics.
-
-Main features are:
-- Geometry-aware formulations based on the local charts, parametrizations and Riemannian metrics provided by the Manicore framework;
-- High-order Discontinuous Galerkin discretizations of scalar conservation laws on curved surfaces, from piecewise-constant to high-order polynomial approximations;
-- Explicit Runge--Kutta time integration with CFL-based time-step selection;
-- Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.
-
-<div style="display: flex; justify-content: space-between; gap: 7px;">
-      <img src="{{ site.baseurl }}/images/limDG.gif" alt="manicore Image 2" style="width: 55%; height: auto;">
-      <img src="{{ site.baseurl }}/images/slice_limDG.gif" alt="manicore Image 1" style="width: 43%; height: auto;">
 </div>
 
 ***
