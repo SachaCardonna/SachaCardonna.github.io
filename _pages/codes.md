@@ -11,9 +11,10 @@ redirect_from:
 
 Read more about the scientific computing codes I made or participated in. 
 
+<section class="software-card">
 <h2 class="software-entry__title">WaveBox - Multi-models C++ numerical platform for water-waves equations</h2>
 <dl class="software-facts">
-  <div><dt>Fields</dt><dd>DG · HDG · Saint-Venant · Boussinesq · Green-Naghdi · FV subcells</dd></div>
+  <div><dt>Keywords</dt><dd>DG · HDG · Saint-Venant · Boussinesq · Green-Naghdi · FV subcells</dd></div>
   <div><dt>Stack</dt><dd>C++ · Python</dd></div>
   <div><dt>Team</dt><dd>Fabien Marche <span class="software-role">lead</span> · Sacha Cardonna · Arnaud Duran · Matthieu Rigal et al.</dd></div>
 </dl>
@@ -97,7 +98,7 @@ Main features are:
 .wavebox-disclosure__text strong { font-size: .8rem; font-weight: 600; letter-spacing: .035em; text-transform: uppercase; }
 .wavebox-disclosure__icon { flex: 0 0 auto; color: #899198; font-size: .78rem; letter-spacing: .16em; line-height: 1; transition: transform .2s ease; }
 .wavebox-disclosure[open] .wavebox-disclosure__icon { transform: rotate(90deg); }
-.wavebox-gallery { margin-top: .75rem; overflow: hidden; border: 1px solid rgba(127,127,127,.24); border-radius: 14px; background: rgba(127,127,127,.04); box-shadow: 0 12px 34px rgba(0,0,0,.07); }
+.wavebox-gallery { margin-top: .75rem; overflow: hidden; border: 1px solid rgba(127,127,127,.24); border-radius: 14px; background: var(--global-bg-color, #fff); box-shadow: 0 12px 34px rgba(0,0,0,.07); }
 .wavebox-gallery__footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.15rem 1.35rem; }
 .wavebox-gallery__label { margin: 0; color: #65717d; font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .wavebox-gallery__count { color: #78838e; font-size: .72rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -107,7 +108,7 @@ Main features are:
 .wavebox-gallery__select-wrap::after { content: "⌄"; position: absolute; top: 50%; right: 1rem; transform: translateY(-56%); pointer-events: none; font-size: 1.1rem; }
 .wavebox-gallery__select { width: 100%; min-height: 46px; padding: .65rem 2.7rem .65rem .85rem; border: 1px solid rgba(127,127,127,.32); border-radius: 9px; background: var(--global-bg-color, #fff); color: inherit; font: inherit; font-size: .84rem; appearance: none; cursor: pointer; }
 .wavebox-gallery__select:focus-visible, .wavebox-gallery__nav button:focus-visible { outline: 3px solid rgba(82,146,204,.35); outline-offset: 2px; }
-.wavebox-gallery__stage { display: grid; place-items: center; min-height: 300px; aspect-ratio: 16 / 9; background: #071019; overflow: hidden; }
+.wavebox-gallery__stage { display: grid; place-items: center; min-height: 300px; aspect-ratio: 16 / 9; background: var(--global-bg-color, #fff); overflow: hidden; }
 .wavebox-gallery__stage img, .wavebox-gallery__stage video { display: block; width: 100%; height: 100%; max-height: 580px; object-fit: contain; margin: 0; }
 .wavebox-gallery__caption { display: grid; gap: .2rem; min-width: 0; }
 .wavebox-gallery__caption span { color: #65717d; font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
@@ -159,12 +160,15 @@ document.addEventListener('DOMContentLoaded', function () {
       if (video) video.pause();
     }
   });
+  showSimulation(select.selectedIndex);
 });
 </script>
+</section>
 
+<section class="software-card">
 <h2 class="software-entry__title">ManicoreFV - Discontinuous Galerkin code for conservation laws on surfaces</h2>
 <dl class="software-facts">
-  <div><dt>Fields</dt><dd>Discontinuous Galerkin · Finite volumes · Conservation laws · Surface PDEs · Curved meshes</dd></div>
+  <div><dt>Keywords</dt><dd>Discontinuous Galerkin · Finite volumes · Conservation laws · Surface PDEs · Curved meshes</dd></div>
   <div><dt>Stack</dt><dd>C++ · Python</dd></div>
   <div><dt>Team</dt><dd>Marien Hanot · Sacha Cardonna</dd></div>
 </dl>
@@ -271,12 +275,15 @@ document.addEventListener('DOMContentLoaded', function () {
       if (video) video.pause();
     }
   });
+  showManicoreSimulation(select.selectedIndex);
 });
 </script>
+</section>
 
+<section class="software-card">
 <h2 class="software-entry__title">Bfree — Structure-preserving finite-volume solver for ideal magnetohydrodynamics</h2>
 <dl class="software-facts">
-  <div><dt>Fields</dt><dd>Magnetohydrodynamics · Divergence-free schemes · Finite volumes · Semi-implicit methods · ALE</dd></div>
+  <div><dt>Keywords</dt><dd>Magnetohydrodynamics · Divergence-free schemes · Finite volumes · Semi-implicit methods · ALE</dd></div>
   <div><dt>Stack</dt><dd>Fortran · Python</dd></div>
   <div><dt>Team</dt><dd>Walter Boscheri <span class="software-role">lead</span> · Mattia Lupi · Elena Bernardelli · Lidia Gude Vila · Sacha Cardonna</dd></div>
 </dl>
@@ -297,10 +304,12 @@ Main features are:
       <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 1" style="width: 32%; height: auto;">
       <img src="{{ site.baseurl }}/images/bfree3.gif" alt="bfree Image 4" style="width: 32%; height: auto;">
 </div>
+</section>
 
+<section class="software-card">
 <h2 class="software-entry__title">ShoreVPINN - Variational physics-informed neural solver for shallow-water flows</h2>
 <dl class="software-facts">
-  <div><dt>Fields</dt><dd>Variational PINNs · Saint-Venant equations · Wet-dry interfaces · Wave run-up</dd></div>
+  <div><dt>Keywords</dt><dd>Variational PINNs · Saint-Venant equations · Wet-dry interfaces · Wave run-up</dd></div>
   <div><dt>Stack</dt><dd>Python · PyTorch</dd></div>
   <div><dt>Team</dt><dd>Ali Haidar · Sacha Cardonna</dd></div>
 </dl>
@@ -320,10 +329,12 @@ Main features are:
       <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 48%; height: auto;">
       <img src="{{ site.baseurl }}/images/shorevpinn2.gif" alt="WaveBox Image 1" style="width: 48%; height: auto;">
 </div>
+</section>
 
+<section class="software-card">
 <h2 class="software-entry__title">DG4SCL - Compact and student friendly code for DG methods on 1D SCL</h2>
 <dl class="software-facts">
-  <div><dt>Fields</dt><dd>Discontinuous Galerkin · Scalar conservation laws</dd></div>
+  <div><dt>Keywords</dt><dd>Discontinuous Galerkin · Scalar conservation laws</dd></div>
   <div><dt>Stack</dt><dd>C++ · Python</dd></div>
   <div><dt>Developer</dt><dd>Sacha Cardonna</dd></div>
 </dl>
@@ -335,3 +346,4 @@ By expanding its functionality and making it more comprehensive, I aim to create
 Contact me to get the source.
 
 ![DG4SCL Simulation]({{ site.baseurl }}/images/dg_lcs.png)
+</section>

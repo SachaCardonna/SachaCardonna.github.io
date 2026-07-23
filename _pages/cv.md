@@ -163,7 +163,7 @@ redirect_from:
 </div>
 
 <style>
-.cv-page { --cv-line: rgba(127,127,127,.23); --cv-soft: rgba(127,127,127,.055); }
+.cv-page { --cv-line: var(--content-line); --cv-soft: rgba(127,127,127,.055); }
 .cv-intro { max-width: 760px; margin: .2rem 0 1.8rem; }
 .cv-kicker, .cv-date, .cv-card__label { margin: 0; color: var(--global-text-color-light); font-size: .66rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
 .cv-lead { margin: .35rem 0 1.1rem; font-size: .95rem; line-height: 1.65; }
