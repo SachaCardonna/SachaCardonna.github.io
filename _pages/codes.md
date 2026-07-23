@@ -19,15 +19,17 @@ Read more about the scientific computing codes I made or participated in.
   <div><dt>Team</dt><dd>Fabien Marche <span class="software-role">lead</span> · Sacha Cardonna · Arnaud Duran · Matthieu Rigal et al.</dd></div>
 </dl>
 
-WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG/FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). 
+<p>WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG/FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations).</p>
 
-Main features are: 
-- Sub-models CPU-GPU co-processing;
-- Arbitrary order of accuracy (h and p-adaptivity);
-- Robust treatment of the run-up and flooding processes (strict maximum-principle enforcement);
-- Well-balancing for motionless steady states;
-- Unstructured meshes subdivision and ALE motion;
-- Wave breaking treatment with dynamic switching strategy.
+<p class="software-features__title">Main features are:</p>
+<ul class="software-features">
+  <li>Sub-models CPU-GPU co-processing;</li>
+  <li>Arbitrary order of accuracy (h and p-adaptivity);</li>
+  <li>Robust treatment of the run-up and flooding processes (strict maximum-principle enforcement);</li>
+  <li>Well-balancing for motionless steady states;</li>
+  <li>Unstructured meshes subdivision and ALE motion;</li>
+  <li>Wave breaking treatment with dynamic switching strategy.</li>
+</ul>
 
 <div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/cropped_2.gif" alt="WaveBox Image 2" style="width: 55%; height: auto;">
@@ -173,13 +175,15 @@ document.addEventListener('DOMContentLoaded', function () {
   <div><dt>Team</dt><dd>Marien Hanot · Sacha Cardonna</dd></div>
 </dl>
 
-ManicoreFV is a C++ plaform for the numerical approximation of conservation laws on curved surfaces using Discontinuous Galerkin and finite-volume methods. It is a fork of [Manicore](https://mlhanot.github.io/Manicore/), the code developed by Marien Hanot for the implementation of numerical schemes on manifolds with general Riemannian metrics.
+<p>ManicoreFV is a C++ plaform for the numerical approximation of conservation laws on curved surfaces using Discontinuous Galerkin and finite-volume methods. It is a fork of <a href="https://mlhanot.github.io/Manicore/">Manicore</a>, the code developed by Marien Hanot for the implementation of numerical schemes on manifolds with general Riemannian metrics.</p>
 
-Main features are:
-- Geometry-aware formulations based on the local charts, parametrizations and Riemannian metrics provided by the Manicore framework;
-- High-order Discontinuous Galerkin discretizations of scalar conservation laws on curved surfaces, from piecewise-constant to high-order polynomial approximations;
-- Explicit Runge--Kutta time integration with CFL-based time-step selection;
-- Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.
+<p class="software-features__title">Main features are:</p>
+<ul class="software-features">
+  <li>Geometry-aware formulations based on the local charts, parametrizations and Riemannian metrics provided by the Manicore framework;</li>
+  <li>High-order Discontinuous Galerkin discretizations of scalar conservation laws on curved surfaces, from piecewise-constant to high-order polynomial approximations;</li>
+  <li>Explicit Runge--Kutta time integration with CFL-based time-step selection;</li>
+  <li>Bound-preserving limiting for discontinuous solutions while maintaining local cell averages and global mass conservation.</li>
+</ul>
 
 <div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/limDG.gif" alt="manicore Image 2" style="width: 55%; height: auto;">
@@ -288,16 +292,18 @@ document.addEventListener('DOMContentLoaded', function () {
   <div><dt>Team</dt><dd>Walter Boscheri <span class="software-role">lead</span> · Mattia Lupi · Elena Bernardelli · Lidia Gude Vila · Sacha Cardonna</dd></div>
 </dl>
 
-Bfree is a research-oriented numerical platform for the simulation of two-dimensional ideal magnetohydrodynamics and Euler–Heat flows. Its main purpose is to design structure-preserving finite-volume methods that maintain fundamental differential constraints at the discrete level: the divergence-free condition of the magnetic field for ideal MHD and the curl-free condition of the thermal impulse for the Euler–Heat model.
+<p>Bfree is a research-oriented numerical platform for the simulation of two-dimensional ideal magnetohydrodynamics and Euler–Heat flows. Its main purpose is to design structure-preserving finite-volume methods that maintain fundamental differential constraints at the discrete level: the divergence-free condition of the magnetic field for ideal MHD and the curl-free condition of the thermal impulse for the Euler–Heat model.</p>
 
-Main features are:
-- Divergence-free discretizations for the magnetic field in ideal MHD;
-- Curl-free discretizations for the thermal impulse in the Euler–Heat system;
-- Explicit Arbitrary Lagrangian–Eulerian (ALE) finite-volume schemes on moving meshes;
-- Semi-implicit finite-volume schemes for low Mach and low Alfvén number regimes;
-- Structure-preserving evolution of the discrete differential constraints;
-- First- and second-order accurate spatial discretizations;
-- Conservative monitoring of mass and total energy.
+<p class="software-features__title">Main features are:</p>
+<ul class="software-features">
+  <li>Divergence-free discretizations for the magnetic field in ideal MHD;</li>
+  <li>Curl-free discretizations for the thermal impulse in the Euler–Heat system;</li>
+  <li>Explicit Arbitrary Lagrangian–Eulerian (ALE) finite-volume schemes on moving meshes;</li>
+  <li>Semi-implicit finite-volume schemes for low Mach and low Alfvén number regimes;</li>
+  <li>Structure-preserving evolution of the discrete differential constraints;</li>
+  <li>First- and second-order accurate spatial discretizations;</li>
+  <li>Conservative monitoring of mass and total energy.</li>
+</ul>
 
 <div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 2" style="width: 32%; height: auto;">
@@ -314,16 +320,18 @@ Main features are:
   <div><dt>Team</dt><dd>Ali Haidar · Sacha Cardonna</dd></div>
 </dl>
 
-ShoreVPINN is a research-oriented Python code exploring Variational Physics-Informed Neural Networks (VPINNs) for the approximation of the one-dimensional nonlinear shallow-water, or Saint-Venant, equations. Instead of relying exclusively on pointwise evaluations of the governing equations, the physical residuals are integrated against local test functions over a spatial mesh. This weak formulation is particularly well suited to flows involving variable topography and moving wet-dry interfaces.
+<p>ShoreVPINN is a research-oriented Python code exploring Variational Physics-Informed Neural Networks (VPINNs) for the approximation of the one-dimensional nonlinear shallow-water, or Saint-Venant, equations. Instead of relying exclusively on pointwise evaluations of the governing equations, the physical residuals are integrated against local test functions over a spatial mesh. This weak formulation is particularly well suited to flows involving variable topography and moving wet-dry interfaces.</p>
 
-Main features are:
-- Variational enforcement of the mass and momentum equations using local finite-element test functions;
-- Exact preservation of the initial condition through a hard-constrained neural ansatz;
-- Positivity-preserving treatment of the water depth;
-- Robust formulation of the momentum flux near wet-dry interfaces;
-- Non-uniform spatial meshes with optional local refinement in the run-up region;
-- Gauss-Legendre quadrature and stochastic batching over time slices;
-- Automatic execution on CPU, CUDA GPUs and Apple Silicon GPUs.
+<p class="software-features__title">Main features are:</p>
+<ul class="software-features">
+  <li>Variational enforcement of the mass and momentum equations using local finite-element test functions;</li>
+  <li>Exact preservation of the initial condition through a hard-constrained neural ansatz;</li>
+  <li>Positivity-preserving treatment of the water depth;</li>
+  <li>Robust formulation of the momentum flux near wet-dry interfaces;</li>
+  <li>Non-uniform spatial meshes with optional local refinement in the run-up region;</li>
+  <li>Gauss-Legendre quadrature and stochastic batching over time slices;</li>
+  <li>Automatic execution on CPU, CUDA GPUs and Apple Silicon GPUs.</li>
+</ul>
 
 <div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 48%; height: auto;">
@@ -339,9 +347,9 @@ Main features are:
   <div><dt>Developer</dt><dd>Sacha Cardonna</dd></div>
 </dl>
 
-During the early stages of my internship with F. Vilar and F. Marche, I embarked on the development of a compact C++ code focused on addressing Discontinuous Galerkin (DG) schemes for 1D conservation laws. 
-This code is a work in progress, far from being complete or flawless. Its creation was driven by my commitment to simplicity and understandability. I strived to ensure that the code's structure and implementation were as straightforward as possible, enabling users to grasp the underlying concepts with ease.
-By expanding its functionality and making it more comprehensive, I aim to create a valuable resource for students seeking a simplified example of DG schemes. This endeavor stems from my own experiences as a student, where access to such a resource would have greatly facilitated my understanding and learning process.<br>
-Contact me to get the source.
+<p>During the early stages of my internship with F. Vilar and F. Marche, I embarked on the development of a compact C++ code focused on addressing Discontinuous Galerkin (DG) schemes for 1D conservation laws.</p>
+<p>This code is a work in progress, far from being complete or flawless. Its creation was driven by my commitment to simplicity and understandability. I strived to ensure that the code's structure and implementation were as straightforward as possible, enabling users to grasp the underlying concepts with ease.</p>
+<p>By expanding its functionality and making it more comprehensive, I aim to create a valuable resource for students seeking a simplified example of DG schemes. This endeavor stems from my own experiences as a student, where access to such a resource would have greatly facilitated my understanding and learning process.</p>
+<p>Contact me to get the source.</p>
 
 </section>

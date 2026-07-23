@@ -368,6 +368,27 @@ details.content-disclosure > :last-child { margin-bottom: 1rem; }
   text-transform: uppercase;
 }
 
+.software-features__title {
+  margin-bottom: 0.35rem;
+  font-weight: 650;
+}
+
+.software-features {
+  margin-top: 0;
+  margin-bottom: 1.15rem;
+  padding-left: 1.25rem;
+}
+
+.software-features li {
+  margin-bottom: 0.28rem;
+  padding-left: 0.15rem;
+  line-height: 1.55;
+}
+
+.software-features li::marker {
+  color: var(--global-link-color);
+}
+
 @media (max-width: 700px) {
   .editorial-grid { grid-template-columns: 1fr; }
   .media-strip { flex-wrap: wrap; }
