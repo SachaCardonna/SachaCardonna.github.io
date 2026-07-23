@@ -12,6 +12,27 @@
 <meta name="theme-color" content="#ffffff"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<!-- Rotate the site's accent color on each full page load. -->
+<script>
+  (function () {
+    var accents = ['red', 'blue', 'violet'];
+    var previous = null;
+    try { previous = sessionStorage.getItem('previous-accent'); } catch (error) {}
+    var choices = accents.filter(function (accent) { return accent !== previous; });
+    var randomIndex;
+    if (window.crypto && window.crypto.getRandomValues) {
+      var randomValue = new Uint32Array(1);
+      window.crypto.getRandomValues(randomValue);
+      randomIndex = randomValue[0] % choices.length;
+    } else {
+      randomIndex = Math.floor(Math.random() * choices.length);
+    }
+    var accent = choices[randomIndex];
+    document.documentElement.setAttribute('data-accent', accent);
+    try { sessionStorage.setItem('previous-accent', accent); } catch (error) {}
+  }());
+</script>
+
 <!-- Support for MathJax with inline math enabled -->
 <script>
   window.MathJax = {

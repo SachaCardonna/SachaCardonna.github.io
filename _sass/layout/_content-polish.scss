@@ -2,10 +2,52 @@
    Shared editorial components
    ========================================================================== */
 
+/* One accent per page load; normal and visited links always stay identical. */
+html[data-accent="red"] {
+  --global-link-color: #980000;
+  --global-link-color-hover: #980000;
+  --global-link-color-visited: #980000;
+}
+
+html[data-accent="blue"] {
+  --global-link-color: #1f4fbf;
+  --global-link-color-hover: #1f4fbf;
+  --global-link-color-visited: #1f4fbf;
+}
+
+html[data-accent="violet"] {
+  --global-link-color: #6f2da8;
+  --global-link-color-hover: #6f2da8;
+  --global-link-color-visited: #6f2da8;
+}
+
+html[data-theme="dark"][data-accent="red"] {
+  --global-link-color: #ff6b6b;
+  --global-link-color-hover: #ff6b6b;
+  --global-link-color-visited: #ff6b6b;
+}
+
+html[data-theme="dark"][data-accent="blue"] {
+  --global-link-color: #6f91ff;
+  --global-link-color-hover: #6f91ff;
+  --global-link-color-visited: #6f91ff;
+}
+
+html[data-theme="dark"][data-accent="violet"] {
+  --global-link-color: #c084fc;
+  --global-link-color-hover: #c084fc;
+  --global-link-color-visited: #c084fc;
+}
+
 .archive {
   --content-line: rgba(127, 127, 127, 0.23);
   --content-soft: rgba(127, 127, 127, 0.055);
   --content-muted: var(--global-text-color-light);
+}
+
+.archive a:link,
+.archive a:visited {
+  color: var(--global-link-color);
 }
 
 .archive > p:first-of-type {
