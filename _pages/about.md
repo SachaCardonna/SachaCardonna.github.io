@@ -22,22 +22,22 @@ I enjoy working across the entire process: from studying, selecting and/or deriv
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="timeline-content"><h3>Modeling</h3>
-    <p>Conservation laws, nonlinear hyperbolic systems, dispersive and elliptic equations, coupled and multiphysics models, free-surface flows, moving domains and fluid–structure coupling.</p></div>
+    <p>Conservation laws, nonlinear hyperbolic systems, dispersive and elliptic equations, coupled and multiphysics models, free-surface flows, moving domains and fluid–structure coupling...</p></div>
   </article>
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="timeline-content"><h3>Numerical analysis</h3>
-    <p>High-order finite element and discontinuous Galerkin methods, subcell schemes, hybrid high-order discretizations, well-balanced, entropy-preserving and structure-preserving methods, Arbitrary Lagrangian–Eulerian approaches, methods on manifolds and variational physics-informed neural methods.</p></div>
+    <p>High-order finite element and discontinuous Galerkin methods, subcell schemes, hybrid high-order discretizations, well-balanced, entropy-preserving and structure-preserving methods, Arbitrary Lagrangian–Eulerian approaches, methods on manifolds and variational physics-informed neural methods...</p></div>
   </article>
-  <article>
+  <article> 
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="timeline-content"><h3>Scientific computing</h3>
-    <p>Object-oriented and generic programming, CPU–GPU co-processing and parallel computing.</p></div>
+    <p>Object-oriented and generic programming, CPU–GPU co-processing and parallel computing...</p></div>
   </article>
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="timeline-content"><h3>Applications</h3>
-    <p>Fluid mechanics, water waves and wave–structure interactions, ideal magnetohydrodynamics, Euler–Heat flows and conservation laws on surfaces.</p></div>
+    <p>Fluid mechanics, water waves and wave–structure interactions, ideal magnetohydrodynamics, Euler–Heat flows and conservation laws on surfaces...</p></div>
   </article>
 </div>
 
