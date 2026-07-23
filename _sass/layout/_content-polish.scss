@@ -58,22 +58,20 @@
 .resource-links a {
   display: inline-flex;
   align-items: center;
-  min-height: 34px;
-  padding: 0.34rem 0.72rem;
-  border: 1px solid var(--content-line);
+  min-height: 38px;
+  padding: 0.42rem 0.82rem;
+  border: 1px solid var(--global-link-color);
   border-radius: 999px;
-  color: var(--global-text-color) !important;
-  font-size: 0.68rem;
+  color: var(--global-link-color) !important;
+  font-size: 0.72rem;
   font-weight: 600;
-  line-height: 1;
   text-decoration: none !important;
-  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+  transition: transform 0.18s ease, background 0.18s ease;
 }
 
 .resource-button:hover,
 .resource-links a:hover {
   transform: translateY(-1px);
-  border-color: var(--content-muted);
   background: var(--content-soft);
 }
 
@@ -157,40 +155,47 @@ details.content-disclosure > :last-child { margin-bottom: 1rem; }
   gap: 0.8rem;
 }
 
-.research-timeline {
+.dot-timeline {
   position: relative;
   display: grid;
-  margin: 1.35rem 0 0 0.3rem;
-  padding-left: 1.45rem;
 }
 
-.research-timeline::before {
+.dot-timeline::before {
   content: "";
   position: absolute;
-  top: 0.35rem;
-  bottom: 0.35rem;
-  left: 3px;
+  top: 0.34rem;
+  bottom: 0.34rem;
+  left: 4px;
   width: 1px;
-  background: var(--content-line);
+  background-color: rgba(127, 127, 127, 0.55);
 }
 
-.research-timeline article {
+.dot-timeline article {
   position: relative;
-  padding: 0 0 1.15rem 0.55rem;
+  display: grid;
+  grid-template-columns: 9px minmax(0, 1fr);
+  gap: 1rem;
 }
 
-.research-timeline article:last-child { padding-bottom: 0; }
-
-.research-timeline article::before {
-  content: "";
-  position: absolute;
-  top: 0.31rem;
-  left: -1.41rem;
+.dot-timeline .timeline-dot {
+  position: relative;
+  z-index: 1;
   width: 7px;
   height: 7px;
+  margin: 0.29rem 0 0 1px;
   border-radius: 50%;
   background: #c30505;
 }
+
+.research-timeline {
+  margin: 1.35rem 0 0 0.3rem;
+}
+
+.research-timeline article {
+  padding-bottom: 1.15rem;
+}
+
+.research-timeline article:last-child { padding-bottom: 0; }
 
 .research-timeline h3 {
   margin: 0 0 0.25rem;

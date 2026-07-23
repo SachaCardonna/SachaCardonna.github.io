@@ -85,15 +85,17 @@ details[open] .pub-badge .arrow {
   .pub-links a {
     display: inline-flex;
     align-items: center;
-    min-height: 32px;
-    padding: .3rem .68rem;
-    border: 1px solid var(--content-line);
+    min-height: 38px;
+    padding: .42rem .82rem;
+    border: 1px solid var(--global-link-color);
     border-radius: 999px;
-    color: var(--global-text-color);
-    font-size: .68rem;
+    color: var(--global-link-color);
+    font-size: .72rem;
     font-weight: 600;
     text-decoration: none;
+    transition: transform .18s ease, background .18s ease;
   }
+  .pub-links a:hover { transform: translateY(-1px); background: var(--content-soft); }
 
   .pub-grid-2 {
     margin-top: 0.7em;

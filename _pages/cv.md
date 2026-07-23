@@ -42,26 +42,38 @@ redirect_from:
       <span>02</span>
       <h2>Education</h2>
     </div>
-    <div class="cv-timeline">
+    <div class="dot-timeline cv-timeline">
       <article>
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content">
         <p class="cv-date">2021 — 2023</p>
         <h3>M.Sc. in Theoretical and Numerical Analysis of PDEs</h3>
         <p>University of Montpellier · Highest honours · Valedictorian</p>
+        </div>
       </article>
       <article>
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content">
         <p class="cv-date">2020 — 2021</p>
         <h3>M.Sc. in Fundamental Mathematics</h3>
         <p>University of Montpellier</p>
+        </div>
       </article>
       <article>
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content">
         <p class="cv-date">2019 — 2020</p>
         <h3>B.Sc. in Pure and Applied Mathematics</h3>
         <p>University of Montpellier · First-class honours</p>
+        </div>
       </article>
       <article>
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content">
         <p class="cv-date">2017 — 2019</p>
         <h3>Associate degree in Mathematics &amp; Physics</h3>
         <p>University of Montpellier · First-class honours · Consistently ranked in the top 10%</p>
+        </div>
       </article>
     </div>
   </section>
@@ -156,7 +168,7 @@ redirect_from:
 .cv-kicker, .cv-date, .cv-card__label { margin: 0; color: var(--global-text-color-light); font-size: .66rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
 .cv-lead { margin: .35rem 0 1.1rem; font-size: .95rem; line-height: 1.65; }
 .cv-actions { display: flex; flex-wrap: wrap; gap: .55rem; }
-.cv-action { display: inline-flex; align-items: center; min-height: 38px; padding: .42rem .82rem; border: 1px solid var(--cv-line); border-radius: 999px; color: var(--global-text-color) !important; font-size: .72rem; font-weight: 600; text-decoration: none !important; transition: transform .18s ease, background .18s ease; }
+.cv-action { display: inline-flex; align-items: center; min-height: 38px; padding: .42rem .82rem; border: 1px solid var(--global-link-color); border-radius: 999px; color: var(--global-link-color) !important; font-size: .72rem; font-weight: 600; text-decoration: none !important; transition: transform .18s ease, background .18s ease; }
 .cv-action:hover { transform: translateY(-1px); background: var(--cv-soft); }
 .cv-action--primary { border-color: var(--global-link-color); color: var(--global-link-color) !important; }
 .cv-highlights { display: grid; grid-template-columns: repeat(4,1fr); margin: 1.8rem 0 2.7rem; border-top: 1px solid var(--cv-line); border-bottom: 1px solid var(--cv-line); }
@@ -176,11 +188,9 @@ redirect_from:
 .cv-current__meta { padding-left: 1.3rem; border-left: 1px solid var(--cv-line); }
 .cv-current__meta p { margin: 0 0 .6rem; }
 .cv-current__meta p:last-child { margin-bottom: 0; }
-.cv-timeline { position: relative; display: grid; margin-left: .3rem; padding-left: 1.45rem; }
-.cv-timeline::before { content: ""; position: absolute; top: .35rem; bottom: .35rem; left: 3px; width: 1px; background: var(--cv-line); }
-.cv-timeline article { position: relative; padding: 0 0 1.15rem .55rem; }
+.cv-timeline { margin-left: .3rem; }
+.cv-timeline article { padding-bottom: 1.15rem; }
 .cv-timeline article:last-child { padding-bottom: 0; }
-.cv-timeline article::before { content: ""; position: absolute; top: .31rem; left: -1.41rem; width: 7px; height: 7px; border-radius: 50%; background: #c30505; }
 .cv-timeline p { margin: .12rem 0 0; color: var(--global-text-color-light); }
 .cv-grid { display: grid; gap: .75rem; }
 .cv-grid--two { grid-template-columns: repeat(2,1fr); }

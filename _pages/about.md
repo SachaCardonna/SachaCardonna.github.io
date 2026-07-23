@@ -18,22 +18,26 @@ I’m French and a Canadian permanent resident. Outside of work, you’ll usuall
 My research lies at the intersection of modeling and numerical analysis of partial differential equations, with a strong focus on general fluid mechanics. I am particularly interested in the design of approximation methods that are  high-order accurate, efficient and genuinely bulletproof in demanding nonlinear regimes, complex geometries and constrained physical settings. <br>
 I enjoy working across the entire process: from studying, selecting and/or deriving an appropriate model through its mathematical and numerical analysis, to the implementation of efficient, robust and operational simulation software (see some simulations [here]({{ site.baseurl }}/codes/)).
 
-<div class="research-timeline">
+<div class="dot-timeline research-timeline">
   <article>
-    <h3>Modeling</h3>
-    <p>Conservation laws, nonlinear hyperbolic systems, dispersive and elliptic equations, coupled and multiphysics models, free-surface flows, moving domains and fluid–structure coupling.</p>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="timeline-content"><h3>Modeling</h3>
+    <p>Conservation laws, nonlinear hyperbolic systems, dispersive and elliptic equations, coupled and multiphysics models, free-surface flows, moving domains and fluid–structure coupling.</p></div>
   </article>
   <article>
-    <h3>Numerical analysis</h3>
-    <p>High-order finite element and discontinuous Galerkin methods, subcell schemes, hybrid high-order discretizations, well-balanced, entropy-preserving and structure-preserving methods, Arbitrary Lagrangian–Eulerian approaches, methods on manifolds and variational physics-informed neural methods.</p>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="timeline-content"><h3>Numerical analysis</h3>
+    <p>High-order finite element and discontinuous Galerkin methods, subcell schemes, hybrid high-order discretizations, well-balanced, entropy-preserving and structure-preserving methods, Arbitrary Lagrangian–Eulerian approaches, methods on manifolds and variational physics-informed neural methods.</p></div>
   </article>
   <article>
-    <h3>Scientific computing</h3>
-    <p>Object-oriented and generic programming, CPU–GPU co-processing and parallel computing.</p>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="timeline-content"><h3>Scientific computing</h3>
+    <p>Object-oriented and generic programming, CPU–GPU co-processing and parallel computing.</p></div>
   </article>
   <article>
-    <h3>Applications</h3>
-    <p>Fluid mechanics, water waves and wave–structure interactions, ideal magnetohydrodynamics, Euler–Heat flows and conservation laws on surfaces.</p>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="timeline-content"><h3>Applications</h3>
+    <p>Fluid mechanics, water waves and wave–structure interactions, ideal magnetohydrodynamics, Euler–Heat flows and conservation laws on surfaces.</p></div>
   </article>
 </div>
 
