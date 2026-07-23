@@ -293,9 +293,9 @@ Main features are:
 - Conservative monitoring of mass and total energy.
 
 <div class="media-strip" style="justify-content: space-between;">
-      <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 2" style="width: 32%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 1" style="width: 32%; height: auto;">
-      <img src="{{ site.baseurl }}/images/bfree4.gif" alt="bfree Image 4" style="width: 32%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree2.gif" alt="bfree Image 2" style="width: 32%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree1.gif" alt="bfree Image 1" style="width: 32%; height: auto;">
+      <img src="{{ site.baseurl }}/images/bfree3.gif" alt="bfree Image 4" style="width: 32%; height: auto;">
 </div>
 
 <h2 class="software-entry__title">ShoreVPINN - Variational physics-informed neural solver for shallow-water flows</h2>
