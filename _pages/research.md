@@ -122,8 +122,33 @@ details[open] .pub-badge .arrow {
 
 
   .pub-abstract {
-    margin-top: 0.55em;
-    line-height: 1.35;
+    max-width: 82ch;
+    margin-top: 0.85rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--content-line);
+    color: var(--global-text-color-light);
+    font-size: 0.72rem;
+    line-height: 1.68;
+    text-wrap: pretty;
+    hyphens: auto;
+  }
+  .pub-abstract::before {
+    content: "Abstract";
+    display: block;
+    margin-bottom: 0.42rem;
+    color: var(--global-link-color);
+    font-size: 0.61rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .pub-abstract br {
+    display: block;
+    content: "";
+    margin-top: 0.72rem;
+  }
+  @media (max-width: 600px) {
+    .pub-abstract { font-size: 0.74rem; line-height: 1.62; }
   }
 </style>
 
@@ -202,6 +227,7 @@ details[open] .pub-badge .arrow {
   <div class="pub-abstract">
 In this work, we propose a new high-order numerical method for the two-dimensional nonlinear shallow-water (NSW) equations on unstructured meshes. The approach is based on the subcell monolithic DG/FV method, recently introduced in [Vilar:2025], in which higher-order Discontinuous Galerkin (DG) schemes are blended, at the subcell scale, with lowest-order robust Finite Volume (FV) methods. This is made possible through the reformulation of high-order DG schemes as a FV-like schemes defined on a subgrid, through the introduction of some particular fluxes referred to as reconstructed fluxes.<br>
 The strategy then relies on the introduction of blended numerical fluxes, defined as convex combinations of reconstructed high-order DG fluxes and robust first-order FV ones. The blending coefficients are locally computed at each subcell interface in order to enforce unavoidable nonlinear stability properties. This allows the scheme to remain stable in the presence of strong gradients, shocks, and wet-dry fronts, while still keeping high-order accuracy in smooth regions.
+<br>
 A particular attention is paid to the discrete formulation associated with the bathymetry source term. The scheme is designed to be well-balanced for motionless steady-states, thanks to some fine tuning of local hydrostatic-like reconstructions, respectively applied at two different scales and on two different kinds of approximations: i) at the level of DG fluxes between elements, focusing on suitable reconstructions of high-order polynomial traces, ii) at the level of FV fluxes between subcells, focusing on the reconstruction of subcell piecewise-constant values. This innovative two-levels reconstruction ensures that motionless steady states are not only exactly preserved on fully unstructured meshes, but also down to the subcell scale. <br>
 This new numerical method relies on a fully a priori treatment, and does not require any a posteriori re-computing and adapting steps, while remaining conservative by construction. Several numerical experiments illustrate its ability to accurately capture multidimensional wet-dry interfaces, to control spurious oscillations near classical discontinuities, and accurately resolve localized flow-features inside relatively large mesh elements.
   </div>

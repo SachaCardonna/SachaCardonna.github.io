@@ -12,11 +12,11 @@ redirect_from:
 Read more about the scientific computing codes I made or participated in. 
 
 <h2 class="software-entry__title">WaveBox - Multi-models C++ numerical platform for water-waves equations</h2>
-<div class="software-entry__meta">
-<i> Keywords. </i> DG, HDG, Saint-Venant, Boussinesq, Green-Naghdi, Finite-Volume subcells methods. <br>
-<i> Language. </i> C++, Python (visualization).<br>
-<i> Developers. </i> Fabien Marche (lead), Sacha Cardonna, Arnaud Duran, Matthieu Rigal et al.
-</div>
+<dl class="software-facts">
+  <div><dt>Fields</dt><dd>DG · HDG · Saint-Venant · Boussinesq · Green-Naghdi · FV subcells</dd></div>
+  <div><dt>Stack</dt><dd>C++ · Python</dd></div>
+  <div><dt>Team</dt><dd>Fabien Marche <span class="software-role">lead</span> · Sacha Cardonna · Arnaud Duran · Matthieu Rigal et al.</dd></div>
+</dl>
 
 WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG/FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations). 
 
@@ -163,11 +163,11 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <h2 class="software-entry__title">ManicoreFV - Discontinuous Galerkin code for conservation laws on surfaces</h2>
-<div class="software-entry__meta">
-<i> Keywords. </i> Discontinuous Galerkin, Finite Volumes, Conservation Laws, Surface PDEs, Curved Meshes. <br>
-<i> Language. </i> C++, Python (visualization). <br>
-<i> Developers. </i> Marien Hanot & Sacha Cardonna.
-</div>
+<dl class="software-facts">
+  <div><dt>Fields</dt><dd>Discontinuous Galerkin · Finite volumes · Conservation laws · Surface PDEs · Curved meshes</dd></div>
+  <div><dt>Stack</dt><dd>C++ · Python</dd></div>
+  <div><dt>Team</dt><dd>Marien Hanot · Sacha Cardonna</dd></div>
+</dl>
 
 ManicoreFV is a C++ plaform for the numerical approximation of conservation laws on curved surfaces using Discontinuous Galerkin and finite-volume methods. It is a fork of [Manicore](https://mlhanot.github.io/Manicore/), the code developed by Marien Hanot for the implementation of numerical schemes on manifolds with general Riemannian metrics.
 
@@ -275,11 +275,11 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <h2 class="software-entry__title">Bfree — Structure-preserving finite-volume solver for ideal magnetohydrodynamics</h2>
-<div class="software-entry__meta">
-<i> Keywords. </i> Magnetohydrodynamics, Divergence-free schemes, Finite Volumes, Semi-implicit methods, ALE mesh motion. <br>
-<i> Language. </i> Fortran, Python (visualization). <br>
-<i> Developers. </i> Walter Boscheri (lead), Mattia Lupi, Elena Bernardelli, Lidia Gude Vila & Sacha Cardonna.
-</div>
+<dl class="software-facts">
+  <div><dt>Fields</dt><dd>Magnetohydrodynamics · Divergence-free schemes · Finite volumes · Semi-implicit methods · ALE</dd></div>
+  <div><dt>Stack</dt><dd>Fortran · Python</dd></div>
+  <div><dt>Team</dt><dd>Walter Boscheri <span class="software-role">lead</span> · Mattia Lupi · Elena Bernardelli · Lidia Gude Vila · Sacha Cardonna</dd></div>
+</dl>
 
 Bfree is a research-oriented numerical platform for the simulation of two-dimensional ideal magnetohydrodynamics and Euler–Heat flows. Its main purpose is to design structure-preserving finite-volume methods that maintain fundamental differential constraints at the discrete level: the divergence-free condition of the magnetic field for ideal MHD and the curl-free condition of the thermal impulse for the Euler–Heat model.
 
@@ -299,11 +299,11 @@ Main features are:
 </div>
 
 <h2 class="software-entry__title">ShoreVPINN - Variational physics-informed neural solver for shallow-water flows</h2>
-<div class="software-entry__meta">
-<i> Keywords. </i> Variational Physics-Informed Neural Networks, Saint-Venant equations, wet-dry interfaces, wave run-up, machine learning. <br>
-<i> Language. </i> Python (PyTorch). <br>
-<i> Developers. </i> Ali Haidar & Sacha Cardonna.
-</div>
+<dl class="software-facts">
+  <div><dt>Fields</dt><dd>Variational PINNs · Saint-Venant equations · Wet-dry interfaces · Wave run-up</dd></div>
+  <div><dt>Stack</dt><dd>Python · PyTorch</dd></div>
+  <div><dt>Team</dt><dd>Ali Haidar · Sacha Cardonna</dd></div>
+</dl>
 
 ShoreVPINN is a research-oriented Python code exploring Variational Physics-Informed Neural Networks (VPINNs) for the approximation of the one-dimensional nonlinear shallow-water, or Saint-Venant, equations. Instead of relying exclusively on pointwise evaluations of the governing equations, the physical residuals are integrated against local test functions over a spatial mesh. This weak formulation is particularly well suited to flows involving variable topography and moving wet-dry interfaces.
 
@@ -322,11 +322,11 @@ Main features are:
 </div>
 
 <h2 class="software-entry__title">DG4SCL - Compact and student friendly code for DG methods on 1D SCL</h2>
-<div class="software-entry__meta">
-<i> Keywords. </i> Discontinuous Galerkin, Scalar Conservation Laws. <br>
-<i> Language. </i> C++, Python (visualization).<br>
-<i> Developers. </i> Sacha Cardonna.
-</div>
+<dl class="software-facts">
+  <div><dt>Fields</dt><dd>Discontinuous Galerkin · Scalar conservation laws</dd></div>
+  <div><dt>Stack</dt><dd>C++ · Python</dd></div>
+  <div><dt>Developer</dt><dd>Sacha Cardonna</dd></div>
+</dl>
 
 During the early stages of my internship with F. Vilar and F. Marche, I embarked on the development of a compact C++ code focused on addressing Discontinuous Galerkin (DG) schemes for 1D conservation laws. 
 This code is a work in progress, far from being complete or flawless. Its creation was driven by my commitment to simplicity and understandability. I strived to ensure that the code's structure and implementation were as straightforward as possible, enabling users to grasp the underlying concepts with ease.

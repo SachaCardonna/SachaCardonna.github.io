@@ -198,6 +198,7 @@ details.content-disclosure > :last-child { margin-bottom: 1rem; }
 }
 
 .dot-timeline {
+  --timeline-dot-color: var(--global-link-color);
   position: relative;
   display: grid;
 }
@@ -226,7 +227,7 @@ details.content-disclosure > :last-child { margin-bottom: 1rem; }
   height: 7px;
   margin: 0.29rem 0 0 1px;
   border-radius: 50%;
-  background: #c30505;
+  background: var(--timeline-dot-color);
 }
 
 .research-timeline {
@@ -318,17 +319,60 @@ details.content-disclosure > :last-child { margin-bottom: 1rem; }
 
 .archive > p:first-of-type + .software-entry__title { margin-top: 0; }
 
-.software-entry__meta {
-  margin-bottom: 1rem;
+.software-facts {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(110px, 0.55fr) minmax(0, 1.2fr);
+  margin: 0 0 1.25rem;
+  overflow: hidden;
+  border-top: 2px solid var(--global-link-color);
+  border-bottom: 1px solid var(--content-line);
+}
+
+.software-facts > div {
+  min-width: 0;
+  padding: 0.75rem 0.85rem;
+  border-right: 1px solid var(--content-line);
+}
+
+.software-facts > div:first-child { padding-left: 0; }
+.software-facts > div:last-child { border-right: 0; }
+
+.software-facts dt {
+  margin: 0 0 0.22rem;
+  color: var(--global-link-color);
+  font-size: 0.62rem;
+  font-weight: 750;
+  letter-spacing: 0.095em;
+  text-transform: uppercase;
+}
+
+.software-facts dd {
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.software-role {
+  display: inline-block;
+  margin-left: 0.12rem;
+  padding: 0.04rem 0.28rem;
+  border: 1px solid var(--content-line);
+  border-radius: 999px;
   color: var(--content-muted);
-  font-size: 0.72rem;
-  line-height: 1.55;
+  font-size: 0.56rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 @media (max-width: 700px) {
   .editorial-grid { grid-template-columns: 1fr; }
   .media-strip { flex-wrap: wrap; }
   .news-scroll tr { grid-template-columns: 64px 1fr; }
+  .software-facts { grid-template-columns: 1fr; }
+  .software-facts > div { padding: 0.7rem 0; border-right: 0; border-bottom: 1px solid var(--content-line); }
+  .software-facts > div:last-child { border-bottom: 0; }
 }
 
 @media (max-width: 480px) {
