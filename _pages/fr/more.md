@@ -127,7 +127,7 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
   <div class="film-card">
     <img src="/images/films/lost.jpg" alt="Lost in Translation - Sofia Coppola (2003)">
     <div class="film-overlay">
-      <strong>Perdu dans la traduction (2003)</strong><br> 
+      <strong>Lost in Translation (2003)</strong><br>
       <i>Sofia Coppola</i><br>
      Quand tu es perdu.
     </div>
@@ -143,7 +143,7 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
       <div class="film-card">
     <img src="/images/films/before.jpg" alt="before">
     <div class="film-overlay">
-      <strong>Avant le coucher du soleil (2005)</strong><br>
+      <strong>Before Sunset (2005)</strong><br>
        <i>Richard Linklater</i><br>
      Quand tu as raté une opportunité.
     </div>
@@ -151,7 +151,7 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
     <div class="film-card">
     <img src="/images/films/rocky.jpg" alt="Rocky - John G. Avildsen(1976)">
     <div class="film-overlay">
-      <strong>Rocheux (1976)</strong><br>
+      <strong>Rocky (1976)</strong><br>
        <i>John G. Avildsen</i><br>
      Quand tu sens que tu n'es pas assez.
     </div>
@@ -167,7 +167,7 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
   <div class="film-card">
     <img src="/images/films/once.jpg" alt="Once Upon a Time in America - Sergio Leone (1984)">
     <div class="film-overlay">
-      <strong>Il était une fois en Amérique (1984)</strong><br>
+      <strong>Once Upon a Time in America (1984)</strong><br>
       <i>Sérgio Léone</i><br>
       Quand le temps s'est envolé.
     </div>
@@ -181,7 +181,7 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
   <div class="film-card">
     <img src="/images/music/heaven_or_las_vegas.jpg" alt="Heaven or Las Vegas - Cocteau Twins (1990)">
     <div class="film-overlay">
-      <strong>Le paradis ou Las Vegas (1990)</strong><br>
+      <strong>Heaven or Las Vegas (1990)</strong><br>
       <i>Jumeaux Cocteau</i><br>
       Dream pop et vague éthérée
     </div>
@@ -197,7 +197,7 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
     <div class="film-card">
     <img src="/images/music/lost_in_the_dream.jpg" alt="Lost in the Dream - The War on Drugs (2014)">
     <div class="film-overlay">
-      <strong>Perdu dans le rêve (2014)</strong><br>
+      <strong>Lost in the Dream (2014)</strong><br>
       <i>La guerre contre la drogue</i><br>
       Rock indé et psychédélique
     </div>
@@ -213,7 +213,7 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
   <div class="film-card">
     <img src="/images/music/the_crane_wife.jpg" alt="The Crane Wife - The Decemberists (2004)">
     <div class="film-overlay">
-      <strong>La femme grue (2004)</strong><br>
+      <strong>The Crane Wife (2004)</strong><br>
       <i>Les décembreistes</i><br>
       Folk & Américain
     </div>
@@ -221,7 +221,7 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
     <div class="film-card">
     <img src="/images/music/hurry_up.jpg" alt="Hurry Up, We're Dreaming">
     <div class="film-overlay">
-      <strong>Dépêchez-vous, nous rêvons (2011)</strong><br>
+      <strong>Hurry Up, We're Dreaming (2011)</strong><br>
       <i>M83</i><br>
       Electronique & Nouvelle vague
     </div>
@@ -297,7 +297,7 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
   <div class="film-card">
     <img src="/images/games/last_of_us.jpg" alt="Ellie">
     <div class="film-overlay">
-      <strong>Le dernier d'entre nous : partie 2</strong><br>
+      <strong>The Last of Us: Part 2</strong><br>
       <i>Chien méchant</i><br>
       Vengeance
     </div>
@@ -305,7 +305,7 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
   <div class="film-card">
     <img src="/images/games/ocarina.jpg" alt="Ocarina">
     <div class="film-overlay">
-      <strong>La Légende de Zelda : Ocarina of Time</strong><br>
+      <strong>The Legend of Zelda: Ocarina of Time</strong><br>
       <i>Nintendo</i><br>
       Quêtes
     </div>
@@ -313,7 +313,7 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
     <div class="film-card">
     <img src="/images/games/mgs.jpg" alt="Voltaire">
     <div class="film-overlay">
-      <strong>Metal Gear Solid 4 : Les armes des patriotes</strong><br>
+      <strong>Metal Gear Solid 4: Guns of the Patriots</strong><br>
       <i>Konami</i><br>
       Sauvetage
     </div>
@@ -321,7 +321,7 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
    <div class="film-card">
     <img src="/images/games/detroit.jpg" alt="Detroit">
     <div class="film-overlay">
-      <strong>Détroit : devenez humain</strong><br>
+      <strong>Detroit: Become Human</strong><br>
       <i>Rêve quantique</i><br>
       Choisir
     </div>
@@ -329,7 +329,7 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
   <div class="film-card">
     <img src="/images/games/outer.jpg.avif" alt="Outer">
     <div class="film-overlay">
-      <strong>Terres sauvages extérieures</strong><br>
+      <strong>Outer Wilds</strong><br>
       <i>Möbius Digital</i><br>
       Acceptant
     </div>

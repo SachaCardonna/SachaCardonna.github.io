@@ -124,7 +124,9 @@ details[open] .pub-badge .arrow {
 
 
   .pub-abstract {
-    max-width: 82ch;
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
     margin-top: 0.85rem;
     padding-top: 0.8rem;
     border-top: 1px solid var(--content-line);
@@ -163,7 +165,7 @@ details[open] .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">Résolution numérique d'équations 2D non linéaires en eaux peu profondes avec un obstacle de surface partiellement immergé (Partie II)</span>
+      <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle (Part II)</span>
       <span class="pub-tail"><i>En préparation</i></span>
     </div>
   </summary>
@@ -192,7 +194,7 @@ details[open] .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">Résolution numérique d'équations 2D non linéaires en eaux peu profondes avec un obstacle de surface partiellement immergé (Partie I)</span>
+      <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle (Part I)</span>
       <span class="pub-tail"><i>En préparation</i></span>
     </div>
   </summary>
@@ -221,7 +223,7 @@ details[open] .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">Un robuste de haut niveau subcell monolithique DG/FV formulation pour des équations non linéaires en eaux peu profondes sur des grilles non structurées</span>
+      <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
       <span class="pub-tail"><i>Soumis</i></span>
     </div>
   </summary>
@@ -256,7 +258,7 @@ Cette nouvelle méthode numérique repose sur un traitement entièrement a prior
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">Locale subcell monolithique DG/FV méthodes pour les modèles non linéaires en eaux peu profondes avec termes sources</span>
+      <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
       <span class="pub-tail"><i>Soumis</i></span>
     </div>
   </summary>
@@ -297,19 +299,19 @@ Nous effectuons ensuite des évaluations approfondies des méthodes numériques 
 ## Conférences et affiches
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 <b>[SHARK-FV26](https://shark-fv.eu/home-shark/) — Workshop international sur les méthodes de volumes finis d’ordre élevé</b> <br>
-<i>Titre</i>. Sous-cellule monolithique DG/FV–HHO–Schéma SSP-RK pour un nouveau modèle d'interaction onde-structure <br>
+<i>Titre</i>. Subcell monolithic DG/FV–HHO–SSP-RK scheme for a new wave-structure interaction model <br>
 <i>Emplacement</i>. Minho, Portugal<br>
 <i>Date</i>. 04/05/26<br> 
 [Diapositives]({{ site.url }}/files/talks/SHARK_FV26.pdf){: .resource-button }
 
 <b>[Colloque de mathématiques appliquées](https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium) - Séminaire du groupe de Mathématiques Appliquées à l'UW</b> <br>
-<i>Titre</i>. Un ordre élevé DG/FV schéma de préservation des propriétés convexes pour les systèmes hyperboliques avec des applications aux écoulements d'eau peu profonde et à l'interaction fluide-structure <br>
+<i>Titre</i>. A high-order DG/FV convex property preserving scheme for hyperbolic systems with applications to shallow water flows and fluid-structure interaction <br>
 <i>Emplacement</i>. Université de Waterloo, Waterloo, Canada <br>
 <i>Date</i>. 19/03/26<br> 
 [Diapositives]({{ site.url }}/files/talks/uw_colloquium.pdf){: .resource-button }
 
 <b>[CJC-MA](https://cjcma2026.sciencesconf.org) - Congrès des Jeunes Chercheur.e.s en Mathématiques Appliquées</b> <br>
-<i>Titre</i>. Modélisation et simulation numérique de structures flottantes dans des écoulements peu profonds <br>
+<i>Titre</i>. Modeling and numerical simulation of floating structures in shallow-water flows <br>
 <i>Emplacement</i>. ENPC, Champs-sur-Marne, France <br>
 <i>Date</i>. 02/03/26<br> 
 [Diapositives]({{ site.url }}/files/talks/CJCMA.pdf){: .resource-button }
@@ -321,31 +323,31 @@ Nous effectuons ensuite des évaluations approfondies des méthodes numériques 
 [Diapositives]({{ site.url }}/files/talks/metier_des_maths.pdf){: .resource-button }
 
 <b>[ICOSAHOM](https://icosahom2025.org/index.html) - Congrès international sur la méthode spectrale et d'ordre élevé</b> <br>
-<i>Titre</i>. Locale subcell monolithique DG/FV schéma pour les équations NSW avec termes sources sur des grilles non structurées <br>
+<i>Titre</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids <br>
 <i>Emplacement</i>. Université McGill, Montréal, Canada <br>
 <i>Date</i>. 14/07/25<br> 
 [Diapositives]({{ site.url }}/files/talks/ICOSAHOM.pdf){: .resource-button }
 
 <b>[Colloques MIPS](https://www.umontpellier.fr/agenda/semaine-du-pole-mips) - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
-<i>Titre</i>. Concevoir des méthodes numériques pour les écoulements à surface libre vers des interactions onde-structure fiables <br>
+<i>Titre</i>. Designing numerical methods for free-surface flows towards reliable wave-structure interactions <br>
 <i>Emplacement</i>. Montpellier, France <br>
 <i>Date</i>. 02/06/25<br> 
 [Diapositives]({{ site.url }}/files/talks/MIPS.pdf){: .resource-button }
 
 <b>[CIMAV](https://cimav2025.sciencesconf.org) - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b><br>
-<i>Titre</i>. Un robuste de haut niveau DG/FV schéma pour les équations non linéaires en eaux peu profondes avec des termes sources sur des grilles non structurées <br>
+<i>Titre</i>. A high-order robust DG/FV scheme for nonlinear shallow water equations with source terms on unstructured grids <br>
 <i>Emplacement</i>. Aussois, France <br>
 <i>Date</i>. 13/05/25<br> 
 [Diapositives]({{ site.url }}/files/talks/CIMAV.pdf){: .resource-button }
 
 <b>doctorat Journée - Séminaire des Doctorants</b> <br>
-<i>Titre</i>. Monolithique DG/FV schémas sur des équations 1D non linéaires en eaux peu profondes <br>
+<i>Titre</i>. Monolithic DG/FV schemes on 1D nonlinear shallow water equations <br>
 <i>Emplacement</i>. Montpellier, France <br>
 <i>Date</i>. 15/03/24<br>
 [Affiche]({{ site.url }}/files/talks/poster_phd_day24.pdf){: .resource-button }
 
 <b>Introduction aux nouveaux arrivants - Séminaire des Doctorants</b> <br>
-<i>Titre</i>. Modélisation, résolution et implémentation d'EDP à partir d'interactions ondes-structure <br>
+<i>Titre</i>. Modeling, solving & implementing PDEs from waves-structure interactions <br>
 <i>Emplacement</i>. Montpellier, France <br>
 <i>Date</i>. 25/10/23<br>
 [Diapositives]({{ site.url }}/files/talks/SEMDOC.pdf){: .resource-button }
@@ -378,7 +380,7 @@ D’un point de vue numérique cependant, leur discrétisation pose plusieurs d�
 ### Nouveaux cadres numériques d'ordre élevé pour l'asymptotique des eaux peu profondes
 Dans l’analyse numérique des modèles non linéaires en eaux peu profondes, deux grandes familles de méthodes coexistent. D’une part, les systèmes classiques de volumes finis (FV) sont extrêmement robustes : ils sont capables de gérer les chocs naturels, les zones sèches et les variations brusques de topographie sans s’effondrer. Cependant, ils fournissent généralement une précision initialement faible et ont tendance à être trop diffusifs. En revanche, les méthodes par éléments finis, notamment discontinuous Galerkin (DG), peuvent atteindre des ordres de précision arbitrairement élevés et sont bien adaptées aux géométries complexes, mais elles sont beaucoup plus sensibles aux instabilités numériques et nécessitent des mécanismes de stabilisation supplémentaires pour garantir la robustesse.
 
-La stratégie numérique que j'ai développée vise à combiner le meilleur des deux mondes dans un cadre unique et cohérent. En nous appuyant sur une méthode initialement introduite par mon conseiller François Vilar, nous avons reformulé le domaine de calcul en subdivisant chaque élément du maillage en subcells et permettre aux représentations FV et DG de coexister localement, rendant possible la fusion de deux paradigmes normalement incompatibles au sein d'une structure unifiée. Grâce à un mélange convexe entre les contributions volumes finis (responsables de la robustesse) et celles DG d'ordre élevé (responsables de la précision), la méthode s'adapte dynamiquement à la régularité locale de la solution. Cela garantit que le schéma reste préservant la positivité, stable autour des états stables et précis dans les régions lisses.
+La stratégie numérique que j'ai développée vise à combiner le meilleur des deux mondes dans un cadre unique et cohérent. En nous appuyant sur une méthode initialement introduite par mon directeur de thèse François Vilar, nous avons reformulé le domaine de calcul en subdivisant chaque élément du maillage en subcells et permettre aux représentations FV et DG de coexister localement, rendant possible la fusion de deux paradigmes normalement incompatibles au sein d'une structure unifiée. Grâce à un mélange convexe entre les contributions volumes finis (responsables de la robustesse) et celles DG d'ordre élevé (responsables de la précision), la méthode s'adapte dynamiquement à la régularité locale de la solution. Cela garantit que le schéma reste préservant la positivité, stable autour des états stables et précis dans les régions lisses.
 
 Ce cadre a d'abord été développé et analysé dans un cadre unidimensionnel, dans un travail axé sur la construction de la méthode et sur la préservation de certaines propriétés théoriques clés. 
 Dans ce premier article, nous avons également proposé une extension naturelle de l’approche du Green–Naghdi équations, qui forment une correction dispersive du système NSW.

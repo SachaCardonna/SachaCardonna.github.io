@@ -17,8 +17,8 @@ Je suis français et résident permanent au Canada. En dehors du travail, on me 
 
 ## Thèmes de recherche
 
-Mes recherches se situent à l’interface de la modélisation et de l’analyse numérique des équations aux dérivées partielles, avec un intérêt marqué pour la mécanique des fluides. Je m’intéresse tout particulièrement à la conception de méthodes d’approximation d’ordre élevé, efficaces et véritablement robustes face à des régimes non linéaires exigeants, aux géométries complexes et aux contraintes physiques.<br>
-J’aime intervenir du début à la fin du processus : de l’étude, du choix ou de la dérivation d’un modèle à son analyse mathématique et numérique, jusqu’à l’implémentation de logiciels de simulation efficaces, robustes et opérationnels (quelques simulations sont disponibles [ici]({{ site.baseurl }}/fr/logiciels/)).
+Mes recherches se situent à l’interface de la modélisation et de l’analyse numérique des équations aux dérivées partielles, avec un intérêt marqué pour la mécanique des fluides. Je m’intéresse tout particulièrement à la conception de méthodes d’approximation d’ordre élevé, efficaces et véritablement robustes face à des régimes non linéaires exigeants, aux géométries complexes et aux contraintes imposées par la physique.<br>
+J’aime intervenir du début à la fin du processus : de l’étude, du choix ou de la dérivation d’un modèle à son analyse mathématique et numérique, jusqu’au développement de logiciels de simulation efficaces, robustes et opérationnels (quelques simulations sont disponibles [ici]({{ site.baseurl }}/fr/logiciels/)).
 
 <div class="dot-timeline research-timeline">
   <article>

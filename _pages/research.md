@@ -122,7 +122,9 @@ details[open] .pub-badge .arrow {
 
 
   .pub-abstract {
-    max-width: 82ch;
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
     margin-top: 0.85rem;
     padding-top: 0.8rem;
     border-top: 1px solid var(--content-line);
