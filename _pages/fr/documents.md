@@ -12,7 +12,7 @@ translation_url: /documents/
 {% include base_path %}
 
 Vous trouverez ici différents documents — rapports, présentations et essais — réalisés pendant mes études.  
-<i>Veuillez noter que ces documents peuvent contenir des fautes de frappe ou être incomplets. Ils sont partagés principalement pour illustrer le travail que j'ai effectué lors de ma formation.</i>
+<i>Veuillez noter que ces documents peuvent contenir des fautes de frappe ou être incomplets. Ils sont partagés principalement pour illustrer le travail que j'ai effectué lors de mes études.</i>
 
 ## Stages
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
@@ -50,7 +50,7 @@ Encadré par Daniel Massart.
 </article>
 
 <article class="content-card" markdown="1">
-<b> Preuve du théorème des nombres premiers de Dirichlet</b>.
+<b> Preuve du théorème de progression arithémtique de Dirichlet</b>.
 
 <i>Résumé</i>. Démonstration du fait que, pour deux entiers a et b premiers entre eux, la progression arithmétique {an+b}, avec n entier, contient une infinité de nombres premiers. La preuve mobilise notamment l’analyse complexe et la théorie des groupes.
 
