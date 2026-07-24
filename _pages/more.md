@@ -337,7 +337,7 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
 ## A few things I learned
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-If what you are questioning yourself about for is not in the list below, feel free to reach out to me. I am not a reference in anything, but I can share what I learned from my experience as a student, a worker, and someone who tries to stay healthy.
+These are simply a few lessons drawn from studying, working, and trying to stay healthy. I am no expert, but I am always happy to share my experience.
 <style>
 
 .advice-grid {
@@ -380,8 +380,8 @@ If what you are questioning yourself about for is not in the list below, feel fr
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-size: 0.6rem;
-  line-height: 1.2;
+  font-size: 0.68rem;
+  line-height: 1.32;
 }
 
 .advice-card:hover .advice-overlay,
@@ -417,7 +417,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Enjoying being healthy</div>
     <div class="advice-overlay">
       <div>
-        Having a healthy body is one of the greatest gifts we can receive in life. It is easy to forget it when everything seems fine, but good health is something to be valued and enjoyed every day.
+        Good health is easy to overlook when everything is going well. Enjoy it, protect it, and never take it for granted.
       </div>
     </div>
   </div>
@@ -427,7 +427,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Staying humble</div>
     <div class="advice-overlay">
       <div>
-        At university and in research, it is easy to feel pressure to prove yourself. I learned that staying humble helps you progress more steadily. There will always be people who know more than you, and that is normal. Asking questions and accepting mistakes is not a weakness, it is how you grow. I wish first-year PhD Sacha had known this better!
+        There will always be people who know more than you, and that is perfectly normal. Asking questions and admitting mistakes is how you grow—something first-year PhD Sacha should have understood sooner!
       </div>
     </div>
   </div>
@@ -437,7 +437,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Studying regularly</div>
     <div class="advice-overlay">
       <div>
-        I believe that regular work is much more effective than last-minute efforts. Even small but consistent study sessions add up over time. It also reduces stress before exams and helps you build long-term understanding instead of short-term memorization. I have to admit that the few times I tried last-minute cramming as a student, the results were never very satisfying...
+        A little work every day beats last-minute cramming. It lowers stress and builds understanding that lasts beyond the exam.
       </div>
     </div>
   </div>
@@ -446,7 +446,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Choosing your own path</div>
   <div class="advice-overlay">
     <div>
-      Do not feel forced to follow the road your parents, teachers, or society expect from you. There is so-called "royal paths". Try, make mistakes, and start again if needed. The real goal is to find a job that makes you want to wake up in the morning with energy and good mood.  
+      Do not feel trapped by the path others expect you to follow. Try, make mistakes, and start again if needed—the goal is to build a life that gives you energy.
     </div>
   </div>
 </div>
@@ -455,7 +455,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Trusting the process</div>
   <div class="advice-overlay">
     <div>
-      Progress is often slow and invisible day by day. It is frustrating as hell, but consistency always pays off. What looks like small steps now will add up over months and years. Trust the process, even when results are not immediate.
+      Progress is often slow and invisible, which can be frustrating as hell. Keep going: small, consistent steps add up.
     </div>
   </div>
 </div>
@@ -464,7 +464,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Protecting your studies</div>
     <div class="advice-overlay">
       <div>
-        I know from experience how difficult it can be to study while also working on the side, but sometimes there is no other choice and it is important to acknowledge it. Still, I would encourage anyone in this situation not to lose sight of the long-term goal: the job or career that your studies can open for you. Try to protect your studies as much as possible.
+        Studying while working is difficult, and sometimes unavoidable. As much as you can, protect the studies that may open the door to your long-term goals.
       </div>
     </div>
   </div>
@@ -474,7 +474,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Keeping balance</div>
     <div class="advice-overlay">
       <div>
-        One of my PhD advisors recently reminded me of this: studying hard is important, but so is rest and hobbies. I noticed that when I keep time for sport, reading, or seeing friends, I come back to work with more energy and focus. Academic success is easier to sustain when life feels balanced.
+        Hard work matters, but so do rest, hobbies, and friends. Balance makes concentration—and success—far easier to sustain.
       </div>
     </div>
   </div>
@@ -483,7 +483,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Starting simple</div>
   <div class="advice-overlay">
     <div>
-      When I work on something new, I always try to start simple. A small working version of a model or a code is much easier to test, to understand, and to correct; once the basics are solid, I gradually add complexity step by step. Also, writing a short script often shows where the equations are not as clear as I thought, while the maths helps explain what the computer output cannot. 
+      Start with the smallest version that works. Test it, understand it, then add complexity; code often exposes unclear mathematics, and mathematics explains what the output cannot.
     </div>
   </div>
 </div>
@@ -492,7 +492,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Learning and practicing</div>
   <div class="advice-overlay">
     <div>
-      In maths especially, nothing replaces knowing your course well. But theory alone is not enough: solving exercises again and again is what makes the concepts stick and gives you the reflexes to apply them. Also, avoid relying too much on exercises with full solutions. The temptation to look at the answer too soon is strong, and you will learn less.
+      In mathematics, know the theory and practise until it becomes natural. Be careful with full solutions: looking too soon often means learning less.
     </div>
   </div>
 </div>
@@ -501,7 +501,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Being cautious with heavy lifting</div>
     <div class="advice-overlay">
       <div>
-        Heavy weight training taught me discipline, but also humility. At one point, I injured my back because I pushed too far, later, my knee. Strength training can be great, but progress should not come at the cost of health. Good technique, patience, and listening to your body are essential.
+        Strength training taught me discipline—and, after injuries, humility. Technique, patience, and listening to your body matter more than lifting heavier.
       </div>
     </div>
   </div>
@@ -511,7 +511,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
   <div class="advice-title">Finding a good diet</div>
   <div class="advice-overlay">
     <div>
-      I recommend finding an eating pattern that feels sustainable, supports your energy and training, and fits your daily life (because "we are what we eat", right?). For example, I have practiced intermittent fasting for few years. It worked for me, but it is not a universal solution. If a diet creates anxiety around food, rigid rules, or loss of control, that is a warning sign. Do not hesitate to speak with a qualified professional if needed. 
+      Choose an eating pattern that supports your energy and fits your life. What works for me may not work for you; if food becomes a source of anxiety or rigid rules, speak with a qualified professional.
     </div>
   </div>
 </div>
@@ -521,7 +521,7 @@ If what you are questioning yourself about for is not in the list below, feel fr
     <div class="advice-title">Walking everyday</div>
     <div class="advice-overlay">
       <div>
-        If you cannot or do not want to practice a sport, walking every day already brings real benefits. It helps cardiovascular health, mood, sleep, and mental clarity. It is simple, accessible, and effective, and for many people it is the most sustainable way to stay active.
+        If sport is not for you, walking every day is already valuable. It is simple, accessible, and good for your health, sleep, and mood.
       </div>
     </div>
   </div>

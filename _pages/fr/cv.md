@@ -16,7 +16,7 @@ translation_url: /cv/
     <p class="cv-kicker">Profil académique</p>
     <p class="cv-lead">Un aperçu de mon parcours, de mes qualifications et de mon profil professionnel. Mes activités de recherche, d’enseignement, de médiation, mes projets et mes logiciels scientifiques sont détaillés sur leurs pages respectives.</p>
     <div class="cv-actions" aria-label="Télécharger le curriculum vitæ complet">
-      <a class="cv-action cv-action--primary" href="{{ site.url }}/files/cv/CV_ENG.pdf">CV complet · Anglais</a>
+      <a class="cv-action cv-action--primary" href="{{ site.url }}/files/cv/CV_ENG.pdf">CV · Anglais</a>
       <a class="cv-action" href="{{ site.url }}/files/cv/CV_FR.pdf">CV · Français</a>
     </div>
   </header>

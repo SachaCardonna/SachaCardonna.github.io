@@ -315,21 +315,21 @@ document.addEventListener('DOMContentLoaded', function () {
 </section>
 
 <section class="software-card">
-<h2 class="software-entry__title">ShoreVPINN - Solveur neuronal basé sur la physique variationnelle pour les écoulements en eaux peu profondes</h2>
+<h2 class="software-entry__title">ShoreVPINN - Solveur neuronal variationnel basé sur la physique pour les écoulements en eaux peu profondes</h2>
 <dl class="software-facts">
-  <div><dt>Mots-clés</dt><dd>Variational PINNs · Équations de Saint-Venant · Interfaces wet-dry · Run-up</dd></div>
+  <div><dt>Mots-clés</dt><dd>Variational PINNs · Équations de Saint-Venant · Interfaces sec-mouillé · Run-up</dd></div>
   <div><dt>Stack</dt><dd>Python · PyTorch</dd></div>
   <div><dt>Équipe</dt><dd>Ali Haidar · Sacha Cardonna</dd></div>
 </dl>
 
-<p>ShoreVPINN est un code de recherche en Python qui explore les Variational Physics-Informed Neural Networks (VPINNs) pour approcher les équations non linéaires de Saint-Venant en dimension un. Plutôt que de s’appuyer uniquement sur des évaluations ponctuelles des équations, les résidus physiques sont intégrés contre des fonctions tests locales sur un maillage spatial. Cette formulation faible est particulièrement adaptée aux écoulements avec topographie variable et interfaces wet-dry mobiles.</p>
+<p>ShoreVPINN est un code de recherche en Python qui explore les Variational Physics-Informed Neural Networks (VPINNs) pour approcher les équations non linéaires de Saint-Venant en dimension un. Plutôt que de s’appuyer uniquement sur des évaluations ponctuelles des équations, les résidus physiques sont intégrés contre des fonctions tests locales sur un maillage spatial. Cette formulation faible est particulièrement adaptée aux écoulements avec topographie variable et interfaces sec-mouillé mobiles.</p>
 
 <p class="software-features__title">Les principales caractéristiques sont :</p>
 <ul class="software-features">
   <li>Application variationnelle des équations de masse et de quantité de mouvement à l'aide de fonctions de test locales par éléments finis ;</li>
   <li>Préservation exacte de la condition initiale grâce à un ansatz neuronal fortement contraint ;</li>
   <li>Traitement préservant la positivité de la profondeur de l'eau ;</li>
-  <li>Formulation robuste du flux de quantité de mouvement au voisinage des interfaces wet-dry ;</li>
+  <li>Formulation robuste du flux de quantité de mouvement au voisinage des interfaces sec-mouillé ;</li>
   <li>Maillages spatiaux non uniformes avec raffinement local optionnel dans la région de run-up ;</li>
   <li>Quadrature de Gauss-Legendre et batching stochastique sur des tranches de temps ;</li>
   <li>Exécution automatique sur CPU, CUDA GPUs et Apple Silicon GPUs.</li>

@@ -339,7 +339,7 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
 ## Quelques choses que j'ai apprises
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-dessous, n'hésitez pas à me contacter. Je ne suis une référence en rien, mais je peux partager ce que j'ai appris de mon expérience en tant qu'étudiant, travailleur et personne qui essaie de rester en bonne santé.
+Voici simplement quelques leçons tirées de mes études, de mon travail et de mes efforts pour rester en bonne santé. Je ne suis expert en rien, mais je partage volontiers mon expérience.
 <style>
 
 .advice-grid {
@@ -382,8 +382,8 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-size: 0.6rem;
-  line-height: 1.2;
+  font-size: 0.68rem;
+  line-height: 1.32;
 }
 
 .advice-card:hover .advice-overlay,
@@ -419,7 +419,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
     <div class="advice-title">Profiter d'être en bonne santé</div>
     <div class="advice-overlay">
       <div>
-        Avoir un corps sain est l’un des plus beaux cadeaux que nous puissions recevoir dans la vie. Il est facile de l’oublier quand tout semble bien, mais une bonne santé est quelque chose qu’il faut valoriser et apprécier au quotidien.
+        On oublie facilement sa santé lorsque tout va bien. Il faut savoir en profiter, la préserver et ne jamais la considérer comme acquise.
       </div>
     </div>
   </div>
@@ -429,7 +429,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
     <div class="advice-title">Rester humble</div>
     <div class="advice-overlay">
       <div>
-        À l’université et dans la recherche, il est facile de se sentir obligé de faire ses preuves. J'ai appris que rester humble vous aide à progresser plus régulièrement. Il y aura toujours des gens qui en savent plus que vous, et c’est normal. Poser des questions et accepter les erreurs n’est pas une faiblesse, c’est la façon dont on grandit. J’aurais aimé que Sacha, doctorant en première année, le sache mieux !
+        Il y aura toujours des gens qui en savent davantage, et c’est parfaitement normal. Poser des questions et reconnaître ses erreurs permet de progresser — le Sacha de première année de thèse aurait dû le comprendre plus tôt !
       </div>
     </div>
   </div>
@@ -439,7 +439,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
     <div class="advice-title">Étudier régulièrement</div>
     <div class="advice-overlay">
       <div>
-        Je crois qu'un travail régulier est bien plus efficace que des efforts de dernière minute. Même des séances d'étude petites mais cohérentes s'accumulent avec le temps. Cela réduit également le stress avant les examens et vous aide à développer une compréhension à long terme plutôt qu'une mémorisation à court terme. Je dois admettre que les quelques fois où j'ai essayé le bachotage de dernière minute en tant qu'étudiant, les résultats n'ont jamais été très satisfaisants...
+        Un peu de travail chaque jour vaut mieux qu’un bachotage de dernière minute. Cela réduit le stress et construit une compréhension qui survit à l’examen.
       </div>
     </div>
   </div>
@@ -448,7 +448,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
   <div class="advice-title">Choisir votre propre chemin</div>
   <div class="advice-overlay">
     <div>
-      Ne vous sentez pas obligé de suivre le chemin que vos parents, vos enseignants ou la société attendent de vous. Il existe ce qu'on appelle les « chemins royaux ». Essayez, faites des erreurs et recommencez si nécessaire. Le véritable objectif est de trouver un travail qui donne envie de se réveiller le matin avec énergie et bonne humeur.  
+      Ne vous enfermez pas dans la voie que les autres attendent de vous. Essayez, trompez-vous et recommencez si nécessaire : l’objectif est de construire une vie qui vous donne de l’énergie.
     </div>
   </div>
 </div>
@@ -457,7 +457,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
   <div class="advice-title">Faire confiance au processus</div>
   <div class="advice-overlay">
     <div>
-      Les progrès sont souvent lents et invisibles de jour en jour. C’est extrêmement frustrant, mais la cohérence est toujours payante. Ce qui ressemble aujourd’hui à de petites étapes s’additionnera au fil des mois et des années. Faites confiance au processus, même lorsque les résultats ne sont pas immédiats.
+      Les progrès sont souvent lents et invisibles, ce qui peut être sacrément frustrant. Continuez : les petits efforts réguliers finissent par s’additionner.
     </div>
   </div>
 </div>
@@ -466,7 +466,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
     <div class="advice-title">Protéger vos études</div>
     <div class="advice-overlay">
       <div>
-        Je sais par expérience à quel point il peut être difficile d'étudier tout en travaillant en parallèle, mais parfois il n'y a pas d'autre choix et il est important de le reconnaître. Néanmoins, j’encourage toute personne se trouvant dans cette situation à ne pas perdre de vue l’objectif à long terme : l’emploi ou la carrière que vos études peuvent vous ouvrir. Essayez de protéger vos études autant que possible.
+        Étudier tout en travaillant est difficile, et parfois inévitable. Autant que possible, protégez les études qui pourront vous ouvrir les portes de vos projets à long terme.
       </div>
     </div>
   </div>
@@ -476,7 +476,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
     <div class="advice-title">Garder l'équilibre</div>
     <div class="advice-overlay">
       <div>
-        Un de mes directeurs de thèse me l'a récemment rappelé : étudier dur est important, mais le repos et les loisirs aussi. J'ai remarqué que lorsque je prends du temps pour faire du sport, lire ou voir des amis, je reviens au travail avec plus d'énergie et de concentration. La réussite scolaire est plus facile à maintenir lorsque la vie est équilibrée.
+        Le travail compte, mais le repos, les loisirs et les amis aussi. Avec un bon équilibre, la concentration — et la réussite — deviennent beaucoup plus durables.
       </div>
     </div>
   </div>
@@ -485,7 +485,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
   <div class="advice-title">Commencer simplement</div>
   <div class="advice-overlay">
     <div>
-      Lorsque je travaille sur quelque chose de nouveau, j’essaie toujours de commencer simplement. Une petite version fonctionnelle d’un modèle ou d’un code est beaucoup plus facile à tester, à comprendre et à corriger ; une fois les bases solides, j'ajoute progressivement de la complexité, étape par étape. De plus, l'écriture d'un court script montre souvent où les équations ne sont pas aussi claires que je le pensais, tandis que les mathématiques aident à expliquer ce que la sortie de l'ordinateur ne peut pas expliquer. 
+      Commencez par la plus petite version qui fonctionne. Testez-la, comprenez-la, puis ajoutez de la complexité : le code révèle souvent les zones floues des mathématiques, et les mathématiques expliquent ce que le résultat numérique ne dit pas.
     </div>
   </div>
 </div>
@@ -494,7 +494,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
   <div class="advice-title">Apprendre et pratiquer</div>
   <div class="advice-overlay">
     <div>
-      En mathématiques surtout, rien ne remplace bien connaître son cours. Mais la théorie seule ne suffit pas : résoudre des exercices encore et encore, c'est ce qui fait tenir les concepts et donne les réflexes pour les appliquer. Évitez également de trop vous fier aux exercices avec des solutions complètes. La tentation d’examiner la réponse trop tôt est forte et vous en apprendrez moins.
+      En mathématiques, il faut connaître la théorie et pratiquer jusqu’à ce que les réflexes viennent. Attention aux corrigés complets : regarder trop vite la réponse fait souvent moins apprendre.
     </div>
   </div>
 </div>
@@ -503,7 +503,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
     <div class="advice-title">Être prudent lorsque vous soulevez des objets lourds</div>
     <div class="advice-overlay">
       <div>
-        L'entraînement avec des poids lourds m'a appris la discipline, mais aussi l'humilité. À un moment donné, je me suis blessé au dos parce que j'avais poussé trop loin, plus tard, mon genou. L’entraînement en force peut être formidable, mais les progrès ne doivent pas se faire au détriment de la santé. Une bonne technique, de la patience et l'écoute de son corps sont essentielles.
+        La musculation m’a appris la discipline et, après quelques blessures, l’humilité. La technique, la patience et l’écoute de son corps comptent davantage que les charges soulevées.
       </div>
     </div>
   </div>
@@ -513,7 +513,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
   <div class="advice-title">Trouver une bonne alimentation</div>
   <div class="advice-overlay">
     <div>
-      Je recommande de trouver un modèle alimentaire qui semble durable, qui soutient votre énergie et votre entraînement, et qui correspond à votre vie quotidienne (car « nous sommes ce que nous mangeons », n'est-ce pas ?). Par exemple, je pratique le jeûne intermittent depuis quelques années. Cela a fonctionné pour moi, mais ce n'est pas une solution universelle. Si un régime crée de l’anxiété autour de la nourriture, des règles rigides ou une perte de contrôle, c’est un signe d’avertissement. N'hésitez pas à parler avec un professionnel qualifié si besoin. 
+      Choisissez une alimentation qui soutient votre énergie et s’intègre à votre quotidien. Ce qui me convient ne conviendra pas forcément à chacun ; si manger devient une source d’anxiété ou de règles rigides, parlez-en à un professionnel qualifié.
     </div>
   </div>
 </div>
@@ -523,7 +523,7 @@ Si la question sur laquelle vous vous interrogez ne figure pas dans la liste ci-
     <div class="advice-title">Marcher tous les jours</div>
     <div class="advice-overlay">
       <div>
-        Si l’on ne peut ou ne veut pas pratiquer un sport, marcher tous les jours apporte déjà de réels bienfaits. Il contribue à la santé cardiovasculaire, à l’humeur, au sommeil et à la clarté mentale. C’est simple, accessible et efficace, et pour de nombreuses personnes, c’est le moyen le plus durable de rester actif.
+        Si le sport ne vous convient pas, marcher chaque jour est déjà précieux. C’est simple, accessible et bénéfique pour la santé, le sommeil et l’humeur.
       </div>
     </div>
   </div>

@@ -14,7 +14,7 @@ redirect_from:
     <p class="cv-kicker">Academic profile</p>
     <p class="cv-lead">An overview of my academic background, qualifications and professional profile. Detailed research, teaching, outreach, projects and scientific software are presented on their dedicated pages.</p>
     <div class="cv-actions" aria-label="Download the full curriculum vitae">
-      <a class="cv-action cv-action--primary" href="{{ site.url }}/files/cv/CV_ENG.pdf">Full CV · English</a>
+      <a class="cv-action cv-action--primary" href="{{ site.url }}/files/cv/CV_ENG.pdf">CV · English</a>
       <a class="cv-action" href="{{ site.url }}/files/cv/CV_FR.pdf">CV · Français</a>
     </div>
   </header>
