@@ -225,12 +225,36 @@
       }
     }
 
-    #theme-toggle {
+    #theme-toggle,
+    #language-toggle {
       a {
         width: 25px;
         display: flex;
+        align-items: center;
         justify-content: center;
         cursor: pointer;
+      }
+    }
+
+    #language-toggle a {
+      width: auto;
+      min-width: 29px;
+      height: 29px;
+      padding: 0 0.42rem;
+      border: 1px solid var(--global-border-color);
+      border-radius: 999px;
+      font-size: 0.64rem;
+      font-weight: 750;
+      letter-spacing: 0.065em;
+      line-height: 1;
+      transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+
+      &:before { display: none; }
+
+      &:hover {
+        border-color: var(--global-link-color);
+        background: rgba(127, 127, 127, 0.07);
+        color: var(--global-link-color);
       }
     }
 

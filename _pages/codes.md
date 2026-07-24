@@ -16,7 +16,7 @@ Read more about the scientific computing codes I made or participated in.
 <dl class="software-facts">
   <div><dt>Keywords</dt><dd>DG · HDG · Saint-Venant · Boussinesq · Green-Naghdi · FV subcells</dd></div>
   <div><dt>Stack</dt><dd>C++ · Python</dd></div>
-  <div><dt>Team</dt><dd>Fabien Marche <span class="software-role">lead</span> · Sacha Cardonna · Arnaud Duran · Matthieu Rigal et al.</dd></div>
+  <div><dt>Team</dt><dd>Fabien Marche <span class="software-role">lead</span> · Sacha Cardonna · Arnaud Duran · Matthieu Rigal ···</dd></div>
 </dl>
 
 <p>WaveBox is a multi-models numerical platform initiated by Fabien Marche, dedicated to the approximations of the solutions of several shallow water asymptotics in the surface dimension d = 2 with efficient combined Hybridized Discontinuous Galerkin (HDG), Hybrid High Order (HHO), Monolithic DG/FV subcells and DG methods on general unstructured meshes (for Saint-Venant, Boussinesq and Green-Naghdi equations).</p>

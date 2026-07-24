@@ -1,0 +1,15 @@
+main:
+  - title: "Recherche"
+    url: /fr/recherche/
+  - title: "Enseignement"
+    url: /fr/enseignement/
+  - title: "Médiation"
+    url: /fr/diffusion/
+  - title: "Documents"
+    url: /fr/documents/
+  - title: "Logiciels"
+    url: /fr/logiciels/
+  - title: "CV"
+    url: /fr/cv/
+  - title: "Extras"
+    url: /fr/extras/

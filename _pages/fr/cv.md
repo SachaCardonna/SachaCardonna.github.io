@@ -1,0 +1,216 @@
+---
+layout: archive
+title: "Curriculum Vitæ"
+author_profile: true
+permalink: /fr/cv/
+lang: fr
+translation_url: /cv/
+---
+
+
+
+{% include base_path %}
+
+<div class="cv-page">
+  <header class="cv-intro">
+    <p class="cv-kicker">Profil académique</p>
+    <p class="cv-lead">Un aperçu de mon parcours, de mes qualifications et de mon profil professionnel. Mes activités de recherche, d’enseignement, de médiation, mes projets et mes logiciels scientifiques sont détaillés sur leurs pages respectives.</p>
+    <div class="cv-actions" aria-label="Télécharger le curriculum vitæ complet">
+      <a class="cv-action cv-action--primary" href="{{ site.url }}/files/cv/CV_ENG.pdf">CV complet · Anglais</a>
+      <a class="cv-action" href="{{ site.url }}/files/cv/CV_FR.pdf">CV · Français</a>
+    </div>
+  </header>
+
+  <section class="cv-section">
+    <div class="cv-section__heading">
+      <span>01</span>
+      <h2>Situation actuelle</h2>
+    </div>
+    <article class="cv-current">
+      <div>
+        <p class="cv-date">Octobre 2023 — aujourd'hui</p>
+        <h3>Doctorant en mathématiques</h3>
+        <p><a href="https://imag.umontpellier.fr">Institut Montpelliérain Alexander Grothendieck</a>, Montpellier, France</p>
+      </div>
+      <div class="cv-current__meta">
+        <p><b>Directeurs de thèse</b><br><a href="https://vilar.perso.math.cnrs.fr">François Vilar</a> et <a href="https://imag.umontpellier.fr/~marche/">Fabien Marche</a></p>
+        <p><b>Financement</b><br>Bourse du ministère français de la Recherche</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="cv-section">
+    <div class="cv-section__heading">
+      <span>02</span>
+      <h2>Formation</h2>
+    </div>
+    <div class="dot-timeline cv-timeline">
+      <article>
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content">
+        <p class="cv-date">2021 — 2023</p>
+        <h3>Master en analyse théorique et numérique des EDP</h3>
+        <p>Université de Montpellier · Mention Très Bien · Major de promotion</p>
+        </div>
+      </article>
+      <article>
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content">
+        <p class="cv-date">2020 — 2021</p>
+        <h3>Master en mathématiques fondamentales</h3>
+        <p>Université de Montpellier</p>
+        </div>
+      </article>
+      <article>
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content">
+        <p class="cv-date">2019 — 2020</p>
+        <h3>Licence de mathématiques pures et appliquées</h3>
+        <p>Université de Montpellier · Très bien</p>
+        </div>
+      </article>
+      <article>
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content">
+        <p class="cv-date">2017 — 2019</p>
+        <h3>DEUG en mathématiques et physique</h3>
+        <p>Université de Montpellier · Mention Très Bien · Régulièrement classé parmi les 10 % premiers</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="cv-section__heading">
+      <span>03</span>
+      <h2>Distinctions</h2>
+    </div>
+    <div class="cv-grid cv-grid--two">
+      <article class="cv-card">
+        <p class="cv-card__label">Bourse doctorale · 2023</p>
+        <h3>Contrat doctoral de l’École doctorale I2S</h3>
+        <p>Classé premier parmi tous les candidats en mathématiques au concours d'admission à une bourse du ministère français de la Recherche.</p>
+      </article>
+      <article class="cv-card">
+        <p class="cv-card__label">Financements sur appel · 2023–2026</p>
+        <h3>Aides de l’École doctorale</h3>
+        <p>Sélectionné lors d’appels à projets pour financer du matériel informatique, des déplacements en conférences internationales et la venue d’un membre du jury de thèse.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="cv-section__heading">
+      <span>04</span>
+      <h2>Service académique</h2>
+    </div>
+    <div class="cv-grid cv-grid--three">
+      <article class="cv-card">
+        <p class="cv-card__label">Examen par les pairs</p>
+        <h3>Journal of Computational Physics</h3>
+        <p>Rapporteur occasionnel.</p>
+      </article>
+      <article class="cv-card">
+        <p class="cv-card__label">2024 — aujourd'hui</p>
+        <h3>Commission Développement Durable IMAG</h3>
+        <p>Représentant des doctorants, contribution aux réflexions institutionnelles et au bilan des émissions de gaz à effet de serre du laboratoire.</p>
+      </article>
+      <article class="cv-card">
+        <p class="cv-card__label">2023 — 2024</p>
+        <h3>Représentant des étudiants diplômés</h3>
+        <p>Représentation des étudiants du Master Mathématiques Appliquées au sein de son conseil de développement.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="cv-section__heading">
+      <span>05</span>
+      <h2>Développement professionnel</h2>
+    </div>
+    <div class="cv-training">
+      <p><strong>Programmation avancée pour le calcul scientifique</strong><span>C++ avancé, gestion de la mémoire, traitement de données scientifiques et développement collaboratif.</span></p>
+      <p><strong>Pédagogie créative · Niveaux 1 &amp; 2</strong><span>Apprentissage collaboratif, conception de cours et adaptation à divers contextes d'apprentissage.</span></p>
+      <p><strong>Management &amp; Leadership</strong><span>Gestion d’équipe, communication, prise de décision et posture de leadership.</span></p>
+      <p><strong>Rédaction et publication scientifiques</strong><span>Normes de publication, évaluation par les pairs, intégrité de la recherche et communication scientifique.</span></p>
+      <p><strong>Recherche, IA &amp; Éthique</strong><span>Intégrité scientifique, confidentialité, partialité et prise de décision responsable.</span></p>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="cv-section__heading">
+      <span>06</span>
+      <h2>Profil technique</h2>
+    </div>
+    <div class="cv-toolkit">
+      <div><h3>Programmation</h3><p>C/C++, Python, Fortran</p></div>
+      <div><h3>Outils scientifiques</h3><p>FreeFEM++, Matlab, Scilab, gnuplot, Maple, Mathematica</p></div>
+      <div><h3>Écriture scientifique</h3><p>LaTeX, Beamer, Microsoft Office</p></div>
+      <div><h3>Internet &amp; systèmes</h3><p>HTML/CSS, Linux, macOS, Windows</p></div>
+    </div>
+  </section>
+
+  <section class="cv-section cv-section--last">
+    <div class="cv-section__heading">
+      <span>07</span>
+      <h2>Langues</h2>
+    </div>
+    <div class="cv-languages">
+      <p><strong>Français</strong><span>Natif · TEF C2</span></p>
+      <p><strong>Anglais</strong><span>Courant · IELTS 7.5</span></p>
+      <p><strong>Espagnol</strong><span>Intermédiaire · ≈ B2</span></p>
+      <p><strong>Japonais</strong><span>Débutant · ≈ A1</span></p>
+    </div>
+  </section>
+</div>
+
+<style>
+.cv-page { --cv-line: var(--content-line); --cv-soft: rgba(127,127,127,.055); }
+.cv-intro { max-width: 760px; margin: .2rem 0 1.8rem; }
+.cv-kicker, .cv-date, .cv-card__label { margin: 0; color: var(--global-text-color-light); font-size: .66rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+.cv-lead { margin: .35rem 0 1.1rem; font-size: .95rem; line-height: 1.65; }
+.cv-actions { display: flex; flex-wrap: wrap; gap: .55rem; }
+.cv-action { display: inline-flex; align-items: center; min-height: 38px; padding: .42rem .82rem; border: 1px solid var(--global-link-color); border-radius: 999px; color: var(--global-link-color) !important; font-size: .72rem; font-weight: 600; text-decoration: none !important; transition: transform .18s ease, background .18s ease; }
+.cv-action:hover { transform: translateY(-1px); background: var(--cv-soft); }
+.cv-action--primary { border-color: var(--global-link-color); color: var(--global-link-color) !important; }
+.cv-highlights { display: grid; grid-template-columns: repeat(4,1fr); margin: 1.8rem 0 2.7rem; border-top: 1px solid var(--cv-line); border-bottom: 1px solid var(--cv-line); }
+.cv-highlight { display: grid; align-content: start; gap: .2rem; padding: 1rem .8rem; border-right: 1px solid var(--cv-line); }
+.cv-highlight:first-child { padding-left: 0; }
+.cv-highlight:last-child { border-right: 0; }
+.cv-highlight strong { font-size: .82rem; }
+.cv-highlight span { color: var(--global-text-color-light); font-size: .66rem; line-height: 1.4; }
+.cv-section { margin-bottom: 2.6rem; }
+.cv-section--last { margin-bottom: 1rem; }
+.cv-section__heading { display: flex; align-items: baseline; gap: .65rem; margin-bottom: 1rem; border-bottom: 1px solid var(--cv-line); }
+.cv-section__heading span { color: var(--global-text-color-light); font-size: .65rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.cv-section__heading h2 { margin: 0 0 .5rem; border: 0; font-size: 1.15rem; }
+.cv-current { display: grid; grid-template-columns: 1.25fr 1fr; gap: 1.5rem; padding: 1.1rem; border: 1px solid var(--cv-line); border-radius: 11px; background: var(--cv-soft); }
+.cv-current h3, .cv-timeline h3, .cv-card h3, .cv-toolkit h3 { margin: .18rem 0 .3rem; font-size: .86rem; }
+.cv-current p, .cv-timeline p, .cv-card p, .cv-toolkit p { font-size: .73rem; line-height: 1.5; }
+.cv-current__meta { padding-left: 1.3rem; border-left: 1px solid var(--cv-line); }
+.cv-current__meta p { margin: 0 0 .6rem; }
+.cv-current__meta p:last-child { margin-bottom: 0; }
+.cv-timeline { margin-left: .3rem; }
+.cv-timeline article { padding-bottom: 1.15rem; }
+.cv-timeline article:last-child { padding-bottom: 0; }
+.cv-timeline p { margin: .12rem 0 0; color: var(--global-text-color-light); }
+.cv-grid { display: grid; gap: .75rem; }
+.cv-grid--two { grid-template-columns: repeat(2,1fr); }
+.cv-grid--three { grid-template-columns: repeat(3,1fr); }
+.cv-card { padding: 1rem; border: 1px solid var(--cv-line); border-radius: 10px; }
+.cv-card p:last-child { margin: .25rem 0 0; color: var(--global-text-color-light); }
+.cv-training { border-top: 1px solid var(--cv-line); }
+.cv-training p { display: grid; grid-template-columns: minmax(180px,.75fr) 1.6fr; gap: 1rem; margin: 0; padding: .75rem 0; border-bottom: 1px solid var(--cv-line); font-size: .73rem; line-height: 1.45; }
+.cv-training span { color: var(--global-text-color-light); }
+.cv-toolkit { display: grid; grid-template-columns: repeat(2,1fr); border-top: 1px solid var(--cv-line); }
+.cv-toolkit > div { padding: .75rem 1rem .75rem 0; border-bottom: 1px solid var(--cv-line); }
+.cv-toolkit > div:nth-child(even) { padding-left: 1rem; border-left: 1px solid var(--cv-line); }
+.cv-toolkit p { margin: 0; color: var(--global-text-color-light); }
+.cv-languages { display: grid; grid-template-columns: repeat(4,1fr); gap: .65rem; }
+.cv-languages p { display: grid; gap: .16rem; margin: 0; padding: .75rem; border: 1px solid var(--cv-line); border-radius: 9px; }
+.cv-languages strong { font-size: .76rem; }
+.cv-languages span { color: var(--global-text-color-light); font-size: .64rem; }
+@media (max-width: 760px) { .cv-highlights { grid-template-columns: repeat(2,1fr); } .cv-highlight:nth-child(2) { border-right: 0; } .cv-highlight:nth-child(-n+2) { border-bottom: 1px solid var(--cv-line); } .cv-highlight:nth-child(3) { padding-left: 0; } .cv-current { grid-template-columns: 1fr; gap: 1rem; } .cv-current__meta { padding: .9rem 0 0; border-top: 1px solid var(--cv-line); border-left: 0; } .cv-grid--three { grid-template-columns: 1fr; } .cv-languages { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 520px) { .cv-grid--two, .cv-toolkit { grid-template-columns: 1fr; } .cv-toolkit > div:nth-child(even) { padding-left: 0; border-left: 0; } .cv-training p { grid-template-columns: 1fr; gap: .25rem; } .cv-highlights { grid-template-columns: 1fr; } .cv-highlight { padding-left: 0; border-right: 0; border-bottom: 1px solid var(--cv-line); } .cv-highlight:last-child { border-bottom: 0; } }
+@media (prefers-reduced-motion: reduce) { .cv-action { transition: none; } }
+</style>
