@@ -36,7 +36,11 @@
 <!-- Support for MathJax with inline math enabled -->
 <script>
   window.MathJax = {
+    loader: {
+      load: ['[tex]/bm']
+    },
     tex: {
+      packages: {'[+]': ['bm']},
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']]
     }

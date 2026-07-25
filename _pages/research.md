@@ -542,22 +542,22 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
  My research lies at the intersection of mathematical modeling, numerical analysis, and the study of partial differential equations (PDEs) describing fluid flows. In particular, during my PhD, I focused on nonlinear systems of hyperbolic balance laws, which are used to model the evolution of quantities that are transported and conserved in time. These systems take the general form
 <div style="text-align: center;">
 $$
-\partial_t \mathbf{U}(\mathbf{x},t) + \nabla_{\!\mathbf{x}} \cdot \mathbb{F}(\mathbf{U}) = \mathbf{S}(\mathbf{U}, \mathbf{x},t),
+\partial_t \bm{u}(\bm{x},t) + \nabla_{\!\bm{x}} \cdot \mathbb{F}(\bm{u}) = \bm{S}(\bm{u}, \bm{x},t),
 $$
 </div>
-where $\mathbf{U}$ represents the vector of conserved variables (our unknowns), $\mathbb{F}$ the flux function that can be nonlinear, and $\mathbf{S}$ possible source terms arising from geometry, external forces, or coupling effects. The mathematical challenge is that even smooth initial data can generate discontinuities in finite time, which makes the analytical study of such systems extremely delicate. Because of the lack of regularity of weak solutions, only partial theoretical results are available, and the numerical approximation of these phenomena must often combine high-order accuracy with stability and robustness.
+where $\bm{u}$ represents the vector of conserved variables (our unknowns), $\mathbb{F}$ the flux function that can be nonlinear, and $\bm{S}$ possible source terms arising from geometry, external forces, or coupling effects. The mathematical challenge is that even smooth initial data can generate discontinuities in finite time, which makes the analytical study of such systems extremely delicate. Because of the lack of regularity of weak solutions, only partial theoretical results are available, and the numerical approximation of these phenomena must often combine high-order accuracy with stability and robustness.
 
 Among the many examples of such systems, the nonlinear shallow-water equations (NSW) play a central role in the water wave community; they provide an asymptotic model derived from the incompressible Euler equations under the assumption of small aspect ratio (the depth of the fluid is much smaller than the horizontal scale). Despite their asymptotic nature, the shallow water equations remain extremely valuable in practice. They provide an accurate description of the main physical mechanisms governing free-surface flows, while avoiding the prohibitive computational cost associated with solving the fully three-dimensional Euler or Navier–Stokes equations. They thus offer an effective compromise between physical realism and numerical efficiency. Even though they do not account for dispersive effects (captured in more refined models such as the Boussinesq or Green–Naghdi systems), they remain one of the most widely used and robust approximations for practical flow simulations.
 Given a smooth parameterization $b$ of the bathymetry variation, the NSW equations read as
 <div style="text-align: center;">
 $$
 \begin{cases}
-      \partial_t\:\!\eta + \nabla_{\!\mathbf{x}} \cdot \mathbf{q} = \mathbf{S}_1[b](\mathbf{v}), \\
-      \partial_t \:\!\mathbf{q} + \nabla_{\!\mathbf{x}} \cdot \left( \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = \mathbf{S}_2[b](\mathbf{v}),
+      \partial_t\:\!\eta + \nabla_{\!\bm{x}} \cdot \bm{q} = \bm{S}_1[b](\bm{v}), \\
+      \partial_t \:\!\bm{q} + \nabla_{\!\bm{x}} \cdot \left( \bm{u} \otimes \bm{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = \bm{S}_2[b](\bm{v}),
 \end{cases} \nonumber
 $$
 </div>
-with $\mathbf{v} = (\eta,\mathbf{q})^t$, where $\eta$ is water total elevation, $\mathbf{q}$ is the horizontal discharge, and $\mathbf{S}\[b\](\mathbf{v})$ is a generic source term that may contains topography, friction and/or Coriolis effects.
+with $\bm{v} = (\eta,\bm{q})^t$, where $\eta$ is water total elevation, $\bm{q}$ is the horizontal discharge, and $\bm{S}\[b\](\bm{v})$ is a generic source term that may contains topography, friction and/or Coriolis effects.
 
 From a numerical viewpoint, however, their discretization poses several challenges. Capturing both smooth solutions and discontinuities requires schemes that are stable in the presence of shocks, preserve the positivity of the water height ($i.e.$ ensuring at the discrete level that $H\geq0$), and maintain steady states such as the so-called “lake-at-rest” equilibrium. Moreover, in many realistic configurations, the flow interacts with complex geometries, obstacles, or moving boundaries, which demands robust and flexible numerical frameworks.
 

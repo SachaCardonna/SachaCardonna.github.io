@@ -534,22 +534,22 @@ Nous couplons enfin cette stratégie locale subcell DG/FV, robuste et <i>well-ba
  Mes recherches se situent à l'intersection de la modélisation mathématique, de l'analyse numérique et de l'étude des équations aux dérivées partielles (EDP) décrivant les écoulements de fluides. En particulier, au cours de ma thèse, je me suis concentré sur les systèmes non linéaires de lois d'équilibre hyperbolique, qui servent à modéliser l'évolution des quantités transportées et conservées dans le temps. Ces systèmes prennent la forme générale
 <div style="text-align: center;">
 $$
-\partial_t \mathbf{U}(\mathbf{x},t) + \nabla_{\!\mathbf{x}} \cdot \mathbb{F}(\mathbf{U}) = \mathbf{S}(\mathbf{U}, \mathbf{x},t),
+\partial_t \bm{u}(\bm{x},t) + \nabla_{\!\bm{x}} \cdot \mathbb{F}(\bm{u}) = \bm{S}(\bm{u}, \bm{x},t),
 $$
 </div>
-où $\mathbf{U}$ représente le vecteur des variables conservées (nos inconnues), $\mathbb{F}$ la fonction de flux qui peut être non linéaire, et $\mathbf{S}$ termes sources possibles résultant de la géométrie, de forces externes ou d’effets de couplage. Le défi mathématique est que même des données initiales fluides peuvent générer des discontinuités en un temps fini, ce qui rend l’étude analytique de tels systèmes extrêmement délicate. En raison du manque de régularité des solutions faibles, seuls des résultats théoriques partiels sont disponibles, et l'approximation numérique de ces phénomènes doit souvent combiner précision d'ordre élevé avec stabilité et robustesse.
+où $\bm{u}$ représente le vecteur des variables conservées (nos inconnues), $\mathbb{F}$ la fonction de flux qui peut être non linéaire, et $\bm{S}$ les éventuels termes sources issus de la géométrie, de forces externes ou d’effets de couplage. Le défi mathématique tient au fait que même des données initiales régulières peuvent engendrer des discontinuités en temps fini, ce qui rend l’étude analytique de tels systèmes particulièrement délicate. En raison du manque de régularité des solutions faibles, seuls des résultats théoriques partiels sont disponibles, et l’approximation numérique de ces phénomènes doit souvent concilier précision d’ordre élevé, stabilité et robustesse.
 
 Parmi les nombreux exemples de tels systèmes, les équations non linéaires en eau peu profonde (NSW) jouent un rôle central dans la communauté des vagues ; ils fournissent un modèle asymptotique dérivé des équations d'Euler incompressibles sous l'hypothèse d'un petit rapport d'aspect (la profondeur du fluide est beaucoup plus petite que l'échelle horizontale). Malgré leur nature asymptotique, les équations en eaux peu profondes restent extrêmement utiles en pratique. Ils fournissent une description précise des principaux mécanismes physiques régissant les écoulements à surface libre, tout en évitant le coût de calcul prohibitif associé à la résolution des équations d'Euler ou de Navier-Stokes entièrement tridimensionnelles. Ils offrent ainsi un compromis efficace entre réalisme physique et efficacité numérique. Même s'ils ne tiennent pas compte des effets dispersifs (captés dans des modèles plus raffinés comme le Boussinesq ou Green–Naghdi systèmes), ils restent l’une des approximations les plus largement utilisées et les plus robustes pour les simulations pratiques d’écoulement.
 Étant donné un paramétrage fluide $b$ de la variation bathymétrique, les équations NSW se lisent comme
 <div style="text-align: center;">
 $$
 \begin{cases}
-      \partial_t\:\!\eta + \nabla_{\!\mathbf{x}} \cdot \mathbf{q} = \mathbf{S}_1[b](\mathbf{v}), \\
-      \partial_t \:\!\mathbf{q} + \nabla_{\!\mathbf{x}} \cdot \left( \mathbf{u} \otimes \mathbf{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = \mathbf{S}_2[b](\mathbf{v}),
+      \partial_t\:\!\eta + \nabla_{\!\bm{x}} \cdot \bm{q} = \bm{S}_1[b](\bm{v}), \\
+      \partial_t \:\!\bm{q} + \nabla_{\!\bm{x}} \cdot \left( \bm{u} \otimes \bm{q} + \frac{g\eta}{2}(\eta - 2b)\mathbb{I}_2  \right) = \bm{S}_2[b](\bm{v}),
 \end{cases} \nonumber
 $$
 </div>
-avec $\mathbf{v} = (\eta,\mathbf{q})^t$, où $\eta$ est l'élévation totale de l'eau, $\mathbf{q}$ est le débit horizontal, et $\mathbf{S}\[b\](\mathbf{v})$ est un terme source générique pouvant contenir des effets de topographie, de frottement et/ou de Coriolis.
+avec $\bm{v} = (\eta,\bm{q})^t$, où $\eta$ est l’élévation totale de l’eau, $\bm{q}$ est le débit horizontal, et $\bm{S}\[b\](\bm{v})$ est un terme source générique pouvant contenir des effets de topographie, de frottement et/ou de Coriolis.
 
 D’un point de vue numérique cependant, leur discrétisation pose plusieurs défis. Capturer à la fois les solutions lisses et les discontinuités nécessite des schémas stables en présence de chocs, préservant la positivité de la hauteur d'eau ($i.e.$ assurer au niveau discret que $H\geq0$), et maintenir des états stationnaires tels que l’équilibre dit « du lac au repos ». De plus, dans de nombreuses configurations réalistes, l’écoulement interagit avec des géométries complexes, des obstacles ou des frontières mobiles, ce qui nécessite des cadres numériques robustes et flexibles.
 
