@@ -296,59 +296,98 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
 
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
-<b>[SHARK-FV26](https://shark-fv.eu/home-shark/) - Sharing Higher order Advanced Research Known-how on Finite Volume</b> <br>
-<i>Title</i>. Subcell monolithic DG/FV–HHO–SSP-RK scheme for a new wave-structure interaction model <br>
-<i>Location</i>. Minho, Portugal<br>
-<i>Date</i>. 04/05/26<br> 
-[Slides]({{ site.url }}/files/talks/SHARK_FV26.pdf){: .resource-button }
 
-<b>[Applied Maths Colloquium](https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium) - Seminar of the Applied Mathematics group at UW</b> <br>
-<i>Title</i>. A high-order DG/FV convex property preserving scheme for hyperbolic systems with applications to shallow water flows and fluid-structure interaction <br>
-<i>Location</i>. University of Waterloo, Waterloo, Canada <br>
-<i>Date</i>. 19/03/26<br> 
-[Slides]({{ site.url }}/files/talks/uw_colloquium.pdf){: .resource-button }
+<div class="talk-timeline dot-timeline">
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">4 May 2026</span><span>Minho, Portugal</span></div>
+      <h3><a href="https://shark-fv.eu/home-shark/">SHARK-FV26</a> <span class="talk-card__event-note">— Sharing Higher order Advanced Research Known-how on Finite Volume</span></h3>
+      <p class="talk-card__title">Subcell monolithic DG/FV–HHO–SSP-RK scheme for a new wave-structure interaction model</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/SHARK_FV26.pdf">Slides</a></div>
+    </div>
+  </article>
 
-<b>[CJC-MA](https://cjcma2026.sciencesconf.org) - Congrès des Jeunes Chercheur.e.s en Mathématiques Appliquées</b> <br>
-<i>Title</i>. Modeling and numerical simulation of floating structures in shallow-water flows <br>
-<i>Location</i>. ENPC, Champs-sur-Marne, France <br>
-<i>Date</i>. 02/03/26<br> 
-[Slides]({{ site.url }}/files/talks/CJCMA.pdf){: .resource-button }
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">19 March 2026</span><span>University of Waterloo · Waterloo, Canada</span></div>
+      <h3><a href="https://uwaterloo.ca/applied-mathematics/events/applied-math-colloquium">Applied Maths Colloquium</a> <span class="talk-card__event-note">— Seminar of the Applied Mathematics group at UW</span></h3>
+      <p class="talk-card__title">A high-order DG/FV convex property preserving scheme for hyperbolic systems with applications to shallow water flows and fluid-structure interaction</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/uw_colloquium.pdf">Slides</a></div>
+    </div>
+  </article>
 
-<b>Métiers des mathématiques - Conference given to bachelor's and master’s students</b><br>
-<i>Title</i>. Modèles et méthodes numériques pour les interactions entre vagues et structures flottantes <br>
-<i>Location</i>. Montpellier, France <br>
-<i>Date</i>. 19/02/26<br> 
-[Slides]({{ site.url }}/files/talks/metier_des_maths.pdf){: .resource-button }
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">2 March 2026</span><span>ENPC · Champs-sur-Marne, France</span></div>
+      <h3><a href="https://cjcma2026.sciencesconf.org">CJC-MA</a> <span class="talk-card__event-note">— Congrès des Jeunes Chercheur.e.s en Mathématiques Appliquées</span></h3>
+      <p class="talk-card__title">Modeling and numerical simulation of floating structures in shallow-water flows</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/CJCMA.pdf">Slides</a></div>
+    </div>
+  </article>
 
-<b>[ICOSAHOM](https://icosahom2025.org/index.html) - International Congress on Spectral and High Order Method</b> <br>
-<i>Title</i>. Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids <br>
-<i>Location</i>. McGill University, Montréal, Canada <br>
-<i>Date</i>. 14/07/25<br> 
-[Slides]({{ site.url }}/files/talks/ICOSAHOM.pdf){: .resource-button }
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">19 February 2026</span><span>Montpellier, France</span></div>
+      <h3>Métiers des mathématiques <span class="talk-card__event-note">— Conference for bachelor’s and master’s students</span></h3>
+      <p class="talk-card__title">Modèles et méthodes numériques pour les interactions entre vagues et structures flottantes</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/metier_des_maths.pdf">Slides</a></div>
+    </div>
+  </article>
 
-<b>[MIPS Colloquia](https://www.umontpellier.fr/agenda/semaine-du-pole-mips) - Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</b> <br>
-<i>Title</i>. Designing numerical methods for free-surface flows towards reliable wave-structure interactions <br>
-<i>Location</i>. Montpellier, France <br>
-<i>Date</i>. 02/06/25<br> 
-[Slides]({{ site.url }}/files/talks/MIPS.pdf){: .resource-button }
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">14 July 2025</span><span>McGill University · Montréal, Canada</span></div>
+      <h3><a href="https://icosahom2025.org/index.html">ICOSAHOM</a> <span class="talk-card__event-note">— International Congress on Spectral and High Order Methods</span></h3>
+      <p class="talk-card__title">Local subcell monolithic DG/FV scheme for NSW equations with source terms on unstructured grids</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/ICOSAHOM.pdf">Slides</a></div>
+    </div>
+  </article>
 
-<b>[CIMAV](https://cimav2025.sciencesconf.org) - Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</b><br>
-<i>Title</i>. A high-order robust DG/FV scheme for nonlinear shallow water equations with source terms on unstructured grids <br>
-<i>Location</i>. Aussois, France <br>
-<i>Date</i>. 13/05/25<br> 
-[Slides]({{ site.url }}/files/talks/CIMAV.pdf){: .resource-button }
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">2 June 2025</span><span>Montpellier, France</span></div>
+      <h3><a href="https://www.umontpellier.fr/agenda/semaine-du-pole-mips">MIPS Colloquia</a> <span class="talk-card__event-note">— Semaine du pôle Mathématiques, Informatique, Physique, Systèmes</span></h3>
+      <p class="talk-card__title">Designing numerical methods for free-surface flows towards reliable wave-structure interactions</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/MIPS.pdf">Slides</a></div>
+    </div>
+  </article>
 
-<b>Ph.D. Day - Séminaire des Doctorants</b> <br>
-<i>Title</i>. Monolithic DG/FV schemes on 1D nonlinear shallow water equations <br>
-<i>Location</i>. Montpellier, France <br>
-<i>Date</i>. 15/03/24<br>
-[Poster]({{ site.url }}/files/talks/poster_phd_day24.pdf){: .resource-button }
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">13 May 2025</span><span>Aussois, France</span></div>
+      <h3><a href="https://cimav2025.sciencesconf.org">CIMAV</a> <span class="talk-card__event-note">— Congrès Interdisciplinaire sur les Modèles Avancés de Vagues</span></h3>
+      <p class="talk-card__title">A high-order robust DG/FV scheme for nonlinear shallow water equations with source terms on unstructured grids</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/CIMAV.pdf">Slides</a></div>
+    </div>
+  </article>
 
-<b>Introduction to newcomers - Séminaire des Doctorants</b> <br>
-<i>Title</i>. Modeling, solving & implementing PDEs from waves-structure interactions <br>
-<i>Location</i>. Montpellier, France <br>
-<i>Date</i>. 25/10/23<br>
-[Slides]({{ site.url }}/files/talks/SEMDOC.pdf){: .resource-button }
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">15 March 2024</span><span>Montpellier, France</span></div>
+      <h3>Ph.D. Day <span class="talk-card__event-note">— Séminaire des Doctorants</span></h3>
+      <p class="talk-card__title">Monolithic DG/FV schemes on 1D nonlinear shallow water equations</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/poster_phd_day24.pdf">Poster</a></div>
+    </div>
+  </article>
+
+  <article>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="talk-card">
+      <div class="talk-card__meta"><span class="talk-card__date">25 October 2023</span><span>Montpellier, France</span></div>
+      <h3>Introduction to newcomers <span class="talk-card__event-note">— Séminaire des Doctorants</span></h3>
+      <p class="talk-card__title">Modeling, solving &amp; implementing PDEs from waves-structure interactions</p>
+      <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/SEMDOC.pdf">Slides</a></div>
+    </div>
+  </article>
+</div>
 
 
 ## Research statement
