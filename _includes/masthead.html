@@ -23,7 +23,6 @@
           {% unless page.url == "/404.html" %}
           {% if page.lang == "fr" %}
             {% assign language_url = page.translation_url | default: "/" %}
-            {% assign language_label = "EN" %}
             {% assign language_title = "View this page in English" %}
           {% else %}
             {% case page.url %}
@@ -37,11 +36,13 @@
               {% when "/extras/" %}{% assign language_url = "/fr/extras/" %}
               {% else %}{% assign language_url = "/fr/" %}
             {% endcase %}
-            {% assign language_label = "FR" %}
             {% assign language_title = "Voir cette page en français" %}
           {% endif %}
           <li id="language-toggle" class="masthead__menu-item persist tail">
-            <a href="{{ base_path }}{{ language_url }}" lang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" hreflang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" aria-label="{{ language_title }}" title="{{ language_title }}">{{ language_label }}</a>
+            <a class="language-switch" href="{{ base_path }}{{ language_url }}" lang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" hreflang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" aria-label="{{ language_title }}" title="{{ language_title }}">
+              <span class="language-switch__option{% unless page.lang == 'fr' %} is-active{% endunless %}" aria-hidden="true">🇬🇧</span>
+              <span class="language-switch__option{% if page.lang == 'fr' %} is-active{% endif %}" aria-hidden="true">🇫🇷</span>
+            </a>
           </li>
           {% endunless %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
