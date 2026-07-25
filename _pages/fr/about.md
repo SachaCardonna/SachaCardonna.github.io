@@ -43,7 +43,7 @@ J’aime intervenir du début à la fin du processus : de l’étude, du choix o
   </article>
 </div>
 
-## Actualités et faits marquants
+## Actualités
 <div class="news">
   <div class="table-responsive news-scroll">
     <table class="table table-sm table-borderless">
