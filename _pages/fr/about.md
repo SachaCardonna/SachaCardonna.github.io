@@ -13,7 +13,7 @@ translation_url: /
 Je suis doctorant en mathématiques, sous la direction de [François Vilar](https://vilar.perso.math.cnrs.fr) et [Fabien Marche](https://imag.umontpellier.fr/~marche/), à l’[Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG — UMR 5149).<br>
 J’enseigne également au département de mathématiques de la [Faculté des sciences de Montpellier](https://sciences.edu.umontpellier.fr) et à [Polytech Montpellier](https://www.polytech.umontpellier.fr).
 
-Je suis français et résident permanent au Canada. En dehors du travail, on me trouve entrain de marcher vers la salle de sport, au cinéma ou au volant avec la musique un peu trop forte.
+Je suis français et résident permanent au Canada. En dehors du travail, on me trouvera probablement entrain de marcher vers la salle de sport, au cinéma ou bien au volant avec de la musique un peu trop forte.
 
 ## Thèmes de recherche
 

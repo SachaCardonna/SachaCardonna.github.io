@@ -21,7 +21,7 @@ Découvrez les codes de calcul scientifique que j’ai développés ou auxquels 
   <div><dt>Équipe</dt><dd>Fabien Marche <span class="software-role">lead</span> · Sacha Cardonna · Arnaud Duran · Matthieu Rigal ··· </dd></div>
 </dl>
 
-<p>WaveBox est une plateforme numérique multi-modèle initiée par Fabien Marche pour approcher plusieurs modèles asymptotiques d’écoulements en eau peu profonde en dimension de surface d = 2. Elle combine efficacement les méthodes Hybridized Discontinuous Galerkin (HDG), Hybrid High-Order (HHO), DG/FV subcells monolithiques et DG sur des maillages non structurés généraux, pour les équations de Saint-Venant, Boussinesq et Green-Naghdi.</p>
+<p>WaveBox est une plateforme numérique multi-modèle initiée par Fabien Marche pour approcher plusieurs modèles asymptotiques d’écoulements en eau peu profonde en dimension de surface d = 2. Elle combine efficacement les méthodes Galerkin Discontinu Hybrides (HDG), Hybrid High-Order (HHO), DG/FV subcells monolithiques et DG sur des maillages non structurés généraux, pour les équations de Saint-Venant, Boussinesq et Green-Naghdi.</p>
 
 <p class="software-features__title">Les principales caractéristiques sont :</p>
 <ul class="software-features">
@@ -170,19 +170,19 @@ document.addEventListener('DOMContentLoaded', function () {
 </section>
 
 <section class="software-card">
-<h2 class="software-entry__title">ManicoreFV — Code discontinuous Galerkin pour les lois de conservation sur surfaces</h2>
+<h2 class="software-entry__title">ManicoreFV — Code Galerkin Discontinu pour les lois de conservation sur surfaces</h2>
 <dl class="software-facts">
-  <div><dt>Mots-clés</dt><dd>Discontinuous Galerkin · Volumes finis · Lois de conservation · EDP de surface · Maillages courbes</dd></div>
+  <div><dt>Mots-clés</dt><dd>Galerkin Discontinu · Volumes finis · Lois de conservation · EDP de surface · Maillages courbes</dd></div>
   <div><dt>Stack</dt><dd>C++ · Python</dd></div>
   <div><dt>Équipe</dt><dd>Marien Hanot · Sacha Cardonna</dd></div>
 </dl>
 
-<p>ManicoreFV est une plateforme C++ consacrée à l’approximation numérique de lois de conservation sur des surfaces courbes par des méthodes discontinuous Galerkin et volumes finis. Il s’agit d’un fork de <a href="https://mlhanot.github.io/Manicore/">Manicore</a>, le code développé par Marien Hanot pour implémenter des schémas numériques sur des variétés munies de métriques riemanniennes générales.</p>
+<p>ManicoreFV est une plateforme C++ consacrée à l’approximation numérique de lois de conservation sur des surfaces courbes par des méthodes Galerkin Discontinu et volumes finis. Il s’agit d’un fork de <a href="https://mlhanot.github.io/Manicore/">Manicore</a>, le code développé par Marien Hanot pour implémenter des schémas numériques sur des variétés munies de métriques riemanniennes générales.</p>
 
 <p class="software-features__title">Les principales caractéristiques sont :</p>
 <ul class="software-features">
   <li>Formulations tenant compte de la géométrie basées sur les cartes locales, les paramétrisations et les métriques riemanniennes fournies par le framework Manicore ;</li>
-  <li>Discrétisations discontinuous Galerkin de lois de conservation scalaires sur surfaces courbes, du degré zéro aux approximations polynomiales d’ordre élevé ;</li>
+  <li>Discrétisations Galerkin Discontinu de lois de conservation scalaires sur surfaces courbes, du degré zéro aux approximations polynomiales d’ordre élevé ;</li>
   <li>Intégration temporelle explicite de Runge–Kutta avec choix du pas de temps fondé sur une condition CFL ;</li>
   <li>Limiteur préservant les bornes pour les solutions discontinues, tout en conservant les moyennes locales et la masse globale.</li>
 </ul>
@@ -216,13 +216,13 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
 
     <div class="wavebox-gallery__stage" id="manicore-stage" aria-live="polite">
-      <img src="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_DG.gif" alt="Discontinuous Galerkin square profile simulation">
+      <img src="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_DG.gif" alt="Galerkin Discontinu square profile simulation">
     </div>
 
     <div class="wavebox-gallery__footer">
       <div class="wavebox-gallery__caption">
         <span id="manicore-meta">Tranche équatoriale · GIF</span>
-        <strong id="manicore-caption">Discontinuous Galerkin profil carré</strong>
+        <strong id="manicore-caption">Galerkin Discontinu profil carré</strong>
       </div>
       <div class="wavebox-gallery__nav" aria-label="Navigation entre les simulations ManicoreFV">
         <button type="button" id="manicore-prev" aria-label="Simulation précédente">←</button>
@@ -344,12 +344,12 @@ document.addEventListener('DOMContentLoaded', function () {
 <section class="software-card">
 <h2 class="software-entry__title">DG4SCL - Code compact et convivial pour les étudiants pour les méthodes DG sur 1D SCL</h2>
 <dl class="software-facts">
-  <div><dt>Mots-clés</dt><dd>Discontinuous Galerkin · Lois de conservation scalaires</dd></div>
+  <div><dt>Mots-clés</dt><dd>Galerkin Discontinu · Lois de conservation scalaires</dd></div>
   <div><dt>Stack</dt><dd>C++ · Python</dd></div>
   <div><dt>Développeur</dt><dd>Sacha Cardonna</dd></div>
 </dl>
 
-<p>Au début de mon stage avec F. Vilar et F. Marche, j’ai développé un code C++ compact consacré aux schémas discontinuous Galerkin (DG) pour les lois de conservation en dimension un.</p>
+<p>Au début de mon stage avec F. Vilar et F. Marche, j’ai développé un code C++ compact consacré aux schémas Galerkin Discontinu (DG) pour les lois de conservation en dimension un.</p>
 <p>Ce code est un travail en cours, loin d'être complet ou impeccable. Sa création a été motivée par mon engagement envers la simplicité et la compréhensibilité. Je me suis efforcé de faire en sorte que la structure et la mise en œuvre du code soient aussi simples que possible, permettant aux utilisateurs de comprendre facilement les concepts sous-jacents.</p>
 <p>En élargissant ses fonctionnalités et en la rendant plus complète, mon objectif est de créer une ressource précieuse pour les étudiants à la recherche d'un exemple simplifié de régimes DG. Cet effort découle de mes propres expériences en tant qu'étudiant, où l'accès à une telle ressource aurait grandement facilité ma compréhension et mon processus d'apprentissage.</p>
 <p>Contactez-moi pour obtenir la source.</p>

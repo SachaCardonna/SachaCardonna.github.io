@@ -40,8 +40,8 @@
           {% endif %}
           <li id="language-toggle" class="masthead__menu-item persist tail">
             <a class="language-switch" href="{{ base_path }}{{ language_url }}" lang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" hreflang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" aria-label="{{ language_title }}" title="{{ language_title }}">
-              <span class="language-switch__option{% unless page.lang == 'fr' %} is-active{% endunless %}" aria-hidden="true">🇬🇧</span>
-              <span class="language-switch__option{% if page.lang == 'fr' %} is-active{% endif %}" aria-hidden="true">🇫🇷</span>
+              <span class="language-switch__option{% unless page.lang == 'fr' %} is-active{% endunless %}" aria-hidden="true">EN</span>
+              <span class="language-switch__option{% if page.lang == 'fr' %} is-active{% endif %}" aria-hidden="true">FR</span>
             </a>
           </li>
           {% endunless %}
