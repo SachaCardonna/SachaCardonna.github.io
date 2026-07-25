@@ -297,7 +297,10 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
 ## Talks & posters
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-<div class="talk-timeline dot-timeline">
+<div class="talk-archive">
+<details class="talk-year">
+  <summary><span class="talk-year__label">2026</span><span class="talk-year__count">4 talks</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="talk-timeline dot-timeline">
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="talk-card">
@@ -338,6 +341,12 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
     </div>
   </article>
 
+  </div>
+</details>
+
+<details class="talk-year">
+  <summary><span class="talk-year__label">2025</span><span class="talk-year__count">3 talks</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="talk-timeline dot-timeline">
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="talk-card">
@@ -368,6 +377,12 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
     </div>
   </article>
 
+  </div>
+</details>
+
+<details class="talk-year">
+  <summary><span class="talk-year__label">2024</span><span class="talk-year__count">1 poster</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="talk-timeline dot-timeline">
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="talk-card">
@@ -378,6 +393,12 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
     </div>
   </article>
 
+  </div>
+</details>
+
+<details class="talk-year">
+  <summary><span class="talk-year__label">2023</span><span class="talk-year__count">1 talk</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="talk-timeline dot-timeline">
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="talk-card">
@@ -387,6 +408,8 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
       <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/SEMDOC.pdf">Slides</a></div>
     </div>
   </article>
+  </div>
+</details>
 </div>
 
 

@@ -299,7 +299,10 @@ Nous effectuons ensuite des évaluations approfondies des méthodes numériques 
 ## Conférences et affiches
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-<div class="talk-timeline dot-timeline">
+<div class="talk-archive">
+<details class="talk-year">
+  <summary><span class="talk-year__label">2026</span><span class="talk-year__count">4 conférences</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="talk-timeline dot-timeline">
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="talk-card">
@@ -340,6 +343,12 @@ Nous effectuons ensuite des évaluations approfondies des méthodes numériques 
     </div>
   </article>
 
+  </div>
+</details>
+
+<details class="talk-year">
+  <summary><span class="talk-year__label">2025</span><span class="talk-year__count">3 conférences</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="talk-timeline dot-timeline">
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="talk-card">
@@ -370,6 +379,12 @@ Nous effectuons ensuite des évaluations approfondies des méthodes numériques 
     </div>
   </article>
 
+  </div>
+</details>
+
+<details class="talk-year">
+  <summary><span class="talk-year__label">2024</span><span class="talk-year__count">1 affiche</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="talk-timeline dot-timeline">
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="talk-card">
@@ -380,6 +395,12 @@ Nous effectuons ensuite des évaluations approfondies des méthodes numériques 
     </div>
   </article>
 
+  </div>
+</details>
+
+<details class="talk-year">
+  <summary><span class="talk-year__label">2023</span><span class="talk-year__count">1 conférence</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="talk-timeline dot-timeline">
   <article>
     <span class="timeline-dot" aria-hidden="true"></span>
     <div class="talk-card">
@@ -389,6 +410,8 @@ Nous effectuons ensuite des évaluations approfondies des méthodes numériques 
       <div class="talk-card__actions"><a class="resource-button" href="{{ site.url }}/files/talks/SEMDOC.pdf">Diapositives</a></div>
     </div>
   </article>
+  </div>
+</details>
 </div>
 
 

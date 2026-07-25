@@ -18,10 +18,14 @@ $(document).ready(function () {
 
     if (use_theme === "dark") {
       $("html").attr("data-theme", "dark");
-      $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
+      $(".theme-switch__option--light").removeClass("is-active");
+      $(".theme-switch__option--dark").addClass("is-active");
+      $(".theme-switch").attr("aria-checked", "true");
     } else if (use_theme === "light") {
       $("html").removeAttr("data-theme");
-      $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+      $(".theme-switch__option--dark").removeClass("is-active");
+      $(".theme-switch__option--light").addClass("is-active");
+      $(".theme-switch").attr("aria-checked", "false");
     }
   };
 
@@ -45,6 +49,12 @@ $(document).ready(function () {
   };
 
   $('#theme-toggle').on('click', toggleTheme);
+  $('#theme-toggle .theme-switch').on('keydown', function (event) {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      toggleTheme();
+    }
+  });
 
   // These should be the same as the settings in _variables.scss
   const scssLarge = 925; // pixels

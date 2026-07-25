@@ -252,8 +252,73 @@ details.content-disclosure > :last-child { margin-bottom: 1rem; }
   line-height: 1.55;
 }
 
+.talk-archive {
+  margin: 1rem 0 2rem;
+}
+
+.talk-year {
+  border-bottom: 1px solid var(--content-line);
+}
+
+.talk-year:first-child {
+  border-top: 1px solid var(--content-line);
+}
+
+.talk-year > summary {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.75rem;
+  align-items: center;
+  min-height: 52px;
+  padding: 0.65rem 0.2rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.talk-year > summary::-webkit-details-marker {
+  display: none;
+}
+
+.talk-year > summary:hover .talk-year__label,
+.talk-year > summary:focus-visible .talk-year__label {
+  color: var(--global-link-color);
+}
+
+.talk-year > summary:focus-visible {
+  border-radius: 6px;
+  outline: 2px solid var(--global-link-color);
+  outline-offset: 2px;
+}
+
+.talk-year__label {
+  color: var(--global-text-color);
+  font-size: 0.86rem;
+  font-weight: 750;
+  transition: color 0.18s ease;
+}
+
+.talk-year__count {
+  color: var(--content-muted);
+  font-size: 0.68rem;
+}
+
+.talk-year__arrow {
+  color: var(--global-link-color);
+  font-size: 1rem;
+  line-height: 1;
+  transition: transform 0.22s ease;
+}
+
+.talk-year[open] > summary .talk-year__label {
+  color: var(--global-link-color);
+}
+
+.talk-year[open] > summary .talk-year__arrow {
+  transform: rotate(90deg);
+}
+
 .talk-timeline {
-  margin: 1.25rem 0 2rem 0.3rem;
+  margin: 0.35rem 0 1rem 0.3rem;
 }
 
 .talk-timeline article {
