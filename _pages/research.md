@@ -152,6 +152,130 @@ details[open] .pub-badge .arrow {
   @media (max-width: 600px) {
     .pub-abstract { font-size: 0.74rem; line-height: 1.62; }
   }
+
+  /* Editorial publication cards */
+  details.pub {
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid var(--content-line);
+    border-radius: 12px;
+    background: var(--global-bg-color);
+    box-shadow: none;
+    transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+  }
+  details.pub:hover {
+    border-color: rgba(127,127,127,.4);
+    box-shadow: 0 7px 20px rgba(0,0,0,.055);
+    transform: translateY(-1px);
+  }
+  details.pub[open] {
+    border-color: var(--content-line);
+    border-left: 3px solid var(--global-link-color);
+    background: var(--global-bg-color);
+    box-shadow: 0 8px 24px rgba(0,0,0,.055);
+    transform: none;
+  }
+  summary.pub-summary {
+    display: grid;
+    grid-template-columns: 2.5rem minmax(0,1fr);
+    gap: .8rem;
+    align-items: start;
+    padding: .9rem 1rem;
+  }
+  details.pub[open] summary.pub-summary {
+    border-bottom: 1px solid var(--content-line);
+  }
+  .pub-badge {
+    position: static;
+    padding-top: .05rem;
+    color: var(--content-muted);
+    font-size: .65rem;
+    opacity: 1;
+  }
+  .pub-badge .num {
+    color: var(--global-link-color);
+    font-size: .76rem;
+    font-weight: 800;
+  }
+  .pub-badge .year {
+    margin-top: .12rem;
+    font-size: .6rem;
+  }
+  .pub-badge .arrow {
+    margin-top: .3rem;
+    color: var(--global-link-color);
+    font-size: .82rem;
+  }
+  .pub-line { gap: .18rem; }
+  .pub-authors {
+    color: var(--content-muted);
+    font-size: .67rem;
+    opacity: 1;
+  }
+  .pub-title {
+    color: var(--global-text-color);
+    font-size: .84rem;
+    font-weight: 750;
+    line-height: 1.42;
+  }
+  .pub-tail {
+    margin-top: .08rem;
+    color: var(--global-link-color);
+    font-size: .63rem;
+    font-weight: 650;
+  }
+  .pub-abstract {
+    width: auto;
+    margin: 1rem 1rem 0;
+    padding: 0;
+    border: 0;
+    color: var(--global-text-color);
+    font-size: .72rem;
+    line-height: 1.68;
+  }
+  .pub-abstract::before {
+    content: "Abstract";
+    margin-bottom: .5rem;
+    font-size: .6rem;
+  }
+  .pub-grid-2,
+  .pub-grid-3 {
+    margin: .9rem 1rem 0;
+    gap: .55rem;
+  }
+  .pub-grid-2 img,
+  .pub-grid-3 img {
+    border: 1px solid var(--content-line);
+    border-radius: 9px;
+  }
+  details.pub > .pub-grid-2:last-child,
+  details.pub > .pub-grid-3:last-child { margin-bottom: 1rem; }
+  .pub-links {
+    margin: .85rem 1rem 1rem;
+  }
+  .pub-links a {
+    min-height: 34px;
+    padding: .34rem .75rem;
+    font-size: .68rem;
+  }
+  @media (max-width: 600px) {
+    summary.pub-summary {
+      grid-template-columns: 2rem minmax(0,1fr);
+      gap: .55rem;
+      padding: .8rem;
+    }
+    .pub-abstract { margin-right: .8rem; margin-left: .8rem; }
+    .pub-grid-2,
+    .pub-grid-3 {
+      grid-template-columns: 1fr;
+      grid-template-rows: none;
+      margin-right: .8rem;
+      margin-left: .8rem;
+    }
+    .pub-grid-2 img,
+    .pub-grid-3 img { height: auto; }
+    .pub-links { margin-right: .8rem; margin-left: .8rem; }
+  }
 </style>
 
 <details class="pub">
@@ -298,7 +422,7 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 <div class="talk-archive">
-<details class="talk-year">
+<details class="talk-year" open>
   <summary><span class="talk-year__label">2026</span><span class="talk-year__count">4 talks</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
   <div class="talk-timeline dot-timeline">
   <article>
@@ -344,7 +468,7 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
   </div>
 </details>
 
-<details class="talk-year">
+<details class="talk-year" open>
   <summary><span class="talk-year__label">2025</span><span class="talk-year__count">3 talks</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
   <div class="talk-timeline dot-timeline">
   <article>
