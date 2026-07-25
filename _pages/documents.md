@@ -11,7 +11,6 @@ redirect_from:
 
 <div class="document-page">
   <header class="document-intro">
-    <p class="document-kicker">Academic archive</p>
     <p class="document-lead">A selection of research internships, reports and course projects completed during my university training.</p>
     <p class="document-note">These documents reflect work in progress at the time they were written. They may contain typos or incomplete arguments, but remain available as a record of my academic development.</p>
   </header>
@@ -86,7 +85,7 @@ redirect_from:
     <div class="document-section__heading"><span>02</span><h2>Course projects</h2></div>
     <details class="document-projects">
       <summary>
-        <span class="document-projects__summary"><strong>Browse the project archive</strong><span>7 projects · reports, notes and simulations</span></span>
+        <span class="document-projects__summary"><strong>Projects and reports</strong><span>7 items · reports, notes and simulations</span></span>
         <span class="document-projects__arrow" aria-hidden="true">›</span>
       </summary>
       <div class="document-project-grid">

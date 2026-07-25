@@ -13,7 +13,7 @@ translation_url: /teaching/
 
 Retrouvez mes supports de cours ainsi qu’une sélection de ressources ouvertes utiles aux étudiants.
 
-<details class="content-disclosure">
+<details class="content-disclosure teaching-disclosure">
 <summary>
   <span>
     1<sup>re</sup> année de licence
@@ -21,27 +21,25 @@ Retrouvez mes supports de cours ainsi qu’une sélection de ressources ouvertes
   </span>
 </summary>
 
-<p><b> HAS101X </b> - <b>Analyse réelle </b><br>
-<i> Description. </i> Ce cours s'adresse aux étudiants de première année en physique, chimie, mécanique et électronique. Il fournit une introduction à l'analyse, en se concentrant sur les fonctions d'une variable réelle. Il nécessite un programme de mathématiques au lycée et éventuellement une option de mathématiques avancées. <br>
-
-<span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAS101X">Page du cours</a></span></p>
-
-<hr>
-
-<p><b> HAS202X </b> - <b> Algèbre linéaire</b><br>
-<i> Description. </i> Ce cours s'adresse aux étudiants de première année en physique, chimie, mécanique et électronique. Il fournit une introduction à l'algèbre linéaire et à la résolution des systèmes différentiels linéaires. Les sujets incluent le calcul matriciel, la résolution de systèmes linéaires, les valeurs propres et la diagonalisation, ainsi que la résolution de systèmes différentiels linéaires. <br>
-
-<span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAS202X">Page du cours</a></span></p>
-
-<hr>
-
-<p><b> HAV220X </b> - <b> Probabilités pour les sciences de la vie </b><br>
-<i> Description. </i> Ce cours s’adresse à tous les étudiants inscrits au programme Bachelor Sciences de la Vie. Il présente les principaux outils de probabilité discrète utiles aux biologistes pour comprendre les phénomènes aléatoires impliquant notamment le comptage de variables. Le cours est conçu pour être accessible aux étudiants n'ayant qu'une formation de base en probabilités, telle qu'elle est enseignée en deuxième année de lycée. L'accent est mis sur le fait de partir d'exemples concrets et d'évoluer progressivement vers la modélisation. <br>
-
-<span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAV220X">Page du cours</a></span></p>
-
+<div class="teaching-timeline dot-timeline">
+  <article><span class="timeline-dot" aria-hidden="true"></span><div class="teaching-course">
+    <p class="teaching-course__code">HAS101X</p><h3>Analyse réelle</h3>
+    <p class="teaching-course__description">Une introduction à l’analyse pour les étudiants de première année en physique, chimie, mécanique et électronique, centrée sur les fonctions d’une variable réelle.</p>
+    <span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAS101X">Page du cours</a></span>
+  </div></article>
+  <article><span class="timeline-dot" aria-hidden="true"></span><div class="teaching-course">
+    <p class="teaching-course__code">HAS202X</p><h3>Algèbre linéaire</h3>
+    <p class="teaching-course__description">Une introduction au calcul matriciel, aux systèmes linéaires, aux valeurs propres, à la diagonalisation et aux systèmes différentiels linéaires.</p>
+    <span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAS202X">Page du cours</a></span>
+  </div></article>
+  <article><span class="timeline-dot" aria-hidden="true"></span><div class="teaching-course">
+    <p class="teaching-course__code">HAV220X</p><h3>Probabilités pour les sciences de la vie</h3>
+    <p class="teaching-course__description">Les principaux outils de probabilité discrète utiles aux sciences de la vie, présentés à partir d’exemples concrets avant de progresser vers la modélisation de phénomènes aléatoires.</p>
+    <span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAV220X">Page du cours</a></span>
+  </div></article>
+</div>
 </details>
-<details class="content-disclosure">
+<details class="content-disclosure teaching-disclosure">
 <summary>
   <span>
     2<sup>e</sup> année de licence
@@ -49,21 +47,20 @@ Retrouvez mes supports de cours ainsi qu’une sélection de ressources ouvertes
   </span>
 </summary>
 
-<p><b> HA8401H </b> - <b> Calcul différentiel et intégration multivariable </b><br>
-<i> Description. </i> Le cycle préparatoire de Polytech Montpellier est conçu pour préparer les étudiants à la poursuite d'un diplôme d'ingénieur dans n'importe quel domaine spécialisé disponible en France. Les cours de mathématiques sont intentionnellement conçus pour être à la fois complets et approfondis, avec un accent particulier sur les étudiants qui aspirent à explorer des domaines théoriques tels que l'ingénierie mathématique, la physique et la mécanique. Ces cours comprennent systématiquement des chapitres analytiques et algébriques, garantissant que les étudiants acquièrent une base mathématique solide et complète pour les servir efficacement dans leurs prochains projets d'ingénierie. <br>
-
-<span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HA8401H">Page du cours</a></span></p>
-
-<hr>
-
-<p><b> XADES4 </b> - <b> Travaux mathématiques supervisés </b><br>
-<i> Description. </i> Les travaux supervisés sont un dispositif spécifique pour les étudiants suivant le cycle préparatoire de Polytech Montpellier, leur permettant d'assimiler les contenus pédagogiques dispensés en développant leur autonomie et leur capacité d'auto-évaluation.
-Chaque semaine, les étudiants sont placés dans des conditions d'examen avec une matière à aborder en deux heures. Les enseignants sont là pour les guider, les aider à surmonter leurs difficultés et éventuellement prendre conscience de leurs lacunes. Ce cours est directement lié au HA8401H. <br>
-
-<span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HA8401H">Page du cours</a></span></p>
-
+<div class="teaching-timeline dot-timeline">
+  <article><span class="timeline-dot" aria-hidden="true"></span><div class="teaching-course">
+    <p class="teaching-course__code">HA8401H</p><h3>Calcul différentiel et intégration multivariable</h3>
+    <p class="teaching-course__description">Un socle analytique et algébrique approfondi pour le cycle préparatoire de Polytech Montpellier, avec des applications en mathématiques, physique et mécanique.</p>
+    <span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HA8401H">Page du cours</a></span>
+  </div></article>
+  <article><span class="timeline-dot" aria-hidden="true"></span><div class="teaching-course">
+    <p class="teaching-course__code">XADES4</p><h3>Travaux mathématiques supervisés</h3>
+    <p class="teaching-course__description">Des devoirs hebdomadaires de deux heures en conditions d’examen, conçus pour développer l’autonomie et l’auto-évaluation tout en accompagnant les étudiants sur le contenu de HA8401H.</p>
+    <span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HA8401H">Page du cours</a></span>
+  </div></article>
+</div>
 </details>
-<details class="content-disclosure">
+<details class="content-disclosure teaching-disclosure">
 <summary>
   <span>
     3<sup>e</sup> année de licence
@@ -71,20 +68,20 @@ Chaque semaine, les étudiants sont placés dans des conditions d'examen avec un
   </span>
 </summary>
 
-<p><b> HAX604X </b> - <b> Analyse numérique des équations aux dérivées ordinaires et partielles </b><br>
-<i> Description. </i> Ce cours s'adresse aux étudiants de troisième année en mathématiques qui envisagent de poursuivre des études de master axées sur la recherche. L'objectif est de doter les étudiants des concepts fondamentaux des méthodes numériques pour les équations différentielles. Les étudiants doivent avoir suivi des cours d'analyse dès la première et la deuxième années, ainsi que dès le premier semestre de la troisième année, notamment les cours suivants : intégration et équations différentielles élémentaires (HAX302X) & calcul différentiel et équations différentielles (HAX502X). <br>
-
-<span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAX604X">Page du cours</a></span></p>
-
-<hr>
-
-<p><b> HAX606X </b> - <b> Optimisation convexe </b><br>
-<i> Description. </i> Ce cours s'adresse aux étudiants de troisième année de mathématiques qui souhaitent poursuivre un master axé sur la recherche. L'objectif est de fournir aux étudiants les concepts fondamentaux de l'optimisation mathématique et de ses applications. Les étudiants doivent avoir suivi des cours d'introduction à l'analyse dès la première et la deuxième années, ainsi que les cours suivants : topologie des $\mathbb{R}^n$ et fonctions multivariables (HAX404X) et calcul différentiel et équations différentielles (HAX502X). <br>
-
-<span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAX606X">Page du cours</a></span></p>
-
+<div class="teaching-timeline dot-timeline">
+  <article><span class="timeline-dot" aria-hidden="true"></span><div class="teaching-course">
+    <p class="teaching-course__code">HAX604X</p><h3>Analyse numérique des équations aux dérivées ordinaires et partielles</h3>
+    <p class="teaching-course__description">Les méthodes numériques fondamentales pour les équations différentielles, destinées aux étudiants de troisième année préparant un master orienté vers la recherche.</p>
+    <span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAX604X">Page du cours</a></span>
+  </div></article>
+  <article><span class="timeline-dot" aria-hidden="true"></span><div class="teaching-course">
+    <p class="teaching-course__code">HAX606X</p><h3>Optimisation convexe</h3>
+    <p class="teaching-course__description">Les concepts fondamentaux de l’optimisation mathématique et leurs applications pour des étudiants souhaitant poursuivre une formation orientée vers la recherche.</p>
+    <span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAX606X">Page du cours</a></span>
+  </div></article>
+</div>
 </details>
-<details class="content-disclosure">
+<details class="content-disclosure teaching-disclosure">
 <summary>
   <span>
     1<sup>re</sup> année de master
@@ -92,11 +89,13 @@ Chaque semaine, les étudiants sont placés dans des conditions d'examen avec un
   </span>
 </summary>
 
-<p><b> HAX703X </b> - <b> Analyse numérique des équations aux dérivées partielles hyperboliques </b><br>
-<i> Description. </i> Ce cours propose une introduction structurée aux équations aux dérivées partielles (EDP) et à leur résolution numérique. Il commence par la classification des EDP et progresse vers le développement et l'analyse de méthodes de différences finies et de volumes finis. Les étudiants sont initiés à la résolution analytique des lois de conservation scalaires en utilisant des caractéristiques, des solutions faibles et des conditions d'entropie. Le cours couvre également des schémas numériques clés tels que la méthode Godunov et les flux TVD, en mettant l'accent sur la stabilité et la précision.<br>
-
-<span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAX703X">Page du cours</a></span></p>
-
+<div class="teaching-timeline dot-timeline">
+  <article><span class="timeline-dot" aria-hidden="true"></span><div class="teaching-course">
+    <p class="teaching-course__code">HAX703X</p><h3>Analyse numérique des équations aux dérivées partielles hyperboliques</h3>
+    <p class="teaching-course__description">Classification et résolution numérique des EDP, lois de conservation scalaires, solutions faibles et conditions d’entropie, puis schémas de différences finies et de volumes finis, notamment Godunov et TVD.</p>
+    <span class="resource-links"><a href="https://sachacardonna.github.io/teaching/HAX703X">Page du cours</a></span>
+  </div></article>
+</div>
 </details>
 
 

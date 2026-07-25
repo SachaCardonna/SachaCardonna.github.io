@@ -12,7 +12,7 @@ redirect_from:
 <p class="page-lead">Scientific outreach activities through which I share mathematics, modeling and scientific computing with school and university audiences.</p>
 
 <div class="talk-archive outreach-archive">
-  <details class="talk-year">
+  <details class="talk-year" open>
     <summary><span class="talk-year__label">2025</span><span class="talk-year__count">1 activity</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
     <div class="talk-timeline dot-timeline">
       <article>
@@ -28,7 +28,7 @@ redirect_from:
     </div>
   </details>
 
-  <details class="talk-year">
+  <details class="talk-year" open>
     <summary><span class="talk-year__label">2024</span><span class="talk-year__count">3 activities</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
     <div class="talk-timeline dot-timeline">
       <article>

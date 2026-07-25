@@ -16,23 +16,8 @@ Quelques intérêts et valeurs qui m’accompagnent, dans mon travail universita
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 En dehors de mon travail académique, j’essaie de rester engagé dans des causes que je considère importantes, tant au sein de l’université qu’à l’extérieur.
-<style>
-  details {
-    background-color: rgba(0, 0, 0, 0.03); /* léger gris clair */
-    border-radius: 6px;
-    padding: 0.5em;
-  }
-
-  summary {
-    cursor: pointer;
-    font-weight: bold;
-  }
-
-  details[open] {
-    background-color: rgba(0, 0, 0, 0.05); /* un peu plus foncé quand ouvert */
-  }
-</style>
-<details>
+<div class="values-list">
+<details class="values-disclosure">
 <summary><strong>Accès à l'éducation</strong></summary>
 Je tiens à contribuer à réduire les inégalités d’accès à l’enseignement supérieur, notamment pour les élèves issus de milieux sous-représentés ou défavorisés. J’ai par exemple encadré plusieurs ateliers MathC2, des programmes nationaux destinés à des lycéens d’établissements moins favorisés, avec une attention particulière portée à l’orientation des jeunes femmes vers les études scientifiques.  
 J’ai également participé à plusieurs actions de médiation au cours desquelles j’ai présenté mes travaux et, plus largement, les mathématiques appliquées. Dans mon enseignement à l’université, je veille à construire une relation attentive avec les étudiants et à soutenir en particulier ceux qui connaissent moins bien les attentes et les codes du monde universitaire — une situation que j’ai moi-même connue.   
@@ -41,17 +26,13 @@ Au-delà de la médiation, j’aimerais développer mes propres ressources péda
 
 </details>
 
-<div style="margin-bottom: 1em;"></div>
-
-<details>
+<details class="values-disclosure">
 <summary><strong>Bénévolat</strong></summary>
 J’ai toujours trouvé important de rendre un peu de ce que la société m’a apporté. Pendant plusieurs années, j’ai régulièrement organisé des activités pour les enfants du service pédiatrique de l’hôpital de ma ville natale. J’ai également proposé gratuitement du soutien scolaire à des camarades ou à des élèves plus jeunes, fait du bénévolat à la MJC locale et accueilli ponctuellement des animaux en famille d’accueil — j’adore les animaux.
 
 </details>
 
-<div style="margin-bottom: 1em;"></div>
-
-<details>
+<details class="values-disclosure">
 <summary><strong>Intégrité scientifique</strong></summary>
 En tant que doctorant qui vient tout juste de commencer ma carrière, une chose qui me tient profondément à cœur est l’intégrité du travail auquel je contribue.  
 Dès le début de ma thèse, mes directeurs ont souligné l’importance d’une recherche rigoureuse, significative et honnête. J'essaie de respecter cette norme en me demandant si ce que je fais apporte vraiment quelque chose de nouveau.  
@@ -59,9 +40,7 @@ Je sais que la pression à publier est réelle, mais je ne veux pas prendre l’
 
 </details>
 
-<div style="margin-bottom: 1em;"></div>
-
-<details>
+<details class="values-disclosure">
 <summary><strong>Artisanat et agriculture locaux</strong></summary>
 Je crois que la qualité de ce que nous utilisons et apprécions est étroitement liée aux personnes qui le créent. Dans la mesure du possible, je choisis de soutenir les artisans locaux, les petits producteurs et les entreprises indépendantes.  
 Cela peut signifier acheter de la nourriture directement dans les fermes voisines, choisir des objets faits à la main auprès d'artisans que je connais, tout en recommandant leur travail à des amis et des collègues.  
@@ -69,61 +48,21 @@ Il ne s’agit pas de rejeter complètement la production de masse, mais plutôt
 
 </details>
 
-<div style="margin-bottom: 1em;"></div>
-
-<details>
+<details class="values-disclosure">
 <summary><strong>Don de sang et de plasma</strong></summary>
 Je donne régulièrement mon sang et mon plasma depuis mes 18 ans, autant que possible. Je suis particulièrement sensible à l’importance de ces dons pour les personnes dont le groupe sanguin est rare. Toute personne éligible peut prendre facilement rendez-vous sur le site de l’<a href="https://dondesang.efs.sante.fr" target="_blank" rel="noopener noreferrer">EFS</a>.
 
 </details>
+</div>
 
 ## Quelques choix artistiques
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 J'ai toujours été passionné par la littérature, le cinéma, les jeux vidéo et la musique. Ces arts ont eu un impact significatif sur ma vie et ont façonné ma façon de voir et de penser le monde.
 
-<style>
-.film-card {
-  position: relative;
-  flex: 0 1 calc(16.66% - 1em); 
-  min-width: 0; 
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.film-card img {
-  width: 100%;
-  display: block;
-  border-radius: 8px;
-}
-
-.film-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,0,0,0.75);
-  color: white;
-  padding: 0.5em;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  font-size: 0.7em;
-}
-
-.film-card:hover .film-overlay {
-  opacity: 1;
-}
-@media (max-width: 768px) {
-  .film-card {
-    flex: 0 1 calc(32% - 0.5em); 
-    min-width: auto;
-  }
-}
-</style>
-
 ### Films
 Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui m'ont marqué au fil des années. Voici une sélection de six de mes œuvres préférées ; s'ils sont tous plutôt mélancoliques, chacun porte, à sa manière, un peu d'espoir.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
+<div class="art-grid">
   <div class="film-card">
     <img src="/images/films/lost.jpg" alt="Lost in Translation - Sofia Coppola (2003)">
     <div class="film-overlay">
@@ -177,7 +116,7 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
 ### Musique
 Je passe la plupart de mes journées avec de la musique en fond sonore. Comme mes goûts musicaux sont assez éclectiques, recommander de la musique n’est pas facile pour moi ; J'ai essayé de sélectionner ici six albums, chacun dans un style musical différent.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
+<div class="art-grid">
   <div class="film-card">
     <img src="/images/music/heaven_or_las_vegas.jpg" alt="Heaven or Las Vegas - Cocteau Twins (1990)">
     <div class="film-overlay">
@@ -231,7 +170,7 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
 ### Littérature
 Quand j’étais plus jeune, je lisais beaucoup. Avec mon doctorat, je n'ai plus autant de temps pour ça, et ça me manque... Pourtant, j'ai une forte passion pour la littérature, et voici six ouvrages qui ont eu un impact significatif sur ma vie.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
+<div class="art-grid">
   <div class="film-card">
     <img src="/images/books/temps.jpg" alt="Proust">
     <div class="film-overlay">
@@ -285,7 +224,7 @@ Quand j’étais plus jeune, je lisais beaucoup. Avec mon doctorat, je n'ai plus
 ### Jeux vidéo
 J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo. Pour moi, c'est aussi une véritable forme d'art, réunissant une histoire, des images, de la musique et quelque chose en plus : on y participe. 
 
-<div style="display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em;">
+<div class="art-grid">
   <div class="film-card">
     <img src="/images/games/dbz.jpg" alt="Budokai">
     <div class="film-overlay">
@@ -340,79 +279,6 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 Voici simplement quelques leçons tirées de mes études, de mon travail et de mes efforts pour rester en bonne santé. Je ne suis expert en rien, mais je partage volontiers mon expérience.
-<style>
-
-.advice-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 colonnes par défaut */
-  gap: 1em;
-}
-
-.advice-card{
-  position: relative;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background: rgba(0,0,0,0.03);
-  overflow: hidden;
-  aspect-ratio: 4 / 3; 
-  outline: none;
-}
-
-.advice-title{
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 10px;
-  text-align: center;
-  font-weight: 700;
-  /* color: #222; */
-}
-
-.advice-overlay{
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.82);
-  color: #fff;
-  padding: 12px;
-  opacity: 0;
-  transition: opacity .25s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
-  font-size: 0.68rem;
-  line-height: 1.32;
-}
-
-.advice-card:hover .advice-overlay,
-.advice-card:focus .advice-overlay,
-.advice-card:focus-within .advice-overlay{
-  opacity: 1;
-}
-
-.advice-card:hover{
-  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-  transform: translateY(-1px);
-  transition: box-shadow .2s ease, transform .2s ease;
-}
-
-/* Tablettes : 3 cartes par ligne */
-@media (max-width: 1024px) {
-  .advice-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Mobiles : 2 cartes par ligne */
-@media (max-width: 768px) {
-  .advice-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-</style>
-
 <div class="advice-grid">
 
   <div class="advice-card" tabindex="0">

@@ -12,7 +12,7 @@ translation_url: /diffusion/
 <p class="page-lead">Des actions de médiation qui me permettent de partager les mathématiques, la modélisation et le calcul scientifique avec des publics scolaires et universitaires.</p>
 
 <div class="talk-archive outreach-archive">
-  <details class="talk-year">
+  <details class="talk-year" open>
     <summary><span class="talk-year__label">2025</span><span class="talk-year__count">1 action</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
     <div class="talk-timeline dot-timeline">
       <article>
@@ -28,7 +28,7 @@ translation_url: /diffusion/
     </div>
   </details>
 
-  <details class="talk-year">
+  <details class="talk-year" open>
     <summary><span class="talk-year__label">2024</span><span class="talk-year__count">3 actions</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
     <div class="talk-timeline dot-timeline">
       <article>

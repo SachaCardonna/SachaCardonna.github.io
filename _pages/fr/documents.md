@@ -11,7 +11,6 @@ translation_url: /documents/
 
 <div class="document-page">
   <header class="document-intro">
-    <p class="document-kicker">Archives universitaires</p>
     <p class="document-lead">Une sélection de stages de recherche, de rapports et de projets réalisés au cours de ma formation universitaire.</p>
     <p class="document-note">Ces documents témoignent d’un travail en cours au moment de leur rédaction. Ils peuvent contenir des coquilles ou des arguments incomplets, mais restent disponibles pour retracer l’évolution de mon parcours.</p>
   </header>
@@ -86,7 +85,7 @@ translation_url: /documents/
     <div class="document-section__heading"><span>02</span><h2>Projets de cours</h2></div>
     <details class="document-projects">
       <summary>
-        <span class="document-projects__summary"><strong>Parcourir les archives de projets</strong><span>7 projets · rapports, notes et simulations</span></span>
+        <span class="document-projects__summary"><strong>Projets et rapports</strong><span>7 éléments · rapports, notes et simulations</span></span>
         <span class="document-projects__arrow" aria-hidden="true">›</span>
       </summary>
       <div class="document-project-grid">
