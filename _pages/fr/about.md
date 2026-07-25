@@ -48,7 +48,7 @@ J’aime intervenir du début à la fin du processus : de l’étude, du choix o
   <div class="table-responsive news-scroll">
     <table class="table table-sm table-borderless">
               <tr>
-        <td scope="row">juin 2026</td>
+        <td scope="row">Juin 2026</td>
         <td style="width:85%">
           Nous avons lancé un nouveau projet avec <a href="https://www.lama.univ-savoie.fr/members/default/boscheriw" rel="external nofollow noopener" target="_blank">Walter Boscheri</a>, <a href="https://www.di.univr.it/?ent=persona&id=89983&lang=en" rel="external nofollow noopener" target="_blank">Elena Bernardelli</a>, <a href="https://www.linkedin.com/in/lidia-gude-vila-340426328/" rel="external nofollow noopener" target="_blank">Lidia Gude Vila</a> et <a href="https://www.linkedin.com/in/mattia-lupi/" rel="external nofollow noopener" target="_blank">Mattia Luppi</a> lors de
           <a href="https://elenagaburro.it/sunhype2026.html" rel="external nofollow noopener" target="_blank">SUNHYPE 2026</a>,
@@ -56,14 +56,14 @@ J’aime intervenir du début à la fin du processus : de l’étude, du choix o
         </td>
       </tr>
           <tr>
-        <td scope="row">mai 2026</td>
+        <td scope="row">Mai 2026</td>
         <td style="width:85%">
           J'ai présenté une nouvelle méthode d'ordre élevé pour les modèles d'interaction onde-structure à
           <a href="https://shark-fv.eu/home-shark/" rel="external nofollow noopener" target="_blank">SHARK-FV26</a>, près de Porto au Portugal (<a href="{{ site.url }}/files/talks/SHARK_FV26.pdf">diapositives</a>).
         </td>
       </tr>
             <tr>
-        <td scope="row">mars 2026</td>
+        <td scope="row">Mars 2026</td>
         <td style="width:85%">
           J'ai été invité par
           <a href="https://uwaterloo.ca/applied-mathematics/profiles/david-del-rey-fernandez" rel="external nofollow noopener" target="_blank">David Del Rey Fernández</a>  
@@ -72,7 +72,7 @@ J’aime intervenir du début à la fin du processus : de l’étude, du choix o
         </td>
       </tr>
       <tr>
-        <td scope="row">mars 2026</td>
+        <td scope="row">Mars 2026</td>
         <td style="width:85%">
           J'ai été invité à donner une conférence à
           <a href="https://cjcma2026.sciencesconf.org" rel="external nofollow noopener" target="_blank">CJC-MA26</a>
@@ -81,13 +81,13 @@ J’aime intervenir du début à la fin du processus : de l’étude, du choix o
         </td>
       </tr>
             <tr>
-        <td scope="row">février 2026</td>
+        <td scope="row">Fev. 2026</td>
         <td style="width:85%">
 J’ai présenté le quotidien d’une thèse en mathématiques à des étudiants de licence et de master, lors d’une conférence consacrée aux métiers des mathématiques (<a href="{{ site.url }}/files/talks/metier_des_maths.pdf">diapositives</a>).
         </td>
       </tr>
       <tr>
-        <td scope="row">décembre 2025</td>
+        <td scope="row">Déc. 2025</td>
         <td style="width:85%">
           J'ai visité le
           <a href="https://www.inria.fr/fr/rapsodi" rel="external nofollow noopener" target="_blank">RAPSODI</a>
@@ -96,7 +96,7 @@ J’ai présenté le quotidien d’une thèse en mathématiques à des étudiant
         </td>
       </tr>
       <tr>
-        <td scope="row">juillet 2025</td>
+        <td scope="row">Juil. 2025</td>
         <td style="width:85%">
           J'ai parlé des méthodes monolithiques d'ordre élevé à
           <a href="https://icosahom2025.org" rel="external nofollow noopener" target="_blank">ICOSAHOM2025</a>
@@ -104,7 +104,7 @@ J’ai présenté le quotidien d’une thèse en mathématiques à des étudiant
         </td>
       </tr>
       <tr>
-        <td scope="row">juin 2025</td>
+        <td scope="row">Juin 2025</td>
         <td style="width:85%">
           Pendant
           <a href="https://www.umontpellier.fr/agenda/semaine-du-pole-mips" rel="external nofollow noopener" target="_blank">Semaine MIPS</a>,
@@ -112,7 +112,7 @@ J’ai présenté le quotidien d’une thèse en mathématiques à des étudiant
         </td>
       </tr>
       <tr>
-        <td scope="row">mai 2025</td>
+        <td scope="row">Mai 2025</td>
         <td style="width:85%">
           A fait une présentation au
           <a href="https://cimav2025.sciencesconf.org" rel="external nofollow noopener" target="_blank">CIMAV 2025</a>
@@ -120,7 +120,7 @@ J’ai présenté le quotidien d’une thèse en mathématiques à des étudiant
         </td>
       </tr>
             <tr>
-        <td scope="row">janvier 2025</td>
+        <td scope="row">Jan. 2025</td>
         <td style="width:85%">
          J'ai assisté au <a href="http://smai.emath.fr/spip.php?article932" rel="external nofollow noopener" target="_blank">CEA-SMAI/GAMNI25</a> à l'Institut Henri Poincaré, Paris.
         </td>
