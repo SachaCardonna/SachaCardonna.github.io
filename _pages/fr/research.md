@@ -295,7 +295,7 @@ details[open] .pub-badge .arrow {
   </summary>
 
   <div class="pub-abstract">
-    Travaux en cours sur un modèle d'interaction onde-structure 2D et sa résolution numérique.
+    Travail en cours consacré à la modélisation bidimensionnelle des interactions entre vagues et structures, ainsi qu’à la conception et à l’analyse des méthodes numériques associées.
   </div>
 
   <div class="pub-grid-2">
@@ -324,7 +324,7 @@ details[open] .pub-badge .arrow {
   </summary>
 
   <div class="pub-abstract">
-    Travaux en cours sur un modèle d'interaction onde-structure 2D et sa résolution numérique. 
+    Travail en cours consacré à la modélisation bidimensionnelle des interactions entre vagues et structures, ainsi qu’à la conception et à l’analyse des méthodes numériques associées.
   </div>
 
   <div class="pub-grid-2">
@@ -353,11 +353,10 @@ details[open] .pub-badge .arrow {
   </summary>
 
   <div class="pub-abstract">
-Dans ce travail, nous proposons une nouvelle méthode numérique d'ordre élevé pour les équations bidimensionnelles non linéaires en eaux peu profondes (NSW) sur des maillages non structurés. L'approche est basée sur la subcell monolithique DG/FV méthode, récemment introduite dans [Vilar:2025], dans quel ordre supérieur Discontinuous Galerkin (DG) sont mixtes, au niveau subcell échelle, avec des méthodes robustes de volumes finis (FV) d’ordre le plus bas. Ceci est rendu possible grâce à la reformulation de schémas DG d'ordre élevé en schémas de type FV définis sur une sous-grille, grâce à l'introduction de certains flux particuliers appelés flux reconstruits.<br>
-La stratégie repose ensuite sur l'introduction de flux numériques mixtes, définis comme des combinaisons convexes de flux DG d'ordre élevé reconstruits et de flux FV robustes de premier ordre. Les coefficients de mélange sont calculés localement à chaque subcell interface afin d'appliquer les propriétés de stabilité non linéaire inévitables. Cela permet au système de rester stable en présence de forts gradients, de chocs et wet-dry fronts, tout en conservant une précision d'ordre élevé dans les régions lisses.
-<br>
-Une attention particulière est portée à la formulation discrète associée au terme source bathymétrique. Le régime est conçu pour être well-balanced pour les régimes stationnaires immobiles, grâce à un réglage fin des reconstructions locales de type hydrostatique, respectivement appliquées à deux échelles différentes et sur deux types d'approximations différentes : i) au niveau des flux DG entre éléments, en se concentrant sur des reconstructions appropriées de traces polynomiales d'ordre élevé, ii) au niveau des flux FV entre subcells, en se concentrant sur la reconstruction de subcell valeurs constantes par morceaux. Cette reconstruction innovante à deux niveaux garantit que les états stationnaires immobiles sont non seulement préservés avec précision sur des maillages entièrement non structurés, mais également jusqu'au subcell échelle. <br>
-Cette nouvelle méthode numérique repose sur un traitement entièrement a priori, et ne nécessite aucune étape de recalcul et d'adaptation a posteriori, tout en restant conservatrice par construction. Plusieurs expériences numériques illustrent sa capacité à capturer avec précision des phénomènes multidimensionnels wet-dry interfaces, pour contrôler les oscillations parasites à proximité des discontinuités classiques et résoudre avec précision les caractéristiques d'écoulement localisées à l'intérieur d'éléments de maillage relativement grands.
+Nous proposons une nouvelle méthode numérique d’ordre élevé pour les équations bidimensionnelles non linéaires de Saint-Venant sur maillages non structurés. Elle repose sur l’approche monolithique subcell DG/FV récemment introduite dans [Vilar:2025] : une discrétisation Discontinuous Galerkin (DG) d’ordre élevé est réécrite sous une forme de type Finite Volume (FV) sur une sous-grille, au moyen de flux reconstruits, puis combinée à l’échelle des sous-cellules avec une méthode FV robuste de premier ordre.<br><br>
+Les flux numériques sont obtenus comme des combinaisons convexes des flux DG reconstruits et des flux FV. Les coefficients de mélange sont calculés localement à chaque interface de sous-cellule afin d’imposer les propriétés de stabilité non linéaire requises. Le schéma reste ainsi robuste en présence de forts gradients, de chocs et de fronts sec-mouillé, tout en conservant une précision d’ordre élevé dans les zones régulières.<br><br>
+Une attention particulière est portée à la discrétisation du terme source bathymétrique. Le schéma est exactement équilibré (<i>well-balanced</i>) pour les états stationnaires au repos grâce à des reconstructions hydrostatiques soigneusement définies à deux niveaux : entre les éléments, sur les traces polynomiales d’ordre élevé, puis entre les sous-cellules, sur les valeurs constantes par morceaux. Cette construction préserve les équilibres au repos sur des maillages entièrement non structurés, jusque dans chaque sous-cellule.<br><br>
+La méthode est entièrement <i>a priori</i> : elle ne nécessite ni détection <i>a posteriori</i>, ni recalcul, ni adaptation locale, et demeure conservative par construction. Les expériences numériques montrent qu’elle capture précisément les interfaces sec-mouillé multidimensionnelles, contrôle les oscillations parasites au voisinage des discontinuités et résout des structures d’écoulement localisées à l’intérieur d’éléments de maillage relativement grands.
   </div>
 
   <div class="pub-grid-2">
@@ -388,19 +387,10 @@ Cette nouvelle méthode numérique repose sur un traitement entièrement a prior
   </summary>
 
   <div class="pub-abstract">
-Cet article contient plusieurs nouvelles contributions à l'approximation numérique des équations en eaux peu profondes. 
-Nous introduisons un local d'ordre élevé subcell monolithique DG/FV méthode de discrétisation pour l'approximation d'équations non linéaires en eaux peu profondes à surface libre avec des termes sources. 
-Cela englobe à la fois les équations hyperboliques non linéaires des eaux peu profondes (également connues sous le nom de Saint-Venant équations) et les équations entièrement non linéaires faiblement dispersives (appelées Green-Naghdi équations), approximant 
-les équations générales des vagues d'eau à surface libre dans le régime d'écoulement en eau peu profonde. <br>
-La méthode est fondée sur un modèle classique Discontinuous Galerkin (DG), écrite sous la forme d'une discrétisation particulière en volumes finis (FV) sur une sous-partition, impliquant des flux numériques d'interface d'ordre élevé reconstruits. Dans le présent travail, nous étudions la question importante de la discrétisation des termes sources dans le cadre de tels subcell monolithique DG/FV stratégies, 
-en se concentrant sur les termes sources bathymétriques, ainsi que sur les termes sources différentiels d'ordre supérieur provenant de corrections dispersives pour les modèles asymptotiques d'ordre supérieur. 
-L'originalité de la méthode réside dans l'introduction de flux mélangés a priori, qui sont des combinaisons convexes de flux reconstruits dits d'ordre élevé et de flux FV d'ordre inférieur. 
-Les coefficients de mélange sont calculés de manière adaptative pour chaque subcell interface pour appliquer les propriétés convexes pertinentes au niveau discret, y compris la positivité de la hauteur d'eau. 
-A partir de l’approximation polynomiale par morceaux DG, le terme source bathymétrique est également discrétisé au subcell niveau,
-et nous prouvons qu'un approprié well-balanced propriété, assurant la préservation des états stationnaires immobiles, peut être obtenue au subcell-échelle s'appuyant sur des combinaisons finement ajustées de divers états reconstruits de type hydrostatique à des niveaux de précision inférieurs/supérieurs, se produisant simultanément à des échelles locales et globales. <br>
-Nous présentons également une combinaison originale et efficace de ce nouveau well-balanced locale subcell monolithique DG/FV avec une méthode de Galerkin discontinue de pénalité interne d'ordre élevé, afin de 
-approximer les contributions d’ordre supérieur apparaissant dans le Green-Naghdi équations de manière cohérente et précise. 
-Nous effectuons ensuite des évaluations approfondies des méthodes numériques résultantes, fournissant des informations sur la convergence numérique observée et la robustesse globale, y compris la capacité à préserver les états stationnaires, à empêcher les oscillations non physiques à proximité des discontinuités et à garantir la positivité de la hauteur d'eau au niveau discret.
+Cet article apporte plusieurs contributions à l’approximation numérique des modèles d’écoulement en eau peu profonde. Nous introduisons une méthode monolithique locale subcell DG/FV d’ordre élevé pour des équations non linéaires à surface libre comportant des termes sources. Le cadre couvre à la fois les équations hyperboliques de Saint-Venant et les équations de Green–Naghdi, faiblement dispersives et pleinement non linéaires, qui constituent deux approximations asymptotiques des équations générales des vagues en régime d’eau peu profonde.<br><br>
+La méthode part d’une formulation classique Discontinuous Galerkin (DG), réécrite comme une discrétisation particulière de type Finite Volume (FV) sur une sous-partition grâce à des flux d’interface reconstruits d’ordre élevé. Nous étudions en particulier la discrétisation des termes sources bathymétriques et des termes différentiels d’ordre supérieur issus des corrections dispersives. Des flux mélangés <i>a priori</i>, définis comme des combinaisons convexes des flux reconstruits d’ordre élevé et de flux FV robustes de premier ordre, sont introduits à chaque interface de sous-cellule. Leurs coefficients sont calculés de manière adaptative afin de garantir au niveau discret des propriétés de convexité essentielles, notamment la positivité de la hauteur d’eau.<br><br>
+Le terme source bathymétrique est lui aussi discrétisé à l’échelle des sous-cellules à partir de l’approximation polynomiale DG. Nous montrons qu’un choix précis de reconstructions hydrostatiques, combinant plusieurs niveaux de précision aux échelles locale et globale, permet d’obtenir une propriété <i>well-balanced</i> jusque dans les sous-cellules et de préserver exactement les états stationnaires au repos.<br><br>
+Nous couplons enfin cette stratégie locale subcell DG/FV, robuste et <i>well-balanced</i>, à une méthode Discontinuous Galerkin d’ordre élevé avec pénalisation intérieure afin d’approximer de manière cohérente et précise les contributions dispersives des équations de Green–Naghdi. Les expériences numériques mettent en évidence la convergence et la robustesse de l’approche, sa capacité à préserver les états stationnaires, à éviter les oscillations non physiques près des discontinuités et à maintenir la positivité de la hauteur d’eau.
   </div>
 
   <div class="pub-grid-3">
