@@ -7,78 +7,141 @@ lang: fr
 translation_url: /documents/
 ---
 
-
-
 {% include base_path %}
 
-Vous trouverez ici différents documents — rapports, présentations et essais — réalisés pendant mes études.  
-<i>Veuillez noter que ces documents peuvent contenir des fautes de frappe ou être incomplets. Ils sont partagés principalement pour illustrer le travail que j'ai effectué lors de mes études.</i>
+<div class="document-page">
+  <header class="document-intro">
+    <p class="document-kicker">Archives universitaires</p>
+    <p class="document-lead">Une sélection de stages de recherche, de rapports et de projets réalisés au cours de ma formation universitaire.</p>
+    <p class="document-note">Ces documents témoignent d’un travail en cours au moment de leur rédaction. Ils peuvent contenir des coquilles ou des arguments incomplets, mais restent disponibles pour retracer l’évolution de mon parcours.</p>
+  </header>
 
-## Stages
-<hr style="margin-top: -0.1em; margin-bottom: 1em;">
+  <section class="document-section">
+    <div class="document-section__heading"><span>01</span><h2>Stages de recherche</h2></div>
+    <div class="document-entries">
+      <details class="document-entry">
+        <summary>
+          <span class="document-entry__index">01</span>
+          <span class="document-entry__heading"><h3>Schéma local monolithique DG/FV subcells préservant les propriétés convexes pour les équations non linéaires de Saint-Venant</h3><p>Analyse numérique · Calcul scientifique</p></span>
+          <span class="document-entry__arrow" aria-hidden="true">›</span>
+        </summary>
+        <div class="document-entry__body">
+          <p class="document-entry__abstract">Construction et implémentation d’une nouvelle stratégie de stabilisation des méthodes discontinuous Galerkin pour les équations non linéaires de Saint-Venant, fondée sur une approche de type volumes finis subcells. Le travail porte sur un schéma monolithique DG/FV entièrement a priori et préservant les propriétés convexes.</p>
+          <p class="document-entry__advisor"><b>Encadrants</b> · François Vilar et Fabien Marche</p>
+          <div class="document-entry__actions"><a class="resource-button" href="{{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf">Diapositives</a></div>
+        </div>
+      </details>
 
-<article class="content-card" markdown="1">
-<b> Schéma local monolithique DG/FV subcells préservant les propriétés convexes pour les équations non linéaires de Saint-Venant</b>.
+      <details class="document-entry">
+        <summary>
+          <span class="document-entry__index">02</span>
+          <span class="document-entry__heading"><h3>Analyse asymptotique de suites d’EDP et théorie de l’homogénéisation</h3><p>Équations aux dérivées partielles · Homogénéisation</p></span>
+          <span class="document-entry__arrow" aria-hidden="true">›</span>
+        </summary>
+        <div class="document-entry__body">
+          <p class="document-entry__abstract">Étude de deux problèmes, dont un problème de Dirichlet posé sur un ouvert variable. La seconde partie modélise la formation du brouillard glacé — condensation de vapeur d’eau en gouttelettes qui gèlent rapidement — comme un problème d’homogénéisation.</p>
+          <p class="document-entry__advisor"><b>Encadrant</b> · Michel Bellieud</p>
+          <div class="document-entry__actions">
+            <a class="resource-button" href="{{ site.url }}/files/projects/Homogeneisation.pdf">Rapport</a>
+            <a class="resource-button" href="{{ site.url }}/files/projects/Soutenance homogeneisation.pdf">Diapositives</a>
+          </div>
+        </div>
+      </details>
 
-<i>Résumé</i>. Construction et implémentation d’une nouvelle stratégie de stabilisation des méthodes discontinuous Galerkin pour les équations non linéaires de Saint-Venant, fondée sur une approche de type volumes finis subcells. Nous considérons une stratégie a priori, plus précisément un schéma monolithique DG/FV subcells préservant les propriétés convexes.
+      <details class="document-entry">
+        <summary>
+          <span class="document-entry__index">03</span>
+          <span class="document-entry__heading"><h3>De la géométrie différentielle au billard mathématique</h3><p>Géométrie différentielle · Systèmes dynamiques</p></span>
+          <span class="document-entry__arrow" aria-hidden="true">›</span>
+        </summary>
+        <div class="document-entry__body">
+          <p class="document-entry__abstract">Étude du billard mathématique comme système dynamique élémentaire, avec une caractérisation des trajectoires périodiques à partir de leur angle d’incidence initial. Travail réalisé avec Samuel Raë.</p>
+          <p class="document-entry__advisor"><b>Encadrant</b> · Daniel Massart</p>
+          <div class="document-entry__actions">
+            <a class="resource-button" href="{{ site.url }}/files/projects/Billards.pdf">Rapport</a>
+            <a class="resource-button" href="{{ site.url }}/files/projects/Soutenance billards.pdf">Diapositives</a>
+          </div>
+        </div>
+      </details>
 
-Encadré par François Vilar et Fabien Marche.
+      <details class="document-entry">
+        <summary>
+          <span class="document-entry__index">04</span>
+          <span class="document-entry__heading"><h3>Preuve du théorème de progression arithmétique de Dirichlet</h3><p>Théorie des nombres · Analyse complexe</p></span>
+          <span class="document-entry__arrow" aria-hidden="true">›</span>
+        </summary>
+        <div class="document-entry__body">
+          <p class="document-entry__abstract">Démonstration du fait que, pour deux entiers <i>a</i> et <i>b</i> premiers entre eux, la progression arithmétique <i>an + b</i> contient une infinité de nombres premiers, à l’aide d’outils issus notamment de l’analyse complexe et de la théorie des groupes.</p>
+          <p class="document-entry__advisor"><b>Encadrant</b> · Sylvain Brochard</p>
+          <div class="document-entry__actions">
+            <a class="resource-button" href="{{ site.url }}/files/projects/Progression arithmetique.pdf">Rapport</a>
+            <a class="resource-button" href="{{ site.url }}/files/projects/Soutenance progression arithmetique.pdf">Diapositives</a>
+          </div>
+        </div>
+      </details>
+    </div>
+  </section>
 
-[Diapositives]({{ site.url }}/files/projects/Soutenance DG-FV4SW.pdf){: .resource-button }
-</article>
+  <section class="document-section">
+    <div class="document-section__heading"><span>02</span><h2>Projets de cours</h2></div>
+    <details class="document-projects">
+      <summary>
+        <span class="document-projects__summary"><strong>Parcourir les archives de projets</strong><span>7 projets · rapports, notes et simulations</span></span>
+        <span class="document-projects__arrow" aria-hidden="true">›</span>
+      </summary>
+      <div class="document-project-grid">
+        <article class="document-project">
+          <p class="document-project__label">Analyse numérique</p>
+          <h3>Méthode Hybrid High-Order pour les opérateurs de Leray–Lions</h3>
+          <p>Étude d’une méthode non conforme de type éléments finis et de ses principaux résultats d’analyse fonctionnelle discrète.</p>
+          <div class="document-project__actions"><a class="resource-button" href="{{ site.url }}/files/projects/HHO pour Leray-Lions.pdf">Rapport</a></div>
+        </article>
 
-<article class="content-card" markdown="1">
-<b> Analyse asymptotique de suites d’EDP et théorie de l’homogénéisation</b>.
+        <article class="document-project">
+          <p class="document-project__label">Calcul scientifique</p>
+          <h3>Implémentation C++ de la méthode SPH de Müller en dynamique des fluides</h3>
+          <p>Construction et implémentation d’une méthode Smoothed Particle Hydrodynamics.</p>
+          <div class="document-project__actions">
+            <a class="resource-button" href="{{ site.url }}/files/projects/RapportSPH.pdf">Rapport</a>
+            <a class="resource-button" href="https://drive.google.com/file/d/1cjR-ff4ITVlfS-i6fOHcgMsZEe19j2L_/view?usp=share_link">Simulation</a>
+          </div>
+        </article>
 
-<i>Résumé</i>. Étude de deux problèmes, dont un problème de Dirichlet posé sur un ouvert variable. Le brouillard glacé se forme lorsque de la vapeur d’eau, principalement issue des activités humaines, pénètre dans l’atmosphère, se condense en gouttelettes puis gèle rapidement. L’objectif est de modéliser ce phénomène comme un problème d’homogénéisation.
+        <article class="document-project">
+          <p class="document-project__label">Théorie de la mesure</p>
+          <h3>Quelques résultats de théorie de la mesure</h3>
+          <p>Mesures de Radon et théorèmes de Besicovitch, Vitali, Tietze et Lusin.</p>
+          <div class="document-project__actions"><a class="resource-button" href="https://drive.google.com/drive/folders/13TeVJGtoIO5Xk9MxeGtBkZnzkxi8J9TG?usp=sharing">Notes</a></div>
+        </article>
 
-Encadré par Michel Bellieud.
+        <article class="document-project">
+          <p class="document-project__label">Estimation d’erreur</p>
+          <h3>Projets pour le cours d'estimations a posteriori</h3>
+          <p>Résultats théoriques et implémentations en Fortran, Python et C++.</p>
+          <div class="document-project__actions"><a class="resource-button" href="https://drive.google.com/drive/folders/1z1DtewZAjelfo_tHnjh6TZzA_A_a4aCj?usp=sharing">Rapports</a></div>
+        </article>
 
-[Rapport]({{ site.url }}/files/projects/Homogeneisation.pdf){: .resource-button }
-[Diapositives]({{ site.url }}/files/projects/Soutenance homogeneisation.pdf){: .resource-button }
-</article>
+        <article class="document-project">
+          <p class="document-project__label">Analyse</p>
+          <h3>Rapports pour les cours d'analyse</h3>
+          <p>Résultats choisis sur les fonctions hölderiennes et la théorie des distributions.</p>
+          <div class="document-project__actions"><a class="resource-button" href="https://drive.google.com/drive/folders/1pF1-KXYOm8rfycXRVeirWSbSoufYTr0s?usp=sharing">Rapports</a></div>
+        </article>
 
-<article class="content-card" markdown="1">
-<b> De la géométrie différentielle au billard mathématique</b>.
+        <article class="document-project">
+          <p class="document-project__label">Algèbre</p>
+          <h3>Rapports pour les cours d'algèbre</h3>
+          <p>Automorphismes du cube, anneaux euclidiens et équations diophantiennes.</p>
+          <div class="document-project__actions"><a class="resource-button" href="https://drive.google.com/drive/folders/12k5KvgNMU8iEU9qYQoFYRyaJ8ebhsgBu?usp=sharing">Rapports</a></div>
+        </article>
 
-<i>Résumé</i>. Étude d’un système dynamique élémentaire, le billard mathématique, dont les trajectoires périodiques sont caractérisées par leur angle initial (avec Samuel Raë).
-
-Encadré par Daniel Massart.
-
-[Rapport]({{ site.url }}/files/projects/Billards.pdf){: .resource-button }
-[Diapositives]({{ site.url }}/files/projects/Soutenance billards.pdf){: .resource-button }
-</article>
-
-<article class="content-card" markdown="1">
-<b> Preuve du théorème de progression arithémtique de Dirichlet</b>.
-
-<i>Résumé</i>. Démonstration du fait que, pour deux entiers a et b premiers entre eux, la progression arithmétique {an+b}, avec n entier, contient une infinité de nombres premiers. La preuve mobilise notamment l’analyse complexe et la théorie des groupes.
-
-Encadré par Sylvain Brochard.
-
-[Rapport]({{ site.url }}/files/projects/Progression arithmetique.pdf){: .resource-button }
-[Diapositives]({{ site.url }}/files/projects/Soutenance progression arithmetique.pdf){: .resource-button }
-</article>
-
-## Projets
-<hr style="margin-top: -0.1em; margin-bottom: 1em;">
-Voici quelques projets liés aux cours que j’ai réalisés au cours de mes études. Ces travaux plus courts étaient souvent réalisés seuls ou en petites équipes et visaient à appliquer les concepts appris en classe à des problèmes concrets.
-
-<b>Méthode Hybrid High-Order pour les opérateurs de Leray–Lions</b> : étude d’une nouvelle méthode non conforme de type éléments finis et de ses principaux résultats d’analyse discrète.<br>
-[Rapport]({{ site.url }}/files/projects/HHO pour Leray-Lions.pdf){: .resource-button }
-
-<b>Implémentation C++ de la méthode SPH de Müller en dynamique des fluides</b> : construction et implémentation de la méthode Smoothed Particle Hydrodynamics.<br>
-[Rapport]({{ site.url }}/files/projects/RapportSPH.pdf){: .resource-button }
-[Simulation](https://drive.google.com/file/d/1cjR-ff4ITVlfS-i6fOHcgMsZEe19j2L_/view?usp=share_link){: .resource-button }
-
-<b>Quelques résultats de théorie de la mesure</b> : démonstration de plusieurs résultats, notamment la différentiation des mesures de Radon ainsi que les théorèmes de Besicovitch, Vitali, Tietze et Lusin.<br>[Notes](https://drive.google.com/drive/folders/13TeVJGtoIO5Xk9MxeGtBkZnzkxi8J9TG?usp=sharing){: .resource-button }
-
-<b>Projets pour le cours d'estimations a posteriori</b>: quelques résultats sur les estimations a posteriori et l'adaptation du maillage, quelques implémentations sur Fortran, Python et C++.<br>[Rapports](https://drive.google.com/drive/folders/1z1DtewZAjelfo_tHnjh6TZzA_A_a4aCj?usp=sharing){: .resource-button }
-
-<b>Rapports pour les cours d'analyse</b>: quelques résultats sur les fonctions hölderiennes et la théorie de la distribution.<br>[Rapports](https://drive.google.com/drive/folders/1pF1-KXYOm8rfycXRVeirWSbSoufYTr0s?usp=sharing){: .resource-button }
-
-<b>Rapports pour les cours d'algèbre</b>: résultats sur l'automorphisme du cube et l'anneau euclidien, équations diophantiennes.<br>[Rapports](https://drive.google.com/drive/folders/12k5KvgNMU8iEU9qYQoFYRyaJ8ebhsgBu?usp=sharing){: .resource-button }
-
-<b>Projets de cours d'apprentissage automatique et d'optimisation</b>: analyse de bases de données et programmation de méthodes de régression pour le machine learning sur Python.<br>[Rapports](https://drive.google.com/drive/folders/1eqYNW_TL_0TBVxVPYGF3PJ686cYDTE3d?usp=sharing){: .resource-button }
-
-
+        <article class="document-project">
+          <p class="document-project__label">Apprentissage automatique</p>
+          <h3>Projets de cours d'apprentissage automatique et d'optimisation</h3>
+          <p>Analyse de jeux de données et implémentation de méthodes de régression en Python.</p>
+          <div class="document-project__actions"><a class="resource-button" href="https://drive.google.com/drive/folders/1eqYNW_TL_0TBVxVPYGF3PJ686cYDTE3d?usp=sharing">Rapports</a></div>
+        </article>
+      </div>
+    </details>
+  </section>
+</div>
