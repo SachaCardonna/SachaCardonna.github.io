@@ -205,11 +205,13 @@ document.addEventListener('DOMContentLoaded', function () {
         <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_DG.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (crenel) - DG equatorial profile</option>
         <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_limDG.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (crenel) - Limited DG equatorial profile</option>
         <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_gaussian.gif" data-type="image" data-meta="P³ · Equatorial slice">Linear advection (gaussian) - DG equatorial profile</option>
-        <option value="{{ site.baseurl }}/images/code_manicore/shallow_water_equatorial_slice.gif" data-type="image" data-meta="P¹ · Equatorial slice">Shallow-water (circular dam-break) - Limited DG equatorial profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/shallow_water_equatorial_slice.gif" data-type="image" data-meta="P¹ · Equatorial slice">Shallow-water (circular dam-break wet) - Limited DG equatorial profile</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/shallow_water_equatorial_slice_dry.gif" data-type="image" data-meta="P² · Equatorial slice">Shallow-water (circular dam-break dry) - Limited DG equatorial profile</option>
         <option value="{{ site.baseurl }}/images/code_manicore/dg.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (crenel) - DG solution</option>
         <option value="{{ site.baseurl }}/images/code_manicore/limDG.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (crenel) - Limited DG solution</option>
         <option value="{{ site.baseurl }}/images/code_manicore/gaussian.avi" data-type="video" data-meta="P³ · Surface view">Linear advection (gaussian) - DG solution</option>
-        <option value="{{ site.baseurl }}/images/code_manicore/dam_break_P1.avi" data-type="video" data-meta="P¹ · Surface view">Shallow-water (circular dam-break) - Limited DG solution</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/dam_break_P1.avi" data-type="video" data-meta="P¹ · Surface view">Shallow-water (circular dam-break wet) - Limited DG solution</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/dam_break_dry_P2.avi" data-type="video" data-meta="P² · Surface view">Shallow-water (circular dam-break dry) - Limited DG solution</option>
       </select>
     </div>
 
@@ -334,8 +336,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </ul>
 
 <div class="media-strip" style="justify-content: space-between;">
-      <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 48%; height: auto;">
-      <img src="{{ site.baseurl }}/images/shorevpinn2.gif" alt="WaveBox Image 1" style="width: 48%; height: auto;">
+      <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 38%; height: auto;">
+      <img src="{{ site.baseurl }}/images/dam_break_2d_cartesian_height.gif" alt="WaveBox Image 1" style="width: 60%; height: auto;">
 </div>
 </section>
 

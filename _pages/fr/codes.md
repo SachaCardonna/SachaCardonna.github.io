@@ -208,10 +208,12 @@ document.addEventListener('DOMContentLoaded', function () {
         <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_crenel_limDG.gif" data-type="image" data-meta="P³ · Equatorial slice">Advection linéaire (créneau) - Profil équatorial DG limité</option>
         <option value="{{ site.baseurl }}/images/code_manicore/equatorial_slice_gaussian.gif" data-type="image" data-meta="P³ · Equatorial slice">Advection linéaire (gaussienne) - Profil équatorial DG</option>
         <option value="{{ site.baseurl }}/images/code_manicore/shallow_water_equatorial_slice.gif" data-type="image" data-meta="P¹ · Equatorial slice">Eaux peu profondes (rupture de barrage circulaire) - Profil équatorial DG limité</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/shallow_water_equatorial_slice_dry.gif" data-type="image" data-meta="P² · Equatorial slice">Eaux peu profondes (rupture de barrage circulaire sur fond sec) - Profil équatorial DG limité</option>
         <option value="{{ site.baseurl }}/images/code_manicore/dg.avi" data-type="video" data-meta="P³ · Surface view">Advection linéaire (créneau) - Solution DG</option>
         <option value="{{ site.baseurl }}/images/code_manicore/limDG.avi" data-type="video" data-meta="P³ · Surface view">Advection linéaire (créneau) - Solution DG limitée</option>
         <option value="{{ site.baseurl }}/images/code_manicore/gaussian.avi" data-type="video" data-meta="P³ · Surface view">Advection linéaire (gaussienne) - Solution DG</option>
         <option value="{{ site.baseurl }}/images/code_manicore/dam_break_P1.avi" data-type="video" data-meta="P¹ · Surface view">Eaux peu profondes (rupture de barrage circulaire) - Solution DG limitée</option>
+        <option value="{{ site.baseurl }}/images/code_manicore/dam_break_dry_P2.avi" data-type="video" data-meta="P² · Surface view">Eaux peu profondes (rupture de barrage circulaire sur fond sec) - Solution DG limitée</option>
       </select>
     </div>
 
@@ -336,8 +338,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </ul>
 
 <div class="media-strip" style="justify-content: space-between;">
-      <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 48%; height: auto;">
-      <img src="{{ site.baseurl }}/images/shorevpinn2.gif" alt="WaveBox Image 1" style="width: 48%; height: auto;">
+      <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 38%; height: auto;">
+      <img src="{{ site.baseurl }}/images/dam_break_2d_cartesian_height.gif" alt="WaveBox Image 1" style="width: 60%; height: auto;">
 </div>
 </section>
 
