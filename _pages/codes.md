@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="media-strip" style="justify-content: space-between;">
       <img src="{{ site.baseurl }}/images/shorevpinn1.gif" alt="WaveBox Image 2" style="width: 38%; height: auto;">
-      <img src="{{ site.baseurl }}/images/dam_break_2d_cartesian_height.gif" alt="WaveBox Image 1" style="width: 60%; height: auto;">
+      <img src="{{ site.baseurl }}/images/shorevpinn2.gif" alt="WaveBox Image 1" style="width: 60%; height: auto;">
 </div>
 </section>
 
