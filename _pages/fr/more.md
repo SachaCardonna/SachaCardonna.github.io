@@ -68,7 +68,6 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
     <div class="film-overlay">
       <strong>Lost in Translation (2003)</strong><br>
       <i>Sofia Coppola</i><br>
-     Quand tu es perdu.
     </div>
   </div>
     <div class="film-card">
@@ -76,7 +75,6 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
     <div class="film-overlay">
       <strong>Trainspotting (1999)</strong><br>
        <i>Danny Boyle</i><br>
-     Quand tu penses que tu es différent.
     </div>
   </div>
       <div class="film-card">
@@ -84,7 +82,6 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
     <div class="film-overlay">
       <strong>Before Sunset (2005)</strong><br>
        <i>Richard Linklater</i><br>
-     Quand tu as raté une opportunité.
     </div>
   </div>
     <div class="film-card">
@@ -92,7 +89,6 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
     <div class="film-overlay">
       <strong>Rocky (1976)</strong><br>
        <i>John G. Avildsen</i><br>
-     Quand tu sens que tu n'es pas assez.
     </div>
   </div>
   <div class="film-card">
@@ -100,7 +96,6 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
     <div class="film-overlay">
       <strong>Itinéraire d'un enfant gâté (1988)</strong><br>
        <i>Claude Lelouch</i><br>
-     Quand tu veux arrêter.
     </div>
   </div>
   <div class="film-card">
@@ -108,7 +103,6 @@ Je suis cinéphile depuis que je suis jeune et j'aime recommander des films qui 
     <div class="film-overlay">
       <strong>Once Upon a Time in America (1984)</strong><br>
       <i>Sérgio Léone</i><br>
-      Quand le temps s'est envolé.
     </div>
   </div>
 </div>
@@ -122,7 +116,6 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
     <div class="film-overlay">
       <strong>Heaven or Las Vegas (1990)</strong><br>
       <i>Jumeaux Cocteau</i><br>
-      Dream pop et vague éthérée
     </div>
   </div>
   <div class="film-card">
@@ -130,15 +123,13 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
     <div class="film-overlay">
       <strong>Suprême NTM (1998)</strong><br>
       <i>MNT</i><br>
-      Rap et hip-hop
     </div>
   </div>
     <div class="film-card">
     <img src="/images/music/lost_in_the_dream.jpg" alt="Lost in the Dream - The War on Drugs (2014)">
     <div class="film-overlay">
       <strong>Lost in the Dream (2014)</strong><br>
-      <i>La guerre contre la drogue</i><br>
-      Rock indé et psychédélique
+      <i>The War on Drugs</i><br>
     </div>
   </div>
     <div class="film-card">
@@ -146,7 +137,6 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
     <div class="film-overlay">
       <strong>Chansons pour les pieds (2002)</strong><br>
       <i>Jean-Jacques Goldman</i><br>
-      Pop et ballade
     </div>
   </div>
   <div class="film-card">
@@ -154,7 +144,6 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
     <div class="film-overlay">
       <strong>The Crane Wife (2004)</strong><br>
       <i>Les décembreistes</i><br>
-      Folk & Américain
     </div>
   </div>
     <div class="film-card">
@@ -162,7 +151,6 @@ Je passe la plupart de mes journées avec de la musique en fond sonore. Comme me
     <div class="film-overlay">
       <strong>Hurry Up, We're Dreaming (2011)</strong><br>
       <i>M83</i><br>
-      Electronique & Nouvelle vague
     </div>
   </div>
 </div>
@@ -176,7 +164,6 @@ Quand j’étais plus jeune, je lisais beaucoup. Avec mon doctorat, je n'ai plus
     <div class="film-overlay">
       <strong>À la recherche du temps perdu (1913-1927)</strong><br>
       <i>Marcel Proust</i><br>
-      Marcel se souvient.
     </div>
   </div>
   <div class="film-card">
@@ -184,7 +171,6 @@ Quand j’étais plus jeune, je lisais beaucoup. Avec mon doctorat, je n'ai plus
     <div class="film-overlay">
       <strong>Antigone (1944)</strong><br>
       <i>Jean Anouilh</i><br>
-      Antigone enterre son frère.
     </div>
   </div>
   <div class="film-card">
@@ -192,7 +178,6 @@ Quand j’étais plus jeune, je lisais beaucoup. Avec mon doctorat, je n'ai plus
     <div class="film-overlay">
       <strong>Le Rouge et le Noir (1831)</strong><br>
       <i>Stendhal</i><br>
-      Julien veut être le meilleur.
     </div>
   </div>
     <div class="film-card">
@@ -200,7 +185,6 @@ Quand j’étais plus jeune, je lisais beaucoup. Avec mon doctorat, je n'ai plus
     <div class="film-overlay">
       <strong>Candide ou l'Optimisme (1759)</strong><br>
       <i>Voltaire</i><br>
-      Candide cultive son jardin.
     </div>
   </div>
    <div class="film-card">
@@ -208,7 +192,6 @@ Quand j’étais plus jeune, je lisais beaucoup. Avec mon doctorat, je n'ai plus
     <div class="film-overlay">
       <strong>Biographie de la faim (2004)</strong><br>
       <i>Amélie Nothomb</i><br>
-      Amélie voyage.
     </div>
   </div>
   <div class="film-card">
@@ -216,7 +199,6 @@ Quand j’étais plus jeune, je lisais beaucoup. Avec mon doctorat, je n'ai plus
     <div class="film-overlay">
       <strong>En attendant Godot (1952)</strong><br>
       <i>Samuel Beckett</i><br>
-      Vladimir et Estragon attendent Godot.
     </div>
   </div>
 </div>
@@ -230,15 +212,13 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
     <div class="film-overlay">
       <strong>Dragon Ball Z : Budokai 3</strong><br>
       <i>Bandai Namco</i><br>
-      Lutte
     </div>
   </div>
   <div class="film-card">
     <img src="/images/games/last_of_us.jpg" alt="Ellie">
     <div class="film-overlay">
       <strong>The Last of Us: Part 2</strong><br>
-      <i>Chien méchant</i><br>
-      Vengeance
+      <i>Naughty Dog</i><br>
     </div>
   </div>
   <div class="film-card">
@@ -246,7 +226,6 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
     <div class="film-overlay">
       <strong>The Legend of Zelda: Ocarina of Time</strong><br>
       <i>Nintendo</i><br>
-      Quêtes
     </div>
   </div>
     <div class="film-card">
@@ -254,7 +233,6 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
     <div class="film-overlay">
       <strong>Metal Gear Solid 4: Guns of the Patriots</strong><br>
       <i>Konami</i><br>
-      Sauvetage
     </div>
   </div>
    <div class="film-card">
@@ -262,7 +240,6 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
     <div class="film-overlay">
       <strong>Detroit: Become Human</strong><br>
       <i>Rêve quantique</i><br>
-      Choisir
     </div>
   </div>
   <div class="film-card">
@@ -270,7 +247,6 @@ J'ai eu une enfance assez solitaire et j'ai donc beaucoup joué aux jeux vidéo.
     <div class="film-overlay">
       <strong>Outer Wilds</strong><br>
       <i>Möbius Digital</i><br>
-      Acceptant
     </div>
   </div>
 </div>

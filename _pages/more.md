@@ -66,7 +66,6 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Lost in Translation (2003)</strong><br> 
       <i>Sofia Coppola</i><br>
-     When you are lost.
     </div>
   </div>
     <div class="film-card">
@@ -74,7 +73,6 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Trainspotting (1999)</strong><br>
        <i>Danny Boyle</i><br>
-     When you think you're different.
     </div>
   </div>
       <div class="film-card">
@@ -82,7 +80,6 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Before Sunset (2005)</strong><br>
        <i>Richard Linklater</i><br>
-     When you missed an opportunity.
     </div>
   </div>
     <div class="film-card">
@@ -90,7 +87,6 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Rocky (1976)</strong><br>
        <i>John G. Avildsen</i><br>
-     When you feel you're not enough.
     </div>
   </div>
   <div class="film-card">
@@ -98,7 +94,6 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Itinéraire d'un enfant gâté (1988)</strong><br>
        <i>Claude Lelouch</i><br>
-     When you want to quit.
     </div>
   </div>
   <div class="film-card">
@@ -106,7 +101,6 @@ I have been a movie lover since I was young, and I enjoy recommending films that
     <div class="film-overlay">
       <strong>Once Upon a Time in America (1984)</strong><br>
       <i>Sergio Leone</i><br>
-      When the time flew away.
     </div>
   </div>
 </div>
@@ -120,7 +114,6 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>Heaven or Las Vegas (1990)</strong><br>
       <i>Cocteau Twins</i><br>
-      Dream pop & Ethereal wave
     </div>
   </div>
   <div class="film-card">
@@ -128,7 +121,6 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>Suprême NTM (1998)</strong><br>
       <i>NTM</i><br>
-      Rap & Hip-hop
     </div>
   </div>
     <div class="film-card">
@@ -136,7 +128,6 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>Lost in the Dream (2014)</strong><br>
       <i>The War on Drugs</i><br>
-      Indie & Psychedelic rock
     </div>
   </div>
     <div class="film-card">
@@ -144,7 +135,6 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>Chansons pour les pieds (2002)</strong><br>
       <i>Jean-Jacques Goldman</i><br>
-      Pop & Ballad
     </div>
   </div>
   <div class="film-card">
@@ -152,7 +142,6 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>The Crane Wife (2004)</strong><br>
       <i>The Decemberists</i><br>
-      Folk & Americana
     </div>
   </div>
     <div class="film-card">
@@ -160,7 +149,6 @@ I spend most of my days with music playing in the background. Since my music tas
     <div class="film-overlay">
       <strong>Hurry Up, We're Dreaming (2011)</strong><br>
       <i>M83</i><br>
-      Electronic & New wave
     </div>
   </div>
 </div>
@@ -174,7 +162,6 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <div class="film-overlay">
       <strong>À la recherche du temps perdu (1913-1927)</strong><br>
       <i>Marcel Proust</i><br>
-      Marcel remembers.
     </div>
   </div>
   <div class="film-card">
@@ -182,7 +169,6 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <div class="film-overlay">
       <strong>Antigone (1944)</strong><br>
       <i>Jean Anouilh</i><br>
-      Antigone buries her brother.
     </div>
   </div>
   <div class="film-card">
@@ -190,7 +176,6 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <div class="film-overlay">
       <strong>Le Rouge et le Noir (1831)</strong><br>
       <i>Stendhal</i><br>
-      Julien wants to be the best.
     </div>
   </div>
     <div class="film-card">
@@ -198,7 +183,6 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <div class="film-overlay">
       <strong>Candide ou l'Optimisme (1759)</strong><br>
       <i>Voltaire</i><br>
-      Candide cultivates his garden.
     </div>
   </div>
    <div class="film-card">
@@ -206,7 +190,6 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <div class="film-overlay">
       <strong>Biographie de la faim (2004)</strong><br>
       <i>Amélie Nothomb</i><br>
-      Amélie travels.
     </div>
   </div>
   <div class="film-card">
@@ -214,7 +197,6 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
     <div class="film-overlay">
       <strong>En attendant Godot (1952)</strong><br>
       <i>Samuel Beckett</i><br>
-      Vladimir and Estragon wait for Godot.
     </div>
   </div>
 </div>
@@ -228,7 +210,6 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
     <div class="film-overlay">
       <strong>Dragon Ball Z: Budokai 3</strong><br>
       <i>Bandai Namco</i><br>
-      Fighting
     </div>
   </div>
   <div class="film-card">
@@ -236,7 +217,6 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
     <div class="film-overlay">
       <strong>The Last of Us: Part 2</strong><br>
       <i>Naughty Dog</i><br>
-      Avenging
     </div>
   </div>
   <div class="film-card">
@@ -244,7 +224,6 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
     <div class="film-overlay">
       <strong>The Legend of Zelda: Ocarina of Time</strong><br>
       <i>Nintendo</i><br>
-      Questing
     </div>
   </div>
     <div class="film-card">
@@ -252,7 +231,6 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
     <div class="film-overlay">
       <strong>Metal Gear Solid 4: Guns of the Patriots</strong><br>
       <i>Konami</i><br>
-      Rescuing
     </div>
   </div>
    <div class="film-card">
@@ -260,7 +238,6 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
     <div class="film-overlay">
       <strong>Detroit: Become Human</strong><br>
       <i>Quantic Dream</i><br>
-      Choosing
     </div>
   </div>
   <div class="film-card">
@@ -268,7 +245,6 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
     <div class="film-overlay">
       <strong>Outer Wilds</strong><br>
       <i>Möbius Digital</i><br>
-      Accepting
     </div>
   </div>
 </div>
