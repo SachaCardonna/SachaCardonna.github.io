@@ -50,6 +50,12 @@ Découvrez les codes de calcul scientifique que j’ai développés ou auxquels 
   <label class="wavebox-gallery__label" for="wavebox-select">Choisissez une simulation</label>
   <div class="wavebox-gallery__select-wrap">
     <select id="wavebox-select" class="wavebox-gallery__select">
+      <option value="{{ site.baseurl }}/images/single_wave_cylinder_moving.avi" data-type="video" data-degree="P³ · 2D">Vague unique sur un cylindre mobile</option>
+      <option value="{{ site.baseurl }}/images/return_equilibrium_cylinder.avi" data-type="video" data-degree="P³ · 2D">Retour du cylindre à l'équilibre</option>
+      <option value="{{ site.baseurl }}/images/cylindrical_wave_generator_rectangle.avi" data-type="video" data-degree="P² · 2D">Générateur d'ondes cylindriques sur un maillage rectangulaire</option>
+      <option value="{{ site.baseurl }}/images/cylindrical_wave_generator_circle.avi" data-type="video" data-degree="P³ · 2D">Générateur d'ondes cylindriques sur un maillage circulaire</option>
+      <option value="{{ site.baseurl }}/images/horizontal_prescribed_ale_pontoon.avi" data-type="video" data-degree="P² · ALE 2D">Mouvement horizontal imposé d'un ponton en ALE</option>
+      <option value="{{ site.baseurl }}/images/single_wave_pontoon_ale.avi" data-type="video" data-degree="P² · ALE 2D">Vague unique sur un ponton en ALE</option>
       <option value="{{ site.baseurl }}/images/mesh_ale_evolution_laplacian.gif" data-type="image" data-degree="P² · ALE">Mouvement de maillage autour d'un cylindre oscillant (lissage laplacien)</option>
       <option value="{{ site.baseurl }}/images/mesh_ale_evolution_elasticity.gif" data-type="image" data-degree="P² · ALE">Mouvement du maillage autour d'un cylindre oscillant (pseudo-élasticité)</option>
       <option value="{{ site.baseurl }}/images/spring_beach.avi" data-type="video" data-degree="P¹ · ALE 2D">Vague run-up généré par un piston arrêté de manière impulsive</option>
@@ -78,13 +84,13 @@ Découvrez les codes de calcul scientifique que j’ai développés ou auxquels 
   </div>
 
   <div class="wavebox-gallery__stage" id="wavebox-stage" aria-live="polite">
-    <img src="{{ site.baseurl }}/images/single_wave_newton.avi" alt="Single wave on a freely moving pontoon">
+    <video src="{{ site.baseurl }}/images/single_wave_cylinder_moving.avi" controls preload="metadata" playsinline aria-label="Simulation d'une vague unique sur un cylindre mobile"></video>
   </div>
 
   <div class="wavebox-gallery__footer">
     <div class="wavebox-gallery__caption">
-      <span id="wavebox-meta">P⁵ · 2D</span>
-      <strong id="wavebox-caption">Une seule vague sur un ponton en mouvement libre</strong>
+      <span id="wavebox-meta">P³ · 2D</span>
+      <strong id="wavebox-caption">Vague unique sur un cylindre mobile</strong>
     </div>
     <div class="wavebox-gallery__nav" aria-label="Navigation entre les simulations">
       <button type="button" id="wavebox-prev" aria-label="Simulation précédente">←</button>
