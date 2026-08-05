@@ -54,8 +54,10 @@ Découvrez les codes de calcul scientifique que j’ai développés ou auxquels 
       <option value="{{ site.baseurl }}/images/return_equilibrium_cylinder.avi" data-type="video" data-degree="P³ · 2D">Retour du cylindre à l'équilibre</option>
       <option value="{{ site.baseurl }}/images/cylindrical_wave_generator_rectangle.avi" data-type="video" data-degree="P² · 2D">Générateur d'ondes cylindriques sur un maillage rectangulaire</option>
       <option value="{{ site.baseurl }}/images/cylindrical_wave_generator_circle.avi" data-type="video" data-degree="P³ · 2D">Générateur d'ondes cylindriques sur un maillage circulaire</option>
+      <option value="{{ site.baseurl }}/images/pontoon_release_ale.avi" data-type="video" data-degree="P¹ · ALE 2D">Ponton lâché avec une vitesse initiale</option>
       <option value="{{ site.baseurl }}/images/horizontal_prescribed_ale_pontoon.avi" data-type="video" data-degree="P² · ALE 2D">Mouvement horizontal imposé d'un ponton en ALE</option>
-      <option value="{{ site.baseurl }}/images/single_wave_pontoon_ale.avi" data-type="video" data-degree="P² · ALE 2D">Vague unique sur un ponton en ALE</option>
+      <option value="{{ site.baseurl }}/images/single_wave_pontoon_ale.avi" data-type="video" data-degree="P² · ALE 2D">Vague unique sur un ponton en ALE (1)</option>
+      <option value="{{ site.baseurl }}/images/single_wave_pontoon_ale_P5.avi" data-type="video" data-degree="P⁵ · ALE 2D">Vague unique sur un ponton en ALE (2)</option>
       <option value="{{ site.baseurl }}/images/mesh_ale_evolution_laplacian.gif" data-type="image" data-degree="P² · ALE">Mouvement de maillage autour d'un cylindre oscillant (lissage laplacien)</option>
       <option value="{{ site.baseurl }}/images/mesh_ale_evolution_elasticity.gif" data-type="image" data-degree="P² · ALE">Mouvement du maillage autour d'un cylindre oscillant (pseudo-élasticité)</option>
       <option value="{{ site.baseurl }}/images/spring_beach.avi" data-type="video" data-degree="P¹ · ALE 2D">Vague run-up généré par un piston arrêté de manière impulsive</option>
