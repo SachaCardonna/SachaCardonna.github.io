@@ -15,7 +15,8 @@ I’m French and a Canadian permanent resident. Outside of work, you’ll usuall
 
 ## Research interests
 
-My research lies at the intersection of **modeling** and **numerical analysis** of partial differential equations, with a strong focus on general **fluid mechanics**. I am particularly interested in the design of approximation methods that are high-order accurate, efficient and genuinely bulletproof in demanding nonlinear regimes, complex geometries and constrained physical settings. <br>
+My research lies at the intersection of **modeling** and **numerical analysis** of partial differential equations, with a strong focus on general **fluid mechanics**. I am particularly interested in the design of approximation methods that are high-order accurate, efficient and genuinely bulletproof in demanding nonlinear regimes, complex geometries and constrained physical settings (see research articles [here]({{ site.baseurl }}/research/)).
+
 I enjoy working across the entire process: from studying, selecting and/or deriving an appropriate model through its mathematical and numerical analysis, to the implementation of efficient, robust and operational simulation software (see some simulations [here]({{ site.baseurl }}/codes/)).
 
 <div class="dot-timeline research-timeline">
