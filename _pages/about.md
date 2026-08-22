@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student in Mathematics, under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG - UMR 5149).<br>
-I also give classes as a teaching assistant for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
+I'm a **Ph.D. student** in Mathematics, under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG - UMR 5149).<br>
+I also give classes as a **teaching assistant** for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
 
 I’m French and a Canadian permanent resident. Outside of work, you’ll usually find me walking to the gym, at the movies, or driving around with very loud music.
 
 ## Research interests
 
-My research lies at the intersection of modeling and numerical analysis of partial differential equations, with a strong focus on general fluid mechanics. I am particularly interested in the design of approximation methods that are  high-order accurate, efficient and genuinely bulletproof in demanding nonlinear regimes, complex geometries and constrained physical settings. <br>
+My research lies at the intersection of **modeling** and **numerical analysis** of partial differential equations, with a strong focus on general **fluid mechanics**. I am particularly interested in the design of approximation methods that are high-order accurate, efficient and genuinely bulletproof in demanding nonlinear regimes, complex geometries and constrained physical settings (see research articles [here]({{ site.baseurl }}/research/)).
+
 I enjoy working across the entire process: from studying, selecting and/or deriving an appropriate model through its mathematical and numerical analysis, to the implementation of efficient, robust and operational simulation software (see some simulations [here]({{ site.baseurl }}/codes/)).
 
 <div class="dot-timeline research-timeline">
