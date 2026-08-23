@@ -58,7 +58,6 @@ I am a regular blood and plasma donor. I started donating at 18 and continue to 
 I have always been passionate about literature, cinema, video games and music. These arts have had a significant impact on my life and have shaped the way I see and think about the world.
 
 ### Films
-I have been a movie lover since I was young, and I enjoy recommending films that have stayed with me over the years. Here is a selection of six of my favorite works; while they are all kinda melancholic, each carries, in its own way, some hope.
 
 <div class="art-grid">
   <div class="film-card">
@@ -106,7 +105,6 @@ I have been a movie lover since I was young, and I enjoy recommending films that
 </div>
 
 ### Music
-I spend most of my days with music playing in the background. Since my music tastes are quite eclectic, recommending music is not easy for me; I tried to pick here six albums, each in a different musical style.
 
 <div class="art-grid">
   <div class="film-card">
@@ -154,7 +152,6 @@ I spend most of my days with music playing in the background. Since my music tas
 </div>
 
 ### Literature
-When I was younger, I used to read a lot. With my PhD, I do not have as much time for it anymore, and I miss it... Still, I have a strong passion for literature, and here's six works that have had a significant impact on my life.
 
 <div class="art-grid">
   <div class="film-card">
@@ -202,7 +199,6 @@ When I was younger, I used to read a lot. With my PhD, I do not have as much tim
 </div>
 
 ### Video games
-I spent a pretty solitary childhood, and so I played a lot of video games. To me, they are also a real form of art, bringing together story, images, music, and something more: you take part in it. 
 
 <div class="art-grid">
   <div class="film-card">
@@ -252,7 +248,7 @@ I spent a pretty solitary childhood, and so I played a lot of video games. To me
 ## A few things I learned
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-These are simply a few lessons drawn from studying, working, and trying to stay healthy. I am no expert, but I am always happy to share my experience.
+These are simply a few lessons drawn from studying, working, and trying to stay healthy; I am no expert, but I am always happy to share my experience.
 <div class="advice-grid">
 
   <div class="advice-card" tabindex="0">
