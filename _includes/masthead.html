@@ -6,12 +6,8 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}{% if page.lang == 'fr' %}/fr/{% else %}/{% endif %}">{{ site.title }}</a></li>
-          {% if page.lang == "fr" %}
-            {% assign navigation_links = site.data.navigation_fr.main %}
-          {% else %}
-            {% assign navigation_links = site.data.navigation.main %}
-          {% endif %}
+          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% assign navigation_links = site.data.navigation.main %}
           {% for link in navigation_links %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -20,33 +16,8 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          {% unless page.url == "/404.html" %}
-          {% if page.lang == "fr" %}
-            {% assign language_url = page.translation_url | default: "/" %}
-            {% assign language_title = "View this page in English" %}
-          {% else %}
-            {% case page.url %}
-              {% when "/" %}{% assign language_url = "/fr/" %}
-              {% when "/research/" %}{% assign language_url = "/fr/recherche/" %}
-              {% when "/teaching/" %}{% assign language_url = "/fr/enseignement/" %}
-              {% when "/diffusion/" %}{% assign language_url = "/fr/diffusion/" %}
-              {% when "/documents/" %}{% assign language_url = "/fr/documents/" %}
-              {% when "/codes/" %}{% assign language_url = "/fr/logiciels/" %}
-              {% when "/cv/" %}{% assign language_url = "/fr/cv/" %}
-              {% when "/extras/" %}{% assign language_url = "/fr/extras/" %}
-              {% else %}{% assign language_url = "/fr/" %}
-            {% endcase %}
-            {% assign language_title = "Voir cette page en français" %}
-          {% endif %}
-          <li id="language-toggle" class="masthead__menu-item persist tail">
-            <a class="language-switch" href="{{ base_path }}{{ language_url }}" lang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" hreflang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" aria-label="{{ language_title }}" title="{{ language_title }}">
-              <span class="language-switch__option{% unless page.lang == 'fr' %} is-active{% endunless %}" aria-hidden="true">EN</span>
-              <span class="language-switch__option{% if page.lang == 'fr' %} is-active{% endif %}" aria-hidden="true">FR</span>
-            </a>
-          </li>
-          {% endunless %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a class="theme-switch" role="switch" tabindex="0" aria-checked="false" aria-label="{% if page.lang == 'fr' %}Activer ou désactiver le mode sombre{% else %}Toggle dark mode{% endif %}" title="{% if page.lang == 'fr' %}Mode clair ou sombre{% else %}Light or dark mode{% endif %}">
+            <a class="theme-switch" role="switch" tabindex="0" aria-checked="false" aria-label="Toggle dark mode" title="Light or dark mode">
               <span class="theme-switch__option theme-switch__option--light is-active" aria-hidden="true"><i class="fa-solid fa-sun"></i></span>
               <span class="theme-switch__option theme-switch__option--dark" aria-hidden="true"><i class="fa-solid fa-moon"></i></span>
             </a>
