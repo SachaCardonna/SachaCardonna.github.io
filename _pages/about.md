@@ -49,7 +49,7 @@ I enjoy working across the entire process: from studying, selecting and/or deriv
               <tr>
         <td scope="row">Jan 2027</td>
         <td style="width:85%">
-          I have been invited to give a talk at <a href="https://www.ci2ma.udec.cl/wonapde2027/" rel="external nofollow noopener" target="_blank">WONAPDE 2027</a> in Chile, during the minisymposium “Innovations in Modeling and Numerical Methods for Evolutionary PDEs: from theory to applications”.
+          I am invited to give a talk at <a href="https://www.ci2ma.udec.cl/wonapde2027/" rel="external nofollow noopener" target="_blank">WONAPDE 2027</a> in Chile, during a minisymposium organized by <a href="https://www.elenagaburro.it" rel="external nofollow noopener" target="_blank">Elena Gaburro</a>, <a href="https://www.nummath.math.uni-mainz.de/prof-dr-maria-lukacova-medvidova/" rel="external nofollow noopener" target="_blank">Mária Lukáčová</a>, <a href="https://www.inria.fr/fr/davide-ferrari-2024" rel="external nofollow noopener" target="_blank">Davide Ferrari</a> and <a href="https://sk.linkedin.com/in/michal-žeravý-b406b8125" rel="external nofollow noopener" target="_blank">Michal Žeravý.
         </td>
       </tr>
         <tr>
