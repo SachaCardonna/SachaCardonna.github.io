@@ -34,7 +34,7 @@ Découvrez les codes de calcul scientifique que j’ai développés ou auxquels 
 </ul>
 
 <div class="media-strip" style="justify-content: space-between;">
-      <img src="{{ site.baseurl }}/images/cropped_2.gif" alt="WaveBox Image 2" style="width: 55%; height: auto;">
+      <img src="{{ site.baseurl }}/images/cropped_2_tight.gif" alt="WaveBox Image 2" style="width: 55%; height: auto;">
       <img src="{{ site.baseurl }}/images/cropped_1.gif" alt="WaveBox Image 1" style="width: 43%; height: auto;">
 </div>
 

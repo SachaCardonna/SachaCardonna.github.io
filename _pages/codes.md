@@ -32,8 +32,8 @@ Read more about the scientific computing codes I made or participated in.
 </ul>
 
 <div class="media-strip" style="justify-content: space-between;">
-      <img src="{{ site.baseurl }}/images/cropped_2.gif" alt="WaveBox Image 2" style="width: 55%; height: auto;">
-      <img src="{{ site.baseurl }}/images/cropped_1.gif" alt="WaveBox Image 1" style="width: 43%; height: auto;">
+      <img src="{{ site.baseurl }}/images/cropped_2_tight.gif" alt="WaveBox Image 2" style="width: 32.7%; height: auto;">
+      <img src="{{ site.baseurl }}/images/surge_heave_pitch_triple_top.gif" alt="WaveBox Image 1" style="width: 65.3%; height: auto;">
 </div>
 
 <details class="wavebox-disclosure">
