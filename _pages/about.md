@@ -47,6 +47,12 @@ I enjoy working across the entire process: from studying, selecting and/or deriv
   <div class="table-responsive news-scroll">
     <table class="table table-sm table-borderless">
               <tr>
+        <td scope="row">Jan 2027</td>
+        <td style="width:85%">
+          I have been invited to give a talk at <a href="https://www.ci2ma.udec.cl/wonapde2027/" rel="external nofollow noopener" target="_blank">WONAPDE 2027</a> in Chile, during the minisymposium “Innovations in Modeling and Numerical Methods for Evolutionary PDEs: from theory to applications”.
+        </td>
+      </tr>
+        <tr>
         <td scope="row">Jun 2026</td>
         <td style="width:85%">
           We initiated a new project with <a href="https://www.lama.univ-savoie.fr/members/default/boscheriw" rel="external nofollow noopener" target="_blank">Walter Boscheri</a>, <a href="https://www.di.univr.it/?ent=persona&id=89983&lang=en" rel="external nofollow noopener" target="_blank">Elena Bernardelli</a>, <a href="https://www.linkedin.com/in/lidia-gude-vila-340426328/" rel="external nofollow noopener" target="_blank">Lidia Gude Vila</a> & <a href="https://www.linkedin.com/in/mattia-lupi/" rel="external nofollow noopener" target="_blank">Mattia Luppi</a> at
