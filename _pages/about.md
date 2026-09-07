@@ -156,3 +156,77 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   padding-right: 1.2rem;
 }
 </style>
+
+<style>
+.about-easter-egg {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  padding: .68rem 1rem;
+  border: 1px solid var(--global-link-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  color: var(--global-link-color) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .14);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .025em;
+  text-decoration: none !important;
+  opacity: 0;
+  transform: translateY(.7rem);
+  transition: opacity .24s ease, transform .24s ease, box-shadow .18s ease;
+}
+.about-easter-egg.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.about-easter-egg:hover {
+  box-shadow: 0 12px 34px rgba(0, 0, 0, .2);
+}
+@media (max-width: 600px) {
+  .about-easter-egg {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .about-easter-egg {
+    transition: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var secret = ['ArrowUp', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowDown', 'ArrowDown', 'ArrowDown'];
+  var history = [];
+
+  document.addEventListener('keydown', function (event) {
+    var target = event.target;
+    if (target && (target.matches('input, textarea, select') || target.isContentEditable)) return;
+
+    history.push(event.key);
+    if (history.length > secret.length) history.shift();
+
+    var unlocked = history.length === secret.length && history.every(function (key, index) {
+      return key === secret[index];
+    });
+    if (!unlocked || document.querySelector('.about-easter-egg')) return;
+
+    var link = document.createElement('a');
+    link.className = 'about-easter-egg';
+    link.href = 'https://youtu.be/Iv4luDlg_e4?si=mJ0TzCmLnBzC6ryG&t=8';
+    link.target = '_blank';
+    link.rel = 'external noopener noreferrer';
+    link.textContent = 'You found it \u2197';
+    link.setAttribute('aria-label', 'Open the hidden video on YouTube');
+    document.body.appendChild(link);
+    window.requestAnimationFrame(function () {
+      link.classList.add('is-visible');
+    });
+  });
+});
+</script>
