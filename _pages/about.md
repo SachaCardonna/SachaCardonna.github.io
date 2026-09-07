@@ -193,8 +193,60 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   outline: 3px solid var(--global-link-color);
   outline-offset: 5px;
 }
+.about-playlist-egg {
+  position: fixed;
+  top: 50%;
+  right: 1rem;
+  z-index: 999;
+  display: grid;
+  width: min(20rem, calc(100vw - 2rem));
+  max-height: calc(100vh - 2rem);
+  gap: .38rem;
+  padding: .2rem;
+  overflow-y: auto;
+  transform: translateY(-50%);
+  scrollbar-width: thin;
+}
+.about-playlist-egg a {
+  display: block;
+  padding: .52rem .82rem;
+  overflow: hidden;
+  border: 1px solid var(--global-link-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  color: var(--global-link-color) !important;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, .1);
+  font-size: .76rem;
+  font-weight: 650;
+  line-height: 1.25;
+  text-decoration: none !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(1rem);
+  transition: opacity .24s ease, transform .3s ease, background .18s ease;
+  transition-delay: calc(var(--egg-index) * 34ms);
+}
+.about-playlist-egg.is-visible a {
+  opacity: 1;
+  transform: translateX(0);
+}
+.about-playlist-egg a:hover {
+  background: rgba(127, 127, 127, .1);
+}
+.about-playlist-egg a:focus-visible {
+  outline: 2px solid var(--global-link-color);
+  outline-offset: 2px;
+}
+@media (max-width: 600px) {
+  .about-playlist-egg {
+    right: .65rem;
+    width: min(18rem, calc(100vw - 1.3rem));
+  }
+}
 @media (prefers-reduced-motion: reduce) {
-  .about-easter-egg {
+  .about-easter-egg,
+  .about-playlist-egg a {
     transition: none;
   }
 }
@@ -202,20 +254,33 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var secret = ['ArrowUp', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowDown', 'ArrowDown', 'ArrowDown'];
+  var videoSecret = ['ArrowUp', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowDown', 'ArrowDown', 'ArrowDown'];
+  var playlistSecret = ['ArrowUp', 'ArrowUp', 'ArrowUp', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'ArrowDown', 'ArrowUp', 'ArrowDown'];
+  var tracks = [
+    ['Dreams', 'Yam5uK6e-bQ'],
+    ['Merci ben!', '0BpSJK80k2Q'],
+    ['Travelers', 'z34enKCqRGk'],
+    ['Comeback Kid', 'QUl2NUJipu8'],
+    ['Young Turks', 'zQ41hqlV0Kk'],
+    ['Heaven or Las Vegas', 'LRFWkkIXBxM'],
+    ['Για Ένα Tango', 'sbetuPP4qmE'],
+    ['Barquinho de papel', 'Ig9ANI5azp8'],
+    ['Into the Mystic', '4Yvdx1lIAv8'],
+    ['Desperados Under the Eaves', 'wXCly4X3cqw'],
+    ['En passant', 'GFwEKqL7kRE'],
+    ['Born to Run', 'Wu4_zVxmufY'],
+    ["I Don't Live Here Anymore", '3R4rCxwqL_s']
+  ];
   var history = [];
 
-  document.addEventListener('keydown', function (event) {
-    var target = event.target;
-    if (target && (target.matches('input, textarea, select') || target.isContentEditable)) return;
-
-    history.push(event.key);
-    if (history.length > secret.length) history.shift();
-
-    var unlocked = history.length === secret.length && history.every(function (key, index) {
-      return key === secret[index];
+  function matches(sequence) {
+    return history.length >= sequence.length && sequence.every(function (key, index) {
+      return history[history.length - sequence.length + index] === key;
     });
-    if (!unlocked || document.querySelector('.about-easter-egg')) return;
+  }
+
+  function revealVideo() {
+    if (document.querySelector('.about-easter-egg')) return;
 
     var link = document.createElement('a');
     link.className = 'about-easter-egg';
@@ -228,6 +293,41 @@ document.addEventListener('DOMContentLoaded', function () {
     window.requestAnimationFrame(function () {
       link.classList.add('is-visible');
     });
+  }
+
+  function revealPlaylist() {
+    if (document.querySelector('.about-playlist-egg')) return;
+
+    var playlist = document.createElement('nav');
+    playlist.className = 'about-playlist-egg';
+    playlist.setAttribute('aria-label', 'Hidden playlist');
+
+    tracks.forEach(function (track, index) {
+      var link = document.createElement('a');
+      var number = ('0' + (index + 1)).slice(-2);
+      link.href = 'https://www.youtube.com/watch?v=' + track[1] + '&list=PLKGuiEk0oy9qk4V72dOXIGmfrlQGNNHeg';
+      link.target = '_blank';
+      link.rel = 'external noopener noreferrer';
+      link.textContent = number + '. ' + track[0];
+      link.style.setProperty('--egg-index', index);
+      playlist.appendChild(link);
+    });
+
+    document.body.appendChild(playlist);
+    window.requestAnimationFrame(function () {
+      playlist.classList.add('is-visible');
+    });
+  }
+
+  document.addEventListener('keydown', function (event) {
+    var target = event.target;
+    if (target && (target.matches('input, textarea, select') || target.isContentEditable)) return;
+
+    history.push(event.key);
+    if (history.length > Math.max(videoSecret.length, playlistSecret.length)) history.shift();
+
+    if (matches(videoSecret)) revealVideo();
+    if (matches(playlistSecret)) revealPlaylist();
   });
 });
 </script>
