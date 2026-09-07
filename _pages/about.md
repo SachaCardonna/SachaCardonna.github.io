@@ -158,42 +158,7 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
 </style>
 
 <style>
-.about-easter-egg {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: 1000;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 7.5rem;
-  min-height: 5.25rem;
-  padding: .75rem 1.8rem;
-  border: 2px solid var(--global-link-color);
-  border-radius: 999px;
-  background: var(--global-bg-color);
-  color: var(--global-link-color) !important;
-  box-shadow: 0 18px 55px rgba(0, 0, 0, .24);
-  font-size: 3.25rem;
-  line-height: 1;
-  text-decoration: none !important;
-  opacity: 0;
-  transform: translate(-50%, -50%) scale(.72) rotate(-8deg);
-  transition: opacity .3s ease, transform .38s cubic-bezier(.2, .85, .25, 1.2), box-shadow .18s ease;
-}
-.about-easter-egg.is-visible {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1) rotate(0);
-}
-.about-easter-egg:hover {
-  box-shadow: 0 22px 65px rgba(0, 0, 0, .3);
-  transform: translate(-50%, -50%) scale(1.06) rotate(2deg);
-}
-.about-easter-egg:focus-visible {
-  outline: 3px solid var(--global-link-color);
-  outline-offset: 5px;
-}
-.about-playlist-egg {
+.about-track-list-egg {
   position: fixed;
   top: 50%;
   right: 1rem;
@@ -207,7 +172,7 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   transform: translateY(-50%);
   scrollbar-width: thin;
 }
-.about-playlist-egg a {
+.about-track-list-egg a {
   display: block;
   padding: .52rem .82rem;
   overflow: hidden;
@@ -227,26 +192,25 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   transition: opacity .24s ease, transform .3s ease, background .18s ease;
   transition-delay: calc(var(--egg-index) * 34ms);
 }
-.about-playlist-egg.is-visible a {
+.about-track-list-egg.is-visible a {
   opacity: 1;
   transform: translateX(0);
 }
-.about-playlist-egg a:hover {
+.about-track-list-egg a:hover {
   background: rgba(127, 127, 127, .1);
 }
-.about-playlist-egg a:focus-visible {
+.about-track-list-egg a:focus-visible {
   outline: 2px solid var(--global-link-color);
   outline-offset: 2px;
 }
 @media (max-width: 600px) {
-  .about-playlist-egg {
+  .about-track-list-egg {
     right: .65rem;
     width: min(18rem, calc(100vw - 1.3rem));
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .about-easter-egg,
-  .about-playlist-egg a {
+  .about-track-list-egg a {
     transition: none;
   }
 }
@@ -254,22 +218,45 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var videoSecret = ['ArrowUp', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowDown', 'ArrowDown', 'ArrowDown'];
+  var hiddenTracksSecret = ['ArrowUp', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowDown', 'ArrowDown', 'ArrowDown'];
   var playlistSecret = ['ArrowUp', 'ArrowUp', 'ArrowUp', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'ArrowDown', 'ArrowUp', 'ArrowDown'];
-  var tracks = [
-    ['Dreams', 'Yam5uK6e-bQ'],
-    ['Merci ben!', '0BpSJK80k2Q'],
-    ['Travelers', 'z34enKCqRGk'],
-    ['Comeback Kid', 'QUl2NUJipu8'],
-    ['Young Turks', 'zQ41hqlV0Kk'],
-    ['Heaven or Las Vegas', 'LRFWkkIXBxM'],
-    ['Για Ένα Tango', 'sbetuPP4qmE'],
-    ['Barquinho de papel', 'Ig9ANI5azp8'],
-    ['Into the Mystic', '4Yvdx1lIAv8'],
-    ['Desperados Under the Eaves', 'wXCly4X3cqw'],
-    ['En passant', 'GFwEKqL7kRE'],
-    ['Born to Run', 'Wu4_zVxmufY'],
-    ["I Don't Live Here Anymore", '3R4rCxwqL_s']
+  var miscBase = '{{ site.baseurl }}/files/misc/';
+  var hiddenTracks = [
+    ['A Real Hero', miscBase + 'a_real_hero.mp3'],
+    ['Born Slippy', miscBase + 'born_slippy.mp3'],
+    ['Calling to the Night', miscBase + 'calling_to_the_night.mp3'],
+    ['Campfire Song', miscBase + 'campfire_song.mp3'],
+    ["Carolyn's Fingers", miscBase + 'carolyns_fingers.mp3'],
+    ["Deborah's Theme", miscBase + 'deborah_theme.mp3'],
+    ["Don't You (Forget About Me)", miscBase + 'dont_you_forget_about_me.mp3'],
+    ['Everybody Wants to Rule the World', miscBase + 'everybody.mp3'],
+    ['Heart & Soul', miscBase + 'heart_and_soul.mp3'],
+    ['Helden', miscBase + 'helden.mp3'],
+    ['Just in Time', miscBase + 'just_in_time.mp3'],
+    ['Just Like Honey', miscBase + 'just_like_honey.mp3'],
+    ['Mata Kimi ni Aeru', miscBase + 'ansatsu_kyoushitsu.mp3'],
+    ['Qui me dira', miscBase + 'qui_me_dira.mp3'],
+    ['Romantic Ageru Yo', miscBase + 'romantic_ageru_yo.mp3'],
+    ['Theme from New York, New York', miscBase + 'new_york_new_york.mp3'],
+    ['Tonari no Totoro', miscBase + 'totoro.mp3'],
+    ['Under Pressure', miscBase + 'under_pressure.mp3'],
+    ['Under the Pressure', miscBase + 'under_the_pressure.mp3'],
+    ["You Can't Always Get What You Want", miscBase + 'you_cant_always_get_what_you_want.mp3']
+  ];
+  var youtubeTracks = [
+    ['Dreams', 'https://www.youtube.com/watch?v=Yam5uK6e-bQ'],
+    ['Merci ben!', 'https://www.youtube.com/watch?v=0BpSJK80k2Q'],
+    ['Travelers', 'https://www.youtube.com/watch?v=z34enKCqRGk'],
+    ['Comeback Kid', 'https://www.youtube.com/watch?v=QUl2NUJipu8'],
+    ['Young Turks', 'https://www.youtube.com/watch?v=zQ41hqlV0Kk'],
+    ['Heaven or Las Vegas', 'https://www.youtube.com/watch?v=LRFWkkIXBxM'],
+    ['Για Ένα Tango', 'https://www.youtube.com/watch?v=sbetuPP4qmE'],
+    ['Barquinho de papel', 'https://www.youtube.com/watch?v=Ig9ANI5azp8'],
+    ['Into the Mystic', 'https://www.youtube.com/watch?v=4Yvdx1lIAv8'],
+    ['Desperados Under the Eaves', 'https://www.youtube.com/watch?v=wXCly4X3cqw'],
+    ['En passant', 'https://www.youtube.com/watch?v=GFwEKqL7kRE'],
+    ['Born to Run', 'https://www.youtube.com/watch?v=Wu4_zVxmufY'],
+    ["I Don't Live Here Anymore", 'https://www.youtube.com/watch?v=3R4rCxwqL_s']
   ];
   var history = [];
 
@@ -279,36 +266,21 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  function revealVideo() {
-    if (document.querySelector('.about-easter-egg')) return;
-
-    var link = document.createElement('a');
-    link.className = 'about-easter-egg';
-    link.href = 'https://youtu.be/Iv4luDlg_e4?si=mJ0TzCmLnBzC6ryG&t=8';
-    link.target = '_blank';
-    link.rel = 'external noopener noreferrer';
-    link.textContent = '\ud83e\udea9';
-    link.setAttribute('aria-label', 'Open the hidden video on YouTube');
-    document.body.appendChild(link);
-    window.requestAnimationFrame(function () {
-      link.classList.add('is-visible');
-    });
-  }
-
-  function revealPlaylist() {
-    if (document.querySelector('.about-playlist-egg')) return;
+  function revealTrackList(tracks, label, numbered) {
+    var existing = document.querySelector('.about-track-list-egg');
+    if (existing) existing.remove();
 
     var playlist = document.createElement('nav');
-    playlist.className = 'about-playlist-egg';
-    playlist.setAttribute('aria-label', 'Hidden playlist');
+    playlist.className = 'about-track-list-egg';
+    playlist.setAttribute('aria-label', label);
 
     tracks.forEach(function (track, index) {
       var link = document.createElement('a');
-      var number = ('0' + (index + 1)).slice(-2);
-      link.href = 'https://www.youtube.com/watch?v=' + track[1] + '&list=PLKGuiEk0oy9qk4V72dOXIGmfrlQGNNHeg';
+      var number = numbered ? ('0' + (index + 1)).slice(-2) + '. ' : '';
+      link.href = track[1];
       link.target = '_blank';
       link.rel = 'external noopener noreferrer';
-      link.textContent = number + '. ' + track[0];
+      link.textContent = number + track[0];
       link.style.setProperty('--egg-index', index);
       playlist.appendChild(link);
     });
@@ -324,10 +296,10 @@ document.addEventListener('DOMContentLoaded', function () {
     if (target && (target.matches('input, textarea, select') || target.isContentEditable)) return;
 
     history.push(event.key);
-    if (history.length > Math.max(videoSecret.length, playlistSecret.length)) history.shift();
+    if (history.length > Math.max(hiddenTracksSecret.length, playlistSecret.length)) history.shift();
 
-    if (matches(videoSecret)) revealVideo();
-    if (matches(playlistSecret)) revealPlaylist();
+    if (matches(hiddenTracksSecret)) revealTrackList(hiddenTracks, 'Hidden tracks', false);
+    if (matches(playlistSecret)) revealTrackList(youtubeTracks, 'Hidden YouTube playlist', true);
   });
 });
 </script>
