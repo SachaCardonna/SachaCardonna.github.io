@@ -172,8 +172,9 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   transform: translateY(-50%);
   scrollbar-width: thin;
 }
-.about-track-list-egg a {
+.about-track-list-egg button {
   display: block;
+  width: 100%;
   padding: .52rem .82rem;
   overflow: hidden;
   border: 1px solid var(--global-link-color);
@@ -182,24 +183,28 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   color: var(--global-link-color) !important;
   box-shadow: 0 5px 18px rgba(0, 0, 0, .1);
   font-size: .76rem;
+  font-family: inherit;
   font-weight: 650;
   line-height: 1.25;
+  text-align: left;
   text-decoration: none !important;
   text-overflow: ellipsis;
   white-space: nowrap;
+  cursor: pointer;
   opacity: 0;
   transform: translateX(1rem);
   transition: opacity .24s ease, transform .3s ease, background .18s ease;
   transition-delay: calc(var(--egg-index) * 34ms);
 }
-.about-track-list-egg.is-visible a {
+.about-track-list-egg.is-visible button {
   opacity: 1;
   transform: translateX(0);
 }
-.about-track-list-egg a:hover {
+.about-track-list-egg button:hover,
+.about-track-list-egg button.is-current {
   background: rgba(127, 127, 127, .1);
 }
-.about-track-list-egg a:focus-visible {
+.about-track-list-egg button:focus-visible {
   outline: 2px solid var(--global-link-color);
   outline-offset: 2px;
 }
@@ -210,8 +215,97 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .about-track-list-egg a {
+  .about-track-list-egg button {
     transition: none;
+  }
+}
+.about-audio-player {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  z-index: 1000;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  width: min(34rem, calc(100vw - 2rem));
+  gap: .75rem;
+  padding: .72rem .85rem;
+  border: 1px solid color-mix(in srgb, var(--global-link-color) 55%, transparent);
+  border-radius: 1rem;
+  background: color-mix(in srgb, var(--global-bg-color) 94%, transparent);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, .18);
+  transform: translate(-50%, calc(100% + 2rem));
+  opacity: 0;
+  backdrop-filter: blur(14px);
+  transition: transform .28s ease, opacity .22s ease;
+}
+.about-audio-player.is-visible {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.about-audio-player__copy {
+  min-width: 0;
+}
+.about-audio-player__eyebrow,
+.about-audio-player__title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.about-audio-player__eyebrow {
+  margin: 0 0 .12rem;
+  color: var(--global-link-color);
+  font-size: .62rem;
+  font-weight: 750;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.about-audio-player__title {
+  margin: 0;
+  font-size: .86rem;
+  font-weight: 700;
+}
+.about-audio-player__controls {
+  display: flex;
+  align-items: center;
+  gap: .32rem;
+}
+.about-audio-player button {
+  display: grid;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--global-link-color) 52%, transparent);
+  border-radius: 50%;
+  background: var(--global-bg-color);
+  color: var(--global-link-color);
+  cursor: pointer;
+}
+.about-audio-player button:hover {
+  background: color-mix(in srgb, var(--global-link-color) 10%, var(--global-bg-color));
+}
+.about-audio-player__close {
+  align-self: start;
+  width: 1.65rem !important;
+  height: 1.65rem !important;
+  border-color: transparent !important;
+}
+.about-audio-player__youtube {
+  display: none;
+  grid-column: 1 / -1;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: .7rem;
+}
+.about-audio-player.has-video .about-audio-player__youtube {
+  display: block;
+}
+@media (max-width: 600px) {
+  .about-audio-player {
+    bottom: .65rem;
+    width: calc(100vw - 1.3rem);
   }
 }
 </style>
@@ -243,22 +337,28 @@ document.addEventListener('DOMContentLoaded', function () {
     ['Under the Pressure', miscBase + 'under_the_pressure.mp3'],
     ["You Can't Always Get What You Want", miscBase + 'you_cant_always_get_what_you_want.mp3']
   ];
-  var youtubeTracks = [
-    ['Dreams', 'https://www.youtube.com/watch?v=Yam5uK6e-bQ'],
-    ['Merci ben!', 'https://www.youtube.com/watch?v=0BpSJK80k2Q'],
-    ['Travelers', 'https://www.youtube.com/watch?v=z34enKCqRGk'],
-    ['Comeback Kid', 'https://www.youtube.com/watch?v=QUl2NUJipu8'],
-    ['Young Turks', 'https://www.youtube.com/watch?v=zQ41hqlV0Kk'],
-    ['Heaven or Las Vegas', 'https://www.youtube.com/watch?v=LRFWkkIXBxM'],
-    ['Για Ένα Tango', 'https://www.youtube.com/watch?v=sbetuPP4qmE'],
-    ['Barquinho de papel', 'https://www.youtube.com/watch?v=Ig9ANI5azp8'],
-    ['Into the Mystic', 'https://www.youtube.com/watch?v=4Yvdx1lIAv8'],
-    ['Desperados Under the Eaves', 'https://www.youtube.com/watch?v=wXCly4X3cqw'],
-    ['En passant', 'https://www.youtube.com/watch?v=GFwEKqL7kRE'],
-    ['Born to Run', 'https://www.youtube.com/watch?v=Wu4_zVxmufY'],
-    ["I Don't Live Here Anymore", 'https://www.youtube.com/watch?v=3R4rCxwqL_s']
+  var phdTracks = [
+    ['Dreams', 'Yam5uK6e-bQ'],
+    ['Merci ben!', '0BpSJK80k2Q'],
+    ['Travelers', 'z34enKCqRGk'],
+    ['Comeback Kid', 'QUl2NUJipu8'],
+    ['Young Turks', 'zQ41hqlV0Kk'],
+    ['Heaven or Las Vegas', 'LRFWkkIXBxM'],
+    ['Για Ένα Tango', 'sbetuPP4qmE'],
+    ['Barquinho de papel', 'Ig9ANI5azp8'],
+    ['Into the Mystic', '4Yvdx1lIAv8'],
+    ['Desperados Under the Eaves', 'wXCly4X3cqw'],
+    ['En passant', 'GFwEKqL7kRE'],
+    ['Born to Run', 'Wu4_zVxmufY'],
+    ["I Don't Live Here Anymore", '3R4rCxwqL_s']
   ];
   var history = [];
+  var audio = new Audio();
+  var activeTracks = [];
+  var activeIndex = 0;
+  var activeKind = 'audio';
+  var youtubePlaying = false;
+  var player;
 
   function matches(sequence) {
     return history.length >= sequence.length && sequence.every(function (key, index) {
@@ -266,7 +366,76 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  function revealTrackList(tracks, label, numbered) {
+  function ensurePlayer() {
+    if (player) return player;
+    player = document.createElement('aside');
+    player.className = 'about-audio-player';
+    player.setAttribute('aria-label', 'Music player');
+    player.innerHTML = '<div class="about-audio-player__controls"><button type="button" data-action="previous" aria-label="Previous track">&#x23EE;</button><button type="button" data-action="toggle" aria-label="Play or pause">&#x25B6;</button><button type="button" data-action="next" aria-label="Next track">&#x23ED;</button></div><div class="about-audio-player__copy"><p class="about-audio-player__eyebrow">Hidden soundtrack</p><p class="about-audio-player__title">Choose a track</p></div><button type="button" class="about-audio-player__close" data-action="close" aria-label="Close player">&#x2715;</button><iframe class="about-audio-player__youtube" title="Ph.D. soundtrack player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+    player.addEventListener('click', function (event) {
+      var control = event.target.closest('button[data-action]');
+      if (!control) return;
+      var action = control.dataset.action;
+      if (action === 'previous') playTrack((activeIndex - 1 + activeTracks.length) % activeTracks.length);
+      if (action === 'next') playTrack((activeIndex + 1) % activeTracks.length);
+      if (action === 'toggle' && activeKind === 'audio') {
+        if (audio.paused) audio.play(); else audio.pause();
+      }
+      if (action === 'toggle' && activeKind === 'youtube') {
+        youtubePlaying = !youtubePlaying;
+        player.querySelector('.about-audio-player__youtube').contentWindow.postMessage(JSON.stringify({
+          event: 'command',
+          func: youtubePlaying ? 'playVideo' : 'pauseVideo',
+          args: []
+        }), 'https://www.youtube-nocookie.com');
+        updatePlayButton();
+      }
+      if (action === 'close') closePlayer();
+    });
+    audio.addEventListener('play', updatePlayButton);
+    audio.addEventListener('pause', updatePlayButton);
+    audio.addEventListener('ended', function () { playTrack((activeIndex + 1) % activeTracks.length); });
+    document.body.appendChild(player);
+    return player;
+  }
+
+  function updatePlayButton() {
+    if (!player) return;
+    var playing = activeKind === 'audio' ? !audio.paused : youtubePlaying;
+    player.querySelector('[data-action="toggle"]').innerHTML = playing ? '&#x23F8;' : '&#x25B6;';
+  }
+
+  function playTrack(index) {
+    if (!activeTracks.length) return;
+    activeIndex = index;
+    ensurePlayer();
+    player.querySelector('.about-audio-player__title').textContent = activeTracks[index][0];
+    player.classList.toggle('has-video', activeKind === 'youtube');
+    document.querySelectorAll('.about-track-list-egg button').forEach(function (button, buttonIndex) {
+      button.classList.toggle('is-current', buttonIndex === index);
+    });
+    if (activeKind === 'audio') {
+      player.querySelector('.about-audio-player__youtube').src = '';
+      audio.src = activeTracks[index][1];
+      audio.play();
+    } else {
+      audio.pause();
+      youtubePlaying = true;
+      player.querySelector('.about-audio-player__youtube').src = 'https://www.youtube-nocookie.com/embed/' + activeTracks[index][1] + '?autoplay=1&rel=0&enablejsapi=1';
+    }
+    updatePlayButton();
+    window.requestAnimationFrame(function () { player.classList.add('is-visible'); });
+  }
+
+  function closePlayer() {
+    if (!player) return;
+    audio.pause();
+    youtubePlaying = false;
+    player.querySelector('.about-audio-player__youtube').src = '';
+    player.classList.remove('is-visible');
+  }
+
+  function revealTrackList(tracks, label, numbered, kind) {
     var existing = document.querySelector('.about-track-list-egg');
     if (existing) existing.remove();
 
@@ -275,13 +444,16 @@ document.addEventListener('DOMContentLoaded', function () {
     playlist.setAttribute('aria-label', label);
 
     tracks.forEach(function (track, index) {
-      var link = document.createElement('a');
+      var link = document.createElement('button');
       var number = numbered ? ('0' + (index + 1)).slice(-2) + '. ' : '';
-      link.href = track[1];
-      link.target = '_blank';
-      link.rel = 'external noopener noreferrer';
+      link.type = 'button';
       link.textContent = number + track[0];
       link.style.setProperty('--egg-index', index);
+      link.addEventListener('click', function () {
+        activeTracks = tracks;
+        activeKind = kind;
+        playTrack(index);
+      });
       playlist.appendChild(link);
     });
 
@@ -298,8 +470,8 @@ document.addEventListener('DOMContentLoaded', function () {
     history.push(event.key);
     if (history.length > Math.max(hiddenTracksSecret.length, playlistSecret.length)) history.shift();
 
-    if (matches(hiddenTracksSecret)) revealTrackList(hiddenTracks, 'Hidden tracks', false);
-    if (matches(playlistSecret)) revealTrackList(youtubeTracks, 'Hidden YouTube playlist', true);
+    if (matches(hiddenTracksSecret)) revealTrackList(hiddenTracks, 'Hidden tracks', false, 'audio');
+    if (matches(playlistSecret)) revealTrackList(phdTracks, 'Ph.D. soundtrack', true, 'youtube');
   });
 });
 </script>
