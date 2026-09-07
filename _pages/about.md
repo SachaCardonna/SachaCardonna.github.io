@@ -160,37 +160,38 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
 <style>
 .about-easter-egg {
   position: fixed;
-  right: 1.25rem;
-  bottom: 1.25rem;
+  top: 50%;
+  left: 50%;
   z-index: 1000;
   display: inline-flex;
   align-items: center;
-  padding: .68rem 1rem;
-  border: 1px solid var(--global-link-color);
+  justify-content: center;
+  min-width: 7.5rem;
+  min-height: 5.25rem;
+  padding: .75rem 1.8rem;
+  border: 2px solid var(--global-link-color);
   border-radius: 999px;
   background: var(--global-bg-color);
   color: var(--global-link-color) !important;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, .14);
-  font-size: .78rem;
-  font-weight: 700;
-  letter-spacing: .025em;
+  box-shadow: 0 18px 55px rgba(0, 0, 0, .24);
+  font-size: 3.25rem;
+  line-height: 1;
   text-decoration: none !important;
   opacity: 0;
-  transform: translateY(.7rem);
-  transition: opacity .24s ease, transform .24s ease, box-shadow .18s ease;
+  transform: translate(-50%, -50%) scale(.72) rotate(-8deg);
+  transition: opacity .3s ease, transform .38s cubic-bezier(.2, .85, .25, 1.2), box-shadow .18s ease;
 }
 .about-easter-egg.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(-50%, -50%) scale(1) rotate(0);
 }
 .about-easter-egg:hover {
-  box-shadow: 0 12px 34px rgba(0, 0, 0, .2);
+  box-shadow: 0 22px 65px rgba(0, 0, 0, .3);
+  transform: translate(-50%, -50%) scale(1.06) rotate(2deg);
 }
-@media (max-width: 600px) {
-  .about-easter-egg {
-    right: 1rem;
-    bottom: 1rem;
-  }
+.about-easter-egg:focus-visible {
+  outline: 3px solid var(--global-link-color);
+  outline-offset: 5px;
 }
 @media (prefers-reduced-motion: reduce) {
   .about-easter-egg {
@@ -221,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
     link.href = 'https://youtu.be/Iv4luDlg_e4?si=mJ0TzCmLnBzC6ryG&t=8';
     link.target = '_blank';
     link.rel = 'external noopener noreferrer';
-    link.textContent = 'You found it \u2197';
+    link.textContent = '\ud83e\udea9';
     link.setAttribute('aria-label', 'Open the hidden video on YouTube');
     document.body.appendChild(link);
     window.requestAnimationFrame(function () {
