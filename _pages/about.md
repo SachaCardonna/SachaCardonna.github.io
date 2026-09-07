@@ -371,7 +371,7 @@ document.addEventListener('DOMContentLoaded', function () {
     player = document.createElement('aside');
     player.className = 'about-audio-player';
     player.setAttribute('aria-label', 'Music player');
-    player.innerHTML = '<div class="about-audio-player__controls"><button type="button" data-action="previous" aria-label="Previous track">&#x23EE;</button><button type="button" data-action="toggle" aria-label="Play or pause">&#x25B6;</button><button type="button" data-action="next" aria-label="Next track">&#x23ED;</button></div><div class="about-audio-player__copy"><p class="about-audio-player__eyebrow">Hidden soundtrack</p><p class="about-audio-player__title">Choose a track</p></div><button type="button" class="about-audio-player__close" data-action="close" aria-label="Close player">&#x2715;</button><iframe class="about-audio-player__youtube" title="Ph.D. soundtrack player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+    player.innerHTML = '<div class="about-audio-player__controls"><button type="button" data-action="previous" aria-label="Previous track">&#x23EE;</button><button type="button" data-action="toggle" aria-label="Play or pause">&#x25B6;</button><button type="button" data-action="next" aria-label="Next track">&#x23ED;</button></div><div class="about-audio-player__copy"><p class="about-audio-player__eyebrow">Ph.D. Soundtrack</p><p class="about-audio-player__title">Choose a track</p></div><button type="button" class="about-audio-player__close" data-action="close" aria-label="Close player">&#x2715;</button><iframe class="about-audio-player__youtube" title="Ph.D. soundtrack player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
     player.addEventListener('click', function (event) {
       var control = event.target.closest('button[data-action]');
       if (!control) return;
@@ -409,6 +409,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!activeTracks.length) return;
     activeIndex = index;
     ensurePlayer();
+    player.querySelector('.about-audio-player__eyebrow').textContent = activeKind === 'audio' ? 'Website Soundtrack' : 'Ph.D. Soundtrack';
     player.querySelector('.about-audio-player__title').textContent = activeTracks[index][0];
     player.classList.toggle('has-video', activeKind === 'youtube');
     document.querySelectorAll('.about-track-list-egg button').forEach(function (button, buttonIndex) {
