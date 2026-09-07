@@ -178,9 +178,9 @@ details[open] .pub-badge .arrow {
   summary.pub-summary {
     display: grid;
     grid-template-columns: 2.5rem minmax(0,1fr);
-    gap: .8rem;
+    gap: .7rem;
     align-items: start;
-    padding: .9rem 1rem;
+    padding: .68rem 1rem;
   }
   details.pub[open] summary.pub-summary {
     border-bottom: 1px solid var(--content-line);
@@ -226,7 +226,7 @@ details[open] .pub-badge .arrow {
   }
   .pub-abstract {
     width: auto;
-    margin: 1rem 1rem 0;
+    margin: .72rem 1rem 0;
     padding: 0;
     border: 0;
     color: var(--global-text-color);
@@ -235,12 +235,12 @@ details[open] .pub-badge .arrow {
   }
   .pub-abstract::before {
     content: "Abstract";
-    margin-bottom: .5rem;
+    margin-bottom: .35rem;
     font-size: .6rem;
   }
   .pub-grid-2,
   .pub-grid-3 {
-    margin: .9rem 1rem 0;
+    margin: .7rem 1rem 0;
     gap: .55rem;
   }
   .pub-grid-2 img,
@@ -249,9 +249,9 @@ details[open] .pub-badge .arrow {
     border-radius: 9px;
   }
   details.pub > .pub-grid-2:last-child,
-  details.pub > .pub-grid-3:last-child { margin-bottom: 1rem; }
+  details.pub > .pub-grid-3:last-child { margin-bottom: .75rem; }
   .pub-links {
-    margin: .85rem 1rem 1rem;
+    margin: .65rem 1rem .75rem;
   }
   .pub-links a {
     min-height: 34px;
@@ -262,7 +262,7 @@ details[open] .pub-badge .arrow {
     summary.pub-summary {
       grid-template-columns: 2rem minmax(0,1fr);
       gap: .55rem;
-      padding: .8rem;
+      padding: .65rem .8rem;
     }
     .pub-abstract { margin-right: .8rem; margin-left: .8rem; }
     .pub-grid-2,
