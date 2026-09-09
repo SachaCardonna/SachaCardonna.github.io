@@ -49,7 +49,7 @@ Découvrez mes publications, les conférences et conférences auxquelles j'ai pa
 }
 
 /* Rotate arrow when open */
-details[open] .pub-badge .arrow {
+details.pub[open] > summary .pub-badge .arrow {
   transform: rotate(90deg);
 }
 
@@ -158,6 +158,7 @@ details[open] .pub-badge .arrow {
   /* Cartes éditoriales des publications */
   details.pub {
     padding: 0;
+    margin-bottom: .5rem;
     overflow: hidden;
     border: 1px solid var(--content-line);
     border-radius: 12px;
@@ -180,9 +181,9 @@ details[open] .pub-badge .arrow {
   summary.pub-summary {
     display: grid;
     grid-template-columns: 2.5rem minmax(0,1fr);
-    gap: .7rem;
+    gap: .55rem;
     align-items: start;
-    padding: .68rem 1rem;
+    padding: .52rem .9rem;
   }
   details.pub[open] summary.pub-summary {
     border-bottom: 1px solid var(--content-line);
@@ -264,7 +265,7 @@ details[open] .pub-badge .arrow {
     summary.pub-summary {
       grid-template-columns: 2rem minmax(0,1fr);
       gap: .55rem;
-      padding: .65rem .8rem;
+      padding: .5rem .72rem;
     }
     .pub-abstract { margin-right: .8rem; margin-left: .8rem; }
     .pub-grid-2,
@@ -278,8 +279,21 @@ details[open] .pub-badge .arrow {
     .pub-grid-3 img { height: auto; }
     .pub-links { margin-right: .8rem; margin-left: .8rem; }
   }
+  .publication-archive {
+    margin: 1rem 0 2rem;
+  }
+  .publication-year__items {
+    padding: .2rem 0 .45rem;
+  }
+  .publication-year__items > details.pub:last-child {
+    margin-bottom: 0;
+  }
 </style>
 
+<div class="publication-archive">
+<details class="talk-year publication-year" open>
+  <summary><span class="talk-year__label">2026</span><span class="talk-year__count">2 publications</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="publication-year__items">
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-badge">
@@ -337,6 +351,13 @@ details[open] .pub-badge .arrow {
     <a href="#">HAL</a>
   </div> -->
 </details>
+
+  </div>
+</details>
+
+<details class="talk-year publication-year" open>
+  <summary><span class="talk-year__label">2025</span><span class="talk-year__count">2 publications</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="publication-year__items">
 
 <details class="pub">
   <summary class="pub-summary">
@@ -407,6 +428,9 @@ Nous couplons enfin cette stratégie locale subcell DG/FV, robuste et <i>well-ba
 
 </details>
 
+  </div>
+</details>
+</div>
 
 <!-- ________________________________ -->
 

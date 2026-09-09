@@ -47,7 +47,7 @@ Explore my publications, the talks and conferences I participated in and my rese
 }
 
 /* Rotate arrow when open */
-details[open] .pub-badge .arrow {
+details.pub[open] > summary .pub-badge .arrow {
   transform: rotate(90deg);
 }
 
@@ -156,6 +156,7 @@ details[open] .pub-badge .arrow {
   /* Editorial publication cards */
   details.pub {
     padding: 0;
+    margin-bottom: .5rem;
     overflow: hidden;
     border: 1px solid var(--content-line);
     border-radius: 12px;
@@ -178,9 +179,9 @@ details[open] .pub-badge .arrow {
   summary.pub-summary {
     display: grid;
     grid-template-columns: 2.5rem minmax(0,1fr);
-    gap: .7rem;
+    gap: .55rem;
     align-items: start;
-    padding: .68rem 1rem;
+    padding: .52rem .9rem;
   }
   details.pub[open] summary.pub-summary {
     border-bottom: 1px solid var(--content-line);
@@ -262,7 +263,7 @@ details[open] .pub-badge .arrow {
     summary.pub-summary {
       grid-template-columns: 2rem minmax(0,1fr);
       gap: .55rem;
-      padding: .65rem .8rem;
+      padding: .5rem .72rem;
     }
     .pub-abstract { margin-right: .8rem; margin-left: .8rem; }
     .pub-grid-2,
@@ -276,7 +277,238 @@ details[open] .pub-badge .arrow {
     .pub-grid-3 img { height: auto; }
     .pub-links { margin-right: .8rem; margin-left: .8rem; }
   }
+  .publication-archive {
+    margin: 1rem 0 2rem;
+  }
+  .publication-year__items {
+    padding: .2rem 0 .45rem;
+  }
+  .publication-year__items > details.pub:last-child {
+    margin-bottom: 0;
+  }
+  .pub-figure-strip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: .65rem;
+    margin: .7rem 1rem 0;
+  }
+  .pub-figure-strip img {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    border: 1px solid var(--content-line);
+    border-radius: 9px;
+    background: #fff;
+  }
+  .pub-figure-strip--surf img { height: 12rem; }
+  .pub-figure-strip--ale img { height: 10.5rem; }
+  .pub-figure-strip--si img { height: 8rem; }
+  .pub-figure-strip--pinn img { height: 10rem; }
+  details.pub > .pub-figure-strip:last-child {
+    margin-bottom: .75rem;
+  }
+  @media (max-width: 600px) {
+    .pub-figure-strip {
+      margin-right: .8rem;
+      margin-left: .8rem;
+    }
+    .pub-figure-strip--surf img { height: 9rem; }
+    .pub-figure-strip--ale img { height: 8rem; }
+    .pub-figure-strip--si img { height: 6.5rem; }
+    .pub-figure-strip--pinn img { height: 8rem; }
+  }
 </style>
+
+
+<div class="publication-archive">
+<details class="talk-year publication-year" open>
+  <summary><span class="talk-year__label">2026</span><span class="talk-year__count">7 publications</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="publication-year__items">
+<details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">9</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors">S. Cardonna &amp; M.-L. Hanot</span>
+      <span class="pub-title">An exterior-calculus framework for mapped-polynomial Discontinuous Galerkin discretizations of hyperbolic conservation laws on manifolds</span>
+      <span class="pub-tail"><i>In preparation</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-abstract">
+We develop an arbitrary-order Discontinuous Galerkin framework for hyperbolic conservation laws on curved manifolds represented by compatible local parametrizations.
+The construction combines an exterior-calculus formulation with complete polynomial spaces transported from flat reference domains, retaining the local algebra of polynomial DG methods while accounting consistently for curved volume measures, covariant derivatives and interface traces.
+Tangent-vector states are approximated in local frames, so that tangency is built into the discrete space, while scalar conservation follows from the cancellation of a common oriented numerical flux across cell interfaces.<br><br>
+For unlimited linear transport, we establish a semi-discrete energy identity and an a priori bound expressed through the volume and trace defects of the physical L^2 projection, from which an O(h^{k+1/2}) estimate follows under uniform mapped-approximation assumptions and bounded oscillation of the reference velocity.<br><br>
+For the shallow-water equations, positive cubature with prescribed interface nodes and cell-mean-preserving scaling are combined with third-order strong-stability-preserving Runge--Kutta integration.
+For positive initial heights, an explicit CFL condition guarantees positivity of the updated cell means and control-point values, while the scheme preserves exact tangency and discrete water mass on closed meshes.<br><br>
+Numerical experiments on the sphere assess accuracy and discontinuity transport for scalar advection, whereas wet- and dry-bed computations with a separate ambient-component prototype illustrate nonlinear shallow-water dynamics in the mapped spaces.
+  </div>
+
+  <div class="pub-figure-strip pub-figure-strip--surf">
+    <img src="{{ site.baseurl }}/images/figs_articles/surf1.png" alt="Surface DG numerical result 1">
+    <img src="{{ site.baseurl }}/images/figs_articles/surf2.png" alt="Surface DG numerical result 2">
+    <img src="{{ site.baseurl }}/images/figs_articles/surf3.png" alt="Surface DG numerical result 3">
+    <img src="{{ site.baseurl }}/images/figs_articles/surf4.png" alt="Surface DG numerical result 4">
+  </div>
+
+  <!-- <div class="pub-links">
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
+  </div> -->
+</details>
+
+<details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">8</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors">S. Cardonna, E. Bernardelli &amp; W. Boscheri</span>
+      <span class="pub-title">Involution-Preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
+      <span class="pub-tail"><i>In preparation</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-abstract">
+   In this work we present an involution-preserving Arbitrary Lagrangian-Eulerian (ALE) finite volume method for first-order hyperbolic systems on moving structured meshes. The proposed approach exploits the freedom in the choice of the ALE mesh velocity to construct a constrained mesh motion that is compatible with the differential structure of the governing equations. The method is formulated in a cell-centered framework on quadrilateral meshes, where discrete divergence and curl operators are defined through corner-based geometrical quantities and their associated closure identities. Particular attention is devoted to the consistent treatment of the evolving geometry and to the satisfaction of the Geometric Conservation Law.<br><br>
+The framework is applied to two representative hyperbolic systems characterized by different involutions: the ideal magnetohydrodynamics equations, subject to the divergence-free constraint on the magnetic field, and the hyperbolic Euler-Heat equations, characterized by a curl-free thermal impulse. A second-order Runge-Kutta discretization is employed in time, with the mesh constraints consistently enforced throughout the stages. Numerical experiments on classical benchmark problems assess the accuracy and robustness of the proposed approach and demonstrate the preservation of the corresponding differential involutions on moving meshes.
+  </div>
+
+  <div class="pub-figure-strip pub-figure-strip--ale">
+    <img src="{{ site.baseurl }}/images/figs_articles/ale1.png" alt="ALE numerical result 1">
+    <img src="{{ site.baseurl }}/images/figs_articles/ale2.png" alt="ALE numerical result 2">
+    <img src="{{ site.baseurl }}/images/figs_articles/ale3.png" alt="ALE numerical result 3">
+  </div>
+
+  <!-- <div class="pub-links">
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
+  </div> -->
+</details>
+
+<details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">7</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors">S. Cardonna, M. Lupi, L. Gude Vila &amp; W. Boscheri</span>
+      <span class="pub-title">A locally and globally divergence-free semi-implicit FV/DG scheme for magnetohydrodynamics at all Mach and Alfvén numbers</span>
+      <span class="pub-tail"><i>In preparation</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-abstract">
+    We present a semi-implicit finite volume/discontinuous Galerkin method for planar ideal magnetohydrodynamics on Cartesian meshes, with particular emphasis on the local and global preservation of the magnetic divergence constraint. The magnetic field is represented by five divergence-free vector basis functions, ensuring local solenoidality by construction. Global compatibility is obtained through a mass-orthogonal projection enforcing two normal-trace moments on each interior face. These constraints yield a globally divergence-free field when satisfied exactly, while numerical interface compatibility is controlled by the projection tolerance. <br><br>
+    The governing equations are split into an explicit material transport subsystem and implicit magnetic and acoustic subsystems, resulting in two sequential linear solves. Within the magnetic update, subcell balances of the magnetic stress supply the force at the DG quadrature nodes without introducing additional magnetic unknowns. Second-order finite volume reconstruction is combined with nonlinear stabilization within the locally solenoidal space. For smooth solutions, second-order temporal accuracy is obtained by Richardson extrapolation of the complete semi-implicit update, including the normal-trace projection and its accompanying energy correction. <br><br>
+    The numerical assessment considers smooth vortices, planar Riemann problems, blast waves, the rotor, the Orszag–Tang vortex and low-Mach magnetic-loop advection, with emphasis on cell-average accuracy, shock resolution and preservation of the magnetic constraint across different Mach and Alfvén regimes.
+  </div>
+
+  <div class="pub-figure-strip pub-figure-strip--si">
+    <img src="{{ site.baseurl }}/images/figs_articles/si1.png" alt="Semi-implicit MHD numerical result 1">
+    <img src="{{ site.baseurl }}/images/figs_articles/si2.png" alt="Semi-implicit MHD numerical result 2">
+    <img src="{{ site.baseurl }}/images/figs_articles/si3.png" alt="Semi-implicit MHD numerical result 3">
+  </div>
+
+  <!-- <div class="pub-links">
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
+  </div> -->
+</details>
+
+<details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">6</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors">S. Cardonna &amp; A. Haidar</span>
+      <span class="pub-title">A unified variational physics-informed neural method for shallow-water flows</span>
+      <span class="pub-tail"><i>In preparation</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-abstract">
+    We introduce a variational physics-informed neural discretization for the
+nonlinear shallow-water system with bathymetry. One global neural network
+defines a nonlinear space--time trial manifold, whereas local affine or
+bilinear test functions measure the balance law through cellwise spatial
+moments at sampled times. The method is built in the free-surface variables
+$(\eta,\bfq)$: the canonical output map enforces $H=\eta-b\geq0$ and
+$\bfq=H\bfu$, the initial state and lakes at rest are inherited by the trial
+manifold, and shock-forming calculations add a positive mechanical-energy
+defect and a differentiable localized viscosity. These mechanisms are part of
+one discrete least-squares problem rather than independent post-processing
+steps.<br><br>
+We give two results specific to this construction. First, an exact identity
+expresses the well-balanced residual generated by an arbitrary scalar
+positivity map. It proves distributional preservation of wet--dry lakes for
+the positive-part map, quantifies the loss floor created by a numerical film
+or a softplus regularization, and implies that no smooth strictly positive
+scalar map can preserve every wet--dry lake at rest. Second, the implemented
+viscosity is proved to be $O(h^2)$ in smooth regions, to reach the $O(h)$
+shock-capturing scale in $O(h)$ layers, and to vanish distributionally along
+uniformly BV-bounded refined sequences. These statements separate exact
+properties of the trial manifold from quadrature and optimization defects;
+they do not turn finitely many VPINN moments into a general convergence
+theorem. Wet- and dry-bed dam breaks, fully wet and partially dry equilibria,
+and one- and two-dimensional moving-shoreline Thacker solutions assess the
+different structural mechanisms.
+  </div>
+
+  <div class="pub-figure-strip pub-figure-strip--pinn">
+    <img src="{{ site.baseurl }}/images/figs_articles/pinn1.png" alt="Variational PINN numerical result 1">
+    <img src="{{ site.baseurl }}/images/figs_articles/pinn2.png" alt="Variational PINN numerical result 2">
+    <img src="{{ site.baseurl }}/images/figs_articles/pinn3.png" alt="Variational PINN numerical result 3">
+    <img src="{{ site.baseurl }}/images/figs_articles/pinn4.png" alt="Variational PINN numerical result 4">
+  </div>
+
+  <!-- <div class="pub-links">
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
+  </div> -->
+</details>
+
+<details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">5</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
+      <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part II)</span>
+      <span class="pub-tail"><i>In preparation</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-abstract">
+    Work in progress on a 2DH wave–structure interaction model and its high-order numerical resolution.
+  </div>
+
+  <div class="pub-grid-2">
+    <img src="{{ site.baseurl }}/images/wave_inter_1.png">
+    <img src="{{ site.baseurl }}/images/wave_inter_2.png">
+  </div>
+
+  <!-- <div class="pub-links">
+    <a href="#">PDF</a>
+    <a href="#">HAL</a>
+  </div> -->
+</details>
 
 <details class="pub">
   <summary class="pub-summary">
@@ -287,13 +519,13 @@ details[open] .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle (Part II)</span>
+      <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part I)</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
   </summary>
 
   <div class="pub-abstract">
-    Work in progress on a 2D wave–structure interaction model and its numerical resolution.
+    Work in progress on a 2DH wave–structure interaction model and its high-order numerical resolution.
   </div>
 
   <div class="pub-grid-2">
@@ -306,6 +538,7 @@ details[open] .pub-badge .arrow {
     <a href="#">HAL</a>
   </div> -->
 </details>
+
 
 <details class="pub">
   <summary class="pub-summary">
@@ -316,13 +549,13 @@ details[open] .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">Numerical resolution of 2D nonlinear shallow-water equations with a partly immersed surface obstacle (Part I)</span>
+      <span class="pub-title">Dirichlet-to-Neumann operators for shallow-water wave-structure interactions: modeling and DG-HHO approximation</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
   </summary>
 
   <div class="pub-abstract">
-    Work in progress on a 2D wave–structure interaction model and its numerical resolution. 
+    Work in progress on a 2DH wave–structure interaction model and its high-order numerical resolution.
   </div>
 
   <div class="pub-grid-2">
@@ -335,6 +568,13 @@ details[open] .pub-badge .arrow {
     <a href="#">HAL</a>
   </div> -->
 </details>
+
+  </div>
+</details>
+
+<details class="talk-year publication-year" open>
+  <summary><span class="talk-year__label">2025</span><span class="talk-year__count">2 publications</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <div class="publication-year__items">
 
 <details class="pub">
   <summary class="pub-summary">
@@ -346,7 +586,7 @@ details[open] .pub-badge .arrow {
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
-      <span class="pub-tail"><i>Submitted</i></span>
+      <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
     </div>
   </summary>
 
@@ -381,7 +621,7 @@ This new numerical method relies on a fully a priori treatment, and does not req
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
-      <span class="pub-tail"><i>Submitted</i></span>
+      <span class="pub-tail"><i>Submitted to International Journal for Numerical Methods in Fluids</i></span>
     </div>
   </summary>
 
@@ -415,6 +655,9 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
 
 </details>
 
+  </div>
+</details>
+</div>
 
 <!-- ________________________________ -->
 
