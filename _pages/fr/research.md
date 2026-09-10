@@ -217,7 +217,7 @@ details.pub[open] > summary .pub-badge .arrow {
   }
   .pub-title {
     color: var(--global-text-color);
-    font-size: .84rem;
+    font-size: .8rem;
     font-weight: 750;
     line-height: 1.42;
   }

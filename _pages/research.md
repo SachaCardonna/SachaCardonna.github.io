@@ -14,7 +14,7 @@ Explore my publications, the talks and conferences I participated in and my rese
 ## Publications
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-<p class="publication-lead-note"><span class="publication-lead-mark" aria-hidden="true">★</span><span>A star identifies the lead author, when applicable.</span></p>
+<p class="publication-lead-note"><span class="publication-lead-mark" aria-hidden="true">*</span><span>An asterisk identifies the lead author, when applicable.</span></p>
 
 <style>
   details.pub {
@@ -217,7 +217,7 @@ details.pub[open] > summary .pub-badge .arrow {
   }
   .pub-title {
     color: var(--global-text-color);
-    font-size: .84rem;
+    font-size: .8rem;
     font-weight: 750;
     line-height: 1.42;
   }
@@ -295,17 +295,18 @@ details.pub[open] > summary .pub-badge .arrow {
     display: inline-block;
     flex: 0 0 auto;
     color: var(--global-link-color);
-    font-size: .52rem;
+    font-size: .48rem;
     line-height: 1;
   }
   .lead-author::after {
-    content: "★";
+    content: "*";
     display: inline-block;
-    margin-left: .12rem;
+    position: relative;
+    top: -.36em;
+    margin-left: .04rem;
     color: var(--global-link-color);
-    font-size: .46rem;
-    line-height: 0;
-    vertical-align: super;
+    font-size: .48rem;
+    line-height: 1;
   }
   .publication-year__items {
     padding: .2rem 0 .45rem;
@@ -462,7 +463,7 @@ The framework is applied to two representative hyperbolic systems characterized 
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna &amp; A. Haidar</span>
-      <span class="pub-title">A unified variational physics-informed neural method for shallow-water flows</span>
+      <span class="pub-title">A unified well-balanced, positivity-preserving and shock-capturing variational physics-informed neural method for shallow-water flows</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
   </summary>
