@@ -14,7 +14,7 @@ Explore my publications, the talks and conferences I participated in and my rese
 ## Publications
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
-<p class="publication-lead-note"><span class="publication-lead-dot" aria-hidden="true"></span><span>A dot identifies the lead author, when applicable.</span></p>
+<p class="publication-lead-note"><span class="publication-lead-mark" aria-hidden="true">★</span><span>A star identifies the lead author, when applicable.</span></p>
 
 <style>
   details.pub {
@@ -291,19 +291,21 @@ details.pub[open] > summary .pub-badge .arrow {
     font-size: .68rem;
     line-height: 1.4;
   }
-  .publication-lead-dot,
-  .lead-author::after {
+  .publication-lead-mark {
     display: inline-block;
-    width: .38rem;
-    height: .38rem;
-    flex: 0 0 .38rem;
-    border-radius: 50%;
-    background: var(--global-link-color);
+    flex: 0 0 auto;
+    color: var(--global-link-color);
+    font-size: .52rem;
+    line-height: 1;
   }
   .lead-author::after {
-    content: "";
-    margin-left: .2rem;
-    vertical-align: .12em;
+    content: "★";
+    display: inline-block;
+    margin-left: .12rem;
+    color: var(--global-link-color);
+    font-size: .46rem;
+    line-height: 0;
+    vertical-align: super;
   }
   .publication-year__items {
     padding: .2rem 0 .45rem;
