@@ -295,17 +295,17 @@ details.pub[open] > summary .pub-badge .arrow {
     display: inline-block;
     flex: 0 0 auto;
     color: var(--global-link-color);
-    font-size: .42rem;
+    font-size: .48rem;
     line-height: 1;
   }
   .lead-author::after {
     content: "*";
     display: inline-block;
     position: relative;
-    top: -.48em;
-    margin-left: .015rem;
+    top: -.36em;
+    margin-left: .04rem;
     color: var(--global-link-color);
-    font-size: .4rem;
+    font-size: .48rem;
     line-height: 1;
   }
   .publication-year__items {
