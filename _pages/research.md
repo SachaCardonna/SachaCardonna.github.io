@@ -414,6 +414,7 @@ The framework is applied to two representative hyperbolic systems characterized 
     <img src="{{ site.baseurl }}/images/figs_articles/ale1.png" alt="ALE numerical result 1">
     <img src="{{ site.baseurl }}/images/figs_articles/ale2.png" alt="ALE numerical result 2">
     <img src="{{ site.baseurl }}/images/figs_articles/ale3.png" alt="ALE numerical result 3">
+    <img src="{{ site.baseurl }}/images/figs_articles/ale4.png" alt="ALE numerical result 3">
   </div>
 
   <!-- <div class="pub-links">
