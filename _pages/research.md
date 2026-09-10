@@ -295,7 +295,7 @@ details.pub[open] > summary .pub-badge .arrow {
     display: inline-block;
     flex: 0 0 auto;
     color: var(--global-link-color);
-    font-size: .48rem;
+    font-size: .58rem;
     line-height: 1;
   }
   .lead-author::after {
@@ -305,7 +305,7 @@ details.pub[open] > summary .pub-badge .arrow {
     top: -.36em;
     margin-left: -.01rem;
     color: var(--global-link-color);
-    font-size: .48rem;
+    font-size: .54rem;
     line-height: 1;
   }
   .publication-year__items {
