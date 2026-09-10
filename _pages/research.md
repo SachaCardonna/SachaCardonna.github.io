@@ -303,7 +303,7 @@ details.pub[open] > summary .pub-badge .arrow {
     display: inline-block;
     position: relative;
     top: -.36em;
-    margin-left: .04rem;
+    margin-left: -.01rem;
     color: var(--global-link-color);
     font-size: .48rem;
     line-height: 1;
