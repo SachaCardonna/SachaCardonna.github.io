@@ -372,7 +372,7 @@ details.pub[open] > summary .pub-badge .arrow {
 We develop an arbitrary-order Discontinuous Galerkin framework for hyperbolic conservation laws on curved manifolds represented by compatible local parametrizations.
 The construction combines an exterior-calculus formulation with complete polynomial spaces transported from flat reference domains, retaining the local algebra of polynomial DG methods while accounting consistently for curved volume measures, covariant derivatives and interface traces.
 Tangent-vector states are approximated in local frames, so that tangency is built into the discrete space, while scalar conservation follows from the cancellation of a common oriented numerical flux across cell interfaces.<br><br>
-For unlimited linear transport, we establish a semi-discrete energy identity and an a priori bound expressed through the volume and trace defects of the physical L^2 projection, from which an O(h^{k+1/2}) estimate follows under uniform mapped-approximation assumptions and bounded oscillation of the reference velocity.<br><br>
+For unlimited linear transport, we establish a semi-discrete energy identity and an a priori bound expressed through the volume and trace defects of the physical $L^2$ projection, from which an $O(h^{k+1/2})$ estimate follows under uniform mapped-approximation assumptions and bounded oscillation of the reference velocity.<br><br>
 For the shallow-water equations, positive cubature with prescribed interface nodes and cell-mean-preserving scaling are combined with third-order strong-stability-preserving Runge--Kutta integration.
 For positive initial heights, an explicit CFL condition guarantees positivity of the updated cell means and control-point values, while the scheme preserves exact tangency and discrete water mass on closed meshes.<br><br>
 Numerical experiments on the sphere assess accuracy and discontinuity transport for scalar advection, whereas wet- and dry-bed computations with a separate ambient-component prototype illustrate nonlinear shallow-water dynamics in the mapped spaces.
@@ -475,8 +475,8 @@ nonlinear shallow-water system with bathymetry. One global neural network
 defines a nonlinear space--time trial manifold, whereas local affine or
 bilinear test functions measure the balance law through cellwise spatial
 moments at sampled times. The method is built in the free-surface variables
-$(\eta,\bfq)$: the canonical output map enforces $H=\eta-b\geq0$ and
-$\bfq=H\bfu$, the initial state and lakes at rest are inherited by the trial
+$(\eta,\mathbf q)$: the canonical output map enforces $H=\eta-b\geq0$ and
+$\mathbf q=H\mathbf u$, the initial state and lakes at rest are inherited by the trial
 manifold, and shock-forming calculations add a positive mechanical-energy
 defect and a differentiable localized viscosity. These mechanisms are part of
 one discrete least-squares problem rather than independent post-processing
@@ -809,7 +809,7 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
 </div>
 
 
-## Research statement
+## Ph.D. research statement
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
  My research lies at the intersection of mathematical modeling, numerical analysis, and the study of partial differential equations (PDEs) describing fluid flows. In particular, during my PhD, I focused on nonlinear systems of hyperbolic balance laws, which are used to model the evolution of quantities that are transported and conserved in time. These systems take the general form
 <div style="text-align: center;">
