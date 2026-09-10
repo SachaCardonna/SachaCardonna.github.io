@@ -646,7 +646,7 @@ This new numerical method relies on a fully a priori treatment, and does not req
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors">S. Cardonna, A. Haidar, F. Marche &amp; F. Vilar</span>
+      <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, A. Haidar, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
       <span class="pub-tail"><i>Submitted to International Journal for Numerical Methods in Fluids</i></span>
     </div>
