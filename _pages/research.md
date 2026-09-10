@@ -14,6 +14,8 @@ Explore my publications, the talks and conferences I participated in and my rese
 ## Publications
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
+<p class="publication-lead-note"><span class="publication-lead-dot" aria-hidden="true"></span><span>A dot identifies the lead author, when applicable.</span></p>
+
 <style>
   details.pub {
     position: relative;
@@ -280,6 +282,29 @@ details.pub[open] > summary .pub-badge .arrow {
   .publication-archive {
     margin: 1rem 0 2rem;
   }
+  .publication-lead-note {
+    display: flex;
+    align-items: center;
+    gap: .42rem;
+    margin: 0 0 .65rem;
+    color: var(--content-muted);
+    font-size: .68rem;
+    line-height: 1.4;
+  }
+  .publication-lead-dot,
+  .lead-author::after {
+    display: inline-block;
+    width: .38rem;
+    height: .38rem;
+    flex: 0 0 .38rem;
+    border-radius: 50%;
+    background: var(--global-link-color);
+  }
+  .lead-author::after {
+    content: "";
+    margin-left: .2rem;
+    vertical-align: .12em;
+  }
   .publication-year__items {
     padding: .2rem 0 .45rem;
   }
@@ -371,7 +396,7 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors">S. Cardonna, E. Bernardelli &amp; W. Boscheri</span>
+      <span class="pub-authors">E. Bernardelli, W. Boscheri &amp; <span class="lead-author">S. Cardonna</span></span>
       <span class="pub-title">Involution-Preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
@@ -402,7 +427,7 @@ The framework is applied to two representative hyperbolic systems characterized 
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors">S. Cardonna, M. Lupi, L. Gude Vila &amp; W. Boscheri</span>
+      <span class="pub-authors">W. Boscheri, <span class="lead-author">S. Cardonna</span>, L. Gude Vila &amp; M. Lupi</span>
       <span class="pub-title">A locally and globally divergence-free semi-implicit FV/DG scheme for magnetohydrodynamics at all Mach and Alfvén numbers</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
@@ -489,7 +514,7 @@ different structural mechanisms.
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
+      <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, D. Lannes, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part II)</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
@@ -518,7 +543,7 @@ different structural mechanisms.
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
+      <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, D. Lannes, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part I)</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
@@ -548,7 +573,7 @@ different structural mechanisms.
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors">S. Cardonna, D. Lannes, F. Marche &amp; F. Vilar</span>
+      <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, D. Lannes, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Dirichlet-to-Neumann operators for shallow-water wave-structure interactions: modeling and DG-HHO approximation</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
@@ -584,7 +609,7 @@ different structural mechanisms.
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors">S. Cardonna, F. Marche &amp; F. Vilar</span>
+      <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
       <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
     </div>
