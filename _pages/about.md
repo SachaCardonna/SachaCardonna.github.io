@@ -291,17 +291,6 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   height: 1.65rem !important;
   border-color: transparent !important;
 }
-.about-audio-player__youtube {
-  display: none;
-  grid-column: 1 / -1;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: 0;
-  border-radius: .7rem;
-}
-.about-audio-player.has-video .about-audio-player__youtube {
-  display: block;
-}
 @media (max-width: 600px) {
   .about-audio-player {
     bottom: .65rem;
@@ -315,6 +304,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var hiddenTracksSecret = ['ArrowUp', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowDown', 'ArrowDown', 'ArrowDown'];
   var playlistSecret = ['ArrowUp', 'ArrowUp', 'ArrowUp', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'ArrowDown', 'ArrowUp', 'ArrowDown'];
   var miscBase = '{{ site.baseurl }}/files/misc/';
+  var phdBase = miscBase + 'Ph.D./';
   var hiddenTracks = [
     ['A Real Hero', miscBase + 'a_real_hero.mp3'],
     ['Born Slippy', miscBase + 'born_slippy.mp3'],
@@ -338,26 +328,25 @@ document.addEventListener('DOMContentLoaded', function () {
     ["You Can't Always Get What You Want", miscBase + 'you_cant_always_get_what_you_want.mp3']
   ];
   var phdTracks = [
-    ['Dreams', 'Yam5uK6e-bQ'],
-    ['Merci ben!', '0BpSJK80k2Q'],
-    ['Travelers', 'z34enKCqRGk'],
-    ['Comeback Kid', 'QUl2NUJipu8'],
-    ['Young Turks', 'zQ41hqlV0Kk'],
-    ['Heaven or Las Vegas', 'LRFWkkIXBxM'],
-    ['Για Ένα Tango', 'sbetuPP4qmE'],
-    ['Barquinho de papel', 'Ig9ANI5azp8'],
-    ['Into the Mystic', '4Yvdx1lIAv8'],
-    ['Desperados Under the Eaves', 'wXCly4X3cqw'],
-    ['En passant', 'GFwEKqL7kRE'],
-    ['Born to Run', 'Wu4_zVxmufY'],
-    ["I Don't Live Here Anymore", '3R4rCxwqL_s']
+    ['Dreams', phdBase + 'dreams.mp3'],
+    ['Merci ben!', phdBase + 'merci_ben.mp3'],
+    ['Travelers', phdBase + 'travelers.mp3'],
+    ['Comeback Kid', phdBase + 'comeback_kid.mp3'],
+    ['Young Turks', phdBase + 'young_turks.mp3'],
+    ['Heaven or Las Vegas', phdBase + 'heaven_or_las_vegas.mp3'],
+    ['Για Ένα Tango', phdBase + 'gia_ena_tango.mp3'],
+    ['Barquinho de papel', phdBase + 'barquinho_de_papel.mp3'],
+    ['Into the Mystic', phdBase + 'into_the_mystic.mp3'],
+    ['Desperados Under the Eaves', phdBase + 'desperados_under_the_eaves.mp3'],
+    ['En passant', phdBase + 'en_passant.mp3'],
+    ['Born to Run', phdBase + 'born_to_run.mp3'],
+    ["I Don't Live Here Anymore", phdBase + 'i_dont_live_here_anymore.mp3']
   ];
   var history = [];
   var audio = new Audio();
   var activeTracks = [];
   var activeIndex = 0;
-  var activeKind = 'audio';
-  var youtubePlaying = false;
+  var activeKind = 'website';
   var player;
 
   function matches(sequence) {
@@ -371,24 +360,15 @@ document.addEventListener('DOMContentLoaded', function () {
     player = document.createElement('aside');
     player.className = 'about-audio-player';
     player.setAttribute('aria-label', 'Music player');
-    player.innerHTML = '<div class="about-audio-player__controls"><button type="button" data-action="previous" aria-label="Previous track">&#x23EE;</button><button type="button" data-action="toggle" aria-label="Play or pause">&#x25B6;</button><button type="button" data-action="next" aria-label="Next track">&#x23ED;</button></div><div class="about-audio-player__copy"><p class="about-audio-player__eyebrow">Ph.D. Soundtrack</p><p class="about-audio-player__title">Choose a track</p></div><button type="button" class="about-audio-player__close" data-action="close" aria-label="Close player">&#x2715;</button><iframe class="about-audio-player__youtube" title="Ph.D. soundtrack player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+    player.innerHTML = '<div class="about-audio-player__controls"><button type="button" data-action="previous" aria-label="Previous track">&#x23EE;</button><button type="button" data-action="toggle" aria-label="Play or pause">&#x25B6;</button><button type="button" data-action="next" aria-label="Next track">&#x23ED;</button></div><div class="about-audio-player__copy"><p class="about-audio-player__eyebrow">Ph.D. Soundtrack</p><p class="about-audio-player__title">Choose a track</p></div><button type="button" class="about-audio-player__close" data-action="close" aria-label="Close player">&#x2715;</button>';
     player.addEventListener('click', function (event) {
       var control = event.target.closest('button[data-action]');
       if (!control) return;
       var action = control.dataset.action;
       if (action === 'previous') playTrack((activeIndex - 1 + activeTracks.length) % activeTracks.length);
       if (action === 'next') playTrack((activeIndex + 1) % activeTracks.length);
-      if (action === 'toggle' && activeKind === 'audio') {
+      if (action === 'toggle') {
         if (audio.paused) audio.play(); else audio.pause();
-      }
-      if (action === 'toggle' && activeKind === 'youtube') {
-        youtubePlaying = !youtubePlaying;
-        player.querySelector('.about-audio-player__youtube').contentWindow.postMessage(JSON.stringify({
-          event: 'command',
-          func: youtubePlaying ? 'playVideo' : 'pauseVideo',
-          args: []
-        }), 'https://www.youtube-nocookie.com');
-        updatePlayButton();
       }
       if (action === 'close') closePlayer();
     });
@@ -401,29 +381,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function updatePlayButton() {
     if (!player) return;
-    var playing = activeKind === 'audio' ? !audio.paused : youtubePlaying;
-    player.querySelector('[data-action="toggle"]').innerHTML = playing ? '&#x23F8;' : '&#x25B6;';
+    player.querySelector('[data-action="toggle"]').innerHTML = audio.paused ? '&#x25B6;' : '&#x23F8;';
   }
 
   function playTrack(index) {
     if (!activeTracks.length) return;
     activeIndex = index;
     ensurePlayer();
-    player.querySelector('.about-audio-player__eyebrow').textContent = activeKind === 'audio' ? 'Website Soundtrack' : 'Ph.D. Soundtrack';
+    player.querySelector('.about-audio-player__eyebrow').textContent = activeKind === 'website' ? 'Website Soundtrack' : 'Ph.D. Soundtrack';
     player.querySelector('.about-audio-player__title').textContent = activeTracks[index][0];
-    player.classList.toggle('has-video', activeKind === 'youtube');
     document.querySelectorAll('.about-track-list-egg button').forEach(function (button, buttonIndex) {
       button.classList.toggle('is-current', buttonIndex === index);
     });
-    if (activeKind === 'audio') {
-      player.querySelector('.about-audio-player__youtube').src = '';
-      audio.src = activeTracks[index][1];
-      audio.play();
-    } else {
-      audio.pause();
-      youtubePlaying = true;
-      player.querySelector('.about-audio-player__youtube').src = 'https://www.youtube-nocookie.com/embed/' + activeTracks[index][1] + '?autoplay=1&rel=0&enablejsapi=1';
-    }
+    audio.src = activeTracks[index][1];
+    audio.play();
     updatePlayButton();
     window.requestAnimationFrame(function () { player.classList.add('is-visible'); });
   }
@@ -431,8 +402,6 @@ document.addEventListener('DOMContentLoaded', function () {
   function closePlayer() {
     if (!player) return;
     audio.pause();
-    youtubePlaying = false;
-    player.querySelector('.about-audio-player__youtube').src = '';
     player.classList.remove('is-visible');
   }
 
@@ -471,8 +440,8 @@ document.addEventListener('DOMContentLoaded', function () {
     history.push(event.key);
     if (history.length > Math.max(hiddenTracksSecret.length, playlistSecret.length)) history.shift();
 
-    if (matches(hiddenTracksSecret)) revealTrackList(hiddenTracks, 'Hidden tracks', false, 'audio');
-    if (matches(playlistSecret)) revealTrackList(phdTracks, 'Ph.D. soundtrack', true, 'youtube');
+    if (matches(hiddenTracksSecret)) revealTrackList(hiddenTracks, 'Hidden tracks', false, 'website');
+    if (matches(playlistSecret)) revealTrackList(phdTracks, 'Ph.D. soundtrack', true, 'phd');
   });
 });
 </script>
