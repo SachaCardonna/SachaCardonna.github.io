@@ -298,18 +298,15 @@ details.pub[open] > summary .pub-badge .arrow {
     font-size: .58rem;
     line-height: 1;
   }
-  .lead-author {
-    position: relative;
-  }
   .lead-author::after {
     content: "*";
-    position: absolute;
-    top: -.2em;
-    left: calc(100% - .08rem);
+    display: inline-block;
+    position: relative;
+    top: -.36em;
+    margin-left: -.01rem;
     color: var(--global-link-color);
     font-size: .54rem;
     line-height: 1;
-    pointer-events: none;
   }
   .publication-year__items {
     padding: .2rem 0 .45rem;
