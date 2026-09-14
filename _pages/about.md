@@ -157,6 +157,18 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
 }
 </style>
 
+
+
+
+
+
+
+
+<!-- Easter egg below :-) -->
+
+
+
+
 <style>
 .about-track-list-egg {
   position: fixed;
@@ -415,7 +427,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     tracks.forEach(function (track, index) {
       var link = document.createElement('button');
-      var number = numbered ? ('0' + (index + 1)).slice(-2) + '. ' : '';
+      var number = numbered ? (index + 1) + '. ' : '';
       link.type = 'button';
       link.textContent = number + track[0];
       link.style.setProperty('--egg-index', index);
