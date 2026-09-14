@@ -304,8 +304,8 @@ details.pub[open] > summary .pub-badge .arrow {
   .lead-author::after {
     content: "*";
     position: absolute;
-    top: -.42em;
-    left: 100%;
+    top: -.2em;
+    left: calc(100% - .08rem);
     color: var(--global-link-color);
     font-size: .54rem;
     line-height: 1;
