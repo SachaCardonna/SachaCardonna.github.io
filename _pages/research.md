@@ -352,7 +352,7 @@ details.pub[open] > summary .pub-badge .arrow {
 
 <div class="publication-archive">
 <details class="talk-year publication-year" open>
-  <summary><span class="talk-year__label">2026</span><span class="talk-year__count">7 publications</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
+  <summary><span class="talk-year__label">2026</span><span class="talk-year__count">9 publications/preprints</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
   <div class="publication-year__items">
 <details class="pub">
   <summary class="pub-summary">
@@ -598,18 +598,18 @@ different structural mechanisms.
   </div> -->
 </details>
 
-  </div>
+  <!-- </div>
 </details>
 
 <details class="talk-year publication-year" open>
   <summary><span class="talk-year__label">2025</span><span class="talk-year__count">2 publications</span><span class="talk-year__arrow" aria-hidden="true">›</span></summary>
-  <div class="publication-year__items">
+  <div class="publication-year__items"> -->
 
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-badge">
     <div class="num">2</div>
-    <div class="year">2025</div>
+    <div class="year">2026</div>
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
@@ -644,13 +644,13 @@ This new numerical method relies on a fully a priori treatment, and does not req
   <summary class="pub-summary">
     <div class="pub-badge">
     <div class="num">1</div>
-    <div class="year">2025</div>
+    <div class="year">2026</div>
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
       <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, A. Haidar, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
-      <span class="pub-tail"><i>Submitted to International Journal for Numerical Methods in Fluids</i></span>
+      <span class="pub-tail"><i>International Journal for Numerical Methods in Fluids</i></span>
     </div>
   </summary>
 
