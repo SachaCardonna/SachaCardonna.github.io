@@ -15,6 +15,7 @@ Explore my publications, the talks and conferences I participated in and my rese
 <hr style="margin-top: -0.1em; margin-bottom: 1em;">
 
 <p class="publication-lead-note"><span class="publication-lead-mark" aria-hidden="true">*</span><span>An asterisk identifies the lead author, when applicable.</span></p>
+<p class="publication-bib-note">Download the complete publication list as a <a href="{{ site.baseurl }}/files/publications/sacha_cardonna_publications.bib" download>BibTeX file</a>.</p>
 
 <style>
   details.pub {
@@ -180,9 +181,9 @@ details.pub[open] > summary .pub-badge .arrow {
   }
   summary.pub-summary {
     display: grid;
-    grid-template-columns: 2.5rem minmax(0,1fr);
+    grid-template-columns: 2.5rem minmax(0,1fr) 2.55rem;
     gap: .55rem;
-    align-items: start;
+    align-items: center;
     padding: .52rem .9rem;
   }
   details.pub[open] summary.pub-summary {
@@ -209,17 +210,24 @@ details.pub[open] > summary .pub-badge .arrow {
     color: var(--global-link-color);
     font-size: .82rem;
   }
-  .pub-line { gap: .18rem; }
+  .pub-line {
+    min-width: 0;
+    gap: .16rem;
+  }
   .pub-authors {
     color: var(--content-muted);
     font-size: .67rem;
     opacity: 1;
   }
   .pub-title {
+    display: block;
+    min-width: 0;
     color: var(--global-text-color);
-    font-size: .8rem;
+    font-size: .61rem;
     font-weight: 750;
-    line-height: 1.42;
+    line-height: 1.25;
+    letter-spacing: -.012em;
+    white-space: nowrap;
   }
   .pub-tail {
     margin-top: .08rem;
@@ -291,6 +299,15 @@ details.pub[open] > summary .pub-badge .arrow {
     font-size: .68rem;
     line-height: 1.4;
   }
+  .publication-bib-note {
+    margin: -.2rem 0 .75rem;
+    color: var(--global-text-color);
+    font-size: .76rem;
+    line-height: 1.5;
+  }
+  .publication-bib-note a {
+    font-weight: 600;
+  }
   .publication-lead-mark {
     display: inline-block;
     flex: 0 0 auto;
@@ -307,6 +324,22 @@ details.pub[open] > summary .pub-badge .arrow {
     color: var(--global-link-color);
     font-size: .54rem;
     line-height: 1;
+  }
+  .pub-journal-cover {
+    display: grid;
+    width: 2.35rem;
+    height: 3.05rem;
+    place-items: center;
+    justify-self: center;
+  }
+  .pub-journal-cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--content-line);
+    border-radius: 3px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,.12);
   }
   .publication-year__items {
     padding: .2rem 0 .45rem;
@@ -346,6 +379,19 @@ details.pub[open] > summary .pub-badge .arrow {
     .pub-figure-strip--ale img { height: 8rem; }
     .pub-figure-strip--si img { height: 6.5rem; }
     .pub-figure-strip--pinn img { height: 8rem; }
+    summary.pub-summary {
+      grid-template-columns: 2rem minmax(0,1fr) 2.1rem;
+    }
+    .pub-title {
+      font-size: .7rem;
+      line-height: 1.35;
+      letter-spacing: 0;
+      white-space: normal;
+    }
+    .pub-journal-cover {
+      width: 1.9rem;
+      height: 2.5rem;
+    }
   }
 </style>
 
@@ -366,6 +412,7 @@ details.pub[open] > summary .pub-badge .arrow {
       <span class="pub-title">An exterior-calculus framework for mapped-polynomial Discontinuous Galerkin discretizations of hyperbolic conservation laws on manifolds</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
+    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -403,6 +450,7 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
       <span class="pub-title">Involution-Preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
+    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -435,6 +483,7 @@ The framework is applied to two representative hyperbolic systems characterized 
       <span class="pub-title">A locally and globally divergence-free semi-implicit FV/DG scheme for magnetohydrodynamics at all Mach and Alfvén numbers</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
+    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -467,6 +516,7 @@ The framework is applied to two representative hyperbolic systems characterized 
       <span class="pub-title">A unified well-balanced, positivity-preserving and shock-capturing variational physics-informed neural method for shallow-water flows</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
+    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -522,6 +572,7 @@ different structural mechanisms.
       <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part II)</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
+    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -551,6 +602,7 @@ different structural mechanisms.
       <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part I)</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
+    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -581,6 +633,7 @@ different structural mechanisms.
       <span class="pub-title">Dirichlet-to-Neumann operators for shallow-water wave-structure interactions: modeling and DG-HHO approximation</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
+    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -617,6 +670,7 @@ different structural mechanisms.
       <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
       <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
     </div>
+    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -652,6 +706,9 @@ This new numerical method relies on a fully a priori treatment, and does not req
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
       <span class="pub-tail"><i>International Journal for Numerical Methods in Fluids</i></span>
     </div>
+    <a class="pub-journal-cover" href="https://onlinelibrary.wiley.com/journal/10970363" aria-label="International Journal for Numerical Methods in Fluids">
+      <img src="{{ site.baseurl }}/images/journals/international_journal_numerical_methods_fluids.png" alt="International Journal for Numerical Methods in Fluids cover">
+    </a>
   </summary>
 
   <div class="pub-abstract">
