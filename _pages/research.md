@@ -181,11 +181,9 @@ details.pub[open] > summary .pub-badge .arrow {
   }
   summary.pub-summary {
     display: grid;
-    grid-template-columns: 2.5rem minmax(0,1fr) 3.35rem;
+    grid-template-columns: 2.5rem minmax(0,1fr);
     gap: .55rem;
-    align-items: center;
-    min-height: 4.4rem;
-    box-sizing: border-box;
+    align-items: start;
     padding: .52rem .9rem;
   }
   details.pub[open] summary.pub-summary {
@@ -212,29 +210,18 @@ details.pub[open] > summary .pub-badge .arrow {
     color: var(--global-link-color);
     font-size: .82rem;
   }
-  .pub-line {
-    min-width: 0;
-    gap: .16rem;
-  }
+  .pub-line { gap: .18rem; }
   .pub-authors {
     color: var(--content-muted);
     font-size: .67rem;
     opacity: 1;
   }
   .pub-title {
-    display: block;
-    min-width: 0;
     color: var(--global-text-color);
     font-size: .8rem;
     font-weight: 750;
-    line-height: 1.25;
-    letter-spacing: -.01em;
-    white-space: nowrap;
+    line-height: 1.42;
   }
-  .pub-title--medium { font-size: .7rem; }
-  .pub-title--long { font-size: .64rem; }
-  .pub-title--xlong { font-size: .59rem; }
-  .pub-title--xxlong { font-size: .55rem; }
   .pub-tail {
     margin-top: .08rem;
     color: var(--global-link-color);
@@ -331,27 +318,6 @@ details.pub[open] > summary .pub-badge .arrow {
     font-size: .54rem;
     line-height: 1;
   }
-  .pub-journal-cover {
-    display: grid;
-    align-self: stretch;
-    width: 3.35rem;
-    height: auto;
-    margin-top: -.52rem;
-    margin-right: -.9rem;
-    margin-bottom: -.52rem;
-    place-items: center;
-    justify-self: end;
-  }
-  .pub-journal-cover img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    border-left: 1px solid var(--content-line);
-    border-radius: 0;
-    object-fit: cover;
-    box-shadow: 0 2px 6px rgba(0,0,0,.12);
-  }
   .publication-year__items {
     padding: .2rem 0 .45rem;
   }
@@ -390,22 +356,6 @@ details.pub[open] > summary .pub-badge .arrow {
     .pub-figure-strip--ale img { height: 8rem; }
     .pub-figure-strip--si img { height: 6.5rem; }
     .pub-figure-strip--pinn img { height: 8rem; }
-    summary.pub-summary {
-      grid-template-columns: 2rem minmax(0,1fr) 2.8rem;
-      min-height: 4.2rem;
-    }
-    .pub-title {
-      font-size: .7rem;
-      line-height: 1.35;
-      letter-spacing: 0;
-      white-space: normal;
-    }
-    .pub-journal-cover {
-      width: 2.8rem;
-      margin-top: -.5rem;
-      margin-right: -.72rem;
-      margin-bottom: -.5rem;
-    }
   }
 </style>
 
@@ -423,10 +373,9 @@ details.pub[open] > summary .pub-badge .arrow {
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna &amp; M.-L. Hanot</span>
-      <span class="pub-title pub-title--xxlong">An exterior-calculus framework for mapped-polynomial Discontinuous Galerkin discretizations of hyperbolic conservation laws on manifolds</span>
+      <span class="pub-title">An exterior-calculus framework for mapped-polynomial Discontinuous Galerkin discretizations of hyperbolic conservation laws on manifolds</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
-    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -461,10 +410,9 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
   </div>
     <div class="pub-line">
       <span class="pub-authors">E. Bernardelli, W. Boscheri &amp; <span class="lead-author">S. Cardonna</span></span>
-      <span class="pub-title pub-title--medium">Involution-Preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
+      <span class="pub-title">Involution-Preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
-    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -494,10 +442,9 @@ The framework is applied to two representative hyperbolic systems characterized 
   </div>
     <div class="pub-line">
       <span class="pub-authors">W. Boscheri, <span class="lead-author">S. Cardonna</span>, L. Gude Vila &amp; M. Lupi</span>
-      <span class="pub-title pub-title--xlong">A locally and globally divergence-free semi-implicit FV/DG scheme for magnetohydrodynamics at all Mach and Alfvén numbers</span>
+      <span class="pub-title">A locally and globally divergence-free semi-implicit FV/DG scheme for magnetohydrodynamics at all Mach and Alfvén numbers</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
-    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -527,10 +474,9 @@ The framework is applied to two representative hyperbolic systems characterized 
   </div>
     <div class="pub-line">
       <span class="pub-authors">S. Cardonna &amp; A. Haidar</span>
-      <span class="pub-title pub-title--xxlong">A unified well-balanced, positivity-preserving and shock-capturing variational physics-informed neural method for shallow-water flows</span>
+      <span class="pub-title">A unified well-balanced, positivity-preserving and shock-capturing variational physics-informed neural method for shallow-water flows</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
-    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -583,10 +529,9 @@ different structural mechanisms.
   </div>
     <div class="pub-line">
       <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title pub-title--long">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part II)</span>
+      <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part II)</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
-    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -613,10 +558,9 @@ different structural mechanisms.
   </div>
     <div class="pub-line">
       <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title pub-title--long">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part I)</span>
+      <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows (Part I)</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
-    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -644,10 +588,9 @@ different structural mechanisms.
   </div>
     <div class="pub-line">
       <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, D. Lannes, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title pub-title--medium">Dirichlet-to-Neumann operators for shallow-water wave-structure interactions: modeling and DG-HHO approximation</span>
+      <span class="pub-title">Dirichlet-to-Neumann operators for shallow-water wave-structure interactions: modeling and DG-HHO approximation</span>
       <span class="pub-tail"><i>In preparation</i></span>
     </div>
-    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -681,10 +624,9 @@ different structural mechanisms.
   </div>
     <div class="pub-line">
       <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title pub-title--medium">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
+      <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
       <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
     </div>
-    <span class="pub-journal-cover pub-journal-cover--empty" aria-hidden="true"></span>
   </summary>
 
   <div class="pub-abstract">
@@ -720,9 +662,6 @@ This new numerical method relies on a fully a priori treatment, and does not req
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
       <span class="pub-tail"><i>International Journal for Numerical Methods in Fluids</i></span>
     </div>
-    <a class="pub-journal-cover" href="https://onlinelibrary.wiley.com/journal/10970363" aria-label="International Journal for Numerical Methods in Fluids">
-      <img src="{{ site.baseurl }}/images/journals/international_journal_numerical_methods_fluids.png" alt="International Journal for Numerical Methods in Fluids cover">
-    </a>
   </summary>
 
   <div class="pub-abstract">
