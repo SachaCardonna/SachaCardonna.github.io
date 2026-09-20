@@ -222,12 +222,12 @@ details.pub[open] > summary .pub-badge .arrow {
   .pub-title {
     display: block;
     min-width: 0;
+    min-height: 2.84em;
     color: var(--global-text-color);
-    font-size: .61rem;
+    font-size: .8rem;
     font-weight: 750;
-    line-height: 1.25;
-    letter-spacing: -.012em;
-    white-space: nowrap;
+    line-height: 1.42;
+    letter-spacing: 0;
   }
   .pub-tail {
     margin-top: .08rem;
@@ -327,8 +327,8 @@ details.pub[open] > summary .pub-badge .arrow {
   }
   .pub-journal-cover {
     display: grid;
-    width: 2.35rem;
-    height: 3.05rem;
+    width: 2.1rem;
+    height: 2.84rem;
     place-items: center;
     justify-self: center;
   }
@@ -383,10 +383,7 @@ details.pub[open] > summary .pub-badge .arrow {
       grid-template-columns: 2rem minmax(0,1fr) 2.1rem;
     }
     .pub-title {
-      font-size: .7rem;
-      line-height: 1.35;
-      letter-spacing: 0;
-      white-space: normal;
+      min-height: 0;
     }
     .pub-journal-cover {
       width: 1.9rem;
