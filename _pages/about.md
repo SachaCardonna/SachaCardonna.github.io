@@ -234,13 +234,13 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   z-index: 999;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2.25rem;
   max-width: calc(100vw - 2rem);
   transform: translateY(-50%);
 }
 .about-phd-playlist-egg__photo {
   display: block;
-  width: clamp(19rem, 40vw, 32rem);
+  width: clamp(24rem, 48vw, 46rem);
   height: auto;
   border: 1px solid color-mix(in srgb, var(--global-link-color) 48%, transparent);
   border-radius: 1rem;
