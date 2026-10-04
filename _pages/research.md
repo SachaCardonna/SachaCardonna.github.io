@@ -434,9 +434,8 @@ details.pub[open] > summary .pub-badge .arrow {
     font-size: .88rem;
   }
   .thesis-jury {
-    padding: .85rem;
-    border: 1px solid var(--content-line);
-    border-radius: 11px;
+    padding: 0;
+    border: 0;
   }
   .jury-grid {
     columns: 2;
@@ -488,8 +487,8 @@ details.pub[open] > summary .pub-badge .arrow {
     line-height: 1.42;
   }
   .thesis-abstract {
-    padding-top: 1rem;
-    border-top: 1px solid var(--content-line);
+    padding-top: 0;
+    border-top: 0;
     color: var(--global-text-color);
     font-size: .72rem;
     line-height: 1.68;
