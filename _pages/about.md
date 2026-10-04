@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a **postdoctoral researcher** in applied mathematics, working with [David Del Rey Fernández](https://uwaterloo.ca/applied-mathematics/profiles/david-del-rey-fernandez) at the [University of Waterloo](https://uwaterloo.ca), [Department of Applied Mathematics](https://uwaterloo.ca/applied-mathematics/).
-
+I'm a **postdoctoral researcher** in applied mathematics, working with [David Del Rey Fernández](https://uwaterloo.ca/applied-mathematics/profiles/david-del-rey-fernandez) at the [University of Waterloo](https://uwaterloo.ca), [Department of Applied Mathematics](https://uwaterloo.ca/applied-mathematics/).<br>
 I did my Ph.D. under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr).
 
 I’m French and a Canadian permanent resident. Outside of work, you’ll usually find me walking to the gym, at the movies, or driving around with very loud music.
