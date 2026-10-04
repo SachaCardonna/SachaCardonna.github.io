@@ -22,7 +22,8 @@ repository               : "SachaCardonna/SachaCardonna.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "key.png"
+  avatar           : "profile_portrait.png"
+  avatar_alt       : "profile_defence.png"
   name             : "Sacha Cardonna"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. in Mathematics"

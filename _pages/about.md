@@ -230,16 +230,17 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   position: fixed;
   top: 50%;
   right: 1rem;
+  left: 1rem;
   z-index: 999;
   display: flex;
   align-items: center;
-  gap: 2.25rem;
-  max-width: calc(100vw - 2rem);
+  justify-content: space-between;
+  gap: 3rem;
   transform: translateY(-50%);
 }
 .about-phd-playlist-egg__photo {
   display: block;
-  width: clamp(24rem, 48vw, 46rem);
+  width: min(60vw, 58rem);
   height: auto;
   border: 1px solid color-mix(in srgb, var(--global-link-color) 48%, transparent);
   border-radius: 1rem;
@@ -266,7 +267,7 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
     width: min(18rem, calc(100vw - 1.3rem));
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 980px) {
   .about-phd-playlist-egg {
     top: 50%;
     right: .65rem;

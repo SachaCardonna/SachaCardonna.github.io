@@ -10,7 +10,24 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}"{% if author.avatar_alt %} data-avatar-alt="{{ author.avatar_alt | prepend: "/images/" | prepend: base_path }}"{% endif %} class="author__avatar" alt="{{ author.name }}">
+      {% if author.avatar_alt %}
+      <script>
+        (function (image) {
+          var storageKey = 'sacha-profile-avatar-next';
+          var primary = image.src;
+          var alternative = image.dataset.avatarAlt;
+          var showAlternative = false;
+          try {
+            showAlternative = window.localStorage.getItem(storageKey) === 'alternative';
+            window.localStorage.setItem(storageKey, showAlternative ? 'primary' : 'alternative');
+          } catch (error) {
+            showAlternative = Math.random() >= .5;
+          }
+          image.src = showAlternative ? alternative : primary;
+        }(document.currentScript.previousElementSibling));
+      </script>
+      {% endif %}
     {% endif %}
   </div>
 
