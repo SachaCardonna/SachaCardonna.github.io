@@ -530,9 +530,9 @@ details.pub[open] > summary .pub-badge .arrow {
   <summary>
     <span class="thesis-badge"><strong>Ph.D.</strong><span>2026</span><i aria-hidden="true">›</i></span>
     <span class="thesis-heading">
-      <span class="thesis-kicker">Doctoral thesis · Mathematics &amp; Modeling</span>
+      <span class="thesis-kicker">Thesis in Mathematics &amp; Modeling</span>
       <span class="thesis-title">High-order numerical methods for shallow-water flows on unstructured meshes: moving boundaries and wave-structure interactions</span>
-      <span class="thesis-subtitle">University of Montpellier · Defended on 2 October 2026</span>
+      <span class="thesis-subtitle">University of Montpellier · Defended on October 2nd, 2026</span>
     </span>
   </summary>
 
