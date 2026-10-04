@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a **Ph.D. student** in Mathematics, under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr) (IMAG - UMR 5149).<br>
-I also give classes as a **teaching assistant** for the Department of Mathematics at [Montpellier Faculty of Sciences](https://sciences.edu.umontpellier.fr) & [Polytech Montpellier Engineering School](https://www.polytech.umontpellier.fr).
+I'm a **postdoctoral researcher** in applied mathematics, working with [David Del Rey Fernández](https://uwaterloo.ca/applied-mathematics/profiles/david-del-rey-fernandez) at the [University of Waterloo](https://uwaterloo.ca), [Department of Applied Mathematics](https://uwaterloo.ca/applied-mathematics/).
+
+I did my Ph.D. under the supervision of [François Vilar](https://vilar.perso.math.cnrs.fr) & [Fabien Marche](https://imag.umontpellier.fr/~marche/) at [Institut Montpelliérain Alexander Grothendieck](https://imag.umontpellier.fr).
 
 I’m French and a Canadian permanent resident. Outside of work, you’ll usually find me walking to the gym, at the movies, or driving around with very loud music.
 
@@ -53,6 +54,12 @@ I enjoy working across the entire process: from studying, selecting and/or deriv
         </td>
       </tr>
         <tr>
+        <td scope="row">Oct 2026</td>
+        <td style="width:85%">
+          I defended my Ph.D. thesis in Montpellier, see the <a href="https://sachacardonna.github.io/research/" rel="external nofollow noopener" target="_blank">research</a> page.
+        </td>
+      </tr>        
+      <tr>
         <td scope="row">Jun 2026</td>
         <td style="width:85%">
           We initiated a new project with <a href="https://www.lama.univ-savoie.fr/members/default/boscheriw" rel="external nofollow noopener" target="_blank">Walter Boscheri</a>, <a href="https://www.di.univr.it/?ent=persona&id=89983&lang=en" rel="external nofollow noopener" target="_blank">Elena Bernardelli</a>, <a href="https://www.linkedin.com/in/lidia-gude-vila-340426328/" rel="external nofollow noopener" target="_blank">Lidia Gude Vila</a> & <a href="https://www.linkedin.com/in/mattia-lupi/" rel="external nofollow noopener" target="_blank">Mattia Luppi</a> at
