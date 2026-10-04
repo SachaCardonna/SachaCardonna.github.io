@@ -278,7 +278,7 @@ details.pub[open] > summary .pub-badge .arrow {
     .pub-links { margin-right: .8rem; margin-left: .8rem; }
   }
   .publication-archive {
-    margin: 1rem 0 2rem;
+    margin: 1rem 0 .85rem;
   }
   .publication-lead-note {
     display: flex;
@@ -360,11 +360,11 @@ details.pub[open] > summary .pub-badge .arrow {
     margin: .25rem 0 1.35rem;
     overflow: hidden;
     border: 1px solid var(--content-line);
-    border-left: 3px solid var(--global-link-color);
     border-radius: 13px;
     background: var(--global-bg-color);
     box-shadow: 0 9px 26px rgba(0,0,0,.055);
   }
+  .thesis-card[open] { border-left: 3px solid var(--global-link-color); }
   .thesis-card > summary {
     display: grid;
     grid-template-columns: 3.2rem minmax(0,1fr);
@@ -423,46 +423,10 @@ details.pub[open] > summary .pub-badge .arrow {
     line-height: 1.4;
   }
   .thesis-body { padding: 1rem; }
-  .thesis-facts {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0,1fr));
-    gap: .55rem;
-    margin-bottom: 1.15rem;
-  }
-  .thesis-fact {
-    padding: .65rem .72rem;
-    border: 1px solid var(--content-line);
-    border-radius: 9px;
-    background: var(--global-bg-color);
-  }
-  .thesis-fact span {
-    display: block;
-    margin-bottom: .16rem;
-    color: var(--global-link-color);
-    font-size: .55rem;
-    font-weight: 750;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-  }
-  .thesis-fact strong {
-    display: block;
-    color: var(--global-text-color);
-    font-size: .72rem;
-    font-weight: 650;
-    line-height: 1.42;
-  }
   .thesis-section + .thesis-section { margin-top: 1.25rem; }
   .thesis-section__heading {
-    display: flex;
-    align-items: baseline;
-    gap: .55rem;
+    display: block;
     margin: 0 0 .72rem;
-  }
-  .thesis-section__heading span {
-    color: var(--global-link-color);
-    font-size: .58rem;
-    font-weight: 800;
-    letter-spacing: .08em;
   }
   .thesis-section__heading h3 {
     margin: 0;
@@ -475,12 +439,16 @@ details.pub[open] > summary .pub-badge .arrow {
     border-radius: 11px;
   }
   .jury-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0,1fr));
-    gap: 1rem 1.25rem;
+    columns: 2;
+    column-gap: .85rem;
+  }
+  .jury-group {
+    width: 100%;
+    margin: 0 0 .45rem;
+    break-inside: avoid;
   }
   .jury-group h4 {
-    margin: 0 0 .42rem;
+    margin: 0 0 .3rem;
     color: var(--global-link-color);
     font-size: .6rem;
     font-weight: 750;
@@ -490,7 +458,7 @@ details.pub[open] > summary .pub-badge .arrow {
   .jury-person {
     position: relative;
     margin-left: .25rem;
-    padding: .08rem 0 .58rem .72rem;
+    padding: .06rem 0 .38rem .72rem;
     border-left: 1px solid var(--content-line);
   }
   .jury-person:last-child { padding-bottom: .12rem; }
@@ -553,125 +521,10 @@ details.pub[open] > summary .pub-badge .arrow {
     }
     .thesis-title { font-size: .82rem; }
     .thesis-body { padding: .8rem; }
-    .thesis-facts,
-    .jury-grid { grid-template-columns: 1fr; }
+    .jury-grid { columns: 1; }
     .thesis-part { grid-template-columns: 1.35rem minmax(0,1fr); gap: .45rem; }
   }
 </style>
-
-<details class="thesis-card">
-  <summary>
-    <span class="thesis-badge"><strong>Ph.D.</strong><span>2026</span><i aria-hidden="true">›</i></span>
-    <span class="thesis-heading">
-      <span class="thesis-kicker">Doctoral thesis · Mathematics &amp; Modeling</span>
-      <span class="thesis-title">High-order numerical methods for shallow-water flows on unstructured meshes: moving boundaries and wave-structure interactions</span>
-      <span class="thesis-subtitle">University of Montpellier · Defended on 2 October 2026</span>
-    </span>
-  </summary>
-
-  <div class="thesis-body">
-    <div class="thesis-facts">
-      <div class="thesis-fact">
-        <span>Institution</span>
-        <strong>University of Montpellier · Institut Montpelliérain Alexander Grothendieck</strong>
-      </div>
-      <div class="thesis-fact">
-        <span>Doctoral school</span>
-        <strong>Information, Structures, Systems (I2S)</strong>
-      </div>
-      <div class="thesis-fact">
-        <span>Supervisors</span>
-        <strong>Fabien Marche and François Vilar</strong>
-      </div>
-      <div class="thesis-fact">
-        <span>Defence</span>
-        <strong>2 October 2026 · Montpellier, France</strong>
-      </div>
-    </div>
-
-    <section class="thesis-section thesis-jury" aria-labelledby="thesis-jury-heading">
-      <div class="thesis-section__heading">
-        <span>01</span>
-        <h3 id="thesis-jury-heading">Thesis jury</h3>
-      </div>
-      <div class="jury-grid">
-        <div class="jury-group">
-          <h4>Reviewers</h4>
-          <div class="jury-person">
-            <strong>Michael Dumbser</strong>
-            <span>Full Professor · University of Trento, Italy</span>
-          </div>
-          <div class="jury-person">
-            <strong>Jean-Luc Guermond</strong>
-            <span>Full Professor · Texas A&amp;M University, USA</span>
-          </div>
-        </div>
-
-        <div class="jury-group">
-          <h4>Examiners</h4>
-          <div class="jury-person">
-            <strong>Jérôme Droniou</strong>
-            <span>CNRS Research Director · France</span>
-          </div>
-          <div class="jury-person">
-            <strong>Sergey Gavrilyuk</strong>
-            <span>Professor · Aix-Marseille University, France</span>
-          </div>
-          <div class="jury-person">
-            <strong>Maria Kazakova</strong>
-            <span>Associate Professor · Université Savoie Mont Blanc, France</span>
-          </div>
-          <div class="jury-person">
-            <strong>Pascal Noble</strong>
-            <span>Professor · Chair of the jury · Université de Toulouse, France</span>
-          </div>
-        </div>
-
-        <div class="jury-group">
-          <h4>Invited members</h4>
-          <div class="jury-person">
-            <strong>David Del Rey Fernández</strong>
-            <span>Associate Professor · University of Waterloo, Canada</span>
-          </div>
-          <div class="jury-person">
-            <strong>Bijan Mohammadi</strong>
-            <span>Professor · University of Montpellier, France</span>
-          </div>
-        </div>
-
-        <div class="jury-group">
-          <h4>Supervisors</h4>
-          <div class="jury-person">
-            <strong>Fabien Marche</strong>
-            <span>Associate Professor, HDR · University of Montpellier, France</span>
-          </div>
-          <div class="jury-person">
-            <strong>François Vilar</strong>
-            <span>Associate Professor · University of Montpellier, France</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="thesis-section thesis-abstract" aria-labelledby="thesis-abstract-heading">
-      <div class="thesis-section__heading">
-        <span>02</span>
-        <h3 id="thesis-abstract-heading">Abstract</h3>
-      </div>
-      <p>This thesis investigates the numerical modeling of free-surface flows, aiming to develop a robust, high-order numerical framework to simulate wave-structure interactions in the shallow-water regime. As these fluid-mechanic problems are strongly nonlinear, they present severe mathematical and computational challenges. To tackle them, we investigate several advanced and modern numerical tools to design novel and sophisticated approximation strategies capable of handling complex dynamics, while rigorously preserving, at the discrete level, the fundamental physical properties of the continuous models.</p>
-      <p>The manuscript is organized into two parts:</p>
-      <div class="thesis-part">
-        <span class="thesis-part__number">(i)</span>
-        <p>The first part focuses on the development and analysis of the numerical methods. We design a novel local monolithic Discontinuous Galerkin (DG) and Finite Volume (FV) subcell scheme to approximate the nonlinear shallow-water equations with source terms. The core idea is to reinterpret the high-order DG formulation as an FV method on a sub-grid and blend high-order numerical fluxes with robust, low-order invariant-domain preserving fluxes <em>a priori</em> at the subcell level. Doing so, we mathematically guarantee the positivity of the water-height and effectively suppress the Gibbs phenomenon near discontinuities, while exactly preserving motionless steady states. Initially developed for the 1D Saint-Venant equations, the method is also extended to the dispersive Serre-Green-Naghdi equations by employing a discontinuous finite element approach for the elliptic contribution. We then generalize the monolithic framework to 2D unstructured meshes, and subsequently introduce an Arbitrary Lagrangian-Eulerian (ALE) formulation. By computing flows on deforming grids while rigorously respecting a semi-discrete geometric conservation law, this new monolithic DG/FV-ALE scheme provides a stepping stone toward simulating fully free-floating objects.</p>
-      </div>
-      <div class="thesis-part">
-        <span class="thesis-part__number">(ii)</span>
-        <p>The second part focuses on the mathematical modeling and numerical simulation of surface obstacles and floating structures interacting with shallow-water flows. At the continuous level, these configurations lead to multi-physic coupled problems: the resulting system combines hyperbolic PDEs in the exterior free-surface region, elliptic equations governing the fluid dynamics beneath the object, and ordinary differential equations dictating the structural motion and enforcing interface transmission conditions. A major challenge is therefore to develop a rigorous discrete framework for this class of problems, to ensure robust, accurate and flexible numerical approximations. To achieve this, the exterior hyperbolic problem is solved using the monolithic subcell scheme developed in the first part. At the wave-structure interface, the coupling is driven by a Dirichlet-to-Neumann (DtN) operator, whose approximation requires to resolve the evolution of the fluid beneath the structure in the interior domain: we handle these problems with advanced high-order non-conforming methods, using a Symmetric Weighted Interior Penalty (SWIP-DG) formulation in 1D, and a Hybrid High-Order (HHO) method in 2D. Moreover, in a particular configuration, this DtN operator can be evaluated analytically using Fourier analysis, providing a rigorous reference to validate the proposed numerical methodology.</p>
-      </div>
-      <p>Extensive numerical validations are presented throughout the manuscript, demonstrating the accuracy and robustness of the proposed discrete strategies. These results fully contribute to the development of modern and flexible high-order numerical frameworks for nonlinear multi-physics problems and are a step towards practical applications of shallow-water models for the study of floating structures, relying on the effectiveness in capturing extreme nonlinearities and complex fluid-structure dynamics. Hence, this work offers encouraging perspectives for the development of advanced numerical tools for highly nonlinear challenges in coastal engineering.</p>
-    </section>
-  </div>
-</details>
 
 <h3 class="publication-list-heading">Articles &amp; preprints</h3>
 <p class="publication-lead-note"><span class="publication-lead-mark" aria-hidden="true">*</span><span>An asterisk identifies the lead author, when applicable.</span></p>
@@ -1014,6 +867,99 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
   </div>
 </details>
 </div>
+
+<details class="thesis-card">
+  <summary>
+    <span class="thesis-badge"><strong>Ph.D.</strong><span>2026</span><i aria-hidden="true">›</i></span>
+    <span class="thesis-heading">
+      <span class="thesis-kicker">Doctoral thesis · Mathematics &amp; Modeling</span>
+      <span class="thesis-title">High-order numerical methods for shallow-water flows on unstructured meshes: moving boundaries and wave-structure interactions</span>
+      <span class="thesis-subtitle">University of Montpellier · Defended on 2 October 2026</span>
+    </span>
+  </summary>
+
+  <div class="thesis-body">
+    <section class="thesis-section thesis-jury" aria-labelledby="thesis-jury-heading">
+      <div class="thesis-section__heading">
+        <h3 id="thesis-jury-heading">Thesis jury</h3>
+      </div>
+      <div class="jury-grid">
+        <div class="jury-group">
+          <h4>Reviewers</h4>
+          <div class="jury-person">
+            <strong>Michael Dumbser</strong>
+            <span>Full Professor · University of Trento, Italy</span>
+          </div>
+          <div class="jury-person">
+            <strong>Jean-Luc Guermond</strong>
+            <span>Full Professor · Texas A&amp;M University, USA</span>
+          </div>
+        </div>
+
+        <div class="jury-group">
+          <h4>Examiners</h4>
+          <div class="jury-person">
+            <strong>Jérôme Droniou</strong>
+            <span>CNRS Research Director · France</span>
+          </div>
+          <div class="jury-person">
+            <strong>Sergey Gavrilyuk</strong>
+            <span>Professor · Aix-Marseille University, France</span>
+          </div>
+          <div class="jury-person">
+            <strong>Maria Kazakova</strong>
+            <span>Associate Professor · Université Savoie Mont Blanc, France</span>
+          </div>
+          <div class="jury-person">
+            <strong>Pascal Noble</strong>
+            <span>Professor · Chair of the jury · Université de Toulouse, France</span>
+          </div>
+        </div>
+
+        <div class="jury-group">
+          <h4>Invited members</h4>
+          <div class="jury-person">
+            <strong>David Del Rey Fernández</strong>
+            <span>Associate Professor · University of Waterloo, Canada</span>
+          </div>
+          <div class="jury-person">
+            <strong>Bijan Mohammadi</strong>
+            <span>Professor · University of Montpellier, France</span>
+          </div>
+        </div>
+
+        <div class="jury-group">
+          <h4>Supervisors</h4>
+          <div class="jury-person">
+            <strong>Fabien Marche</strong>
+            <span>Associate Professor, HDR · University of Montpellier, France</span>
+          </div>
+          <div class="jury-person">
+            <strong>François Vilar</strong>
+            <span>Associate Professor · University of Montpellier, France</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="thesis-section thesis-abstract" aria-labelledby="thesis-abstract-heading">
+      <div class="thesis-section__heading">
+        <h3 id="thesis-abstract-heading">Abstract</h3>
+      </div>
+      <p>This thesis investigates the numerical modeling of free-surface flows, aiming to develop a robust, high-order numerical framework to simulate wave-structure interactions in the shallow-water regime. As these fluid-mechanic problems are strongly nonlinear, they present severe mathematical and computational challenges. To tackle them, we investigate several advanced and modern numerical tools to design novel and sophisticated approximation strategies capable of handling complex dynamics, while rigorously preserving, at the discrete level, the fundamental physical properties of the continuous models.</p>
+      <p>The manuscript is organized into two parts:</p>
+      <div class="thesis-part">
+        <span class="thesis-part__number">(i)</span>
+        <p>The first part focuses on the development and analysis of the numerical methods. We design a novel local monolithic Discontinuous Galerkin (DG) and Finite Volume (FV) subcell scheme to approximate the nonlinear shallow-water equations with source terms. The core idea is to reinterpret the high-order DG formulation as an FV method on a sub-grid and blend high-order numerical fluxes with robust, low-order invariant-domain preserving fluxes <em>a priori</em> at the subcell level. Doing so, we mathematically guarantee the positivity of the water-height and effectively suppress the Gibbs phenomenon near discontinuities, while exactly preserving motionless steady states. Initially developed for the 1D Saint-Venant equations, the method is also extended to the dispersive Serre-Green-Naghdi equations by employing a discontinuous finite element approach for the elliptic contribution. We then generalize the monolithic framework to 2D unstructured meshes, and subsequently introduce an Arbitrary Lagrangian-Eulerian (ALE) formulation. By computing flows on deforming grids while rigorously respecting a semi-discrete geometric conservation law, this new monolithic DG/FV-ALE scheme provides a stepping stone toward simulating fully free-floating objects.</p>
+      </div>
+      <div class="thesis-part">
+        <span class="thesis-part__number">(ii)</span>
+        <p>The second part focuses on the mathematical modeling and numerical simulation of surface obstacles and floating structures interacting with shallow-water flows. At the continuous level, these configurations lead to multi-physic coupled problems: the resulting system combines hyperbolic PDEs in the exterior free-surface region, elliptic equations governing the fluid dynamics beneath the object, and ordinary differential equations dictating the structural motion and enforcing interface transmission conditions. A major challenge is therefore to develop a rigorous discrete framework for this class of problems, to ensure robust, accurate and flexible numerical approximations. To achieve this, the exterior hyperbolic problem is solved using the monolithic subcell scheme developed in the first part. At the wave-structure interface, the coupling is driven by a Dirichlet-to-Neumann (DtN) operator, whose approximation requires to resolve the evolution of the fluid beneath the structure in the interior domain: we handle these problems with advanced high-order non-conforming methods, using a Symmetric Weighted Interior Penalty (SWIP-DG) formulation in 1D, and a Hybrid High-Order (HHO) method in 2D. Moreover, in a particular configuration, this DtN operator can be evaluated analytically using Fourier analysis, providing a rigorous reference to validate the proposed numerical methodology.</p>
+      </div>
+      <p>Extensive numerical validations are presented throughout the manuscript, demonstrating the accuracy and robustness of the proposed discrete strategies. These results fully contribute to the development of modern and flexible high-order numerical frameworks for nonlinear multi-physics problems and are a step towards practical applications of shallow-water models for the study of floating structures, relying on the effectiveness in capturing extreme nonlinearities and complex fluid-structure dynamics. Hence, this work offers encouraging perspectives for the development of advanced numerical tools for highly nonlinear challenges in coastal engineering.</p>
+    </section>
+  </div>
+</details>
 
 <!-- ________________________________ -->
 
