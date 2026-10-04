@@ -447,6 +447,9 @@ details.pub[open] > summary .pub-badge .arrow {
     margin: 0 0 .45rem;
     break-inside: avoid;
   }
+  .jury-group:last-child {
+    margin-top: .7rem;
+  }
   .jury-group h4 {
     margin: 0 0 .3rem;
     color: var(--global-link-color);
@@ -546,7 +549,7 @@ details.pub[open] > summary .pub-badge .arrow {
           <h4>Reviewers</h4>
           <div class="jury-person">
             <strong>Michael Dumbser</strong>
-            <span>Full Professor · University of Trento, Italy</span>
+            <span>Professore Ordinario · Università degli Studi di Trento, Italy</span>
           </div>
           <div class="jury-person">
             <strong>Jean-Luc Guermond</strong>
@@ -558,19 +561,19 @@ details.pub[open] > summary .pub-badge .arrow {
           <h4>Examiners</h4>
           <div class="jury-person">
             <strong>Jérôme Droniou</strong>
-            <span>CNRS Research Director · France</span>
+            <span>Directeur de recherche · CNRS, France</span>
           </div>
           <div class="jury-person">
             <strong>Sergey Gavrilyuk</strong>
-            <span>Professor · Aix-Marseille University, France</span>
+            <span>Professeur des universités · Aix-Marseille Université, France</span>
           </div>
           <div class="jury-person">
             <strong>Maria Kazakova</strong>
-            <span>Associate Professor · Université Savoie Mont Blanc, France</span>
+            <span>Maîtresse de conférences · Université Savoie Mont-Blanc, France</span>
           </div>
           <div class="jury-person">
             <strong>Pascal Noble</strong>
-            <span>Professor · Chair of the jury · Université de Toulouse, France</span>
+            <span>Professeur des universités (Président) · Université de Toulouse, France</span>
           </div>
         </div>
 
@@ -582,7 +585,7 @@ details.pub[open] > summary .pub-badge .arrow {
           </div>
           <div class="jury-person">
             <strong>Bijan Mohammadi</strong>
-            <span>Professor · University of Montpellier, France</span>
+            <span>Professeur des universités · Université de Montpellier, France</span>
           </div>
         </div>
 
@@ -590,11 +593,11 @@ details.pub[open] > summary .pub-badge .arrow {
           <h4>Supervisors</h4>
           <div class="jury-person">
             <strong>Fabien Marche</strong>
-            <span>Associate Professor, HDR · University of Montpellier, France</span>
+            <span>Maître de conférences HDR · Université de Montpellier, France</span>
           </div>
           <div class="jury-person">
             <strong>François Vilar</strong>
-            <span>Associate Professor · University of Montpellier, France</span>
+            <span>Maître de conférences · Université de Montpellier, France</span>
           </div>
         </div>
       </div>
