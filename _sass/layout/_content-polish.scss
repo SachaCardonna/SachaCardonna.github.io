@@ -15,12 +15,6 @@ html[data-accent="blue"] {
   --global-link-color-visited: #1f4fbf;
 }
 
-html[data-accent="violet"] {
-  --global-link-color: #6f2da8;
-  --global-link-color-hover: #6f2da8;
-  --global-link-color-visited: #6f2da8;
-}
-
 html[data-theme="dark"][data-accent="red"] {
   --global-link-color: #ff454f;
   --global-link-color-hover: #ff454f;
@@ -31,12 +25,6 @@ html[data-theme="dark"][data-accent="blue"] {
   --global-link-color: #6f91ff;
   --global-link-color-hover: #6f91ff;
   --global-link-color-visited: #6f91ff;
-}
-
-html[data-theme="dark"][data-accent="violet"] {
-  --global-link-color: #c084fc;
-  --global-link-color-hover: #c084fc;
-  --global-link-color-visited: #c084fc;
 }
 
 .archive {
