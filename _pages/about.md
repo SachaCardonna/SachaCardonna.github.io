@@ -227,14 +227,69 @@ Gave a talk to undergraduate and master’s students about what it’s like to p
   outline: 2px solid var(--global-link-color);
   outline-offset: 2px;
 }
+.about-phd-playlist-egg {
+  position: fixed;
+  top: 50%;
+  right: 1rem;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: calc(100vw - 2rem);
+  transform: translateY(-50%);
+}
+.about-phd-playlist-egg__photo {
+  display: block;
+  width: clamp(19rem, 40vw, 32rem);
+  height: auto;
+  border: 1px solid color-mix(in srgb, var(--global-link-color) 48%, transparent);
+  border-radius: 1rem;
+  background: var(--global-bg-color);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, .18);
+  opacity: 0;
+  transform: translateX(-1rem);
+  transition: opacity .28s ease, transform .32s ease;
+}
+.about-phd-playlist-egg.is-visible .about-phd-playlist-egg__photo {
+  opacity: 1;
+  transform: translateX(0);
+}
+.about-phd-playlist-egg .about-track-list-egg {
+  position: static;
+  flex: 0 0 min(20rem, calc(100vw - 2rem));
+  width: min(20rem, calc(100vw - 2rem));
+  max-height: calc(100vh - 2rem);
+  transform: none;
+}
 @media (max-width: 600px) {
   .about-track-list-egg {
     right: .65rem;
     width: min(18rem, calc(100vw - 1.3rem));
   }
 }
+@media (max-width: 760px) {
+  .about-phd-playlist-egg {
+    top: 50%;
+    right: .65rem;
+    left: .65rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: .65rem;
+    max-width: none;
+  }
+  .about-phd-playlist-egg__photo {
+    width: 100%;
+    max-height: 27vh;
+    object-fit: cover;
+  }
+  .about-phd-playlist-egg .about-track-list-egg {
+    width: 100%;
+    max-height: 55vh;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
-  .about-track-list-egg button {
+  .about-track-list-egg button,
+  .about-phd-playlist-egg__photo {
     transition: none;
   }
 }
@@ -425,8 +480,9 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function revealTrackList(tracks, label, numbered, kind) {
-    var existing = document.querySelector('.about-track-list-egg');
-    if (existing) existing.remove();
+    document.querySelectorAll('.about-phd-playlist-egg, body > .about-track-list-egg').forEach(function (existing) {
+      existing.remove();
+    });
 
     var playlist = document.createElement('nav');
     playlist.className = 'about-track-list-egg';
@@ -446,8 +502,23 @@ document.addEventListener('DOMContentLoaded', function () {
       playlist.appendChild(link);
     });
 
-    document.body.appendChild(playlist);
+    var elementToReveal = playlist;
+    if (kind === 'phd') {
+      var phdLayout = document.createElement('aside');
+      var juryPhoto = document.createElement('img');
+      phdLayout.className = 'about-phd-playlist-egg';
+      phdLayout.setAttribute('aria-label', 'Ph.D. soundtrack and thesis jury photograph');
+      juryPhoto.className = 'about-phd-playlist-egg__photo';
+      juryPhoto.src = '{{ site.baseurl }}/images/jury.jpg';
+      juryPhoto.alt = 'Sacha Cardonna with members of his Ph.D. jury';
+      phdLayout.appendChild(juryPhoto);
+      phdLayout.appendChild(playlist);
+      elementToReveal = phdLayout;
+    }
+
+    document.body.appendChild(elementToReveal);
     window.requestAnimationFrame(function () {
+      elementToReveal.classList.add('is-visible');
       playlist.classList.add('is-visible');
     });
   }
