@@ -423,6 +423,7 @@ details.pub[open] > summary .pub-badge .arrow {
     line-height: 1.4;
   }
   .thesis-body { padding: 1rem; }
+  .thesis-links { margin: 0 0 1.1rem; }
   .thesis-section + .thesis-section { margin-top: 1.25rem; }
   .thesis-section__heading {
     display: block;
@@ -539,6 +540,11 @@ details.pub[open] > summary .pub-badge .arrow {
   </summary>
 
   <div class="thesis-body">
+    <div class="resource-links thesis-links">
+      <a class="resource-button" href="{{ site.baseurl }}/files/thesis/slides.pdf">Slides</a>
+      <a class="resource-button" href="{{ site.baseurl }}/files/thesis/thesis.pdf">Thesis</a>
+    </div>
+
     <section class="thesis-section thesis-jury" aria-labelledby="thesis-jury-heading">
       <div class="thesis-section__heading">
         <h3 id="thesis-jury-heading">Thesis jury</h3>
