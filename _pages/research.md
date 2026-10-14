@@ -900,6 +900,11 @@ different structural mechanisms.
     </div>
   </summary>
 
+  <div class="pub-links">
+    <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_2d.pdf">PDF</a>
+    <a href="https://hal.science/hal-05630914">HAL</a>
+  </div>
+
   <div class="pub-abstract">
 In this work, we propose a new high-order numerical method for the two-dimensional nonlinear shallow-water (NSW) equations on unstructured meshes. The approach is based on the subcell monolithic DG/FV method, recently introduced in [Vilar:2025], in which higher-order Discontinuous Galerkin (DG) schemes are blended, at the subcell scale, with lowest-order robust Finite Volume (FV) methods. This is made possible through the reformulation of high-order DG schemes as a FV-like schemes defined on a subgrid, through the introduction of some particular fluxes referred to as reconstructed fluxes.<br><br>
 The strategy then relies on the introduction of blended numerical fluxes, defined as convex combinations of reconstructed high-order DG fluxes and robust first-order FV ones. The blending coefficients are locally computed at each subcell interface in order to enforce unavoidable nonlinear stability properties. This allows the scheme to remain stable in the presence of strong gradients, shocks, and wet-dry fronts, while still keeping high-order accuracy in smooth regions.
@@ -911,11 +916,6 @@ This new numerical method relies on a fully a priori treatment, and does not req
   <div class="pub-grid-2">
     <img src="{{ site.baseurl }}/images/tsunami2d_2.png">
     <img src="{{ site.baseurl }}/images/tsunami2d_theta.png">
-  </div>
-
-  <div class="pub-links">
-    <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_2d.pdf">PDF</a>
-    <a href="https://hal.science/hal-05630914">HAL</a>
   </div>
 
 </details>
@@ -934,6 +934,12 @@ This new numerical method relies on a fully a priori treatment, and does not req
       <span class="pub-tail"><i>International Journal for Numerical Methods in Fluids</i></span>
     </div>
   </summary>
+
+  <div class="pub-links">
+    <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_GN.pdf">PDF</a>
+    <a href="https://hal.science/hal-05434014">HAL</a>
+  </div>
+
 
   <div class="pub-abstract">
 This paper contains several new contributions to the numerical approximation of shallow-water equations. 
@@ -958,10 +964,10 @@ We then conduct extensive evaluations of the resulting numerical methods, provid
   </div>
 
 
-  <div class="pub-links">
+  <!-- <div class="pub-links">
     <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_GN.pdf">PDF</a>
     <a href="https://hal.science/hal-05434014">HAL</a>
-  </div>
+  </div> -->
 
 </details>
 
