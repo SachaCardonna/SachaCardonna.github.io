@@ -541,8 +541,8 @@ details.pub[open] > summary .pub-badge .arrow {
 
   <div class="thesis-body">
     <div class="resource-links thesis-links">
-          <a class="resource-button" href="{{ site.baseurl }}/files/thesis/thesis.pdf">Manuscript</a>
-      <a class="resource-button" href="{{ site.baseurl }}/files/thesis/slides.pdf">Slides</a>
+          <a class="resource-button" href="{{ site.baseurl }}/files/thesis/phd_thesis.pdf">Manuscript</a>
+      <a class="resource-button" href="{{ site.baseurl }}/files/thesis/phd_slides.pdf">Slides</a>
     </div>
 
     <section class="thesis-section thesis-jury" aria-labelledby="thesis-jury-heading">
