@@ -711,7 +711,7 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
     <div class="pub-line">
       <span class="pub-authors">W. Boscheri, <span class="lead-author">S. Cardonna</span>, L. Gude Vila &amp; M. Lupi</span>
       <span class="pub-title">A locally and globally divergence-free semi-implicit FV/DG scheme for magnetohydrodynamics at all Mach and Alfvén numbers</span>
-      <span class="pub-tail"><i>Submitted</i></span>
+      <span class="pub-tail"><i>In preparation</i></span>
     </div>
   </summary>
 
