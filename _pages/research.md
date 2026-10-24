@@ -828,75 +828,9 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, F. Marche &amp; F. Vilar</span>
-      <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
-      <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
-    </div>
-  </summary>
-
-  <div class="pub-links">
-    <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_2d.pdf">PDF</a>
-    <a href="https://hal.science/hal-05630914">HAL</a>
-  </div>
-
-  <div class="pub-abstract">
-In this work, we propose a new high-order numerical method for the two-dimensional nonlinear shallow-water (NSW) equations on unstructured meshes. The approach is based on the subcell monolithic DG/FV method, recently introduced in [Vilar:2025], in which higher-order Discontinuous Galerkin (DG) schemes are blended, at the subcell scale, with lowest-order robust Finite Volume (FV) methods. This is made possible through the reformulation of high-order DG schemes as a FV-like schemes defined on a subgrid, through the introduction of some particular fluxes referred to as reconstructed fluxes.<br><br>
-The strategy then relies on the introduction of blended numerical fluxes, defined as convex combinations of reconstructed high-order DG fluxes and robust first-order FV ones. The blending coefficients are locally computed at each subcell interface in order to enforce unavoidable nonlinear stability properties. This allows the scheme to remain stable in the presence of strong gradients, shocks, and wet-dry fronts, while still keeping high-order accuracy in smooth regions.
-<br><br>
-A particular attention is paid to the discrete formulation associated with the bathymetry source term. The scheme is designed to be well-balanced for motionless steady-states, thanks to some fine tuning of local hydrostatic-like reconstructions, respectively applied at two different scales and on two different kinds of approximations: i) at the level of DG fluxes between elements, focusing on suitable reconstructions of high-order polynomial traces, ii) at the level of FV fluxes between subcells, focusing on the reconstruction of subcell piecewise-constant values. This innovative two-levels reconstruction ensures that motionless steady states are not only exactly preserved on fully unstructured meshes, but also down to the subcell scale. <br><br>
-This new numerical method relies on a fully a priori treatment, and does not require any a posteriori re-computing and adapting steps, while remaining conservative by construction. Several numerical experiments illustrate its ability to accurately capture multidimensional wet-dry interfaces, to control spurious oscillations near classical discontinuities, and accurately resolve localized flow-features inside relatively large mesh elements.
-  </div>
-
-  <div class="pub-grid-2">
-    <img src="{{ site.baseurl }}/images/tsunami2d_2.png">
-    <img src="{{ site.baseurl }}/images/tsunami2d_theta.png">
-  </div>
-
-</details>
-
-<details class="pub">
-  <summary class="pub-summary">
-    <div class="pub-badge">
-    <div class="num">3</div>
-    <div class="year">2026</div>
-      <div class="arrow">›</div>
-  </div>
-    <div class="pub-line">
-      <span class="pub-authors">E. Bernardelli, W. Boscheri &amp; <span class="lead-author">S. Cardonna</span></span>
-      <span class="pub-title">Involution-Preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
-      <span class="pub-tail"><i>In preparation</i></span>
-    </div>
-  </summary>
-
-  <div class="pub-abstract">
-   In this work we present an involution-preserving Arbitrary Lagrangian-Eulerian (ALE) finite volume method for first-order hyperbolic systems on moving structured meshes. The proposed approach exploits the freedom in the choice of the ALE mesh velocity to construct a constrained mesh motion that is compatible with the differential structure of the governing equations. The method is formulated in a cell-centered framework on quadrilateral meshes, where discrete divergence and curl operators are defined through corner-based geometrical quantities and their associated closure identities. Particular attention is devoted to the consistent treatment of the evolving geometry and to the satisfaction of the Geometric Conservation Law.<br><br>
-The framework is applied to two representative hyperbolic systems characterized by different involutions: the ideal magnetohydrodynamics equations, subject to the divergence-free constraint on the magnetic field, and the hyperbolic Euler-Heat equations, characterized by a curl-free thermal impulse. A second-order Runge-Kutta discretization is employed in time, with the mesh constraints consistently enforced throughout the stages. Numerical experiments on classical benchmark problems assess the accuracy and robustness of the proposed approach and demonstrate the preservation of the corresponding differential involutions on moving meshes.
-  </div>
-
-  <div class="pub-figure-strip pub-figure-strip--ale">
-    <img src="{{ site.baseurl }}/images/figs_articles/ale1.png" alt="ALE numerical result 1">
-    <img src="{{ site.baseurl }}/images/figs_articles/ale2.png" alt="ALE numerical result 2">
-    <img src="{{ site.baseurl }}/images/figs_articles/ale3.png" alt="ALE numerical result 3">
-    <img src="{{ site.baseurl }}/images/figs_articles/ale4.png" alt="ALE numerical result 3">
-  </div>
-
-  <div class="pub-links">
-    <a href="{{ site.url }}/files/publications/constrained_ale_involution_preserving.pdf">PDF</a>
-    <a href="https://hal.science/hal-05804768">HAL</a>
-  </div>
-</details>
-
-<details class="pub">
-  <summary class="pub-summary">
-    <div class="pub-badge">
-    <div class="num">2</div>
-    <div class="year">2026</div>
-      <div class="arrow">›</div>
-  </div>
-    <div class="pub-line">
       <span class="pub-authors">S. Cardonna &amp; A. Haidar</span>
       <span class="pub-title">A well-balanced shock-capturing variational physics-informed neural method for shallow-water flow with topography</span>
-      <span class="pub-tail"><i>Submitted</i></span>
+      <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
     </div>
   </summary>
 
@@ -942,6 +876,73 @@ different structural mechanisms.
 </details>
 
 <details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">3</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors">E. Bernardelli, W. Boscheri &amp; <span class="lead-author">S. Cardonna</span></span>
+      <span class="pub-title">Involution-Preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
+      <span class="pub-tail"><i>Submitted to SIAM Journal of Scientific Computing</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-links">
+    <a href="{{ site.url }}/files/publications/constrained_ale_involution_preserving.pdf">PDF</a>
+    <a href="https://hal.science/hal-05804768">HAL</a>
+  </div>
+
+  <div class="pub-abstract">
+   In this work we present an involution-preserving Arbitrary Lagrangian-Eulerian (ALE) finite volume method for first-order hyperbolic systems on moving structured meshes. The proposed approach exploits the freedom in the choice of the ALE mesh velocity to construct a constrained mesh motion that is compatible with the differential structure of the governing equations. The method is formulated in a cell-centered framework on quadrilateral meshes, where discrete divergence and curl operators are defined through corner-based geometrical quantities and their associated closure identities. Particular attention is devoted to the consistent treatment of the evolving geometry and to the satisfaction of the Geometric Conservation Law.<br><br>
+The framework is applied to two representative hyperbolic systems characterized by different involutions: the ideal magnetohydrodynamics equations, subject to the divergence-free constraint on the magnetic field, and the hyperbolic Euler-Heat equations, characterized by a curl-free thermal impulse. A second-order Runge-Kutta discretization is employed in time, with the mesh constraints consistently enforced throughout the stages. Numerical experiments on classical benchmark problems assess the accuracy and robustness of the proposed approach and demonstrate the preservation of the corresponding differential involutions on moving meshes.
+  </div>
+
+  <div class="pub-figure-strip pub-figure-strip--ale">
+    <img src="{{ site.baseurl }}/images/figs_articles/ale1.png" alt="ALE numerical result 1">
+    <img src="{{ site.baseurl }}/images/figs_articles/ale2.png" alt="ALE numerical result 2">
+    <img src="{{ site.baseurl }}/images/figs_articles/ale3.png" alt="ALE numerical result 3">
+    <img src="{{ site.baseurl }}/images/figs_articles/ale4.png" alt="ALE numerical result 3">
+  </div>
+
+</details>
+
+<details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">2</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, F. Marche &amp; F. Vilar</span>
+      <span class="pub-title">A high-order robust subcell monolithic DG/FV formulation for nonlinear shallow-water equations on unstructured grids</span>
+      <span class="pub-tail"><i>Submitted to Journal of Computational Physics</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-links">
+    <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_2d.pdf">PDF</a>
+    <a href="https://hal.science/hal-05630914">HAL</a>
+  </div>
+
+  <div class="pub-abstract">
+In this work, we propose a new high-order numerical method for the two-dimensional nonlinear shallow-water (NSW) equations on unstructured meshes. The approach is based on the subcell monolithic DG/FV method, recently introduced in [Vilar:2025], in which higher-order Discontinuous Galerkin (DG) schemes are blended, at the subcell scale, with lowest-order robust Finite Volume (FV) methods. This is made possible through the reformulation of high-order DG schemes as a FV-like schemes defined on a subgrid, through the introduction of some particular fluxes referred to as reconstructed fluxes.<br><br>
+The strategy then relies on the introduction of blended numerical fluxes, defined as convex combinations of reconstructed high-order DG fluxes and robust first-order FV ones. The blending coefficients are locally computed at each subcell interface in order to enforce unavoidable nonlinear stability properties. This allows the scheme to remain stable in the presence of strong gradients, shocks, and wet-dry fronts, while still keeping high-order accuracy in smooth regions.
+<br><br>
+A particular attention is paid to the discrete formulation associated with the bathymetry source term. The scheme is designed to be well-balanced for motionless steady-states, thanks to some fine tuning of local hydrostatic-like reconstructions, respectively applied at two different scales and on two different kinds of approximations: i) at the level of DG fluxes between elements, focusing on suitable reconstructions of high-order polynomial traces, ii) at the level of FV fluxes between subcells, focusing on the reconstruction of subcell piecewise-constant values. This innovative two-levels reconstruction ensures that motionless steady states are not only exactly preserved on fully unstructured meshes, but also down to the subcell scale. <br><br>
+This new numerical method relies on a fully a priori treatment, and does not require any a posteriori re-computing and adapting steps, while remaining conservative by construction. Several numerical experiments illustrate its ability to accurately capture multidimensional wet-dry interfaces, to control spurious oscillations near classical discontinuities, and accurately resolve localized flow-features inside relatively large mesh elements.
+  </div>
+
+  <div class="pub-grid-2">
+    <img src="{{ site.baseurl }}/images/tsunami2d_2.png">
+    <img src="{{ site.baseurl }}/images/tsunami2d_theta.png">
+  </div>
+
+</details>
+
+<details class="pub">
 
   <summary class="pub-summary">
     <div class="pub-badge">
@@ -952,7 +953,7 @@ different structural mechanisms.
     <div class="pub-line">
       <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, A. Haidar, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Local subcell monolithic DG/FV methods for nonlinear shallow-water models with source terms</span>
-      <span class="pub-tail"><i>International Journal for Numerical Methods in Fluids</i> · Wiley · 2026</span>
+      <span class="pub-tail"><i>International Journal for Numerical Methods in Fluids</i> · Wiley</span>
     </div>
   </summary>
 
