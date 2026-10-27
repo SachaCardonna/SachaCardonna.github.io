@@ -834,6 +834,11 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
     </div>
   </summary>
 
+  <div class="pub-links">
+    <a href="{{ site.url }}/files/publications/PINNS_SW.pdf">PDF</a>
+    <a href="https://hal.science/hal-05837658">HAL</a>
+  </div>
+
   <div class="pub-abstract">
     We introduce a variational physics-informed neural discretization for the
 nonlinear shallow-water system with bathymetry. One global neural network
@@ -869,10 +874,6 @@ different structural mechanisms.
     <img src="{{ site.baseurl }}/images/figs_articles/pinn4.png" alt="Variational PINN numerical result 4">
   </div>
 
-  <!-- <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">HAL</a>
-  </div> -->
 </details>
 
 <details class="pub">
@@ -884,7 +885,7 @@ different structural mechanisms.
   </div>
     <div class="pub-line">
       <span class="pub-authors">E. Bernardelli, W. Boscheri &amp; <span class="lead-author">S. Cardonna</span></span>
-      <span class="pub-title">Involution-Preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
+      <span class="pub-title">Involution-preserving schemes through constrained mesh motion: a novel Arbitrary-Lagrangian-Eulerian framework</span>
       <span class="pub-tail"><i>Submitted to SIAM Journal of Scientific Computing</i></span>
     </div>
   </summary>
