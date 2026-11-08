@@ -288,24 +288,22 @@ details.pub[open] > summary .pub-badge .arrow {
     font-weight: 700;
   }
   .pub-published-overview {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 8.75rem;
-    gap: 1.1rem;
-    align-items: start;
-    margin: .68rem 1rem 0;
+    display: flow-root;
   }
   .pub-published-overview__info {
     min-width: 0;
   }
   .pub-published-overview .pub-metadata {
-    margin: 0;
+    margin: .68rem 1rem 0;
   }
   .pub-published-overview .pub-links {
-    margin: .65rem 0 0;
+    margin: .65rem 1rem 0;
   }
   .pub-journal-cover {
     display: block;
-    width: 100%;
+    float: right;
+    width: 8.75rem;
+    margin: .72rem 1rem .75rem 1rem;
     overflow: hidden;
     border: 1px solid var(--content-line);
     border-radius: 9px;
@@ -342,15 +340,10 @@ details.pub[open] > summary .pub-badge .arrow {
     .pub-grid-3 img { height: auto; }
     .pub-links,
     .pub-metadata { margin-right: .8rem; margin-left: .8rem; }
-    .pub-published-overview {
-      grid-template-columns: 1fr;
-      gap: .8rem;
-      margin-right: .8rem;
-      margin-left: .8rem;
-    }
     .pub-journal-cover {
+      float: none;
       width: 8.75rem;
-      justify-self: center;
+      margin: .72rem auto .8rem;
     }
   }
   .publication-archive {
@@ -1023,10 +1016,8 @@ This new numerical method relies on a fully a priori treatment, and does not req
     <a class="pub-journal-cover" href="https://onlinelibrary.wiley.com/doi/10.1002/fld.70102" aria-label="View the article on the publisher website">
       <img src="{{ site.baseurl }}/images/journals/international_journal_numerical_methods_fluids.png" width="380" height="500" loading="lazy" alt="Cover of the International Journal for Numerical Methods in Fluids">
     </a>
-  </div>
 
-
-  <div class="pub-abstract">
+    <div class="pub-abstract">
 This paper contains several new contributions to the numerical approximation of shallow-water equations. 
 We introduce a high-order local subcell monolithic DG/FV discretization method for the approximation of nonlinear free-surface shallow-water equations with source terms. 
 This encompasses both nonlinear hyperbolic shallow-water equations (also known as Saint-Venant equations) and weakly-dispersive fully-nonlinear equations (known as Green-Naghdi equations), approximating 
@@ -1040,6 +1031,7 @@ and we prove that a suitable well-balanced property, ensuring the preservation o
 We also introduce an original and efficient combination of this new well-balanced local subcell monolithic DG/FV with a high-order Internal Penalty discontinuous-Galerkin method, in order to 
 approximate the higher-order contributions appearing in the Green-Naghdi equations in a consistent and accurate way. 
 We then conduct extensive evaluations of the resulting numerical methods, providing insights about the observed numerical convergence and the overall robustness, including the ability to preserve steady-states, to prevent nonphysical oscillations near discontinuities and to ensure the positivity of the water-height at the discrete level.
+    </div>
   </div>
 
   <div class="pub-grid-3">
