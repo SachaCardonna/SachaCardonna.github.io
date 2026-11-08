@@ -287,6 +287,43 @@ details.pub[open] > summary .pub-badge .arrow {
     color: var(--global-link-color);
     font-weight: 700;
   }
+  .pub-published-overview {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 8.75rem;
+    gap: 1.1rem;
+    align-items: start;
+    margin: .68rem 1rem 0;
+  }
+  .pub-published-overview__info {
+    min-width: 0;
+  }
+  .pub-published-overview .pub-metadata {
+    margin: 0;
+  }
+  .pub-published-overview .pub-links {
+    margin: .65rem 0 0;
+  }
+  .pub-journal-cover {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid var(--content-line);
+    border-radius: 9px;
+    background: #fff;
+    box-shadow: 0 7px 18px rgba(0,0,0,.1);
+    transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+  }
+  .pub-journal-cover:hover {
+    border-color: var(--global-link-color);
+    box-shadow: 0 10px 24px rgba(0,0,0,.14);
+    transform: translateY(-2px);
+  }
+  .pub-journal-cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
   @media (max-width: 600px) {
     summary.pub-summary {
       grid-template-columns: 2rem minmax(0,1fr);
@@ -305,6 +342,16 @@ details.pub[open] > summary .pub-badge .arrow {
     .pub-grid-3 img { height: auto; }
     .pub-links,
     .pub-metadata { margin-right: .8rem; margin-left: .8rem; }
+    .pub-published-overview {
+      grid-template-columns: 1fr;
+      gap: .8rem;
+      margin-right: .8rem;
+      margin-left: .8rem;
+    }
+    .pub-journal-cover {
+      width: 8.75rem;
+      justify-self: center;
+    }
   }
   .publication-archive {
     margin: 1rem 0 2rem;
@@ -958,16 +1005,24 @@ This new numerical method relies on a fully a priori treatment, and does not req
     </div>
   </summary>
 
-  <div class="pub-metadata" aria-label="Publication metadata">
-    <span><strong>Published online</strong> 27 September 2026</span>
-    <span><strong>DOI</strong> <a href="https://doi.org/10.1002/fld.70102">10.1002/fld.70102</a></span>
-    <span><strong>ISSN</strong> 0271-2091 · 1097-0363</span>
-  </div>
+  <div class="pub-published-overview">
+    <div class="pub-published-overview__info">
+      <div class="pub-metadata" aria-label="Publication metadata">
+        <span><strong>Published online</strong> 27 September 2026</span>
+        <span><strong>DOI</strong> <a href="https://doi.org/10.1002/fld.70102">10.1002/fld.70102</a></span>
+        <span><strong>ISSN</strong> 0271-2091 · 1097-0363</span>
+      </div>
 
-  <div class="pub-links">
-    <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_GN.pdf">PDF</a>
-    <a href="https://hal.science/hal-05434014">HAL</a>
-    <a href="https://onlinelibrary.wiley.com/doi/10.1002/fld.70102">Publisher</a>
+      <div class="pub-links">
+        <a href="{{ site.url }}/files/publications/monolithic_DGFV_subcell_NSW_GN.pdf">PDF</a>
+        <a href="https://hal.science/hal-05434014">HAL</a>
+        <a href="https://onlinelibrary.wiley.com/doi/10.1002/fld.70102">Publisher</a>
+      </div>
+    </div>
+
+    <a class="pub-journal-cover" href="https://onlinelibrary.wiley.com/doi/10.1002/fld.70102" aria-label="View the article on the publisher website">
+      <img src="{{ site.baseurl }}/images/journals/international_journal_numerical_methods_fluids.png" width="380" height="500" loading="lazy" alt="Cover of the International Journal for Numerical Methods in Fluids">
+    </a>
   </div>
 
 
