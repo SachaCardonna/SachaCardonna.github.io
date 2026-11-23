@@ -47,6 +47,12 @@ I enjoy working across the entire process: from studying, selecting and/or deriv
   <div class="table-responsive news-scroll">
     <table class="table table-sm table-borderless">
               <tr>
+        <td scope="row">Mar 2027</td>
+        <td style="width:85%">
+          I will talk about ALE constrained involution-preserving schemes at <a href="https://cfc2027.iacm.info">CFC 2027</a> in Yokohama, Japan.
+        </td>
+      </tr>
+          <tr>
         <td scope="row">Jan 2027</td>
         <td style="width:85%">
           I am invited to give a talk at <a href="https://www.ci2ma.udec.cl/wonapde2027/" rel="external nofollow noopener" target="_blank">WONAPDE 2027</a> in Concepción, Chile, during a minisymposium organized by <a href="https://www.elenagaburro.it" rel="external nofollow noopener" target="_blank">Elena Gaburro</a>, <a href="https://www.nummath.math.uni-mainz.de/prof-dr-maria-lukacova-medvidova/" rel="external nofollow noopener" target="_blank">Mária Lukáčová</a>, <a href="https://www.inria.fr/fr/davide-ferrari-2024" rel="external nofollow noopener" target="_blank">Davide Ferrari</a> and <a href="https://sk.linkedin.com/in/michal-žeravý-b406b8125" rel="external nofollow noopener" target="_blank">Michal Žeravý</a>.
