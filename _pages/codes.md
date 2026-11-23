@@ -32,8 +32,8 @@ Read more about the scientific computing codes I made or participated in.
 </ul>
 
 <div class="media-strip" style="justify-content: space-between;">
-      <img src="{{ site.baseurl }}/images/cropped_2_tight.gif" alt="WaveBox Image 2" style="width: 32.7%; height: auto;">
-      <img src="{{ site.baseurl }}/images/surge_heave_pitch_triple_top.gif" alt="WaveBox Image 1" style="width: 65.3%; height: auto;">
+      <img src="{{ site.baseurl }}/images/cropped_2_tight.gif" alt="ALE mesh deformation around a moving body" style="width: 53.5%; height: auto;">
+      <img src="{{ site.baseurl }}/images/surge_heave_pitch_beach.gif" alt="Wave interacting with five moving pontoons over a sloping beach" style="width: 44.5%; height: auto;">
 </div>
 
 <details class="wavebox-disclosure">
@@ -58,6 +58,7 @@ Read more about the scientific computing codes I made or participated in.
       <option value="{{ site.baseurl }}/images/single_wave_pontoon_ale_P5.avi" data-type="video" data-degree="P⁵ · ALE 2D">Single wave interacting with a heaving-surging pontoon (2)</option>
       <option value="{{ site.baseurl }}/images/surge_heave_pitch_single.avi" data-type="video" data-degree="P² · ALE 2D">Single wave interacting with a heaving-surging-pitching pontoon</option>
       <option value="{{ site.baseurl }}/images/surge_heave_pitch_triple.mp4" data-type="video" data-degree="P² · ALE 2D">Single wave interacting with three heaving-surging-pitching pontoons</option>
+      <option value="{{ site.baseurl }}/images/surge_heave_pitch_beach.mp4" data-type="video" data-degree="P⁵ · ALE 2D">Single wave interacting with five heaving-surging-pitching pontoons over a sloping beach</option>
       <option value="{{ site.baseurl }}/images/well_balancing_ale.avi" data-type="image" data-degree="P³ · ALE">Well-balancing on a moving unstructured mesh</option>
       <option value="{{ site.baseurl }}/images/mesh_ale_evolution_laplacian.gif" data-type="image" data-degree="P² · ALE">Mesh motion around an oscillating cylinder (laplacian smoothing)</option>
       <option value="{{ site.baseurl }}/images/mesh_ale_evolution_elasticity.gif" data-type="image" data-degree="P² · ALE">Mesh motion around an oscillating cylinder (pseudo-elasticity)</option>
