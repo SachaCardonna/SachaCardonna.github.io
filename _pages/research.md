@@ -749,38 +749,6 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
       <div class="arrow">›</div>
   </div>
     <div class="pub-line">
-      <span class="pub-authors">W. Boscheri, <span class="lead-author">S. Cardonna</span>, L. Gude Vila &amp; M. Lupi</span>
-      <span class="pub-title">A locally and globally divergence-free semi-implicit FV/DG scheme for magnetohydrodynamics at all Mach and Alfvén numbers</span>
-      <span class="pub-tail"><i>In preparation</i></span>
-    </div>
-  </summary>
-
-  <div class="pub-abstract">
-    We present a semi-implicit finite volume/discontinuous Galerkin method for planar ideal magnetohydrodynamics on Cartesian meshes, with particular emphasis on the local and global preservation of the magnetic divergence constraint. The magnetic field is represented by five divergence-free vector basis functions, ensuring local solenoidality by construction. Global compatibility is obtained through a mass-orthogonal projection enforcing two normal-trace moments on each interior face. These constraints yield a globally divergence-free field when satisfied exactly, while numerical interface compatibility is controlled by the projection tolerance. <br><br>
-    The governing equations are split into an explicit material transport subsystem and implicit magnetic and acoustic subsystems, resulting in two sequential linear solves. Within the magnetic update, subcell balances of the magnetic stress supply the force at the DG quadrature nodes without introducing additional magnetic unknowns. Second-order finite volume reconstruction is combined with nonlinear stabilization within the locally solenoidal space. For smooth solutions, second-order temporal accuracy is obtained by Richardson extrapolation of the complete semi-implicit update, including the normal-trace projection and its accompanying energy correction. <br><br>
-    The numerical assessment considers smooth vortices, planar Riemann problems, blast waves, the rotor, the Orszag–Tang vortex and low-Mach magnetic-loop advection, with emphasis on cell-average accuracy, shock resolution and preservation of the magnetic constraint across different Mach and Alfvén regimes.
-  </div>
-
-  <div class="pub-figure-strip pub-figure-strip--si">
-    <img src="{{ site.baseurl }}/images/figs_articles/si1.png" alt="Semi-implicit MHD numerical result 1">
-    <img src="{{ site.baseurl }}/images/figs_articles/si2.png" alt="Semi-implicit MHD numerical result 2">
-    <img src="{{ site.baseurl }}/images/figs_articles/si3.png" alt="Semi-implicit MHD numerical result 3">
-  </div>
-
-  <!-- <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">HAL</a>
-  </div> -->
-</details>
-
-<details class="pub">
-  <summary class="pub-summary">
-    <div class="pub-badge">
-    <div class="num">7</div>
-    <div class="year">2026</div>
-      <div class="arrow">›</div>
-  </div>
-    <div class="pub-line">
       <span class="pub-authors"><span class="lead-author">S. Cardonna</span>, D. Lannes, F. Marche &amp; F. Vilar</span>
       <span class="pub-title">Combined local subcell monolithic DG/FV-ALE-HHO scheme for wave-structure interactions in shallow-water flows</span>
       <span class="pub-tail"><i>In preparation</i></span>
@@ -805,7 +773,7 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-badge">
-    <div class="num">6</div>
+    <div class="num">7</div>
     <div class="year">2026</div>
       <div class="arrow">›</div>
   </div>
@@ -834,7 +802,7 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
 <details class="pub">
   <summary class="pub-summary">
     <div class="pub-badge">
-    <div class="num">5</div>
+    <div class="num">6</div>
     <div class="year">2026</div>
       <div class="arrow">›</div>
   </div>
@@ -846,7 +814,7 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
   </summary>
 
   <div class="pub-abstract">
-    Work in progress on a 2DH wave–structure interaction model and its high-order numerical resolution.
+    Work in progress ...
   </div>
 
   <div class="pub-grid-2">
@@ -859,6 +827,40 @@ Numerical experiments on the sphere assess accuracy and discontinuity transport 
     <a href="#">HAL</a>
   </div> -->
 </details>
+
+<details class="pub">
+  <summary class="pub-summary">
+    <div class="pub-badge">
+    <div class="num">5</div>
+    <div class="year">2026</div>
+      <div class="arrow">›</div>
+  </div>
+    <div class="pub-line">
+      <span class="pub-authors">W. Boscheri, <span class="lead-author">S. Cardonna</span>, L. Gude Vila &amp; M. Lupi</span>
+      <span class="pub-title">A locally and globally divergence-free semi-implicit FV/DG scheme for magnetohydrodynamics at all Mach and Alfvén numbers</span>
+      <span class="pub-tail"><i>Submitted to Computers & Fluids</i></span>
+    </div>
+  </summary>
+
+  <div class="pub-links">
+    <a href="{{ site.url }}/files/publications/semi_implicit_involution_preserving.pdf">PDF</a>
+    <a href="https://hal.science/hal-05880161">HAL</a>
+  </div>
+
+  <div class="pub-abstract">
+  We present a new semi-implicit hybrid finite volume/discontinuous Galerkin (FV/DG) scheme for the ideal magnetohydrodynamics (MHD) equations, which is locally and globally divergence-free and works uniformly at all Mach and Alfvén numbers. Following a flux splitting approach, the governing equations are divided into a convective, a magnetic and a pressure sub-system. The convective sub-system is discretized explicitly with a finite volume scheme, so that the time step is only restricted by the material speed in smooth flows, while the magnetic and pressure sub-systems are treated implicitly. The magnetic field is approximated in each cell with a five-dimensional basis of linear divergence-free polynomials, thus the local divergence vanishes identically by construction. The magnetic forces are evaluated on a subgrid within each cell, which yields a linear system for the magnetic field without introducing additional unknowns. Global solenoidality, i.e. the continuity of the normal magnetic field across the cell faces, is enforced by a constrained projection in the mass-matrix norm, combined with an energy correction that preserves the total energy. The pressure sub-system leads to a symmetric positive definite elliptic equation for the total energy. 
+  <br><br>
+  The resulting first order scheme is extended to second order of accuracy in time by Richardson extrapolation. The new method is validated in terms of accuracy and robustness against a set of benchmarks. Second order of convergence is retrieved for all Mach numbers, the local divergence is exactly zero and the normal jumps of the magnetic field remain at the level of the solver tolerance in all tests, hence ensuring global divergence-free magnetic fields.
+  </div>
+
+  <div class="pub-figure-strip pub-figure-strip--si">
+    <img src="{{ site.baseurl }}/images/figs_articles/si1.png" alt="Semi-implicit MHD numerical result 1">
+    <img src="{{ site.baseurl }}/images/figs_articles/si2.png" alt="Semi-implicit MHD numerical result 2">
+    <img src="{{ site.baseurl }}/images/figs_articles/si3.png" alt="Semi-implicit MHD numerical result 3">
+  </div>
+
+</details>
+
 
 <details class="pub">
   <summary class="pub-summary">
